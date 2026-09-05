@@ -1,0 +1,50 @@
+{
+  "id": "azitromicina",
+  "nome": { "pt-BR": "Azitromicina", "en-US": "Azithromycin", "es": "Azitromicina" },
+  "nomeGenerico": { "pt-BR": "Azitromicina", "en-US": "Azithromycin", "es": "Azitromicina" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico macrolídeo", "en-US": "Macrolide antibiotic", "es": "Antibiótico macrólido" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Conjuntivite/pneumonia neonatal por Chlamydia trachomatis", "Coqueluche (profilaxia/tratamento) em contato neonatal"],
+    "en-US": ["Neonatal conjunctivitis/pneumonia due to Chlamydia trachomatis", "Pertussis (prophylaxis/treatment) in neonatal contacts"],
+    "es": ["Conjuntivitis/neumonía neonatal por Chlamydia trachomatis", "Tos ferina (profilaxis/tratamiento) en contacto neonatal"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 10 mg/kg/dia, dose única diária, por 5 dias (Chlamydia) ou conforme protocolo específico para coqueluche.",
+        "en-US": "Usual range 10 mg/kg/day, once daily, for 5 days (Chlamydia) or per specific pertussis protocol.",
+        "es": "Rango usual 10 mg/kg/día, dosis única diaria, durante 5 días (Chlamydia) o según protocolo específico para tos ferina."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": { "pt-BR": "Associação descrita com estenose pilórica hipertrófica infantil e possível prolongamento de QT — mais relevante em uso nas primeiras 2 semanas de vida", "en-US": "Association described with infantile hypertrophic pyloric stenosis and possible QT prolongation — more relevant with use in the first 2 weeks of life", "es": "Asociación descrita con estenosis pilórica hipertrófica infantil y posible prolongación del QT — más relevante con uso en las primeras 2 semanas de vida" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Orientar sinais de estenose pilórica (vômitos em jato); considerar ECG basal se outros fatores de risco para QT longo", "en-US": "Advise on signs of pyloric stenosis (projectile vomiting); consider baseline ECG if other long-QT risk factors are present", "es": "Advertir sobre signos de estenosis pilórica (vómitos en proyectil); considerar ECG basal si hay otros factores de riesgo de QT largo" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Primeira linha para Chlamydia trachomatis neonatal — eritromicina tem associação ainda mais forte com estenose pilórica"],
+    "en-US": ["First line for neonatal Chlamydia trachomatis — erythromycin has an even stronger association with pyloric stenosis"],
+    "es": ["Primera línea para Chlamydia trachomatis neonatal — la eritromicina tiene una asociación aún más fuerte con la estenosis pilórica"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

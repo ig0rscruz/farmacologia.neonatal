@@ -1,0 +1,44 @@
+{
+  "id": "vacina-hepatite-b",
+  "nome": { "pt-BR": "Vacina contra hepatite B (recombinante)", "en-US": "Hepatitis B vaccine (recombinant)", "es": "Vacuna contra la hepatitis B (recombinante)" },
+  "nomeGenerico": { "pt-BR": "Vacina recombinante contra hepatite B", "en-US": "Recombinant hepatitis B vaccine", "es": "Vacuna recombinante contra la hepatitis B" },
+  "classeFarmacologica": { "pt-BR": "Vacina (imunoprofilaxia ativa)", "en-US": "Vaccine (active immunoprophylaxis)", "es": "Vacuna (inmunoprofilaxis activa)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Profilaxia universal contra hepatite B ao nascer (esquema de rotina)", "Profilaxia de transmissão vertical em filhos de mães HBsAg-positivas (associada a imunoglobulina anti-hepatite B)"],
+    "en-US": ["Universal hepatitis B prophylaxis at birth (routine schedule)", "Prophylaxis against vertical transmission in infants of HBsAg-positive mothers (combined with hepatitis B immunoglobulin)"],
+    "es": ["Profilaxis universal contra la hepatitis B al nacer (esquema de rutina)", "Profilaxis de la transmisión vertical en hijos de madres HBsAg-positivas (asociada a inmunoglobulina antihepatitis B)"]
+  },
+  "viasAdministracao": ["intramuscular"],
+  "faixasDose": [
+    {
+      "doseValor": 0.5,
+      "doseUnidade": "mL (dose pediátrica padrão)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intramuscular",
+      "observacoes": {
+        "pt-BR": "Dose fixa (não por peso), administrada nas primeiras 12-24h de vida (idealmente nas primeiras 12h se mãe HBsAg-positiva ou status desconhecido). Aplicar em vasto lateral da coxa.",
+        "en-US": "Fixed dose (not weight-based), given within the first 12-24h of life (ideally within 12h if the mother is HBsAg-positive or status unknown). Administer in the anterolateral thigh.",
+        "es": "Dosis fija (no según peso), administrada en las primeras 12-24h de vida (idealmente en las primeras 12h si la madre es HBsAg-positiva o de estado desconocido). Aplicar en la cara anterolateral del muslo."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Se mãe HBsAg-positiva: associar imunoglobulina anti-hepatite B (HBIG) na mesma janela de tempo, em local de aplicação diferente", "Não postergar por baixo peso/prematuridade extrema apenas — seguir diretriz local para esquema de doses adicionais em muito baixo peso"],
+    "en-US": ["If the mother is HBsAg-positive: give hepatitis B immunoglobulin (HBIG) within the same time window, at a different injection site", "Do not delay solely for low birth weight/extreme prematurity — follow local guidance for additional-dose schedules in very low birth weight infants"],
+    "es": ["Si la madre es HBsAg-positiva: asociar inmunoglobulina antihepatitis B (HBIG) en la misma ventana de tiempo, en un sitio de aplicación diferente", "No postergar solo por bajo peso/prematuridad extrema — seguir la directriz local para el esquema de dosis adicionales en muy bajo peso"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "di Filippo Villa D, Navas MC. Vertical Transmission of Hepatitis B Virus—An Update. Microorganisms. 2023;11(5):1140.",
+      "url": "https://doi.org/10.3390/microorganisms11051140",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

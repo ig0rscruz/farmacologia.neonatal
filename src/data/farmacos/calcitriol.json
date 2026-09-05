@@ -1,0 +1,50 @@
+{
+  "id": "calcitriol",
+  "nome": { "pt-BR": "Calcitriol", "en-US": "Calcitriol", "es": "Calcitriol" },
+  "nomeGenerico": { "pt-BR": "Calcitriol (1,25-di-hidroxivitamina D3)", "en-US": "Calcitriol (1,25-dihydroxyvitamin D3)", "es": "Calcitriol (1,25-dihidroxivitamina D3)" },
+  "classeFarmacologica": { "pt-BR": "Metabólito ativo da vitamina D", "en-US": "Active vitamin D metabolite", "es": "Metabolito activo de la vitamina D" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipocalcemia refratária associada a hipoparatireoidismo ou disfunção renal", "Osteopenia da prematuridade grave selecionada"],
+    "en-US": ["Refractory hypocalcemia associated with hypoparathyroidism or renal dysfunction", "Selected severe osteopenia of prematurity"],
+    "es": ["Hipocalcemia refractaria asociada a hipoparatiroidismo o disfunción renal", "Osteopenia grave seleccionada de la prematuridad"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.05,
+      "doseUnidade": "mcg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.01-0.05 mcg/kg/dia. Monitorar cálcio sérico e urinário para evitar hipercalcemia/nefrocalcinose.",
+        "en-US": "Usual range 0.01-0.05 mcg/kg/day. Monitor serum and urinary calcium to avoid hypercalcemia/nephrocalcinosis.",
+        "es": "Rango usual 0.01-0.05 mcg/kg/día. Monitorizar el calcio sérico y urinario para evitar hipercalcemia/nefrocalcinosis."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Risco de hipercalcemia é maior em disfunção renal — requer monitorização mais estreita", "en-US": "Hypercalcemia risk is higher in renal impairment — requires closer monitoring", "es": "El riesgo de hipercalcemia es mayor en la disfunción renal — requiere una monitorización más estrecha" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar cálcio sérico e função renal com maior frequência", "en-US": "Monitor serum calcium and renal function more frequently", "es": "Monitorizar el calcio sérico y la función renal con mayor frecuencia" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Reservar para indicação específica — não é suplementação de rotina (diferente da vitamina D padrão)"],
+    "en-US": ["Reserve for a specific indication — not routine supplementation (unlike standard vitamin D)"],
+    "es": ["Reservar para una indicación específica — no es suplementación de rutina (a diferencia de la vitamina D estándar)"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

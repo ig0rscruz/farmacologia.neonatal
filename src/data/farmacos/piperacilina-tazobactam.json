@@ -1,0 +1,55 @@
+{
+  "id": "piperacilina-tazobactam",
+  "nome": { "pt-BR": "Piperacilina-tazobactam", "en-US": "Piperacillin-tazobactam", "es": "Piperacilina-tazobactam" },
+  "nomeGenerico": { "pt-BR": "Piperacilina sódica + tazobactam sódico", "en-US": "Piperacillin sodium + tazobactam sodium", "es": "Piperacilina sódica + tazobactam sódico" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico beta-lactâmico com inibidor de beta-lactamase", "en-US": "Beta-lactam antibiotic with beta-lactamase inhibitor", "es": "Antibiótico betalactámico con inhibidor de betalactamasa" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sepse neonatal por Gram-negativos com suspeita de produção de beta-lactamase", "Infecções intra-abdominais complicadas"],
+    "en-US": ["Neonatal sepsis due to Gram-negatives with suspected beta-lactamase production", "Complicated intra-abdominal infections"],
+    "es": ["Sepsis neonatal por Gram-negativos con sospecha de producción de betalactamasa", "Infecciones intraabdominales complicadas"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 100,
+      "doseUnidade": "mg/kg/dose (piperacilina)",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 30 semanas. Dose expressa em componente piperacilina.", "en-US": "PMA < 30 weeks. Dose expressed as the piperacillin component.", "es": "EPM < 30 semanas. Dosis expresada en el componente piperacilina." }
+    },
+    {
+      "pmaMinSemanas": 30,
+      "doseValor": 100,
+      "doseUnidade": "mg/kg/dose (piperacilina)",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA ≥ 30 semanas. Dose expressa em componente piperacilina.", "en-US": "PMA ≥ 30 weeks. Dose expressed as the piperacillin component.", "es": "EPM ≥ 30 semanas. Dosis expresada en el componente piperacilina." }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal", "en-US": "Predominantly renal elimination; accumulates in renal impairment", "es": "Eliminación predominantemente renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não cobre Staphylococcus aureus resistente à meticilina (MRSA) nem alguns Gram-negativos produtores de carbapenemase"],
+    "en-US": ["Does not cover methicillin-resistant Staphylococcus aureus (MRSA) or some carbapenemase-producing Gram-negatives"],
+    "es": ["No cubre Staphylococcus aureus resistente a meticilina (SARM) ni algunos Gram-negativos productores de carbapenemasa"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

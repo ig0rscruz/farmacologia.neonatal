@@ -1,0 +1,43 @@
+{
+  "id": "acido-ursodesoxicolico",
+  "nome": { "pt-BR": "Ácido ursodesoxicólico", "en-US": "Ursodeoxycholic acid", "es": "Ácido ursodesoxicólico" },
+  "nomeGenerico": { "pt-BR": "Ácido ursodesoxicólico", "en-US": "Ursodeoxycholic acid", "es": "Ácido ursodesoxicólico" },
+  "classeFarmacologica": { "pt-BR": "Ácido biliar (colerético)", "en-US": "Bile acid (choleretic)", "es": "Ácido biliar (colerético)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Colestase neonatal (associada a nutrição parenteral prolongada ou outras causas)"],
+    "en-US": ["Neonatal cholestasis (associated with prolonged parenteral nutrition or other causes)"],
+    "es": ["Colestasis neonatal (asociada a nutrición parenteral prolongada u otras causas)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 10-15 mg/kg/dia dividido a cada 12h.",
+        "en-US": "Usual range 10-15 mg/kg/day divided every 12h.",
+        "es": "Rango usual 10-15 mg/kg/día dividido cada 12h."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Não substitui a investigação etiológica da colestase (ex.: atresia de vias biliares deve ser excluída)"],
+    "en-US": ["Does not replace etiological investigation of cholestasis (e.g., biliary atresia must be excluded)"],
+    "es": ["No sustituye la investigación etiológica de la colestasis (p. ej., debe descartarse atresia de vías biliares)"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre uso de ácido ursodesoxicólico em colestase neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

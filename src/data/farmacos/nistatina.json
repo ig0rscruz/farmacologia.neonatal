@@ -1,0 +1,43 @@
+{
+  "id": "nistatina",
+  "nome": { "pt-BR": "Nistatina", "en-US": "Nystatin", "es": "Nistatina" },
+  "nomeGenerico": { "pt-BR": "Nistatina", "en-US": "Nystatin", "es": "Nistatina" },
+  "classeFarmacologica": { "pt-BR": "Antifúngico poliênico (uso tópico/oral)", "en-US": "Polyene antifungal (topical/oral use)", "es": "Antifúngico poliénico (uso tópico/oral)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Candidíase oral e cutânea", "Profilaxia de candidíase em prematuros selecionados (uso oral não absorvível)"],
+    "en-US": ["Oral and cutaneous candidiasis", "Candidiasis prophylaxis in selected preterm infants (non-absorbable oral use)"],
+    "es": ["Candidiasis oral y cutánea", "Profilaxis de candidiasis en prematuros seleccionados (uso oral no absorbible)"]
+  },
+  "viasAdministracao": ["oral", "topica"],
+  "faixasDose": [
+    {
+      "doseValor": 100000,
+      "doseUnidade": "U/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "100.000 U (1 mL da suspensão oral) a cada 6h, aplicado na mucosa oral. Não é absorvido sistemicamente.",
+        "en-US": "100,000 U (1 mL of oral suspension) every 6h, applied to the oral mucosa. Not systemically absorbed.",
+        "es": "100.000 U (1 mL de la suspensión oral) cada 6h, aplicado en la mucosa oral. No se absorbe sistémicamente."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Não cobre candidíase invasiva/sistêmica — nesse caso usar antifúngico sistêmico (ex.: fluconazol/anfotericina B)"],
+    "en-US": ["Does not cover invasive/systemic candidiasis — use a systemic antifungal in that case (e.g., fluconazole/amphotericin B)"],
+    "es": ["No cubre la candidiasis invasiva/sistémica — en ese caso usar un antifúngico sistémico (p. ej., fluconazol/anfotericina B)"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de nistatina suspensão oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

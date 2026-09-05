@@ -1,0 +1,55 @@
+{
+  "id": "cefazolina",
+  "nome": { "pt-BR": "Cefazolina", "en-US": "Cefazolin", "es": "Cefazolina" },
+  "nomeGenerico": { "pt-BR": "Cefazolina sódica", "en-US": "Cefazolin sodium", "es": "Cefazolina sódica" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico cefalosporina de 1ª geração", "en-US": "First-generation cephalosporin antibiotic", "es": "Antibiótico cefalosporina de 1ª generación" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Profilaxia cirúrgica", "Infecção de pele/partes moles por cocos Gram-positivos sensíveis"],
+    "en-US": ["Surgical prophylaxis", "Skin/soft tissue infection due to susceptible Gram-positive cocci"],
+    "es": ["Profilaxis quirúrgica", "Infección de piel/partes blandas por cocos Gram-positivos sensibles"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+    },
+    {
+      "pmaMinSemanas": 30,
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA ≥ 30 semanas.", "en-US": "PMA ≥ 30 weeks.", "es": "EPM ≥ 30 semanas." }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo em disfunção renal", "en-US": "Renal elimination; accumulates in renal impairment", "es": "Eliminación renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não cobre Gram-negativos ou MRSA — não indicada para sepse neonatal empírica isolada"],
+    "en-US": ["Does not cover Gram-negatives or MRSA — not indicated as sole empiric therapy for neonatal sepsis"],
+    "es": ["No cubre Gram-negativos ni SARM — no indicada como monoterapia empírica para sepsis neonatal"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

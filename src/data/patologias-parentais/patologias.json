@@ -195,7 +195,25 @@
         "Fallo de inmunoprofilaxis en madres con alta carga viral/HBeAg positivo"
       ]
     },
-    "implicacoesTratamento": [],
+    "implicacoesTratamento": [
+      {
+        "farmacoId": "vacina-hepatite-b",
+        "implicacao": "monitorar",
+        "conduta": {
+          "pt-BR": "Administrar vacina contra hepatite B associada a imunoglobulina anti-hepatite B (HBIG) nas primeiras 12h de vida (não apenas 24h) — a associação reduz o risco de transmissão para 5-10%, mesmo com mãe HBeAg-positiva.",
+          "en-US": "Give the hepatitis B vaccine combined with hepatitis B immunoglobulin (HBIG) within the first 12h of life (not just 24h) — the combination reduces transmission risk to 5-10%, even with an HBeAg-positive mother.",
+          "es": "Administrar la vacuna contra la hepatitis B asociada a inmunoglobulina antihepatitis B (HBIG) en las primeras 12h de vida (no solo 24h) — la asociación reduce el riesgo de transmisión a 5-10%, incluso con madre HBeAg-positiva."
+        },
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "di Filippo Villa D, Navas MC. Vertical Transmission of Hepatitis B Virus—An Update. Microorganisms. 2023;11(5):1140.",
+            "url": "https://doi.org/10.3390/microorganisms11051140",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
     "nivelEvidencia": "B",
     "fontes": [
       {

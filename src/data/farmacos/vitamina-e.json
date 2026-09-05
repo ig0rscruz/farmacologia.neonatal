@@ -1,0 +1,43 @@
+{
+  "id": "vitamina-e",
+  "nome": { "pt-BR": "Vitamina E (tocoferol)", "en-US": "Vitamin E (tocopherol)", "es": "Vitamina E (tocoferol)" },
+  "nomeGenerico": { "pt-BR": "Acetato de tocoferol", "en-US": "Tocopherol acetate", "es": "Acetato de tocoferol" },
+  "classeFarmacologica": { "pt-BR": "Vitamina lipossolúvel (antioxidante)", "en-US": "Fat-soluble vitamin (antioxidant)", "es": "Vitamina liposoluble (antioxidante)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Suplementação de rotina em prematuros (prevenção de anemia hemolítica por deficiência de vitamina E)"],
+    "en-US": ["Routine supplementation in preterm infants (prevention of hemolytic anemia due to vitamin E deficiency)"],
+    "es": ["Suplementación de rutina en prematuros (prevención de anemia hemolítica por deficiencia de vitamina E)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 25,
+      "doseUnidade": "UI/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 5-25 UI/dia conforme peso e produto disponível; geralmente incluída em polivitamínico de rotina.",
+        "en-US": "Usual range 5-25 IU/day depending on weight and available product; usually included in routine multivitamins.",
+        "es": "Rango usual 5-25 UI/día según peso y producto disponible; generalmente incluida en el polivitamínico de rutina."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Doses farmacológicas altas (não rotineiras) foram associadas a maior risco de enterocolite necrosante e sepse em estudos antigos — não usar em doses supra-fisiológicas fora de indicação específica"],
+    "en-US": ["High pharmacological doses (non-routine) were associated with increased necrotizing enterocolitis and sepsis risk in older studies — do not use supra-physiological doses outside a specific indication"],
+    "es": ["Dosis farmacológicas altas (no rutinarias) se asociaron a mayor riesgo de enterocolitis necrosante y sepsis en estudios antiguos — no usar dosis suprafisiológicas fuera de una indicación específica"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

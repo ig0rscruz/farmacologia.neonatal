@@ -1,0 +1,50 @@
+{
+  "id": "levotiroxina",
+  "nome": { "pt-BR": "Levotiroxina", "en-US": "Levothyroxine", "es": "Levotiroxina" },
+  "nomeGenerico": { "pt-BR": "Levotiroxina sódica", "en-US": "Levothyroxine sodium", "es": "Levotiroxina sódica" },
+  "classeFarmacologica": { "pt-BR": "Hormônio tireoidiano", "en-US": "Thyroid hormone", "es": "Hormona tiroidea" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipotireoidismo congênito (tratamento deve iniciar o mais precocemente possível para evitar dano neurológico)"],
+    "en-US": ["Congenital hypothyroidism (treatment should start as early as possible to prevent neurological damage)"],
+    "es": ["Hipotiroidismo congénito (el tratamiento debe iniciarse lo antes posible para evitar daño neurológico)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 10,
+      "doseUnidade": "mcg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 10-15 mcg/kg/dia, dose única diária. Comprimido pode ser triturado e misturado em pequena quantidade de leite/água — não administrar junto com fórmulas à base de soja ou ferro (reduzem absorção).",
+        "en-US": "Usual range 10-15 mcg/kg/day, once daily. The tablet may be crushed and mixed in a small amount of milk/water — do not give together with soy-based formula or iron (reduces absorption).",
+        "es": "Rango usual 10-15 mcg/kg/día, dosis única diaria. El comprimido puede triturarse y mezclarse con una pequeña cantidad de leche/agua — no administrar junto con fórmulas a base de soya o hierro (reducen la absorción)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": { "pt-BR": "Superdosagem pode causar sinais de hipertireoidismo (taquicardia, irritabilidade)", "en-US": "Overdosing may cause signs of hyperthyroidism (tachycardia, irritability)", "es": "La sobredosis puede causar signos de hipertiroidismo (taquicardia, irritabilidad)" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar FC e sinais clínicos; ajustar dose conforme TSH/T4 livre seriados", "en-US": "Monitor HR and clinical signs; adjust dose per serial TSH/free T4", "es": "Monitorizar FC y signos clínicos; ajustar la dosis según TSH/T4 libre seriados" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Tratamento precoce (idealmente nas primeiras 2 semanas de vida) é crítico para prognóstico neurológico — não atrasar por confirmação diagnóstica adicional quando triagem neonatal é fortemente sugestiva"],
+    "en-US": ["Early treatment (ideally within the first 2 weeks of life) is critical for neurological outcome — do not delay for additional diagnostic confirmation when newborn screening is strongly suggestive"],
+    "es": ["El tratamiento precoz (idealmente en las primeras 2 semanas de vida) es crítico para el pronóstico neurológico — no retrasar por confirmación diagnóstica adicional cuando el tamizaje neonatal es fuertemente sugestivo"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo do hipotireoidismo congênito. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

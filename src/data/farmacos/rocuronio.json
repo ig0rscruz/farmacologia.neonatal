@@ -1,0 +1,50 @@
+{
+  "id": "rocuronio",
+  "nome": { "pt-BR": "Rocurônio", "en-US": "Rocuronium", "es": "Rocuronio" },
+  "nomeGenerico": { "pt-BR": "Brometo de rocurônio", "en-US": "Rocuronium bromide", "es": "Bromuro de rocuronio" },
+  "classeFarmacologica": { "pt-BR": "Bloqueador neuromuscular (não despolarizante)", "en-US": "Neuromuscular blocker (non-depolarizing)", "es": "Bloqueador neuromuscular (no despolarizante)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Facilitação de intubação endotraqueal (sequência rápida ou eletiva)", "Paralisia para procedimentos/ventilação em situações selecionadas"],
+    "en-US": ["Facilitation of endotracheal intubation (rapid sequence or elective)", "Paralysis for procedures/ventilation in selected situations"],
+    "es": ["Facilitación de la intubación endotraqueal (secuencia rápida o electiva)", "Parálisis para procedimientos/ventilación en situaciones seleccionadas"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.6,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.6-1.2 mg/kg/dose para intubação; início de ação em ~1-2 min. SEMPRE administrar sedação/analgesia adequada antes — bloqueio neuromuscular não tem efeito sedativo ou analgésico.",
+        "en-US": "Usual range 0.6-1.2 mg/kg/dose for intubation; onset in ~1-2 min. ALWAYS give adequate sedation/analgesia beforehand — neuromuscular blockade has no sedative or analgesic effect.",
+        "es": "Rango usual 0.6-1.2 mg/kg/dosis para intubación; inicio de acción en ~1-2 min. SIEMPRE administrar sedación/analgesia adecuada antes — el bloqueo neuromuscular no tiene efecto sedante ni analgésico."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "apneia",
+      "descricao": { "pt-BR": "Causa paralisia respiratória completa — apneia é efeito esperado e obrigatório suporte ventilatório", "en-US": "Causes complete respiratory paralysis — apnea is an expected effect and ventilatory support is mandatory", "es": "Causa parálisis respiratoria completa — la apnea es un efecto esperado y el soporte ventilatorio es obligatorio" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Nunca administrar sem via aérea segura e suporte ventilatório imediatamente disponível", "en-US": "Never administer without a secured airway and ventilatory support immediately available", "es": "Nunca administrar sin una vía aérea asegurada y soporte ventilatorio disponible de inmediato" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não possui efeito sedativo/analgésico — o paciente permanece consciente e sente dor se não sedado/analgesiado adequadamente antes", "Ter plano de via aérea e reversão definidos antes da administração"],
+    "en-US": ["Has no sedative/analgesic effect — the patient remains conscious and feels pain if not adequately sedated/given analgesia beforehand", "Have an airway plan and reversal strategy defined before administration"],
+    "es": ["No tiene efecto sedante/analgésico — el paciente permanece consciente y siente dolor si no se sedó/analgesió adecuadamente antes", "Tener un plan de vía aérea y de reversión definido antes de la administración"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}
