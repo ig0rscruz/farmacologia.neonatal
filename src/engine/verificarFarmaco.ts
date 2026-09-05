@@ -15,13 +15,25 @@ export interface InteracaoEncontrada {
   outroFarmacoId: string
 }
 
+/**
+ * Divergência entre a posologia informada e a faixa recomendada. Sem texto
+ * pré-formatado de propósito — a tradução/formatação para o idioma atual fica
+ * a cargo do componente de exibição (ver PainelPosologia), mantendo o motor
+ * de verificação independente de idioma.
+ */
+export type DivergenciaPosologia =
+  | { tipo: 'sem_faixa' }
+  | { tipo: 'dose'; informado: number; unidadeInformada?: string; recomendado: number; unidadeRecomendada: string; direcao: 'acima' | 'abaixo' }
+  | { tipo: 'intervalo'; informado: number; recomendado: number }
+  | { tipo: 'via'; informado: string; recomendado: string }
+
 export interface ResultadoVerificacao {
   nivelConfianca: NivelConfianca
   faixaDoseAplicavel?: FaixaDose
   contraindicacoesEncontradas: ContraindicacaoFarmaco[]
   interacoesEncontradas: InteracaoEncontrada[]
   patologiasParentaisEncontradas: PatologiaParentalEncontrada[]
-  divergenciasPosologia: string[]
+  divergenciasPosologia: DivergenciaPosologia[]
 }
 
 /** Tolerância de divergência de dose antes de sinalizar (20%). */
@@ -32,20 +44,18 @@ const TOLERANCIA_DOSE = 0.2
  * faixa de dose recomendada para o perfil do paciente. Não substitui os ajustes
  * de função renal/hepática já cadastrados em `contraindicacoes` (gravidade
  * `ajustar_dose`) — esses continuam aparecendo separadamente; esta função só
- * aponta divergência numérica entre o prescrito e o recomendado.
+ * aponta divergência numérica/categórica entre o prescrito e o recomendado.
  */
 export function compararPosologia(
   informada: PosologiaInformada | undefined,
   faixa: FaixaDose | undefined,
-): string[] {
+): DivergenciaPosologia[] {
   if (!informada) return []
-  const divergencias: string[] = []
+  const divergencias: DivergenciaPosologia[] = []
 
   if (!faixa) {
     if (informada.doseValor !== undefined || informada.intervaloHoras !== undefined) {
-      divergencias.push(
-        'Não há faixa de dose cadastrada para o perfil deste paciente — não é possível comparar a posologia informada com uma recomendação.',
-      )
+      divergencias.push({ tipo: 'sem_faixa' })
     }
     return divergencias
   }
@@ -53,25 +63,23 @@ export function compararPosologia(
   if (informada.doseValor !== undefined) {
     const diferenca = Math.abs(informada.doseValor - faixa.doseValor) / faixa.doseValor
     if (diferenca > TOLERANCIA_DOSE) {
-      const direcao = informada.doseValor > faixa.doseValor ? 'acima' : 'abaixo'
-      divergencias.push(
-        `Dose informada (${informada.doseValor} ${informada.doseUnidade ?? faixa.doseUnidade}) está ${direcao} da faixa recomendada (${faixa.doseValor} ${faixa.doseUnidade}) em mais de ${TOLERANCIA_DOSE * 100}%.`,
-      )
+      divergencias.push({
+        tipo: 'dose',
+        informado: informada.doseValor,
+        unidadeInformada: informada.doseUnidade,
+        recomendado: faixa.doseValor,
+        unidadeRecomendada: faixa.doseUnidade,
+        direcao: informada.doseValor > faixa.doseValor ? 'acima' : 'abaixo',
+      })
     }
   }
 
   if (informada.intervaloHoras !== undefined && faixa.intervaloHoras > 0 && informada.intervaloHoras !== faixa.intervaloHoras) {
-    divergencias.push(
-      `Intervalo informado (a cada ${informada.intervaloHoras}h) difere do recomendado (a cada ${faixa.intervaloHoras}h).`,
-    )
+    divergencias.push({ tipo: 'intervalo', informado: informada.intervaloHoras, recomendado: faixa.intervaloHoras })
   }
 
-  if (informada.viaAdministracao) {
-    const informadaNormalizada = informada.viaAdministracao.trim().toLowerCase()
-    const recomendadaNormalizada = faixa.viaAdministracao.trim().toLowerCase()
-    if (!recomendadaNormalizada.includes(informadaNormalizada) && !informadaNormalizada.includes(recomendadaNormalizada)) {
-      divergencias.push(`Via informada ("${informada.viaAdministracao}") difere da recomendada ("${faixa.viaAdministracao}").`)
-    }
+  if (informada.viaAdministracao && informada.viaAdministracao !== faixa.viaAdministracao) {
+    divergencias.push({ tipo: 'via', informado: informada.viaAdministracao, recomendado: faixa.viaAdministracao })
   }
 
   return divergencias
@@ -118,8 +126,13 @@ export function verificarInteracoes(
   return encontradas
 }
 
-function classeCorresponde(a: string, b: string): boolean {
-  return a.trim().toLowerCase() === b.trim().toLowerCase()
+/**
+ * Compara classes farmacológicas pelo valor pt-BR (fonte primária), não pelo
+ * idioma de exibição atual — garante que o cruzamento de dados funcione
+ * igual independente do idioma selecionado na interface.
+ */
+function classeCorresponde(a: { 'pt-BR': string }, b: { 'pt-BR': string }): boolean {
+  return a['pt-BR'].trim().toLowerCase() === b['pt-BR'].trim().toLowerCase()
 }
 
 export function verificarPatologiasParentais(
@@ -147,7 +160,7 @@ function decidirNivelConfianca(
   interacoesEncontradas: InteracaoEncontrada[],
   patologiasParentaisEncontradas: PatologiaParentalEncontrada[],
   faixaDoseAplicavel: FaixaDose | undefined,
-  divergenciasPosologia: string[],
+  divergenciasPosologia: DivergenciaPosologia[],
 ): NivelConfianca {
   const temContraindicacaoAbsoluta = contraindicacoesEncontradas.some((c) => c.gravidade === 'contraindicado')
   const temInteracaoContraindicada = interacoesEncontradas.some((e) => e.interacao.gravidade === 'contraindicada')

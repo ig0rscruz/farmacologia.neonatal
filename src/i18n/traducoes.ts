@@ -1,5 +1,8 @@
 import type { Idioma } from './idiomas'
 
+/** Deve refletir TOLERANCIA_DOSE de src/engine/verificarFarmaco.ts (0.2 = 20%). */
+const TOLERANCIA_DOSE_PERCENT = 20
+
 export interface Traducao {
   app: {
     subtitulo: string
@@ -75,6 +78,12 @@ export interface Traducao {
     doseRecomendada: string
     semFaixaDose: string
     divergenciasPosologia: string
+    divergenciaSemFaixa: string
+    direcaoAcima: string
+    direcaoAbaixo: string
+    divergenciaDose: (informado: string, recomendado: string, direcao: string) => string
+    divergenciaIntervalo: (informado: number, recomendado: number) => string
+    divergenciaVia: (informado: string, recomendado: string) => string
     ajustesFuncaoOrgao: string
     nivelEvidenciaGeral: string
     ultimaRevisao: string
@@ -84,6 +93,7 @@ export interface Traducao {
   gravidade: Record<string, string>
   gravidadeInteracao: Record<string, string>
   nivelEvidencia: Record<string, string>
+  vias: Record<string, string>
 }
 
 const pt: Traducao = {
@@ -167,6 +177,15 @@ const pt: Traducao = {
     doseRecomendada: 'Dose recomendada para este perfil',
     semFaixaDose: 'Nenhuma faixa de dose cadastrada cobre a idade pós-menstrual/peso deste paciente para este fármaco.',
     divergenciasPosologia: 'Divergências entre a posologia informada e a recomendada',
+    divergenciaSemFaixa:
+      'Não há faixa de dose cadastrada para o perfil deste paciente — não é possível comparar a posologia informada com uma recomendação.',
+    direcaoAcima: 'acima',
+    direcaoAbaixo: 'abaixo',
+    divergenciaDose: (informado, recomendado, direcao) =>
+      `Dose informada (${informado}) está ${direcao} da faixa recomendada (${recomendado}) em mais de ${TOLERANCIA_DOSE_PERCENT}%.`,
+    divergenciaIntervalo: (informado, recomendado) =>
+      `Intervalo informado (a cada ${informado}h) difere do recomendado (a cada ${recomendado}h).`,
+    divergenciaVia: (informado, recomendado) => `Via informada ("${informado}") difere da recomendada ("${recomendado}").`,
     ajustesFuncaoOrgao: 'Ajustes recomendados por condição clínica do paciente',
     nivelEvidenciaGeral: 'Nível de evidência geral do fármaco',
     ultimaRevisao: 'Última revisão',
@@ -216,6 +235,18 @@ const pt: Traducao = {
     B: 'Estudo observacional em neonatos ou consenso de especialistas em neonatologia',
     C: 'Extrapolado de estudos em crianças maiores ou adultos',
     D: 'Opinião de especialista / uso consagrado sem estudo formal (bula)',
+  },
+  vias: {
+    intravenosa: 'Intravenosa',
+    oral: 'Oral',
+    intramuscular: 'Intramuscular',
+    subcutanea: 'Subcutânea',
+    retal: 'Retal',
+    intraossea: 'Intraóssea',
+    endotraqueal: 'Endotraqueal',
+    inalatoria: 'Inalatória',
+    topica: 'Tópica',
+    outra: 'Outra',
   },
 }
 
@@ -300,6 +331,15 @@ const en: Traducao = {
     doseRecomendada: 'Recommended dose for this profile',
     semFaixaDose: 'No dosing range registered covers this patient’s postmenstrual age/weight for this drug.',
     divergenciasPosologia: 'Differences between the entered and recommended dosing regimen',
+    divergenciaSemFaixa:
+      'No dosing range is registered for this patient’s profile — cannot compare the entered dosing regimen with a recommendation.',
+    direcaoAcima: 'above',
+    direcaoAbaixo: 'below',
+    divergenciaDose: (informado, recomendado, direcao) =>
+      `Entered dose (${informado}) is ${direcao} the recommended range (${recomendado}) by more than ${TOLERANCIA_DOSE_PERCENT}%.`,
+    divergenciaIntervalo: (informado, recomendado) =>
+      `Entered interval (every ${informado}h) differs from the recommended one (every ${recomendado}h).`,
+    divergenciaVia: (informado, recomendado) => `Entered route ("${informado}") differs from the recommended one ("${recomendado}").`,
     ajustesFuncaoOrgao: 'Adjustments recommended for the patient’s clinical condition',
     nivelEvidenciaGeral: 'Overall evidence level for this drug',
     ultimaRevisao: 'Last reviewed',
@@ -349,6 +389,18 @@ const en: Traducao = {
     B: 'Observational study in neonates or neonatology expert consensus',
     C: 'Extrapolated from studies in older children or adults',
     D: 'Expert opinion / established use without formal study (package insert)',
+  },
+  vias: {
+    intravenosa: 'Intravenous',
+    oral: 'Oral',
+    intramuscular: 'Intramuscular',
+    subcutanea: 'Subcutaneous',
+    retal: 'Rectal',
+    intraossea: 'Intraosseous',
+    endotraqueal: 'Endotracheal',
+    inalatoria: 'Inhaled',
+    topica: 'Topical',
+    outra: 'Other',
   },
 }
 
@@ -433,6 +485,15 @@ const es: Traducao = {
     doseRecomendada: 'Dosis recomendada para este perfil',
     semFaixaDose: 'Ningún rango de dosis registrado cubre la edad posmenstrual/peso de este paciente para este fármaco.',
     divergenciasPosologia: 'Diferencias entre la posología indicada y la recomendada',
+    divergenciaSemFaixa:
+      'No hay rango de dosis registrado para el perfil de este paciente — no es posible comparar la posología indicada con una recomendación.',
+    direcaoAcima: 'por encima',
+    direcaoAbaixo: 'por debajo',
+    divergenciaDose: (informado, recomendado, direcao) =>
+      `La dosis indicada (${informado}) está ${direcao} del rango recomendado (${recomendado}) en más de ${TOLERANCIA_DOSE_PERCENT}%.`,
+    divergenciaIntervalo: (informado, recomendado) =>
+      `El intervalo indicado (cada ${informado}h) difiere del recomendado (cada ${recomendado}h).`,
+    divergenciaVia: (informado, recomendado) => `La vía indicada ("${informado}") difiere de la recomendada ("${recomendado}").`,
     ajustesFuncaoOrgao: 'Ajustes recomendados según la condición clínica del paciente',
     nivelEvidenciaGeral: 'Nivel de evidencia general del fármaco',
     ultimaRevisao: 'Última revisión',
@@ -482,6 +543,18 @@ const es: Traducao = {
     B: 'Estudio observacional en neonatos o consenso de expertos en neonatología',
     C: 'Extrapolado de estudios en niños mayores o adultos',
     D: 'Opinión de experto / uso consagrado sin estudio formal (prospecto)',
+  },
+  vias: {
+    intravenosa: 'Intravenosa',
+    oral: 'Oral',
+    intramuscular: 'Intramuscular',
+    subcutanea: 'Subcutánea',
+    retal: 'Rectal',
+    intraossea: 'Intraósea',
+    endotraqueal: 'Endotraqueal',
+    inalatoria: 'Inhalatoria',
+    topica: 'Tópica',
+    outra: 'Otra',
   },
 }
 

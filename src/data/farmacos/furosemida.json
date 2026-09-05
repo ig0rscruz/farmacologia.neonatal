@@ -1,40 +1,73 @@
 {
   "id": "furosemida",
-  "nome": "Furosemida",
-  "nomeGenerico": "Furosemida",
-  "classeFarmacologica": "Diurético de alça",
-  "indicacoesNeonatais": [
-    "Sobrecarga de volume / edema",
-    "Manejo adjuvante em displasia broncopulmonar"
-  ],
-  "viasAdministracao": ["Intravenosa", "Oral"],
+  "nome": { "pt-BR": "Furosemida", "en-US": "Furosemide", "es": "Furosemida" },
+  "nomeGenerico": { "pt-BR": "Furosemida", "en-US": "Furosemide", "es": "Furosemida" },
+  "classeFarmacologica": { "pt-BR": "Diurético de alça", "en-US": "Loop diuretic", "es": "Diurético de asa" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sobrecarga de volume / edema", "Manejo adjuvante em displasia broncopulmonar"],
+    "en-US": ["Volume overload / edema", "Adjunctive management of bronchopulmonary dysplasia"],
+    "es": ["Sobrecarga de volumen / edema", "Manejo adyuvante en displasia broncopulmonar"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
   "faixasDose": [
     {
       "doseValor": 1,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
-      "viaAdministracao": "Intravenosa ou oral",
-      "observacoes": "Faixa usual 1-2 mg/kg/dose a cada 12-24h conforme resposta clínica."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 1-2 mg/kg/dose a cada 12-24h conforme resposta clínica.",
+        "en-US": "Usual range 1-2 mg/kg/dose every 12-24h according to clinical response.",
+        "es": "Rango usual 1-2 mg/kg/dosis cada 12-24h según respuesta clínica."
+      }
+    },
+    {
+      "doseValor": 1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 1-2 mg/kg/dose a cada 12-24h conforme resposta clínica.",
+        "en-US": "Usual range 1-2 mg/kg/dose every 12-24h according to clinical response.",
+        "es": "Rango usual 1-2 mg/kg/dosis cada 12-24h según respuesta clínica."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": "Efeito diurético pode ser reduzido e distúrbios eletrolíticos exacerbados em disfunção renal",
+      "descricao": {
+        "pt-BR": "Efeito diurético pode ser reduzido e distúrbios eletrolíticos exacerbados em disfunção renal",
+        "en-US": "Diuretic effect may be reduced and electrolyte disturbances worsened in renal impairment",
+        "es": "El efecto diurético puede reducirse y los trastornos electrolíticos agravarse en la disfunción renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Monitorar função renal e eletrólitos; ajustar dose/intervalo conforme resposta"
+      "conduta": {
+        "pt-BR": "Monitorar função renal e eletrólitos; ajustar dose/intervalo conforme resposta",
+        "en-US": "Monitor renal function and electrolytes; adjust dose/interval according to response",
+        "es": "Monitorizar función renal y electrolitos; ajustar dosis/intervalo según respuesta"
+      }
     },
     {
       "condicao": "risco_ototoxicidade",
-      "descricao": "Ototoxicidade descrita principalmente com infusão IV rápida ou uso prolongado",
+      "descricao": {
+        "pt-BR": "Ototoxicidade descrita principalmente com infusão IV rápida ou uso prolongado",
+        "en-US": "Ototoxicity described mainly with rapid IV infusion or prolonged use",
+        "es": "Ototoxicidad descrita principalmente con infusión IV rápida o uso prolongado"
+      },
       "gravidade": "monitorar",
-      "conduta": "Preferir infusão IV lenta; evitar uso prolongado sem reavaliação"
+      "conduta": {
+        "pt-BR": "Preferir infusão IV lenta; evitar uso prolongado sem reavaliação",
+        "en-US": "Prefer slow IV infusion; avoid prolonged use without reassessment",
+        "es": "Preferir infusión IV lenta; evitar uso prolongado sin reevaluación"
+      }
     }
   ],
-  "alertasGerais": [
-    "Monitorar eletrólitos séricos (sódio, potássio, cloro) e status de hidratação",
-    "Risco de nefrocalcinose com uso prolongado"
-  ],
+  "alertasGerais": {
+    "pt-BR": ["Monitorar eletrólitos séricos (sódio, potássio, cloro) e status de hidratação", "Risco de nefrocalcinose com uso prolongado"],
+    "en-US": ["Monitor serum electrolytes (sodium, potassium, chloride) and hydration status", "Risk of nephrocalcinosis with prolonged use"],
+    "es": ["Monitorizar electrolitos séricos (sodio, potasio, cloro) y estado de hidratación", "Riesgo de nefrocalcinosis con uso prolongado"]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -45,6 +78,10 @@
   ],
   "ultimaRevisao": {
     "data": "2026-09-04",
-    "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável"
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

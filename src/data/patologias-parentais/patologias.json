@@ -1,19 +1,27 @@
 [
   {
     "id": "diabetes-gestacional",
-    "nome": "Diabetes mellitus gestacional",
+    "nome": { "pt-BR": "Diabetes mellitus gestacional", "en-US": "Gestational diabetes mellitus", "es": "Diabetes mellitus gestacional" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Hiperglicemia materna leva a hiperinsulinismo fetal, predispondo a hipoglicemia neonatal nas primeiras horas/dias de vida.",
-    "riscosNeonato": [
-      "Hipoglicemia neonatal",
-      "Macrossomia",
-      "Desconforto respiratório"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Hiperglicemia materna leva a hiperinsulinismo fetal, predispondo a hipoglicemia neonatal nas primeiras horas/dias de vida.",
+      "en-US": "Maternal hyperglycemia leads to fetal hyperinsulinism, predisposing to neonatal hypoglycemia in the first hours/days of life.",
+      "es": "La hiperglucemia materna conduce a hiperinsulinismo fetal, predisponiendo a hipoglucemia neonatal en las primeras horas/días de vida."
+    },
+    "riscosNeonato": {
+      "pt-BR": ["Hipoglicemia neonatal", "Macrossomia", "Desconforto respiratório"],
+      "en-US": ["Neonatal hypoglycemia", "Macrosomia", "Respiratory distress"],
+      "es": ["Hipoglucemia neonatal", "Macrosomía", "Dificultad respiratoria"]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Betabloqueadores",
+        "classeFarmacologica": { "pt-BR": "Betabloqueador", "en-US": "Beta-blocker", "es": "Betabloqueador" },
         "implicacao": "monitorar",
-        "conduta": "Betabloqueadores podem mascarar sinais adrenérgicos de hipoglicemia; monitorar glicemia capilar com maior frequência quando essa classe for utilizada no neonato.",
+        "conduta": {
+          "pt-BR": "Betabloqueadores podem mascarar sinais adrenérgicos de hipoglicemia; monitorar glicemia capilar com maior frequência quando essa classe for utilizada no neonato.",
+          "en-US": "Beta-blockers may mask adrenergic signs of hypoglycemia; monitor capillary glucose more frequently when this class is used in the neonate.",
+          "es": "Los betabloqueadores pueden enmascarar los signos adrenérgicos de hipoglucemia; monitorizar la glucemia capilar con mayor frecuencia cuando se use esta clase en el neonato."
+        },
         "fontes": [
           {
             "tipo": "livro_texto",
@@ -34,19 +42,27 @@
   },
   {
     "id": "uso-opioides-gestacao",
-    "nome": "Uso de opioides durante a gestação",
+    "nome": { "pt-BR": "Uso de opioides durante a gestação", "en-US": "Opioid use during pregnancy", "es": "Uso de opioides durante el embarazo" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Exposição intraútero a opioides pode causar dependência fisiológica no feto, com risco de síndrome de abstinência neonatal (SAN) após o nascimento.",
-    "riscosNeonato": [
-      "Síndrome de abstinência neonatal",
-      "Irritabilidade e instabilidade autonômica",
-      "Dificuldade de alimentação"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Exposição intraútero a opioides pode causar dependência fisiológica no feto, com risco de síndrome de abstinência neonatal (SAN) após o nascimento.",
+      "en-US": "In-utero opioid exposure may cause physiological dependence in the fetus, with risk of neonatal abstinence syndrome (NAS) after birth.",
+      "es": "La exposición intraútero a opioides puede causar dependencia fisiológica en el feto, con riesgo de síndrome de abstinencia neonatal (SAN) tras el nacimiento."
+    },
+    "riscosNeonato": {
+      "pt-BR": ["Síndrome de abstinência neonatal", "Irritabilidade e instabilidade autonômica", "Dificuldade de alimentação"],
+      "en-US": ["Neonatal abstinence syndrome", "Irritability and autonomic instability", "Feeding difficulty"],
+      "es": ["Síndrome de abstinencia neonatal", "Irritabilidad e inestabilidad autonómica", "Dificultad para alimentarse"]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Opioides",
+        "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
         "implicacao": "ajustar_dose",
-        "conduta": "Avaliar necessidade real antes de administrar novos opioides ao neonato; se indicado, considerar que o limiar de resposta pode estar alterado. Monitorar com escala validada de abstinência (ex.: Finnegan).",
+        "conduta": {
+          "pt-BR": "Avaliar necessidade real antes de administrar novos opioides ao neonato; se indicado, considerar que o limiar de resposta pode estar alterado. Monitorar com escala validada de abstinência (ex.: Finnegan).",
+          "en-US": "Assess actual need before giving additional opioids to the neonate; if indicated, consider that the response threshold may be altered. Monitor with a validated withdrawal scale (e.g., Finnegan).",
+          "es": "Evaluar la necesidad real antes de administrar nuevos opioides al neonato; si está indicado, considerar que el umbral de respuesta puede estar alterado. Monitorizar con una escala validada de abstinencia (p. ej., Finnegan)."
+        },
         "fontes": [
           {
             "tipo": "diretriz_sociedade",
@@ -56,9 +72,13 @@
         ]
       },
       {
-        "classeFarmacologica": "Sedativos/Benzodiazepínicos",
+        "classeFarmacologica": { "pt-BR": "Benzodiazepínico", "en-US": "Benzodiazepine", "es": "Benzodiacepina" },
         "implicacao": "monitorar",
-        "conduta": "Uso concomitante com quadro de abstinência pode confundir avaliação clínica e potencializar depressão respiratória; monitorar estreitamente.",
+        "conduta": {
+          "pt-BR": "Uso concomitante com quadro de abstinência pode confundir avaliação clínica e potencializar depressão respiratória; monitorar estreitamente.",
+          "en-US": "Concomitant use during withdrawal may confound clinical assessment and potentiate respiratory depression; monitor closely.",
+          "es": "El uso concomitante durante la abstinencia puede confundir la evaluación clínica y potenciar la depresión respiratoria; monitorizar estrechamente."
+        },
         "fontes": [
           {
             "tipo": "diretriz_sociedade",
@@ -79,19 +99,43 @@
   },
   {
     "id": "hiv-aids-materna",
-    "nome": "HIV/AIDS materna",
+    "nome": { "pt-BR": "HIV/AIDS materna", "en-US": "Maternal HIV/AIDS", "es": "VIH/SIDA materno" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão vertical pode ocorrer intraútero, no periparto ou pela amamentação. Sem qualquer profilaxia, o risco de transmissão é de aproximadamente 15-45%; com profilaxia antirretroviral materna (pré-natal/intraparto) e neonatal adequadas, o risco cai para menos de 1%.",
-    "riscosNeonato": [
-      "Infecção por HIV (se transmissão vertical não prevenida)",
-      "Necessidade de profilaxia antirretroviral neonatal (zidovudina isolada ou associada a nevirapina conforme estratificação de risco)",
-      "Exposição a efeitos adversos dos antirretrovirais profiláticos"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão vertical pode ocorrer intraútero, no periparto ou pela amamentação. Sem qualquer profilaxia, o risco de transmissão é de aproximadamente 15-45%; com profilaxia antirretroviral materna (pré-natal/intraparto) e neonatal adequadas, o risco cai para menos de 1%.",
+      "en-US": "Vertical transmission may occur in utero, peripartum, or through breastfeeding. Without any prophylaxis, transmission risk is approximately 15-45%; with adequate maternal (antenatal/intrapartum) and neonatal antiretroviral prophylaxis, the risk drops to less than 1%.",
+      "es": "La transmisión vertical puede ocurrir intraútero, en el periparto o por la lactancia. Sin ninguna profilaxis, el riesgo de transmisión es de aproximadamente 15-45%; con profilaxis antirretroviral materna (prenatal/intraparto) y neonatal adecuadas, el riesgo baja a menos del 1%."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Infecção por HIV (se transmissão vertical não prevenida)",
+        "Necessidade de profilaxia antirretroviral neonatal (zidovudina isolada ou associada a nevirapina conforme estratificação de risco)",
+        "Exposição a efeitos adversos dos antirretrovirais profiláticos"
+      ],
+      "en-US": [
+        "HIV infection (if vertical transmission is not prevented)",
+        "Need for neonatal antiretroviral prophylaxis (zidovudine alone or combined with nevirapine per risk stratification)",
+        "Exposure to adverse effects of prophylactic antiretrovirals"
+      ],
+      "es": [
+        "Infección por VIH (si no se previene la transmisión vertical)",
+        "Necesidad de profilaxis antirretroviral neonatal (zidovudina sola o asociada a nevirapina según estratificación de riesgo)",
+        "Exposición a efectos adversos de los antirretrovirales profilácticos"
+      ]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Antirretroviral (inibidor da transcriptase reversa análogo de nucleosídeo)",
+        "classeFarmacologica": {
+          "pt-BR": "Antirretroviral (inibidor da transcriptase reversa análogo de nucleosídeo)",
+          "en-US": "Antiretroviral (nucleoside reverse transcriptase inhibitor)",
+          "es": "Antirretroviral (inhibidor de la transcriptasa inversa análogo de nucleósido)"
+        },
         "implicacao": "monitorar",
-        "conduta": "Recém-nascidos com IG ≥ 35 semanas e exposição de baixo risco: zidovudina profilática por 6 semanas (dose usual ~4 mg/kg a cada 12h, ajustada por idade gestacional). Exposição de alto risco (profilaxia materna ausente/incompleta ou carga viral materna elevada no parto): associar 3 doses de nevirapina na primeira semana de vida, conforme diretriz vigente.",
+        "conduta": {
+          "pt-BR": "Recém-nascidos com IG ≥ 35 semanas e exposição de baixo risco: zidovudina profilática por 6 semanas (dose usual ~4 mg/kg a cada 12h, ajustada por idade gestacional). Exposição de alto risco (profilaxia materna ausente/incompleta ou carga viral materna elevada no parto): associar 3 doses de nevirapina na primeira semana de vida, conforme diretriz vigente.",
+          "en-US": "Newborns with GA ≥ 35 weeks and low-risk exposure: prophylactic zidovudine for 6 weeks (usual dose ~4 mg/kg every 12h, adjusted for gestational age). High-risk exposure (absent/incomplete maternal prophylaxis or high maternal viral load at delivery): add 3 doses of nevirapine in the first week of life, per current guideline.",
+          "es": "Recién nacidos con EG ≥ 35 semanas y exposición de bajo riesgo: zidovudina profiláctica por 6 semanas (dosis usual ~4 mg/kg cada 12h, ajustada por edad gestacional). Exposición de alto riesgo (profilaxis materna ausente/incompleta o carga viral materna elevada en el parto): asociar 3 dosis de nevirapina en la primera semana de vida, según la directriz vigente."
+        },
         "fontes": [
           {
             "tipo": "diretriz_sociedade",
@@ -114,13 +158,27 @@
   },
   {
     "id": "hepatite-b-materna",
-    "nome": "Hepatite B materna",
+    "nome": { "pt-BR": "Hepatite B materna", "en-US": "Maternal hepatitis B", "es": "Hepatitis B materna" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão vertical principalmente periparto. Sem profilaxia, risco de 70-90% se a mãe é HBeAg-positiva e de 10-40% se HBeAg-negativa. Imunoprofilaxia neonatal (imunoglobulina anti-hepatite B + vacina, ambas nas primeiras 12-24h de vida) reduz o risco para 5-10%; pode haver falha em até 30% dos filhos de mães HBeAg-positivas com carga viral muito elevada, daí a recomendação adicional de antiviral materno no 3º trimestre nesses casos.",
-    "riscosNeonato": [
-      "Infecção crônica por HBV (risco de cronificação é inversamente proporcional à idade na infecção — muito maior quando adquirida no período neonatal)",
-      "Falha de imunoprofilaxia em mães com alta carga viral/HBeAg positivo"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão vertical principalmente periparto. Sem profilaxia, risco de 70-90% se a mãe é HBeAg-positiva e de 10-40% se HBeAg-negativa. Imunoprofilaxia neonatal (imunoglobulina anti-hepatite B + vacina, ambas nas primeiras 12-24h de vida) reduz o risco para 5-10%; pode haver falha em até 30% dos filhos de mães HBeAg-positivas com carga viral muito elevada, daí a recomendação adicional de antiviral materno no 3º trimestre nesses casos.",
+      "en-US": "Vertical transmission mainly peripartum. Without prophylaxis, risk is 70-90% if the mother is HBeAg-positive and 10-40% if HBeAg-negative. Neonatal immunoprophylaxis (hepatitis B immunoglobulin + vaccine, both within the first 12-24h of life) reduces risk to 5-10%; failure can occur in up to 30% of infants of HBeAg-positive mothers with very high viral load, hence the additional recommendation for maternal antiviral therapy in the 3rd trimester in these cases.",
+      "es": "Transmisión vertical principalmente periparto. Sin profilaxis, el riesgo es 70-90% si la madre es HBeAg-positiva y 10-40% si es HBeAg-negativa. La inmunoprofilaxis neonatal (inmunoglobulina antihepatitis B + vacuna, ambas en las primeras 12-24h de vida) reduce el riesgo a 5-10%; puede haber fallo en hasta el 30% de los hijos de madres HBeAg-positivas con carga viral muy elevada, de ahí la recomendación adicional de antiviral materno en el 3er trimestre en estos casos."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Infecção crônica por HBV (risco de cronificação é inversamente proporcional à idade na infecção — muito maior quando adquirida no período neonatal)",
+        "Falha de imunoprofilaxia em mães com alta carga viral/HBeAg positivo"
+      ],
+      "en-US": [
+        "Chronic HBV infection (chronicity risk is inversely proportional to age at infection — much higher when acquired in the neonatal period)",
+        "Immunoprophylaxis failure in mothers with high viral load/HBeAg positive"
+      ],
+      "es": [
+        "Infección crónica por VHB (el riesgo de cronicidad es inversamente proporcional a la edad en la infección — mucho mayor cuando se adquiere en el período neonatal)",
+        "Fallo de inmunoprofilaxis en madres con alta carga viral/HBeAg positivo"
+      ]
+    },
     "implicacoesTratamento": [],
     "nivelEvidencia": "B",
     "fontes": [
@@ -134,12 +192,18 @@
   },
   {
     "id": "hepatite-c-materna",
-    "nome": "Hepatite C materna",
+    "nome": { "pt-BR": "Hepatite C materna", "en-US": "Maternal hepatitis C", "es": "Hepatitis C materna" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão vertical ocorre em cerca de 5.8-10.8% dos filhos de mães RNA-HCV positivas (risco maior com coinfecção por HIV ou carga viral materna elevada). Não há imunoprofilaxia disponível para o neonato; via de parto e amamentação não alteram significativamente o risco de transmissão.",
-    "riscosNeonato": [
-      "Infecção crônica por HCV (necessidade de rastreamento sorológico/molecular no seguimento)"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão vertical ocorre em cerca de 5.8-10.8% dos filhos de mães RNA-HCV positivas (risco maior com coinfecção por HIV ou carga viral materna elevada). Não há imunoprofilaxia disponível para o neonato; via de parto e amamentação não alteram significativamente o risco de transmissão.",
+      "en-US": "Vertical transmission occurs in about 5.8-10.8% of infants born to HCV RNA-positive mothers (higher risk with HIV coinfection or high maternal viral load). No immunoprophylaxis is available for the neonate; delivery mode and breastfeeding do not significantly change transmission risk.",
+      "es": "La transmisión vertical ocurre en cerca del 5.8-10.8% de los hijos de madres ARN-VHC positivas (mayor riesgo con coinfección por VIH o carga viral materna elevada). No hay inmunoprofilaxis disponible para el neonato; la vía del parto y la lactancia no alteran significativamente el riesgo de transmisión."
+    },
+    "riscosNeonato": {
+      "pt-BR": ["Infecção crônica por HCV (necessidade de rastreamento sorológico/molecular no seguimento)"],
+      "en-US": ["Chronic HCV infection (need for serologic/molecular screening during follow-up)"],
+      "es": ["Infección crónica por VHC (necesidad de tamizaje serológico/molecular en el seguimiento)"]
+    },
     "implicacoesTratamento": [],
     "nivelEvidencia": "A",
     "fontes": [
@@ -153,13 +217,27 @@
   },
   {
     "id": "hepatite-d-materna",
-    "nome": "Hepatite D (Delta) materna",
+    "nome": { "pt-BR": "Hepatite D (Delta) materna", "en-US": "Maternal hepatitis D (Delta)", "es": "Hepatitis D (Delta) materna" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Requer coinfecção materna com hepatite B; transmissão vertical do vírus Delta em si é rara — provavelmente porque a carga de HBV (necessária para o HDV se replicar) tende a ser menor em coinfectados. A mesma imunoprofilaxia padrão contra hepatite B (imunoglobulina + vacina ao nascer) parece eficaz também na prevenção da transmissão de HDV.",
-    "riscosNeonato": [
-      "Risco de transmissão vertical direta do HDV é baixo",
-      "Risco indireto ligado à gravidade da doença hepática materna (coinfecção HBV/HDV progride mais rapidamente para cirrose)"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Requer coinfecção materna com hepatite B; transmissão vertical do vírus Delta em si é rara — provavelmente porque a carga de HBV (necessária para o HDV se replicar) tende a ser menor em coinfectados. A mesma imunoprofilaxia padrão contra hepatite B (imunoglobulina + vacina ao nascer) parece eficaz também na prevenção da transmissão de HDV.",
+      "en-US": "Requires maternal coinfection with hepatitis B; vertical transmission of the Delta virus itself is rare — likely because HBV load (needed for HDV to replicate) tends to be lower in coinfected individuals. The same standard hepatitis B immunoprophylaxis (immunoglobulin + vaccine at birth) also appears effective at preventing HDV transmission.",
+      "es": "Requiere coinfección materna con hepatitis B; la transmisión vertical del propio virus Delta es rara — probablemente porque la carga de VHB (necesaria para que el VHD se replique) tiende a ser menor en coinfectados. La misma inmunoprofilaxis estándar contra la hepatitis B (inmunoglobulina + vacuna al nacer) parece eficaz también para prevenir la transmisión del VHD."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Risco de transmissão vertical direta do HDV é baixo",
+        "Risco indireto ligado à gravidade da doença hepática materna (coinfecção HBV/HDV progride mais rapidamente para cirrose)"
+      ],
+      "en-US": [
+        "Risk of direct vertical HDV transmission is low",
+        "Indirect risk linked to the severity of maternal liver disease (HBV/HDV coinfection progresses to cirrhosis faster)"
+      ],
+      "es": [
+        "El riesgo de transmisión vertical directa del VHD es bajo",
+        "Riesgo indirecto ligado a la gravedad de la enfermedad hepática materna (la coinfección VHB/VHD progresa más rápido a cirrosis)"
+      ]
+    },
     "implicacoesTratamento": [],
     "nivelEvidencia": "B",
     "fontes": [
@@ -172,13 +250,27 @@
   },
   {
     "id": "hepatite-a-materna",
-    "nome": "Hepatite A materna",
+    "nome": { "pt-BR": "Hepatite A materna", "en-US": "Maternal hepatitis A", "es": "Hepatitis A materna" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Ao contrário das hepatites B/C/D, a hepatite A é transmitida predominantemente por via fecal-oral, não por rota vertical clássica. Transmissão intraútero/perinatal é muito rara, mas casos pontuais foram descritos, sobretudo quando a infecção materna ocorre próximo ao parto.",
-    "riscosNeonato": [
-      "Na maioria dos casos, nenhum efeito adverso neonatal é observado",
-      "Raros relatos de complicações gastrointestinais neonatais (ex.: peritonite meconial) associados a casos de transmissão perinatal"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Ao contrário das hepatites B/C/D, a hepatite A é transmitida predominantemente por via fecal-oral, não por rota vertical clássica. Transmissão intraútero/perinatal é muito rara, mas casos pontuais foram descritos, sobretudo quando a infecção materna ocorre próximo ao parto.",
+      "en-US": "Unlike hepatitis B/C/D, hepatitis A is transmitted predominantly via the fecal-oral route, not classic vertical transmission. In-utero/perinatal transmission is very rare, but isolated cases have been described, especially when maternal infection occurs close to delivery.",
+      "es": "A diferencia de las hepatitis B/C/D, la hepatitis A se transmite predominantemente por vía fecal-oral, no por la ruta vertical clásica. La transmisión intraútero/perinatal es muy rara, pero se han descrito casos puntuales, sobre todo cuando la infección materna ocurre cerca del parto."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Na maioria dos casos, nenhum efeito adverso neonatal é observado",
+        "Raros relatos de complicações gastrointestinais neonatais (ex.: peritonite meconial) associados a casos de transmissão perinatal"
+      ],
+      "en-US": [
+        "In most cases, no adverse neonatal effect is observed",
+        "Rare reports of neonatal gastrointestinal complications (e.g., meconium peritonitis) associated with perinatal transmission cases"
+      ],
+      "es": [
+        "En la mayoría de los casos, no se observa ningún efecto adverso neonatal",
+        "Raros informes de complicaciones gastrointestinales neonatales (p. ej., peritonitis meconial) asociadas a casos de transmisión perinatal"
+      ]
+    },
     "implicacoesTratamento": [],
     "nivelEvidencia": "C",
     "fontes": [
@@ -191,18 +283,36 @@
   },
   {
     "id": "sifilis-materna",
-    "nome": "Sífilis materna (sífilis congênita)",
+    "nome": { "pt-BR": "Sífilis materna (sífilis congênita)", "en-US": "Maternal syphilis (congenital syphilis)", "es": "Sífilis materna (sífilis congénita)" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão transplacentária, podendo ocorrer em qualquer fase da gestação; risco maior com sífilis primária/secundária materna não tratada ou tratada de forma inadequada/tardia.",
-    "riscosNeonato": [
-      "Sífilis congênita (óbito fetal, prematuridade, hepatoesplenomegalia, anormalidades ósseas, neurosífilis)",
-      "Necessidade de tratamento neonatal mesmo em recém-nascidos assintomáticos, conforme adequação do tratamento materno"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão transplacentária, podendo ocorrer em qualquer fase da gestação; risco maior com sífilis primária/secundária materna não tratada ou tratada de forma inadequada/tardia.",
+      "en-US": "Transplacental transmission, which can occur at any stage of pregnancy; higher risk with untreated or inadequately/late-treated maternal primary/secondary syphilis.",
+      "es": "Transmisión transplacentaria, que puede ocurrir en cualquier etapa del embarazo; mayor riesgo con sífilis primaria/secundaria materna no tratada o tratada de forma inadecuada/tardía."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Sífilis congênita (óbito fetal, prematuridade, hepatoesplenomegalia, anormalidades ósseas, neurosífilis)",
+        "Necessidade de tratamento neonatal mesmo em recém-nascidos assintomáticos, conforme adequação do tratamento materno"
+      ],
+      "en-US": [
+        "Congenital syphilis (fetal death, prematurity, hepatosplenomegaly, bone abnormalities, neurosyphilis)",
+        "Need for neonatal treatment even in asymptomatic newborns, depending on the adequacy of maternal treatment"
+      ],
+      "es": [
+        "Sífilis congénita (muerte fetal, prematuridad, hepatoesplenomegalia, anomalías óseas, neurosífilis)",
+        "Necesidad de tratamiento neonatal incluso en recién nacidos asintomáticos, según la adecuación del tratamiento materno"
+      ]
+    },
     "implicacoesTratamento": [
       {
         "farmacoId": "ampicilina",
         "implicacao": "monitorar",
-        "conduta": "Penicilina cristalina aquosa IV (50.000 U/kg/dose a cada 12h nos primeiros 7 dias, depois a cada 8h, por 10 dias) permanece o tratamento padrão-ouro para sífilis congênita — não substituir por ampicilina rotineiramente. Revisão narrativa de 2024 aponta ampicilina/ceftriaxona como possíveis alternativas parenterais em cenários de indisponibilidade de penicilina, mas a evidência ainda é limitada.",
+        "conduta": {
+          "pt-BR": "Penicilina cristalina aquosa IV (50.000 U/kg/dose a cada 12h nos primeiros 7 dias, depois a cada 8h, por 10 dias) permanece o tratamento padrão-ouro para sífilis congênita — não substituir por ampicilina rotineiramente. Revisão narrativa de 2024 aponta ampicilina/ceftriaxona como possíveis alternativas parenterais em cenários de indisponibilidade de penicilina, mas a evidência ainda é limitada.",
+          "en-US": "Aqueous crystalline penicillin IV (50,000 U/kg/dose every 12h for the first 7 days, then every 8h, for 10 days) remains the gold-standard treatment for congenital syphilis — do not routinely substitute with ampicillin. A 2024 narrative review points to ampicillin/ceftriaxone as possible parenteral alternatives when penicillin is unavailable, but evidence is still limited.",
+          "es": "La penicilina cristalina acuosa IV (50.000 U/kg/dosis cada 12h durante los primeros 7 días, luego cada 8h, durante 10 días) sigue siendo el tratamiento estándar de oro para la sífilis congénita — no sustituir rutinariamente por ampicilina. Una revisión narrativa de 2024 señala a la ampicilina/ceftriaxona como posibles alternativas parenterales cuando la penicilina no está disponible, pero la evidencia aún es limitada."
+        },
         "fontes": [
           {
             "tipo": "artigo_cientifico",
@@ -231,19 +341,31 @@
   },
   {
     "id": "toxoplasmose-gestacional",
-    "nome": "Toxoplasmose gestacional",
+    "nome": { "pt-BR": "Toxoplasmose gestacional", "en-US": "Gestational toxoplasmosis", "es": "Toxoplasmosis gestacional" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão transplacentária; o risco de transmissão fetal aumenta com a idade gestacional na infecção materna, mas a gravidade do acometimento fetal é maior quando a infecção ocorre precocemente na gestação.",
-    "riscosNeonato": [
-      "Coriorretinite",
-      "Calcificações intracranianas e hidrocefalia",
-      "Microcefalia e comprometimento neurológico"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão transplacentária; o risco de transmissão fetal aumenta com a idade gestacional na infecção materna, mas a gravidade do acometimento fetal é maior quando a infecção ocorre precocemente na gestação.",
+      "en-US": "Transplacental transmission; fetal transmission risk increases with gestational age at maternal infection, but the severity of fetal involvement is greater when infection occurs early in pregnancy.",
+      "es": "Transmisión transplacentaria; el riesgo de transmisión fetal aumenta con la edad gestacional en la infección materna, pero la gravedad del compromiso fetal es mayor cuando la infección ocurre precozmente en el embarazo."
+    },
+    "riscosNeonato": {
+      "pt-BR": ["Coriorretinite", "Calcificações intracranianas e hidrocefalia", "Microcefalia e comprometimento neurológico"],
+      "en-US": ["Chorioretinitis", "Intracranial calcifications and hydrocephalus", "Microcephaly and neurological impairment"],
+      "es": ["Coriorretinitis", "Calcificaciones intracraneales e hidrocefalia", "Microcefalia y compromiso neurológico"]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Antifólico antiparasitário (pirimetamina)",
+        "classeFarmacologica": {
+          "pt-BR": "Antifólico antiparasitário (pirimetamina)",
+          "en-US": "Antifolate antiparasitic (pyrimethamine)",
+          "es": "Antifólico antiparasitario (pirimetamina)"
+        },
         "implicacao": "monitorar",
-        "conduta": "Tratamento neonatal padrão: pirimetamina + sulfadiazina + ácido folínico por 12 meses. Pirimetamina causa mielossupressão dose-dependente — hemograma deve ser monitorado periodicamente durante todo o tratamento; ácido folínico é coadministrado justamente para mitigar esse risco.",
+        "conduta": {
+          "pt-BR": "Tratamento neonatal padrão: pirimetamina + sulfadiazina + ácido folínico por 12 meses. Pirimetamina causa mielossupressão dose-dependente — hemograma deve ser monitorado periodicamente durante todo o tratamento; ácido folínico é coadministrado justamente para mitigar esse risco.",
+          "en-US": "Standard neonatal treatment: pyrimethamine + sulfadiazine + folinic acid for 12 months. Pyrimethamine causes dose-dependent myelosuppression — a blood count should be monitored periodically throughout treatment; folinic acid is co-administered precisely to mitigate this risk.",
+          "es": "Tratamiento neonatal estándar: pirimetamina + sulfadiazina + ácido folínico durante 12 meses. La pirimetamina causa mielosupresión dosis-dependiente — el hemograma debe monitorizarse periódicamente durante todo el tratamiento; el ácido folínico se coadministra justamente para mitigar este riesgo."
+        },
         "fontes": [
           {
             "tipo": "diretriz_sociedade",
@@ -266,19 +388,35 @@
   },
   {
     "id": "cmv-gestacional",
-    "nome": "Citomegalovírus (CMV) — primoinfecção gestacional",
+    "nome": {
+      "pt-BR": "Citomegalovírus (CMV) — primoinfecção gestacional",
+      "en-US": "Cytomegalovirus (CMV) — primary gestational infection",
+      "es": "Citomegalovirus (CMV) — primoinfección gestacional"
+    },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão transplacentária; risco de transmissão fetal é maior com primoinfecção materna (vs. reativação/reinfecção), mas a gravidade do acometimento é maior quando a infecção fetal ocorre no início da gestação.",
-    "riscosNeonato": [
-      "Microcefalia e calcificações periventriculares",
-      "Perda auditiva neurossensorial (pode ser tardia/progressiva)",
-      "Coriorretinite"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão transplacentária; risco de transmissão fetal é maior com primoinfecção materna (vs. reativação/reinfecção), mas a gravidade do acometimento é maior quando a infecção fetal ocorre no início da gestação.",
+      "en-US": "Transplacental transmission; fetal transmission risk is higher with primary maternal infection (vs. reactivation/reinfection), but severity of involvement is greater when fetal infection occurs early in pregnancy.",
+      "es": "Transmisión transplacentaria; el riesgo de transmisión fetal es mayor con primoinfección materna (vs. reactivación/reinfección), pero la gravedad del compromiso es mayor cuando la infección fetal ocurre al inicio del embarazo."
+    },
+    "riscosNeonato": {
+      "pt-BR": ["Microcefalia e calcificações periventriculares", "Perda auditiva neurossensorial (pode ser tardia/progressiva)", "Coriorretinite"],
+      "en-US": ["Microcephaly and periventricular calcifications", "Sensorineural hearing loss (may be late-onset/progressive)", "Chorioretinitis"],
+      "es": ["Microcefalia y calcificaciones periventriculares", "Pérdida auditiva sensorioneural (puede ser tardía/progresiva)", "Coriorretinitis"]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Antiviral (ganciclovir/valganciclovir)",
+        "classeFarmacologica": {
+          "pt-BR": "Antiviral (ganciclovir/valganciclovir)",
+          "en-US": "Antiviral (ganciclovir/valganciclovir)",
+          "es": "Antiviral (ganciclovir/valganciclovir)"
+        },
         "implicacao": "monitorar",
-        "conduta": "Terapia antiviral (valganciclovir oral, ou ganciclovir IV seguido de valganciclovir em doença grave) é reservada para CMV congênito sintomático ao nascimento (ex.: microcefalia, calcificações, alteração liquórica, coriorretinite, perda auditiva) — não há evidência de benefício em infecção assintomática. Requer monitorização de neutropenia durante o tratamento.",
+        "conduta": {
+          "pt-BR": "Terapia antiviral (valganciclovir oral, ou ganciclovir IV seguido de valganciclovir em doença grave) é reservada para CMV congênito sintomático ao nascimento (ex.: microcefalia, calcificações, alteração liquórica, coriorretinite, perda auditiva) — não há evidência de benefício em infecção assintomática. Requer monitorização de neutropenia durante o tratamento.",
+          "en-US": "Antiviral therapy (oral valganciclovir, or IV ganciclovir followed by valganciclovir in severe disease) is reserved for congenital CMV symptomatic at birth (e.g., microcephaly, calcifications, CSF abnormalities, chorioretinitis, hearing loss) — there is no evidence of benefit in asymptomatic infection. Requires neutropenia monitoring during treatment.",
+          "es": "La terapia antiviral (valganciclovir oral, o ganciclovir IV seguido de valganciclovir en enfermedad grave) se reserva para CMV congénito sintomático al nacer (p. ej., microcefalia, calcificaciones, alteración del LCR, coriorretinitis, pérdida auditiva) — no hay evidencia de beneficio en infección asintomática. Requiere monitorización de neutropenia durante el tratamiento."
+        },
         "fontes": [
           {
             "tipo": "artigo_cientifico",
@@ -299,18 +437,40 @@
   },
   {
     "id": "rubeola-gestacional",
-    "nome": "Rubéola congênita (infecção materna gestacional)",
+    "nome": {
+      "pt-BR": "Rubéola congênita (infecção materna gestacional)",
+      "en-US": "Congenital rubella (gestational maternal infection)",
+      "es": "Rubéola congénita (infección materna gestacional)"
+    },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão transplacentária; risco de transmissão fetal excede 80-90% quando a infecção materna ocorre no primeiro trimestre, com gravidade inversamente proporcional à idade gestacional na infecção.",
-    "riscosNeonato": [
-      "Tríade clássica: catarata congênita, cardiopatia congênita (frequentemente persistência do canal arterial ou estenose de artéria pulmonar) e surdez neurossensorial",
-      "Microcefalia e retardo de crescimento intrauterino"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão transplacentária; risco de transmissão fetal excede 80-90% quando a infecção materna ocorre no primeiro trimestre, com gravidade inversamente proporcional à idade gestacional na infecção.",
+      "en-US": "Transplacental transmission; fetal transmission risk exceeds 80-90% when maternal infection occurs in the first trimester, with severity inversely proportional to gestational age at infection.",
+      "es": "Transmisión transplacentaria; el riesgo de transmisión fetal supera el 80-90% cuando la infección materna ocurre en el primer trimestre, con gravedad inversamente proporcional a la edad gestacional en la infección."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Tríade clássica: catarata congênita, cardiopatia congênita (frequentemente persistência do canal arterial ou estenose de artéria pulmonar) e surdez neurossensorial",
+        "Microcefalia e retardo de crescimento intrauterino"
+      ],
+      "en-US": [
+        "Classic triad: congenital cataract, congenital heart disease (often patent ductus arteriosus or pulmonary artery stenosis), and sensorineural deafness",
+        "Microcephaly and intrauterine growth restriction"
+      ],
+      "es": [
+        "Tríada clásica: catarata congénita, cardiopatía congénita (frecuentemente persistencia del conducto arterioso o estenosis de arteria pulmonar) y sordera sensorioneural",
+        "Microcefalia y retraso del crecimiento intrauterino"
+      ]
+    },
     "implicacoesTratamento": [
       {
         "farmacoId": "indometacina",
         "implicacao": "usar_com_cautela",
-        "conduta": "A persistência do canal arterial (PCA) associada à síndrome da rubéola congênita costuma fazer parte de uma cardiopatia estrutural mais ampla (ex.: associada a estenose de artéria pulmonar) e pode ser canal-dependente ou responder mal ao fechamento farmacológico. Avaliação ecocardiográfica cuidadosa é indicada antes de indicar indometacina/ibuprofeno — o PCA da rubéola congênita não deve ser tratado como o PCA isolado da prematuridade.",
+        "conduta": {
+          "pt-BR": "A persistência do canal arterial (PCA) associada à síndrome da rubéola congênita costuma fazer parte de uma cardiopatia estrutural mais ampla (ex.: associada a estenose de artéria pulmonar) e pode ser canal-dependente ou responder mal ao fechamento farmacológico. Avaliação ecocardiográfica cuidadosa é indicada antes de indicar indometacina/ibuprofeno — o PCA da rubéola congênita não deve ser tratado como o PCA isolado da prematuridade.",
+          "en-US": "Patent ductus arteriosus (PDA) associated with congenital rubella syndrome is usually part of a broader structural heart disease (e.g., associated with pulmonary artery stenosis) and may be duct-dependent or respond poorly to pharmacological closure. Careful echocardiographic assessment is indicated before indicating indomethacin/ibuprofen — the PDA of congenital rubella should not be treated like the isolated PDA of prematurity.",
+          "es": "La persistencia del conducto arterioso (PCA) asociada al síndrome de rubéola congénita suele formar parte de una cardiopatía estructural más amplia (p. ej., asociada a estenosis de la arteria pulmonar) y puede ser conducto-dependiente o responder mal al cierre farmacológico. Se indica una evaluación ecocardiográfica cuidadosa antes de indicar indometacina/ibuprofeno — la PCA de la rubéola congénita no debe tratarse como la PCA aislada de la prematuridad."
+        },
         "fontes": [
           {
             "tipo": "artigo_cientifico",
@@ -333,18 +493,36 @@
   },
   {
     "id": "chagas-materna",
-    "nome": "Doença de Chagas materna (Chagas congênito)",
+    "nome": { "pt-BR": "Doença de Chagas materna (Chagas congênito)", "en-US": "Maternal Chagas disease (congenital Chagas)", "es": "Enfermedad de Chagas materna (Chagas congénito)" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão transplacentária pode ocorrer em qualquer fase da gestação e em gestações subsequentes de uma mesma mãe infectada; tratamento tripanocida materno antes da gestação reduz substancialmente (idealmente elimina) o risco de transmissão congênita.",
-    "riscosNeonato": [
-      "Chagas congênito — geralmente assintomático ao nascer, mas com risco de miocardite, hepatoesplenomegalia e meningoencefalite em casos sintomáticos",
-      "Todo caso de Chagas congênito confirmado deve ser tratado"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão transplacentária pode ocorrer em qualquer fase da gestação e em gestações subsequentes de uma mesma mãe infectada; tratamento tripanocida materno antes da gestação reduz substancialmente (idealmente elimina) o risco de transmissão congênita.",
+      "en-US": "Transplacental transmission can occur at any stage of pregnancy and in subsequent pregnancies of the same infected mother; maternal trypanocidal treatment before pregnancy substantially reduces (ideally eliminates) the risk of congenital transmission.",
+      "es": "La transmisión transplacentaria puede ocurrir en cualquier etapa del embarazo y en embarazos posteriores de una misma madre infectada; el tratamiento tripanocida materno antes del embarazo reduce sustancialmente (idealmente elimina) el riesgo de transmisión congénita."
+    },
+    "riscosNeonato": {
+      "pt-BR": [
+        "Chagas congênito — geralmente assintomático ao nascer, mas com risco de miocardite, hepatoesplenomegalia e meningoencefalite em casos sintomáticos",
+        "Todo caso de Chagas congênito confirmado deve ser tratado"
+      ],
+      "en-US": [
+        "Congenital Chagas — usually asymptomatic at birth, but with risk of myocarditis, hepatosplenomegaly, and meningoencephalitis in symptomatic cases",
+        "Every confirmed case of congenital Chagas should be treated"
+      ],
+      "es": [
+        "Chagas congénito — generalmente asintomático al nacer, pero con riesgo de miocarditis, hepatoesplenomegalia y meningoencefalitis en casos sintomáticos",
+        "Todo caso de Chagas congénito confirmado debe ser tratado"
+      ]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Tripanocida (benznidazol/nifurtimox)",
+        "classeFarmacologica": { "pt-BR": "Tripanocida (benznidazol/nifurtimox)", "en-US": "Trypanocidal (benznidazole/nifurtimox)", "es": "Tripanocida (benznidazol/nifurtimox)" },
         "implicacao": "monitorar",
-        "conduta": "Tratamento neonatal com benznidazol ou nifurtimox tem taxa de cura > 90% quando iniciado no primeiro ano de vida. Nifurtimox é aprovado pela FDA desde o nascimento; benznidazol é aprovado para 2-12 anos, com uso neonatal fora de bula quando indicado.",
+        "conduta": {
+          "pt-BR": "Tratamento neonatal com benznidazol ou nifurtimox tem taxa de cura > 90% quando iniciado no primeiro ano de vida. Nifurtimox é aprovado pela FDA desde o nascimento; benznidazol é aprovado para 2-12 anos, com uso neonatal fora de bula quando indicado.",
+          "en-US": "Neonatal treatment with benznidazole or nifurtimox has a cure rate > 90% when started in the first year of life. Nifurtimox is FDA-approved from birth; benznidazole is approved for ages 2-12, with off-label neonatal use when indicated.",
+          "es": "El tratamiento neonatal con benznidazol o nifurtimox tiene una tasa de curación > 90% cuando se inicia en el primer año de vida. El nifurtimox está aprobado por la FDA desde el nacimiento; el benznidazol está aprobado para 2-12 años, con uso neonatal fuera de ficha técnica cuando está indicado."
+        },
         "fontes": [
           {
             "tipo": "artigo_cientifico",
@@ -367,18 +545,27 @@
   },
   {
     "id": "tuberculose-materna",
-    "nome": "Tuberculose materna ativa",
+    "nome": { "pt-BR": "Tuberculose materna ativa", "en-US": "Active maternal tuberculosis", "es": "Tuberculosis materna activa" },
     "parentesco": "mae",
-    "descricaoTransmissao": "Transmissão ao neonato é predominantemente pós-natal, por via respiratória a partir de mãe bacilífera — transmissão congênita verdadeira (transplacentária/líquido amniótico) é rara. O risco pós-natal depende do status bacilífero e da adesão ao tratamento materno.",
-    "riscosNeonato": [
-      "Tuberculose neonatal (rara, mas potencialmente grave)",
-      "Necessidade de quimioprofilaxia com isoniazida se mãe bacilífera não tratada/tratamento recente"
-    ],
+    "descricaoTransmissao": {
+      "pt-BR": "Transmissão ao neonato é predominantemente pós-natal, por via respiratória a partir de mãe bacilífera — transmissão congênita verdadeira (transplacentária/líquido amniótico) é rara. O risco pós-natal depende do status bacilífero e da adesão ao tratamento materno.",
+      "en-US": "Transmission to the neonate is predominantly postnatal, via the respiratory route from a smear-positive mother — true congenital transmission (transplacental/amniotic fluid) is rare. Postnatal risk depends on smear-positive status and adherence to maternal treatment.",
+      "es": "La transmisión al neonato es predominantemente posnatal, por vía respiratoria a partir de una madre bacilífera — la transmisión congénita verdadera (transplacentaria/líquido amniótico) es rara. El riesgo posnatal depende del estado bacilífero y la adherencia al tratamiento materno."
+    },
+    "riscosNeonato": {
+      "pt-BR": ["Tuberculose neonatal (rara, mas potencialmente grave)", "Necessidade de quimioprofilaxia com isoniazida se mãe bacilífera não tratada/tratamento recente"],
+      "en-US": ["Neonatal tuberculosis (rare, but potentially severe)", "Need for isoniazid chemoprophylaxis if the mother is smear-positive/untreated or recently treated"],
+      "es": ["Tuberculosis neonatal (rara, pero potencialmente grave)", "Necesidad de quimioprofilaxis con isoniazida si la madre es bacilífera no tratada/con tratamiento reciente"]
+    },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": "Antituberculostático (isoniazida)",
+        "classeFarmacologica": { "pt-BR": "Antituberculostático (isoniazida)", "en-US": "Antituberculosis drug (isoniazid)", "es": "Antituberculoso (isoniazida)" },
         "implicacao": "monitorar",
-        "conduta": "Quimioprofilaxia com isoniazida por 3-6 meses é recomendada em neonatos de mães bacilíferas; vacina BCG é postergada até o término da profilaxia (ou administrada ao nascer junto com isoniazida se o seguimento não puder ser garantido, conforme diretriz local). Evidência de qualidade limitada — revisão de 2024 encontrou apenas 3 estudos elegíveis de 521 triados, sem conclusões definitivas baseadas em evidência forte.",
+        "conduta": {
+          "pt-BR": "Quimioprofilaxia com isoniazida por 3-6 meses é recomendada em neonatos de mães bacilíferas; vacina BCG é postergada até o término da profilaxia (ou administrada ao nascer junto com isoniazida se o seguimento não puder ser garantido, conforme diretriz local). Evidência de qualidade limitada — revisão de 2024 encontrou apenas 3 estudos elegíveis de 521 triados, sem conclusões definitivas baseadas em evidência forte.",
+          "en-US": "Isoniazid chemoprophylaxis for 3-6 months is recommended in neonates of smear-positive mothers; the BCG vaccine is deferred until prophylaxis ends (or given at birth along with isoniazid if follow-up cannot be ensured, per local guideline). Limited-quality evidence — a 2024 review found only 3 eligible studies out of 521 screened, with no definitive conclusions based on strong evidence.",
+          "es": "Se recomienda quimioprofilaxis con isoniazida por 3-6 meses en neonatos de madres bacilíferas; la vacuna BCG se posterga hasta el final de la profilaxis (o se administra al nacer junto con isoniazida si no se puede garantizar el seguimiento, según la directriz local). Evidencia de calidad limitada — una revisión de 2024 encontró solo 3 estudios elegibles de 521 tamizados, sin conclusiones definitivas basadas en evidencia sólida."
+        },
         "fontes": [
           {
             "tipo": "diretriz_sociedade",

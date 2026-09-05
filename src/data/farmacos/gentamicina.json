@@ -1,21 +1,26 @@
 {
   "id": "gentamicina",
-  "nome": "Gentamicina",
-  "nomeGenerico": "Sulfato de gentamicina",
-  "classeFarmacologica": "Antibiótico aminoglicosídeo",
-  "indicacoesNeonatais": [
-    "Sepse neonatal precoce (associada a ampicilina, empírica)",
-    "Infecções por bacilos Gram-negativos"
-  ],
-  "viasAdministracao": ["Intravenosa", "Intramuscular"],
+  "nome": { "pt-BR": "Gentamicina", "en-US": "Gentamicin", "es": "Gentamicina" },
+  "nomeGenerico": { "pt-BR": "Sulfato de gentamicina", "en-US": "Gentamicin sulfate", "es": "Sulfato de gentamicina" },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico aminoglicosídeo",
+    "en-US": "Aminoglycoside antibiotic",
+    "es": "Antibiótico aminoglucósido"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sepse neonatal precoce (associada a ampicilina, empírica)", "Infecções por bacilos Gram-negativos"],
+    "en-US": ["Early-onset neonatal sepsis (empiric, combined with ampicillin)", "Gram-negative bacillary infections"],
+    "es": ["Sepsis neonatal precoz (asociada a ampicilina, empírica)", "Infecciones por bacilos Gram-negativos"]
+  },
+  "viasAdministracao": ["intravenosa", "intramuscular"],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
       "doseValor": 5,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 48,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA < 30 semanas."
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
     },
     {
       "pmaMinSemanas": 30,
@@ -23,36 +28,62 @@
       "doseValor": 4.5,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 36,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA 30-34 semanas."
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA 30-34 semanas.", "en-US": "PMA 30-34 weeks.", "es": "EPM 30-34 semanas." }
     },
     {
       "pmaMinSemanas": 35,
       "doseValor": 4,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 24,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA ≥ 35 semanas."
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA ≥ 35 semanas.", "en-US": "PMA ≥ 35 weeks.", "es": "EPM ≥ 35 semanas." }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": "Aminoglicosídeos têm eliminação renal; função renal reduzida aumenta risco de acúmulo e toxicidade",
+      "descricao": {
+        "pt-BR": "Aminoglicosídeos têm eliminação renal; função renal reduzida aumenta risco de acúmulo e toxicidade",
+        "en-US": "Aminoglycosides are renally eliminated; reduced renal function increases the risk of accumulation and toxicity",
+        "es": "Los aminoglucósidos tienen eliminación renal; la función renal reducida aumenta el riesgo de acumulación y toxicidad"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Prolongar intervalo de dose conforme função renal; monitorar creatinina sérica e, se disponível, nível sérico do fármaco"
+      "conduta": {
+        "pt-BR": "Prolongar intervalo de dose conforme função renal; monitorar creatinina sérica e, se disponível, nível sérico do fármaco",
+        "en-US": "Extend the dosing interval according to renal function; monitor serum creatinine and, if available, drug serum level",
+        "es": "Prolongar el intervalo de dosis según la función renal; monitorizar creatinina sérica y, si está disponible, el nivel sérico del fármaco"
+      }
     },
     {
       "condicao": "risco_ototoxicidade",
-      "descricao": "Risco de toxicidade coclear/vestibular, especialmente com uso prolongado ou associação com outros ototóxicos",
+      "descricao": {
+        "pt-BR": "Risco de toxicidade coclear/vestibular, especialmente com uso prolongado ou associação com outros ototóxicos",
+        "en-US": "Risk of cochlear/vestibular toxicity, especially with prolonged use or combination with other ototoxic drugs",
+        "es": "Riesgo de toxicidad coclear/vestibular, especialmente con uso prolongado o asociación con otros ototóxicos"
+      },
       "gravidade": "monitorar",
-      "conduta": "Limitar duração do tratamento ao necessário; considerar triagem auditiva quando indicado"
+      "conduta": {
+        "pt-BR": "Limitar duração do tratamento ao necessário; considerar triagem auditiva quando indicado",
+        "en-US": "Limit treatment duration to what is necessary; consider hearing screening when indicated",
+        "es": "Limitar la duración del tratamiento a lo necesario; considerar cribado auditivo cuando esté indicado"
+      }
     }
   ],
-  "alertasGerais": [
-    "Considerar monitorização de níveis séricos (pico/vale) em uso prolongado (> 48h) ou disfunção renal",
-    "Evitar associação com outros nefrotóxicos/ototóxicos sem necessidade clara"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Considerar monitorização de níveis séricos (pico/vale) em uso prolongado (> 48h) ou disfunção renal",
+      "Evitar associação com outros nefrotóxicos/ototóxicos sem necessidade clara"
+    ],
+    "en-US": [
+      "Consider monitoring serum levels (peak/trough) with prolonged use (> 48h) or renal impairment",
+      "Avoid combination with other nephrotoxic/ototoxic drugs without a clear need"
+    ],
+    "es": [
+      "Considerar monitorización de niveles séricos (pico/valle) en uso prolongado (> 48h) o disfunción renal",
+      "Evitar la asociación con otros nefrotóxicos/ototóxicos sin necesidad clara"
+    ]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -63,6 +94,10 @@
   ],
   "ultimaRevisao": {
     "data": "2026-09-04",
-    "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável"
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

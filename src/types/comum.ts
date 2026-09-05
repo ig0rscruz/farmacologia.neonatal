@@ -60,3 +60,47 @@ export type Gravidade = z.infer<typeof Gravidade>
 
 export const GravidadeInteracao = z.enum(['contraindicada', 'grave', 'moderada', 'leve'])
 export type GravidadeInteracao = z.infer<typeof GravidadeInteracao>
+
+/**
+ * Vocabulário fechado de vias de administração. Fechado (em vez de texto
+ * livre) por dois motivos: permite comparação exata entre a via recomendada e
+ * a via informada/prescrita (ver compararPosologia em
+ * src/engine/verificarFarmaco.ts) independente do idioma da interface, e
+ * dispensa tradução manual — os rótulos ficam em `vias` (src/i18n/traducoes.ts).
+ */
+export const ViaAdministracao = z.enum([
+  'intravenosa',
+  'oral',
+  'intramuscular',
+  'subcutanea',
+  'retal',
+  'intraossea',
+  'endotraqueal',
+  'inalatoria',
+  'topica',
+  'outra',
+])
+export type ViaAdministracao = z.infer<typeof ViaAdministracao>
+
+/**
+ * Campo de texto livre traduzido nos 3 idiomas suportados. Usado em todo o
+ * conteúdo clínico (indicações, contraindicações, condutas, etc.) — ao
+ * contrário dos vocabulários fechados acima (CondicaoClinica, Gravidade,
+ * ViaAdministracao), aqui não há como evitar tradução manual do texto.
+ * pt-BR é a fonte primária; en-US/es devem sempre ser preenchidos também
+ * (sem fallback automático) para que o conteúdo clínico acompanhe o idioma
+ * da interface.
+ */
+export const TextoMultilingue = z.object({
+  'pt-BR': z.string().min(1),
+  'en-US': z.string().min(1),
+  es: z.string().min(1),
+})
+export type TextoMultilingue = z.infer<typeof TextoMultilingue>
+
+export const TextoMultilinguaArray = z.object({
+  'pt-BR': z.array(z.string().min(1)).min(1),
+  'en-US': z.array(z.string().min(1)).min(1),
+  es: z.array(z.string().min(1)).min(1),
+})
+export type TextoMultilinguaArray = z.infer<typeof TextoMultilinguaArray>

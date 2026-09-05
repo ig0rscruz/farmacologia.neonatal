@@ -1,47 +1,102 @@
 {
   "id": "adrenalina",
-  "nome": "Adrenalina (epinefrina)",
-  "nomeGenerico": "Epinefrina",
-  "classeFarmacologica": "Catecolamina / vasopressor",
-  "indicacoesNeonatais": [
-    "Reanimação neonatal (parada cardiorrespiratória, FC < 60 bpm apesar de ventilação e compressões adequadas)",
-    "Choque refratário a outras drogas vasoativas"
-  ],
-  "viasAdministracao": ["Intravenosa", "Intraóssea", "Endotraqueal (menos eficaz, uso apenas se acesso vascular não disponível)"],
+  "nome": { "pt-BR": "Adrenalina (epinefrina)", "en-US": "Epinephrine (adrenaline)", "es": "Adrenalina (epinefrina)" },
+  "nomeGenerico": { "pt-BR": "Epinefrina", "en-US": "Epinephrine", "es": "Epinefrina" },
+  "classeFarmacologica": { "pt-BR": "Catecolamina / vasopressor", "en-US": "Catecholamine / vasopressor", "es": "Catecolamina / vasopresor" },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Reanimação neonatal (parada cardiorrespiratória, FC < 60 bpm apesar de ventilação e compressões adequadas)",
+      "Choque refratário a outras drogas vasoativas"
+    ],
+    "en-US": [
+      "Neonatal resuscitation (cardiorespiratory arrest, HR < 60 bpm despite adequate ventilation and compressions)",
+      "Shock refractory to other vasoactive drugs"
+    ],
+    "es": [
+      "Reanimación neonatal (paro cardiorrespiratorio, FC < 60 lpm a pesar de ventilación y compresiones adecuadas)",
+      "Choque refractario a otros fármacos vasoactivos"
+    ]
+  },
+  "viasAdministracao": ["intravenosa", "intraossea", "endotraqueal"],
   "faixasDose": [
     {
       "doseValor": 0.01,
-      "doseUnidade": "mg/kg/dose (0.1 mL/kg da solução 1:10.000)",
+      "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa ou intraóssea",
-      "observacoes": "Dose de reanimação; pode repetir a cada 3-5 minutos se necessário. Faixa 0.01-0.03 mg/kg/dose IV."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de reanimação (0.1 mL/kg da solução 1:10.000); pode repetir a cada 3-5 minutos se necessário. Faixa 0.01-0.03 mg/kg/dose IV.",
+        "en-US": "Resuscitation dose (0.1 mL/kg of the 1:10,000 solution); may repeat every 3-5 minutes if needed. Range 0.01-0.03 mg/kg/dose IV.",
+        "es": "Dosis de reanimación (0.1 mL/kg de la solución 1:10.000); puede repetirse cada 3-5 minutos si es necesario. Rango 0.01-0.03 mg/kg/dosis IV."
+      }
+    },
+    {
+      "doseValor": 0.01,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intraossea",
+      "observacoes": {
+        "pt-BR": "Dose de reanimação (0.1 mL/kg da solução 1:10.000); pode repetir a cada 3-5 minutos se necessário.",
+        "en-US": "Resuscitation dose (0.1 mL/kg of the 1:10,000 solution); may repeat every 3-5 minutes if needed.",
+        "es": "Dosis de reanimación (0.1 mL/kg de la solución 1:10.000); puede repetirse cada 3-5 minutos si es necesario."
+      }
     },
     {
       "doseValor": 0.1,
-      "doseUnidade": "mcg/kg/minuto (infusão contínua)",
+      "doseUnidade": "mcg/kg/minuto",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa contínua",
-      "observacoes": "Faixa usual 0.05-1 mcg/kg/min em choque refratário, titular conforme resposta."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua para choque refratário. Faixa usual 0.05-1 mcg/kg/min, titular conforme resposta.",
+        "en-US": "Continuous infusion for refractory shock. Usual range 0.05-1 mcg/kg/min, titrate per response.",
+        "es": "Infusión continua para choque refractario. Rango usual 0.05-1 mcg/kg/min, titular según respuesta."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": "Efeito cronotrópico e arritmogênico potente",
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico e arritmogênico potente",
+        "en-US": "Potent chronotropic and arrhythmogenic effect",
+        "es": "Efecto cronotrópico y arritmogénico potente"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização contínua de FC e ritmo; usar menor dose eficaz"
+      "conduta": {
+        "pt-BR": "Monitorização contínua de FC e ritmo; usar menor dose eficaz",
+        "en-US": "Continuous HR and rhythm monitoring; use the lowest effective dose",
+        "es": "Monitorización continua de FC y ritmo; usar la menor dosis eficaz"
+      }
     },
     {
       "condicao": "hipertensao",
-      "descricao": "Potente vasoconstritor alfa-adrenérgico, risco de hipertensão grave e isquemia tecidual",
+      "descricao": {
+        "pt-BR": "Potente vasoconstritor alfa-adrenérgico, risco de hipertensão grave e isquemia tecidual",
+        "en-US": "Potent alpha-adrenergic vasoconstrictor, risk of severe hypertension and tissue ischemia",
+        "es": "Vasoconstrictor alfa-adrenérgico potente, riesgo de hipertensión grave e isquemia tisular"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorar pressão arterial e perfusão periférica continuamente"
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial e perfusão periférica continuamente",
+        "en-US": "Monitor blood pressure and peripheral perfusion continuously",
+        "es": "Monitorizar presión arterial y perfusión periférica de forma continua"
+      }
     }
   ],
-  "alertasGerais": [
-    "Extravasamento causa necrose tecidual grave — preferir acesso central para infusão contínua",
-    "Em reanimação, confirmar concentração (1:10.000) e via antes da administração — erro de concentração é risco crítico de segurança"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Extravasamento causa necrose tecidual grave — preferir acesso central para infusão contínua",
+      "Em reanimação, confirmar concentração (1:10.000) e via antes da administração — erro de concentração é risco crítico de segurança"
+    ],
+    "en-US": [
+      "Extravasation causes severe tissue necrosis — prefer central access for continuous infusion",
+      "During resuscitation, confirm concentration (1:10,000) and route before administration — concentration error is a critical safety risk"
+    ],
+    "es": [
+      "La extravasación causa necrosis tisular grave — preferir acceso central para infusión continua",
+      "En reanimación, confirmar concentración (1:10.000) y vía antes de la administración — el error de concentración es un riesgo crítico de seguridad"
+    ]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -50,5 +105,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

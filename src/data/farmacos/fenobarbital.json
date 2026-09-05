@@ -1,54 +1,123 @@
 {
   "id": "fenobarbital",
-  "nome": "Fenobarbital",
-  "nomeGenerico": "Fenobarbital sódico",
-  "classeFarmacologica": "Barbitúrico anticonvulsivante",
-  "indicacoesNeonatais": [
-    "Primeira linha para crises convulsivas neonatais",
-    "Encefalopatia hipóxico-isquêmica com crises associadas",
-    "Síndrome de abstinência neonatal (adjuvante)"
-  ],
-  "viasAdministracao": ["Intravenosa", "Oral"],
+  "nome": { "pt-BR": "Fenobarbital", "en-US": "Phenobarbital", "es": "Fenobarbital" },
+  "nomeGenerico": { "pt-BR": "Fenobarbital sódico", "en-US": "Phenobarbital sodium", "es": "Fenobarbital sódico" },
+  "classeFarmacologica": {
+    "pt-BR": "Barbitúrico anticonvulsivante",
+    "en-US": "Anticonvulsant barbiturate",
+    "es": "Barbitúrico anticonvulsivante"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Primeira linha para crises convulsivas neonatais",
+      "Encefalopatia hipóxico-isquêmica com crises associadas",
+      "Síndrome de abstinência neonatal (adjuvante)"
+    ],
+    "en-US": [
+      "First-line for neonatal seizures",
+      "Hypoxic-ischemic encephalopathy with associated seizures",
+      "Neonatal abstinence syndrome (adjunct)"
+    ],
+    "es": [
+      "Primera línea para crisis convulsivas neonatales",
+      "Encefalopatía hipóxico-isquémica con crisis asociadas",
+      "Síndrome de abstinencia neonatal (adyuvante)"
+    ]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
   "faixasDose": [
     {
       "doseValor": 20,
-      "doseUnidade": "mg/kg (dose de ataque)",
+      "doseUnidade": "mg/kg",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa (infusão lenta)",
-      "observacoes": "Dose de ataque única; pode repetir 10 mg/kg se crise persistir, até dose cumulativa usual de 40 mg/kg."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de ataque única (infusão lenta); pode repetir 10 mg/kg se crise persistir, até dose cumulativa usual de 40 mg/kg.",
+        "en-US": "Single loading dose (slow infusion); may repeat 10 mg/kg if seizures persist, up to a usual cumulative dose of 40 mg/kg.",
+        "es": "Dosis de carga única (infusión lenta); puede repetirse 10 mg/kg si la crisis persiste, hasta una dosis acumulada usual de 40 mg/kg."
+      }
     },
     {
       "doseValor": 3.5,
-      "doseUnidade": "mg/kg/dia (manutenção)",
+      "doseUnidade": "mg/kg/dia",
       "intervaloHoras": 24,
-      "viaAdministracao": "Intravenosa ou oral",
-      "observacoes": "Iniciar 12-24h após dose de ataque. Faixa usual de manutenção 3-5 mg/kg/dia, dose única ou dividida."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção. Iniciar 12-24h após dose de ataque. Faixa usual de manutenção 3-5 mg/kg/dia, dose única ou dividida.",
+        "en-US": "Maintenance dose. Start 12-24h after the loading dose. Usual maintenance range 3-5 mg/kg/day, single or divided dose.",
+        "es": "Dosis de mantenimiento. Iniciar 12-24h después de la dosis de carga. Rango usual de mantenimiento 3-5 mg/kg/día, dosis única o dividida."
+      }
+    },
+    {
+      "doseValor": 3.5,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção. Iniciar 12-24h após dose de ataque. Faixa usual de manutenção 3-5 mg/kg/dia, dose única ou dividida.",
+        "en-US": "Maintenance dose. Start 12-24h after the loading dose. Usual maintenance range 3-5 mg/kg/day, single or divided dose.",
+        "es": "Dosis de mantenimiento. Iniciar 12-24h después de la dosis de carga. Rango usual de mantenimiento 3-5 mg/kg/día, dosis única o dividida."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": "Metabolização hepática; risco de acúmulo e sedação excessiva em disfunção hepática",
+      "descricao": {
+        "pt-BR": "Metabolização hepática; risco de acúmulo e sedação excessiva em disfunção hepática",
+        "en-US": "Hepatic metabolism; risk of accumulation and excessive sedation in hepatic impairment",
+        "es": "Metabolización hepática; riesgo de acumulación y sedación excesiva en la disfunción hepática"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Considerar redução de dose e monitorar nível sérico quando disponível"
+      "conduta": {
+        "pt-BR": "Considerar redução de dose e monitorar nível sérico quando disponível",
+        "en-US": "Consider dose reduction and monitor serum level when available",
+        "es": "Considerar reducción de dosis y monitorizar el nivel sérico cuando esté disponible"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": "Infusão rápida pode causar hipotensão e depressão respiratória",
+      "descricao": {
+        "pt-BR": "Infusão rápida pode causar hipotensão e depressão respiratória",
+        "en-US": "Rapid infusion may cause hypotension and respiratory depression",
+        "es": "La infusión rápida puede causar hipotensión y depresión respiratoria"
+      },
       "gravidade": "monitorar",
-      "conduta": "Infundir lentamente; monitorar pressão arterial e padrão respiratório durante e após a dose de ataque"
+      "conduta": {
+        "pt-BR": "Infundir lentamente; monitorar pressão arterial e padrão respiratório durante e após a dose de ataque",
+        "en-US": "Infuse slowly; monitor blood pressure and respiratory pattern during and after the loading dose",
+        "es": "Infundir lentamente; monitorizar presión arterial y patrón respiratorio durante y después de la dosis de carga"
+      }
     },
     {
       "condicao": "apneia",
-      "descricao": "Efeito depressor do SNC pode agravar apneia, especialmente associado a outros depressores",
+      "descricao": {
+        "pt-BR": "Efeito depressor do SNC pode agravar apneia, especialmente associado a outros depressores",
+        "en-US": "CNS depressant effect may worsen apnea, especially when combined with other depressants",
+        "es": "El efecto depresor del SNC puede agravar la apnea, especialmente asociado a otros depresores"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização respiratória contínua, sobretudo nas primeiras horas após dose de ataque"
+      "conduta": {
+        "pt-BR": "Monitorização respiratória contínua, sobretudo nas primeiras horas após dose de ataque",
+        "en-US": "Continuous respiratory monitoring, especially in the first hours after the loading dose",
+        "es": "Monitorización respiratoria continua, sobre todo en las primeras horas tras la dosis de carga"
+      }
     }
   ],
-  "alertasGerais": [
-    "Monitorar nível sérico (faixa terapêutica usual 15-40 mcg/mL) em uso prolongado",
-    "Efeito sedativo pode mascarar outros sinais neurológicos"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Monitorar nível sérico (faixa terapêutica usual 15-40 mcg/mL) em uso prolongado",
+      "Efeito sedativo pode mascarar outros sinais neurológicos"
+    ],
+    "en-US": [
+      "Monitor serum level (usual therapeutic range 15-40 mcg/mL) with prolonged use",
+      "Sedative effect may mask other neurological signs"
+    ],
+    "es": [
+      "Monitorizar el nivel sérico (rango terapéutico usual 15-40 mcg/mL) en uso prolongado",
+      "El efecto sedante puede enmascarar otros signos neurológicos"
+    ]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -57,5 +126,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

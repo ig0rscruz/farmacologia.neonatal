@@ -1,22 +1,46 @@
 {
   "id": "paracetamol",
-  "nome": "Paracetamol",
-  "nomeGenerico": "Acetaminofeno",
-  "classeFarmacologica": "Analgésico e antipirético (não opioide)",
-  "indicacoesNeonatais": [
-    "Analgesia leve a moderada",
-    "Antipirese",
-    "Alternativa para fechamento farmacológico do canal arterial (uso adjuvante/alternativo à indometacina/ibuprofeno)"
-  ],
-  "viasAdministracao": ["Oral", "Intravenosa", "Retal"],
+  "nome": { "pt-BR": "Paracetamol", "en-US": "Acetaminophen (paracetamol)", "es": "Paracetamol" },
+  "nomeGenerico": { "pt-BR": "Acetaminofeno", "en-US": "Acetaminophen", "es": "Acetaminofén" },
+  "classeFarmacologica": {
+    "pt-BR": "Analgésico e antipirético (não opioide)",
+    "en-US": "Analgesic and antipyretic (non-opioid)",
+    "es": "Analgésico y antipirético (no opioide)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Analgesia leve a moderada",
+      "Antipirese",
+      "Alternativa para fechamento farmacológico do canal arterial (uso adjuvante/alternativo à indometacina/ibuprofeno)"
+    ],
+    "en-US": [
+      "Mild to moderate analgesia",
+      "Antipyresis",
+      "Alternative for pharmacological closure of the ductus arteriosus (adjunctive/alternative to indomethacin/ibuprofen)"
+    ],
+    "es": [
+      "Analgesia leve a moderada",
+      "Antipiresis",
+      "Alternativa para el cierre farmacológico del conducto arterioso (uso adyuvante/alternativo a indometacina/ibuprofeno)"
+    ]
+  },
+  "viasAdministracao": ["oral", "intravenosa", "retal"],
   "faixasDose": [
     {
       "pmaMaxSemanas": 31.9,
       "doseValor": 10,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
-      "viaAdministracao": "Oral ou intravenosa",
-      "observacoes": "PMA < 32 semanas."
+      "viaAdministracao": "oral",
+      "observacoes": { "pt-BR": "PMA < 32 semanas.", "en-US": "PMA < 32 weeks.", "es": "EPM < 32 semanas." }
+    },
+    {
+      "pmaMaxSemanas": 31.9,
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 32 semanas.", "en-US": "PMA < 32 weeks.", "es": "EPM < 32 semanas." }
     },
     {
       "pmaMinSemanas": 32,
@@ -24,30 +48,73 @@
       "doseValor": 10,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
-      "viaAdministracao": "Oral ou intravenosa",
-      "observacoes": "PMA 32-36 semanas."
+      "viaAdministracao": "oral",
+      "observacoes": { "pt-BR": "PMA 32-36 semanas.", "en-US": "PMA 32-36 weeks.", "es": "EPM 32-36 semanas." }
+    },
+    {
+      "pmaMinSemanas": 32,
+      "pmaMaxSemanas": 36.9,
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA 32-36 semanas.", "en-US": "PMA 32-36 weeks.", "es": "EPM 32-36 semanas." }
     },
     {
       "pmaMinSemanas": 37,
       "doseValor": 12.5,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 6,
-      "viaAdministracao": "Oral ou intravenosa",
-      "observacoes": "PMA ≥ 37 semanas. Dose máxima diária deve respeitar limite cumulativo para evitar hepatotoxicidade."
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "PMA ≥ 37 semanas. Dose máxima diária deve respeitar limite cumulativo para evitar hepatotoxicidade.",
+        "en-US": "PMA ≥ 37 weeks. Maximum daily dose must respect the cumulative limit to avoid hepatotoxicity.",
+        "es": "EPM ≥ 37 semanas. La dosis máxima diaria debe respetar el límite acumulado para evitar hepatotoxicidad."
+      }
+    },
+    {
+      "pmaMinSemanas": 37,
+      "doseValor": 12.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA ≥ 37 semanas. Dose máxima diária deve respeitar limite cumulativo para evitar hepatotoxicidade.",
+        "en-US": "PMA ≥ 37 weeks. Maximum daily dose must respect the cumulative limit to avoid hepatotoxicity.",
+        "es": "EPM ≥ 37 semanas. La dosis máxima diaria debe respetar el límite acumulado para evitar hepatotoxicidad."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": "Metabolização hepática; risco de hepatotoxicidade em disfunção hepática ou doses cumulativas excessivas",
+      "descricao": {
+        "pt-BR": "Metabolização hepática; risco de hepatotoxicidade em disfunção hepática ou doses cumulativas excessivas",
+        "en-US": "Hepatic metabolism; risk of hepatotoxicity in hepatic impairment or excessive cumulative doses",
+        "es": "Metabolización hepática; riesgo de hepatotoxicidad en disfunción hepática o dosis acumuladas excesivas"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Reduzir dose e/ou aumentar intervalo; evitar uso prolongado sem reavaliação de função hepática"
+      "conduta": {
+        "pt-BR": "Reduzir dose e/ou aumentar intervalo; evitar uso prolongado sem reavaliação de função hepática",
+        "en-US": "Reduce dose and/or extend interval; avoid prolonged use without reassessing hepatic function",
+        "es": "Reducir dosis y/o aumentar intervalo; evitar uso prolongado sin reevaluar la función hepática"
+      }
     }
   ],
-  "alertasGerais": [
-    "Respeitar dose máxima diária cumulativa conforme idade pós-menstrual para evitar hepatotoxicidade",
-    "Via intravenosa requer atenção especial à diluição e velocidade de infusão"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Respeitar dose máxima diária cumulativa conforme idade pós-menstrual para evitar hepatotoxicidade",
+      "Via intravenosa requer atenção especial à diluição e velocidade de infusão"
+    ],
+    "en-US": [
+      "Respect the maximum cumulative daily dose per postmenstrual age to avoid hepatotoxicity",
+      "IV route requires special attention to dilution and infusion rate"
+    ],
+    "es": [
+      "Respetar la dosis máxima diaria acumulada según edad posmenstrual para evitar hepatotoxicidad",
+      "La vía intravenosa requiere atención especial a la dilución y velocidad de infusión"
+    ]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -56,5 +123,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

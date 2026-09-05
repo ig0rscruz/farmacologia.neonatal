@@ -4,9 +4,21 @@
     "farmacoAId": "gentamicina",
     "farmacoBId": "furosemida",
     "gravidade": "grave",
-    "mecanismo": "Furosemida potencializa a ototoxicidade e nefrotoxicidade dos aminoglicosídeos, especialmente com infusão intravenosa rápida.",
-    "efeitoClinico": "Risco aumentado de lesão renal aguda e de perda auditiva sensorioneural.",
-    "conduta": "Evitar uso concomitante quando possível. Se necessário, infundir furosemida lentamente, monitorar função renal (creatinina sérica) e considerar triagem auditiva. Reavaliar intervalo de dose da gentamicina conforme função renal.",
+    "mecanismo": {
+      "pt-BR": "Furosemida potencializa a ototoxicidade e nefrotoxicidade dos aminoglicosídeos, especialmente com infusão intravenosa rápida.",
+      "en-US": "Furosemide potentiates the ototoxicity and nephrotoxicity of aminoglycosides, especially with rapid intravenous infusion.",
+      "es": "La furosemida potencia la ototoxicidad y nefrotoxicidad de los aminoglucósidos, especialmente con infusión intravenosa rápida."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Risco aumentado de lesão renal aguda e de perda auditiva sensorioneural.",
+      "en-US": "Increased risk of acute kidney injury and sensorineural hearing loss.",
+      "es": "Riesgo aumentado de lesión renal aguda y de pérdida auditiva sensorioneural."
+    },
+    "conduta": {
+      "pt-BR": "Evitar uso concomitante quando possível. Se necessário, infundir furosemida lentamente, monitorar função renal (creatinina sérica) e considerar triagem auditiva. Reavaliar intervalo de dose da gentamicina conforme função renal.",
+      "en-US": "Avoid concomitant use when possible. If necessary, infuse furosemide slowly, monitor renal function (serum creatinine), and consider hearing screening. Reassess the gentamicin dosing interval according to renal function.",
+      "es": "Evitar el uso concomitante cuando sea posible. Si es necesario, infundir furosemida lentamente, monitorizar la función renal (creatinina sérica) y considerar cribado auditivo. Reevaluar el intervalo de dosis de gentamicina según la función renal."
+    },
     "nivelEvidencia": "B",
     "fontes": [
       {
@@ -22,9 +34,21 @@
     "farmacoAId": "gentamicina",
     "farmacoBId": "vancomicina",
     "gravidade": "moderada",
-    "mecanismo": "Ambos os fármacos têm potencial nefrotóxico e ototóxico independente; associação teoricamente aditiva, embora estudo de coorte pareado por escore de propensão não tenha demonstrado aumento estatisticamente significativo de lesão renal aguda ao adicionar vancomicina ao uso de gentamicina isolada.",
-    "efeitoClinico": "Risco teórico aumentado de lesão renal aguda e de perda auditiva sensorioneural; evidência de coorte pareada (n=1066) não confirmou aumento significativo de LRA com a associação vs. gentamicina isolada (OR 1.5; IC95% 0.6-4.0).",
-    "conduta": "Associação amplamente utilizada na prática clínica para cobertura empírica de sepse tardia. Monitorar função renal (creatinina seriada) e níveis séricos de ambos os fármacos quando disponível; não é necessário evitar a associação por rotina, mas manter vigilância.",
+    "mecanismo": {
+      "pt-BR": "Ambos os fármacos têm potencial nefrotóxico e ototóxico independente; associação teoricamente aditiva, embora estudo de coorte pareado por escore de propensão não tenha demonstrado aumento estatisticamente significativo de lesão renal aguda ao adicionar vancomicina ao uso de gentamicina isolada.",
+      "en-US": "Both drugs have independent nephrotoxic and ototoxic potential; theoretically additive combination, although a propensity-matched cohort study did not show a statistically significant increase in acute kidney injury when adding vancomycin to gentamicin alone.",
+      "es": "Ambos fármacos tienen potencial nefrotóxico y ototóxico independiente; asociación teóricamente aditiva, aunque un estudio de cohorte pareado por puntaje de propensión no demostró un aumento estadísticamente significativo de lesión renal aguda al añadir vancomicina al uso de gentamicina sola."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Risco teórico aumentado de lesão renal aguda e de perda auditiva sensorioneural; evidência de coorte pareada (n=1066) não confirmou aumento significativo de LRA com a associação vs. gentamicina isolada (OR 1.5; IC95% 0.6-4.0).",
+      "en-US": "Theoretical increased risk of acute kidney injury and sensorineural hearing loss; matched-cohort evidence (n=1066) did not confirm a significant increase in AKI with the combination vs. gentamicin alone (OR 1.5; 95% CI 0.6-4.0).",
+      "es": "Riesgo teórico aumentado de lesión renal aguda y de pérdida auditiva sensorioneural; la evidencia de cohorte pareada (n=1066) no confirmó un aumento significativo de LRA con la asociación vs. gentamicina sola (OR 1.5; IC95% 0.6-4.0)."
+    },
+    "conduta": {
+      "pt-BR": "Associação amplamente utilizada na prática clínica para cobertura empírica de sepse tardia. Monitorar função renal (creatinina seriada) e níveis séricos de ambos os fármacos quando disponível; não é necessário evitar a associação por rotina, mas manter vigilância.",
+      "en-US": "Combination widely used in clinical practice for empiric coverage of late-onset sepsis. Monitor renal function (serial creatinine) and serum levels of both drugs when available; routine avoidance of the combination is not necessary, but maintain vigilance.",
+      "es": "Asociación ampliamente utilizada en la práctica clínica para cobertura empírica de sepsis tardía. Monitorizar la función renal (creatinina seriada) y los niveles séricos de ambos fármacos cuando estén disponibles; no es necesario evitar la asociación de forma rutinaria, pero mantener vigilancia."
+    },
     "nivelEvidencia": "B",
     "fontes": [
       {
@@ -40,9 +64,21 @@
     "farmacoAId": "gentamicina",
     "farmacoBId": "indometacina",
     "gravidade": "grave",
-    "mecanismo": "Indometacina reduz o fluxo sanguíneo renal por inibição de prostaglandinas; associado a aminoglicosídeo nefrotóxico, o risco de lesão renal é potencializado.",
-    "efeitoClinico": "Risco aumentado de lesão renal aguda: em coorte de neonatos com PCA em uso de gentamicina, a exposição a AINE (indometacina/ibuprofeno) associou-se a 14.8% de incidência de LRA vs. 9.1% sem exposição (risco atribuível de 5.7%). Também há risco de acúmulo do aminoglicosídeo por redução da depuração renal.",
-    "conduta": "Monitorar função renal e diurese rigorosamente durante o curso de indometacina; considerar prolongar intervalo de dose da gentamicina ou monitorar nível sérico.",
+    "mecanismo": {
+      "pt-BR": "Indometacina reduz o fluxo sanguíneo renal por inibição de prostaglandinas; associado a aminoglicosídeo nefrotóxico, o risco de lesão renal é potencializado.",
+      "en-US": "Indomethacin reduces renal blood flow via prostaglandin inhibition; combined with a nephrotoxic aminoglycoside, the risk of kidney injury is potentiated.",
+      "es": "La indometacina reduce el flujo sanguíneo renal por inhibición de prostaglandinas; asociada a un aminoglucósido nefrotóxico, el riesgo de lesión renal se potencia."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Risco aumentado de lesão renal aguda: em coorte de neonatos com PCA em uso de gentamicina, a exposição a AINE (indometacina/ibuprofeno) associou-se a 14.8% de incidência de LRA vs. 9.1% sem exposição (risco atribuível de 5.7%). Também há risco de acúmulo do aminoglicosídeo por redução da depuração renal.",
+      "en-US": "Increased risk of acute kidney injury: in a cohort of neonates with PDA on gentamicin, NSAID exposure (indomethacin/ibuprofen) was associated with 14.8% AKI incidence vs. 9.1% without exposure (attributable risk 5.7%). There is also a risk of aminoglycoside accumulation from reduced renal clearance.",
+      "es": "Riesgo aumentado de lesión renal aguda: en una cohorte de neonatos con PCA en uso de gentamicina, la exposición a AINE (indometacina/ibuprofeno) se asoció con 14.8% de incidencia de LRA vs. 9.1% sin exposición (riesgo atribuible de 5.7%). También hay riesgo de acumulación del aminoglucósido por reducción de la depuración renal."
+    },
+    "conduta": {
+      "pt-BR": "Monitorar função renal e diurese rigorosamente durante o curso de indometacina; considerar prolongar intervalo de dose da gentamicina ou monitorar nível sérico.",
+      "en-US": "Monitor renal function and urine output closely during the indomethacin course; consider extending the gentamicin dosing interval or monitoring serum level.",
+      "es": "Monitorizar rigurosamente la función renal y la diuresis durante el curso de indometacina; considerar prolongar el intervalo de dosis de gentamicina o monitorizar el nivel sérico."
+    },
     "nivelEvidencia": "B",
     "fontes": [
       {
@@ -58,9 +94,21 @@
     "farmacoAId": "fentanil",
     "farmacoBId": "midazolam",
     "gravidade": "grave",
-    "mecanismo": "Opioide e benzodiazepínico têm efeito depressor do SNC e respiratório sinérgico (não meramente aditivo) quando associados.",
-    "efeitoClinico": "Hipotensão grave foi relatada com a coadministração de fentanila e midazolam em neonatos, incluindo casos em infusão contínua de um dos fármacos que receberam injeção rápida do outro. Risco aumentado de depressão respiratória e apneia além do esperado por cada fármaco isoladamente.",
-    "conduta": "Se a associação for necessária, usar com grande cautela — especialmente em prematuros extremos ou instabilidade pressórica —, reduzir as doses individuais e evitar bolus rápido, monitorizar continuamente padrão respiratório, SatO2 e pressão arterial, e ter suporte ventilatório prontamente disponível.",
+    "mecanismo": {
+      "pt-BR": "Opioide e benzodiazepínico têm efeito depressor do SNC e respiratório sinérgico (não meramente aditivo) quando associados.",
+      "en-US": "Opioid and benzodiazepine have a synergistic (not merely additive) CNS and respiratory depressant effect when combined.",
+      "es": "El opioide y el benzodiacepínico tienen un efecto depresor del SNC y respiratorio sinérgico (no meramente aditivo) cuando se asocian."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Hipotensão grave foi relatada com a coadministração de fentanila e midazolam em neonatos, incluindo casos em infusão contínua de um dos fármacos que receberam injeção rápida do outro. Risco aumentado de depressão respiratória e apneia além do esperado por cada fármaco isoladamente.",
+      "en-US": "Severe hypotension has been reported with coadministration of fentanyl and midazolam in neonates, including cases on continuous infusion of one drug who received a rapid injection of the other. Increased risk of respiratory depression and apnea beyond that expected from either drug alone.",
+      "es": "Se ha reportado hipotensión grave con la coadministración de fentanilo y midazolam en neonatos, incluidos casos con infusión continua de un fármaco que recibieron una inyección rápida del otro. Riesgo aumentado de depresión respiratoria y apnea más allá de lo esperado por cada fármaco por separado."
+    },
+    "conduta": {
+      "pt-BR": "Se a associação for necessária, usar com grande cautela — especialmente em prematuros extremos ou instabilidade pressórica —, reduzir as doses individuais e evitar bolus rápido, monitorizar continuamente padrão respiratório, SatO2 e pressão arterial, e ter suporte ventilatório prontamente disponível.",
+      "en-US": "If the combination is necessary, use with great caution — especially in extremely preterm infants or hemodynamic instability —, reduce individual doses and avoid rapid bolus, continuously monitor respiratory pattern, SpO2, and blood pressure, and have ventilatory support readily available.",
+      "es": "Si la asociación es necesaria, usar con gran precaución — especialmente en prematuros extremos o inestabilidad presora —, reducir las dosis individuales y evitar el bolo rápido, monitorizar continuamente el patrón respiratorio, la SatO2 y la presión arterial, y tener soporte ventilatorio disponible de inmediato."
+    },
     "nivelEvidencia": "B",
     "fontes": [
       {

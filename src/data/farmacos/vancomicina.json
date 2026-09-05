@@ -1,22 +1,38 @@
 {
   "id": "vancomicina",
-  "nome": "Vancomicina",
-  "nomeGenerico": "Cloridrato de vancomicina",
-  "classeFarmacologica": "Antibiótico glicopeptídeo",
-  "indicacoesNeonatais": [
-    "Sepse neonatal tardia com suspeita de Staphylococcus resistente",
-    "Infecção de cateter central",
-    "Meningite por cocos Gram-positivos resistentes"
-  ],
-  "viasAdministracao": ["Intravenosa (infusão lenta, mínimo 60 minutos)"],
+  "nome": { "pt-BR": "Vancomicina", "en-US": "Vancomycin", "es": "Vancomicina" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de vancomicina", "en-US": "Vancomycin hydrochloride", "es": "Clorhidrato de vancomicina" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico glicopeptídeo", "en-US": "Glycopeptide antibiotic", "es": "Antibiótico glucopéptido" },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sepse neonatal tardia com suspeita de Staphylococcus resistente",
+      "Infecção de cateter central",
+      "Meningite por cocos Gram-positivos resistentes"
+    ],
+    "en-US": [
+      "Late-onset neonatal sepsis with suspected resistant Staphylococcus",
+      "Central line infection",
+      "Meningitis due to resistant Gram-positive cocci"
+    ],
+    "es": [
+      "Sepsis neonatal tardía con sospecha de Staphylococcus resistente",
+      "Infección de catéter central",
+      "Meningitis por cocos Gram-positivos resistentes"
+    ]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
       "doseValor": 15,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 18,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA < 30 semanas. Ajustar por nível sérico quando disponível."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA < 30 semanas. Infusão lenta, mínimo 60 minutos. Ajustar por nível sérico quando disponível.",
+        "en-US": "PMA < 30 weeks. Slow infusion, minimum 60 minutes. Adjust by serum level when available.",
+        "es": "EPM < 30 semanas. Infusión lenta, mínimo 60 minutos. Ajustar por nivel sérico cuando esté disponible."
+      }
     },
     {
       "pmaMinSemanas": 30,
@@ -24,36 +40,70 @@
       "doseValor": 15,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA 30-36 semanas."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA 30-36 semanas. Infusão lenta, mínimo 60 minutos.",
+        "en-US": "PMA 30-36 weeks. Slow infusion, minimum 60 minutes.",
+        "es": "EPM 30-36 semanas. Infusión lenta, mínimo 60 minutos."
+      }
     },
     {
       "pmaMinSemanas": 37,
       "doseValor": 15,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA ≥ 37 semanas."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA ≥ 37 semanas. Infusão lenta, mínimo 60 minutos.",
+        "en-US": "PMA ≥ 37 weeks. Slow infusion, minimum 60 minutes.",
+        "es": "EPM ≥ 37 semanas. Infusión lenta, mínimo 60 minutos."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": "Eliminação renal; alto risco de acúmulo e nefrotoxicidade em disfunção renal",
+      "descricao": {
+        "pt-BR": "Eliminação renal; alto risco de acúmulo e nefrotoxicidade em disfunção renal",
+        "en-US": "Renal elimination; high risk of accumulation and nephrotoxicity in renal impairment",
+        "es": "Eliminación renal; alto riesgo de acumulación y nefrotoxicidad en la disfunción renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Monitorar creatinina sérica e, idealmente, nível sérico do fármaco (vale); prolongar intervalo conforme necessário"
+      "conduta": {
+        "pt-BR": "Monitorar creatinina sérica e, idealmente, nível sérico do fármaco (vale); prolongar intervalo conforme necessário",
+        "en-US": "Monitor serum creatinine and, ideally, drug serum trough level; extend the interval as needed",
+        "es": "Monitorizar creatinina sérica e, idealmente, el nivel sérico valle del fármaco; prolongar el intervalo según sea necesario"
+      }
     },
     {
       "condicao": "risco_ototoxicidade",
-      "descricao": "Risco de ototoxicidade, sobretudo com níveis séricos elevados ou uso concomitante de outros ototóxicos",
+      "descricao": {
+        "pt-BR": "Risco de ototoxicidade, sobretudo com níveis séricos elevados ou uso concomitante de outros ototóxicos",
+        "en-US": "Risk of ototoxicity, especially with elevated serum levels or concomitant use of other ototoxic drugs",
+        "es": "Riesgo de ototoxicidad, sobre todo con niveles séricos elevados o uso concomitante de otros ototóxicos"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorar níveis séricos quando disponível; considerar triagem auditiva"
+      "conduta": {
+        "pt-BR": "Monitorar níveis séricos quando disponível; considerar triagem auditiva",
+        "en-US": "Monitor serum levels when available; consider hearing screening",
+        "es": "Monitorizar niveles séricos cuando estén disponibles; considerar cribado auditivo"
+      }
     }
   ],
-  "alertasGerais": [
-    "Infundir sempre lentamente (≥ 60 min) para reduzir risco de reação relacionada à infusão (\"síndrome do pescoço vermelho\")",
-    "Considerar monitorização de nível sérico em uso prolongado ou disfunção renal"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Infundir sempre lentamente (≥ 60 min) para reduzir risco de reação relacionada à infusão (\"síndrome do pescoço vermelho\")",
+      "Considerar monitorização de nível sérico em uso prolongado ou disfunção renal"
+    ],
+    "en-US": [
+      "Always infuse slowly (≥ 60 min) to reduce the risk of infusion-related reaction (\"red man syndrome\")",
+      "Consider monitoring serum levels with prolonged use or renal impairment"
+    ],
+    "es": [
+      "Infundir siempre lentamente (≥ 60 min) para reducir el riesgo de reacción relacionada con la infusión (\"síndrome del hombre rojo\")",
+      "Considerar monitorización de nivel sérico en uso prolongado o disfunción renal"
+    ]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -62,5 +112,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

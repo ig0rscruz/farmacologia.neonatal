@@ -1,35 +1,73 @@
 {
   "id": "gluconato-de-calcio",
-  "nome": "Gluconato de cálcio",
-  "nomeGenerico": "Gluconato de cálcio 10%",
-  "classeFarmacologica": "Reposição de eletrólito (cálcio)",
-  "indicacoesNeonatais": [
-    "Hipocalcemia sintomática ou significativa",
-    "Suporte durante exsanguineotransfusão",
-    "Hipercalemia com alterações eletrocardiográficas (estabilização de membrana)"
-  ],
-  "viasAdministracao": ["Intravenosa (infusão lenta, com monitorização de FC)"],
+  "nome": { "pt-BR": "Gluconato de cálcio", "en-US": "Calcium gluconate", "es": "Gluconato de calcio" },
+  "nomeGenerico": { "pt-BR": "Gluconato de cálcio 10%", "en-US": "Calcium gluconate 10%", "es": "Gluconato de calcio 10%" },
+  "classeFarmacologica": {
+    "pt-BR": "Reposição de eletrólito (cálcio)",
+    "en-US": "Electrolyte replacement (calcium)",
+    "es": "Reposición de electrolito (calcio)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipocalcemia sintomática ou significativa",
+      "Suporte durante exsanguineotransfusão",
+      "Hipercalemia com alterações eletrocardiográficas (estabilização de membrana)"
+    ],
+    "en-US": [
+      "Symptomatic or significant hypocalcemia",
+      "Support during exchange transfusion",
+      "Hyperkalemia with ECG changes (membrane stabilization)"
+    ],
+    "es": [
+      "Hipocalcemia sintomática o significativa",
+      "Soporte durante exanguinotransfusión",
+      "Hiperpotasemia con alteraciones electrocardiográficas (estabilización de membrana)"
+    ]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 100,
-      "doseUnidade": "mg/kg/dose (gluconato de cálcio 10%)",
+      "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 6,
-      "viaAdministracao": "Intravenosa (infusão lenta)",
-      "observacoes": "Faixa usual 100-200 mg/kg/dose conforme gravidade; infundir lentamente com monitorização cardíaca contínua."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Gluconato de cálcio 10%. Faixa usual 100-200 mg/kg/dose conforme gravidade; infundir lentamente com monitorização cardíaca contínua.",
+        "en-US": "Calcium gluconate 10%. Usual range 100-200 mg/kg/dose per severity; infuse slowly with continuous cardiac monitoring.",
+        "es": "Gluconato de calcio 10%. Rango usual 100-200 mg/kg/dosis según gravedad; infundir lentamente con monitorización cardíaca continua."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": "Infusão rápida pode causar bradicardia grave e arritmia",
+      "descricao": {
+        "pt-BR": "Infusão rápida pode causar bradicardia grave e arritmia",
+        "en-US": "Rapid infusion may cause severe bradycardia and arrhythmia",
+        "es": "La infusión rápida puede causar bradicardia grave y arritmia"
+      },
       "gravidade": "monitorar",
-      "conduta": "Infundir sempre lentamente com monitorização contínua de FC; interromper se bradicardia significativa"
+      "conduta": {
+        "pt-BR": "Infundir sempre lentamente com monitorização contínua de FC; interromper se bradicardia significativa",
+        "en-US": "Always infuse slowly with continuous HR monitoring; stop if significant bradycardia occurs",
+        "es": "Infundir siempre lentamente con monitorización continua de FC; interrumpir si hay bradicardia significativa"
+      }
     }
   ],
-  "alertasGerais": [
-    "Extravasamento causa necrose tecidual grave — preferir acesso central quando possível; se periférico, monitorar local rigorosamente",
-    "Incompatível com soluções contendo bicarbonato na mesma via — risco de precipitação"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Extravasamento causa necrose tecidual grave — preferir acesso central quando possível; se periférico, monitorar local rigorosamente",
+      "Incompatível com soluções contendo bicarbonato na mesma via — risco de precipitação"
+    ],
+    "en-US": [
+      "Extravasation causes severe tissue necrosis — prefer central access when possible; if peripheral, monitor the site closely",
+      "Incompatible with bicarbonate-containing solutions in the same line — risk of precipitation"
+    ],
+    "es": [
+      "La extravasación causa necrosis tisular grave — preferir acceso central cuando sea posible; si es periférico, monitorizar el sitio rigurosamente",
+      "Incompatible con soluciones que contienen bicarbonato en la misma vía — riesgo de precipitación"
+    ]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -38,5 +76,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

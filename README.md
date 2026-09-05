@@ -22,11 +22,15 @@ requisição de rede adicional. Um seletor no cabeçalho permite trocar de idiom
 manualmente a qualquer momento.
 
 Os textos de interface (rótulos, botões, avisos, nomes de condições clínicas,
-níveis de evidência etc.) estão traduzidos nos 3 idiomas em
-[`src/i18n/traducoes.ts`](src/i18n/traducoes.ts). **O conteúdo clínico dos fármacos**
-(indicações, contraindicações, condutas, fontes em `src/data/`) **permanece em
-português** nesta fase — traduzir cada ficha para os 3 idiomas é um trabalho de
-curadoria à parte.
+níveis de evidência, vias de administração etc.) estão traduzidos nos 3 idiomas em
+[`src/i18n/traducoes.ts`](src/i18n/traducoes.ts). **O conteúdo clínico** em
+`src/data/` (nome do fármaco, indicações, contraindicações, condutas, patologias
+parentais) **também é multilíngue**: cada campo de texto é um objeto
+`{ "pt-BR": ..., "en-US": ..., "es": ... }` (tipo `TextoMultilingue`, ver
+`src/types/comum.ts`), resolvido para o idioma atual pelo helper `texto()`/`textoLista()`
+em [`src/i18n/texto.ts`](src/i18n/texto.ts). A exceção são as citações em `fontes`
+(campo `descricao`), que permanecem no idioma original da referência — bibliografia
+não é traduzida.
 
 ## Privacidade
 
@@ -94,16 +98,22 @@ Campos principais:
   pós-menstrual (`pmaMinSemanas`/`pmaMaxSemanas` = idade gestacional ao nascer +
   idade pós-natal), idade pós-natal (`dolMinDias`/`dolMaxDias`, dias de vida) e/ou
   peso (`pesoMinG`/`pesoMaxG`). Todos os limites são opcionais; a primeira faixa
-  cujos limites incluem o paciente é usada.
+  cujos limites incluem o paciente é usada. `viaAdministracao` é um valor fechado
+  de `ViaAdministracao` (`src/types/comum.ts`) — se o mesmo fármaco/dose vale por
+  mais de uma via (ex.: oral e intravenosa), cadastre uma faixa por via (a dose
+  numérica pode ser repetida). `doseUnidade` é notação universal (ex.: "mg/kg/dose")
+  e não é traduzida; `observacoes` é `TextoMultilingue`.
 - `contraindicacoes`: lista de `{ condicao, descricao, gravidade, conduta }`, onde
   `condicao` vem do vocabulário fechado `CondicaoClinica` (`src/types/comum.ts`) —
   isso é o que permite o cruzamento automático com as condições marcadas no
-  paciente. Condições hemodinâmicas/respiratórias (bradicardia, taquicardia,
-  hipotensão, hipertensão, hipoxemia, taquipneia, apneia) têm um critério numérico
-  de referência em `criterios` (`src/i18n/traducoes.ts`) — ajuste esses limiares ao
-  protocolo da sua unidade antes de uso clínico.
+  paciente. `descricao` e `conduta` são `TextoMultilingue`. Condições
+  hemodinâmicas/respiratórias (bradicardia, taquicardia, hipotensão, hipertensão,
+  hipoxemia, taquipneia, apneia) têm um critério numérico de referência em
+  `criterios` (`src/i18n/traducoes.ts`) — ajuste esses limiares ao protocolo da sua
+  unidade antes de uso clínico.
 - `fontes`: sempre cite a origem real (artigo científico, bula ANVISA, protocolo
   institucional, diretriz de sociedade) — ver seção "Fontes científicas" acima.
+  `descricao` aqui **não** é `TextoMultilingue` — citações não são traduzidas.
 - `nivelEvidenciaGeral`: A/B/C/D conforme descrito acima.
 
 ### Interações medicamentosas (`src/data/interacoes/interacoes.json`)
@@ -116,11 +126,15 @@ sentidos. Schema em [`src/types/interacao.ts`](src/types/interacao.ts).
 
 Lista única de patologias maternas/paternas com `implicacoesTratamento`: cada
 implicação referencia um fármaco específico (`farmacoId`) **ou** uma classe
-farmacológica inteira (`classeFarmacologica`, comparada por nome ao
-`classeFarmacologica` do fármaco candidato) — use classe quando a implicação vale
-para vários fármacos da mesma família, mesmo que ainda não haja um fármaco
-cadastrado dessa classe (a implicação passa a valer automaticamente quando um for
-adicionado). Schema em [`src/types/patologiaParental.ts`](src/types/patologiaParental.ts).
+farmacológica inteira (`classeFarmacologica`, `TextoMultilingue` comparado pelo
+valor `pt-BR` — a comparação usa sempre o texto em português como chave canônica,
+independente do idioma exibido na interface, para que o cruzamento de dados não
+dependa do idioma selecionado) — use classe quando a implicação vale para vários
+fármacos da mesma família, mesmo que ainda não haja um fármaco cadastrado dessa
+classe (a implicação passa a valer automaticamente quando um for adicionado; **use
+exatamente o mesmo texto em pt-BR** cadastrado em `classeFarmacologica` do(s)
+fármaco(s) correspondente(s)). Schema em
+[`src/types/patologiaParental.ts`](src/types/patologiaParental.ts).
 Inclui atualmente: diabetes gestacional, uso materno de opioides, HIV/AIDS,
 hepatites virais (A, B, C, D), sífilis, toxoplasmose, citomegalovírus, rubéola,
 doença de Chagas e tuberculose materna.

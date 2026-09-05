@@ -1,40 +1,66 @@
 {
   "id": "hidrocortisona",
-  "nome": "Hidrocortisona",
-  "nomeGenerico": "Succinato sódico de hidrocortisona",
-  "classeFarmacologica": "Corticosteroide",
-  "indicacoesNeonatais": [
-    "Hipotensão refratária a drogas vasoativas (insuficiência adrenal relativa)",
-    "Insuficiência adrenal congênita ou adquirida"
-  ],
-  "viasAdministracao": ["Intravenosa"],
+  "nome": { "pt-BR": "Hidrocortisona", "en-US": "Hydrocortisone", "es": "Hidrocortisona" },
+  "nomeGenerico": {
+    "pt-BR": "Succinato sódico de hidrocortisona",
+    "en-US": "Hydrocortisone sodium succinate",
+    "es": "Succinato sódico de hidrocortisona"
+  },
+  "classeFarmacologica": { "pt-BR": "Corticosteroide", "en-US": "Corticosteroid", "es": "Corticosteroide" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipotensão refratária a drogas vasoativas (insuficiência adrenal relativa)", "Insuficiência adrenal congênita ou adquirida"],
+    "en-US": ["Hypotension refractory to vasoactive drugs (relative adrenal insufficiency)", "Congenital or acquired adrenal insufficiency"],
+    "es": ["Hipotensión refractaria a fármacos vasoactivos (insuficiencia suprarrenal relativa)", "Insuficiencia suprarrenal congénita o adquirida"]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 1,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "Faixa usual 1-2 mg/kg/dose a cada 8-12h para hipotensão refratária; doses de estresse podem ser maiores conforme indicação endócrina específica."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 1-2 mg/kg/dose a cada 8-12h para hipotensão refratária; doses de estresse podem ser maiores conforme indicação endócrina específica.",
+        "en-US": "Usual range 1-2 mg/kg/dose every 8-12h for refractory hypotension; stress doses may be higher per specific endocrine indication.",
+        "es": "Rango usual 1-2 mg/kg/dosis cada 8-12h para hipotensión refractaria; las dosis de estrés pueden ser mayores según indicación endocrina específica."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "hipertensao",
-      "descricao": "Efeito mineralocorticoide pode causar retenção hidrossalina e hipertensão",
+      "descricao": {
+        "pt-BR": "Efeito mineralocorticoide pode causar retenção hidrossalina e hipertensão",
+        "en-US": "Mineralocorticoid effect may cause fluid/salt retention and hypertension",
+        "es": "El efecto mineralocorticoide puede causar retención hidrosalina e hipertensión"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorar pressão arterial e balanço hídrico"
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial e balanço hídrico",
+        "en-US": "Monitor blood pressure and fluid balance",
+        "es": "Monitorizar presión arterial y balance hídrico"
+      }
     },
     {
       "condicao": "sepse",
-      "descricao": "Imunossupressão relativa pode mascarar ou agravar quadro infeccioso não controlado",
+      "descricao": {
+        "pt-BR": "Imunossupressão relativa pode mascarar ou agravar quadro infeccioso não controlado",
+        "en-US": "Relative immunosuppression may mask or worsen an uncontrolled infectious process",
+        "es": "La inmunosupresión relativa puede enmascarar o agravar un cuadro infeccioso no controlado"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Assegurar cobertura antimicrobiana adequada quando usada em contexto séptico"
+      "conduta": {
+        "pt-BR": "Assegurar cobertura antimicrobiana adequada quando usada em contexto séptico",
+        "en-US": "Ensure adequate antimicrobial coverage when used in a septic context",
+        "es": "Asegurar cobertura antimicrobiana adecuada cuando se use en contexto séptico"
+      }
     }
   ],
-  "alertasGerais": [
-    "Monitorar glicemia (risco de hiperglicemia)",
-    "Desmame gradual após uso prolongado para evitar insuficiência adrenal de rebote"
-  ],
+  "alertasGerais": {
+    "pt-BR": ["Monitorar glicemia (risco de hiperglicemia)", "Desmame gradual após uso prolongado para evitar insuficiência adrenal de rebote"],
+    "en-US": ["Monitor glycemia (hyperglycemia risk)", "Wean gradually after prolonged use to avoid rebound adrenal insufficiency"],
+    "es": ["Monitorizar glucemia (riesgo de hiperglucemia)", "Destete gradual tras uso prolongado para evitar insuficiencia suprarrenal de rebote"]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -43,5 +69,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

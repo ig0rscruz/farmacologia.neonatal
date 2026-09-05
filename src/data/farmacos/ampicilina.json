@@ -1,14 +1,30 @@
 {
   "id": "ampicilina",
-  "nome": "Ampicilina",
-  "nomeGenerico": "Ampicilina sódica",
-  "classeFarmacologica": "Antibiótico beta-lactâmico (aminopenicilina)",
-  "indicacoesNeonatais": [
-    "Sepse neonatal precoce (associada a aminoglicosídeo, empírica)",
-    "Meningite neonatal (associada a cefotaxima ou aminoglicosídeo)",
-    "Infecção por Streptococcus agalactiae (grupo B) e Listeria monocytogenes"
-  ],
-  "viasAdministracao": ["Intravenosa", "Intramuscular"],
+  "nome": { "pt-BR": "Ampicilina", "en-US": "Ampicillin", "es": "Ampicilina" },
+  "nomeGenerico": { "pt-BR": "Ampicilina sódica", "en-US": "Ampicillin sodium", "es": "Ampicilina sódica" },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico beta-lactâmico (aminopenicilina)",
+    "en-US": "Beta-lactam antibiotic (aminopenicillin)",
+    "es": "Antibiótico betalactámico (aminopenicilina)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sepse neonatal precoce (associada a aminoglicosídeo, empírica)",
+      "Meningite neonatal (associada a cefotaxima ou aminoglicosídeo)",
+      "Infecção por Streptococcus agalactiae (grupo B) e Listeria monocytogenes"
+    ],
+    "en-US": [
+      "Early-onset neonatal sepsis (empiric, combined with an aminoglycoside)",
+      "Neonatal meningitis (combined with cefotaxime or an aminoglycoside)",
+      "Group B Streptococcus (S. agalactiae) and Listeria monocytogenes infection"
+    ],
+    "es": [
+      "Sepsis neonatal precoz (asociada a aminoglucósido, empírica)",
+      "Meningitis neonatal (asociada a cefotaxima o aminoglucósido)",
+      "Infección por Streptococcus agalactiae (grupo B) y Listeria monocytogenes"
+    ]
+  },
+  "viasAdministracao": ["intravenosa", "intramuscular"],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
@@ -16,8 +32,12 @@
       "doseValor": 50,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA < 30 semanas, primeiras 4 semanas de vida. Dobrar dose/reduzir intervalo em meningite conforme protocolo institucional."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA < 30 semanas, primeiras 4 semanas de vida. Dobrar dose/reduzir intervalo em meningite conforme protocolo institucional.",
+        "en-US": "PMA < 30 weeks, first 4 weeks of life. Double the dose/shorten the interval for meningitis per institutional protocol.",
+        "es": "EPM < 30 semanas, primeras 4 semanas de vida. Duplicar la dosis/reducir el intervalo en meningitis según protocolo institucional."
+      }
     },
     {
       "pmaMinSemanas": 30,
@@ -25,30 +45,43 @@
       "doseValor": 50,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA 30-36 semanas."
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA 30-36 semanas.", "en-US": "PMA 30-36 weeks.", "es": "EPM 30-36 semanas." }
     },
     {
       "pmaMinSemanas": 37,
       "doseValor": 50,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 6,
-      "viaAdministracao": "Intravenosa",
-      "observacoes": "PMA ≥ 37 semanas. Em meningite, considerar 75-100 mg/kg/dose conforme protocolo."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA ≥ 37 semanas. Em meningite, considerar 75-100 mg/kg/dose conforme protocolo.",
+        "en-US": "PMA ≥ 37 weeks. For meningitis, consider 75-100 mg/kg/dose per protocol.",
+        "es": "EPM ≥ 37 semanas. En meningitis, considerar 75-100 mg/kg/dosis según protocolo."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": "Eliminação predominantemente renal; acúmulo em disfunção renal",
+      "descricao": {
+        "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal",
+        "en-US": "Predominantly renal elimination; accumulates in renal impairment",
+        "es": "Eliminación predominantemente renal; se acumula en la disfunción renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Prolongar intervalo de dose conforme função renal"
+      "conduta": {
+        "pt-BR": "Prolongar intervalo de dose conforme função renal",
+        "en-US": "Extend the dosing interval according to renal function",
+        "es": "Prolongar el intervalo de dosis según la función renal"
+      }
     }
   ],
-  "alertasGerais": [
-    "Risco de reação alérgica cruzada com outros beta-lactâmicos",
-    "Pode alterar flora intestinal; observar sinais de enterocolite"
-  ],
+  "alertasGerais": {
+    "pt-BR": ["Risco de reação alérgica cruzada com outros beta-lactâmicos", "Pode alterar flora intestinal; observar sinais de enterocolite"],
+    "en-US": ["Risk of cross allergic reaction with other beta-lactams", "May alter gut flora; watch for signs of enterocolitis"],
+    "es": ["Riesgo de reacción alérgica cruzada con otros betalactámicos", "Puede alterar la flora intestinal; vigilar signos de enterocolitis"]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -57,5 +90,12 @@
       "dataAcesso": "2026-09-04"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-04", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-04",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

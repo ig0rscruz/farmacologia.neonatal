@@ -1,54 +1,96 @@
 {
   "id": "fentanil",
-  "nome": "Fentanila",
-  "nomeGenerico": "Citrato de fentanila",
-  "classeFarmacologica": "Opioide sintético",
-  "indicacoesNeonatais": [
-    "Analgesia para procedimentos dolorosos",
-    "Sedoanalgesia contínua em ventilação mecânica",
-    "Analgesia pré/pós-operatória"
-  ],
-  "viasAdministracao": ["Intravenosa"],
+  "nome": { "pt-BR": "Fentanila", "en-US": "Fentanyl", "es": "Fentanilo" },
+  "nomeGenerico": { "pt-BR": "Citrato de fentanila", "en-US": "Fentanyl citrate", "es": "Citrato de fentanilo" },
+  "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Analgesia para procedimentos dolorosos", "Sedoanalgesia contínua em ventilação mecânica", "Analgesia pré/pós-operatória"],
+    "en-US": ["Analgesia for painful procedures", "Continuous sedation-analgesia during mechanical ventilation", "Pre/postoperative analgesia"],
+    "es": ["Analgesia para procedimientos dolorosos", "Sedoanalgesia continua en ventilación mecánica", "Analgesia pre/posoperatoria"]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 1,
-      "doseUnidade": "mcg/kg/dose (bolus)",
+      "doseUnidade": "mcg/kg/dose",
       "intervaloHoras": 2,
-      "viaAdministracao": "Intravenosa (infusão lenta ≥ 3-5 min)",
-      "observacoes": "Faixa usual 0.5-2 mcg/kg/dose em bolus, conforme resposta. Infundir lentamente para reduzir risco de rigidez torácica."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Bolus, infusão lenta (≥ 3-5 min). Faixa usual 0.5-2 mcg/kg/dose, conforme resposta. Infundir lentamente para reduzir risco de rigidez torácica.",
+        "en-US": "Bolus, slow infusion (≥ 3-5 min). Usual range 0.5-2 mcg/kg/dose, per response. Infuse slowly to reduce the risk of chest wall rigidity.",
+        "es": "Bolo, infusión lenta (≥ 3-5 min). Rango usual 0.5-2 mcg/kg/dosis, según respuesta. Infundir lentamente para reducir el riesgo de rigidez torácica."
+      }
     },
     {
       "doseValor": 1,
-      "doseUnidade": "mcg/kg/hora (infusão contínua)",
+      "doseUnidade": "mcg/kg/hora",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa contínua",
-      "observacoes": "Faixa usual 0.5-3 mcg/kg/hora; titular conforme escala de dor/sedação validada."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 0.5-3 mcg/kg/hora; titular conforme escala de dor/sedação validada.",
+        "en-US": "Continuous infusion. Usual range 0.5-3 mcg/kg/hour; titrate per a validated pain/sedation scale.",
+        "es": "Infusión continua. Rango usual 0.5-3 mcg/kg/hora; titular según escala validada de dolor/sedación."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "apneia",
-      "descricao": "Depressão respiratória dose-dependente é o principal risco dos opioides",
+      "descricao": {
+        "pt-BR": "Depressão respiratória dose-dependente é o principal risco dos opioides",
+        "en-US": "Dose-dependent respiratory depression is the main risk of opioids",
+        "es": "La depresión respiratoria dosis-dependiente es el principal riesgo de los opioides"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização respiratória e de SatO2 contínua; ter suporte ventilatório disponível"
+      "conduta": {
+        "pt-BR": "Monitorização respiratória e de SatO2 contínua; ter suporte ventilatório disponível",
+        "en-US": "Continuous respiratory and SpO2 monitoring; have ventilatory support available",
+        "es": "Monitorización respiratoria y de SatO2 continua; tener soporte ventilatorio disponible"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": "Pode causar hipotensão, especialmente em bolus rápido ou hipovolemia",
+      "descricao": {
+        "pt-BR": "Pode causar hipotensão, especialmente em bolus rápido ou hipovolemia",
+        "en-US": "May cause hypotension, especially with rapid bolus or hypovolemia",
+        "es": "Puede causar hipotensión, especialmente con bolo rápido o hipovolemia"
+      },
       "gravidade": "monitorar",
-      "conduta": "Infundir lentamente; monitorar pressão arterial"
+      "conduta": {
+        "pt-BR": "Infundir lentamente; monitorar pressão arterial",
+        "en-US": "Infuse slowly; monitor blood pressure",
+        "es": "Infundir lentamente; monitorizar presión arterial"
+      }
     },
     {
       "condicao": "bradicardia",
-      "descricao": "Rigidez torácica e bradicardia podem ocorrer com infusão rápida em bolus",
+      "descricao": {
+        "pt-BR": "Rigidez torácica e bradicardia podem ocorrer com infusão rápida em bolus",
+        "en-US": "Chest wall rigidity and bradycardia may occur with rapid bolus infusion",
+        "es": "La rigidez torácica y la bradicardia pueden ocurrir con infusión rápida en bolo"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Infundir lentamente (≥ 3-5 minutos); ter naloxona disponível"
+      "conduta": {
+        "pt-BR": "Infundir lentamente (≥ 3-5 minutos); ter naloxona disponível",
+        "en-US": "Infuse slowly (≥ 3-5 minutes); have naloxone available",
+        "es": "Infundir lentamente (≥ 3-5 minutos); tener naloxona disponible"
+      }
     }
   ],
-  "alertasGerais": [
-    "Uso prolongado (> 5-7 dias) associado a tolerância e síndrome de abstinência à retirada — considerar desmame gradual",
-    "Ter naloxona disponível para reversão de emergência"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Uso prolongado (> 5-7 dias) associado a tolerância e síndrome de abstinência à retirada — considerar desmame gradual",
+      "Ter naloxona disponível para reversão de emergência"
+    ],
+    "en-US": [
+      "Prolonged use (> 5-7 days) is associated with tolerance and withdrawal syndrome — consider gradual weaning",
+      "Have naloxone available for emergency reversal"
+    ],
+    "es": [
+      "El uso prolongado (> 5-7 días) se asocia a tolerancia y síndrome de abstinencia al retirarlo — considerar destete gradual",
+      "Tener naloxona disponible para reversión de emergencia"
+    ]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -57,5 +99,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

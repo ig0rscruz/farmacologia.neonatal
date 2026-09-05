@@ -1,40 +1,75 @@
 {
   "id": "dobutamina",
-  "nome": "Dobutamina",
-  "nomeGenerico": "Cloridrato de dobutamina",
-  "classeFarmacologica": "Catecolamina sintética / inotrópico",
-  "indicacoesNeonatais": [
-    "Disfunção miocárdica com débito cardíaco reduzido",
-    "Choque cardiogênico"
-  ],
-  "viasAdministracao": ["Intravenosa contínua"],
+  "nome": { "pt-BR": "Dobutamina", "en-US": "Dobutamine", "es": "Dobutamina" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de dobutamina", "en-US": "Dobutamine hydrochloride", "es": "Clorhidrato de dobutamina" },
+  "classeFarmacologica": {
+    "pt-BR": "Catecolamina sintética / inotrópico",
+    "en-US": "Synthetic catecholamine / inotrope",
+    "es": "Catecolamina sintética / inotrópico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Disfunção miocárdica com débito cardíaco reduzido", "Choque cardiogênico"],
+    "en-US": ["Myocardial dysfunction with reduced cardiac output", "Cardiogenic shock"],
+    "es": ["Disfunción miocárdica con gasto cardíaco reducido", "Choque cardiogénico"]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 5,
-      "doseUnidade": "mcg/kg/minuto (infusão contínua)",
+      "doseUnidade": "mcg/kg/minuto",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa contínua",
-      "observacoes": "Faixa usual 2-20 mcg/kg/min, titular conforme resposta clínica (perfusão, débito cardíaco)."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 2-20 mcg/kg/min, titular conforme resposta clínica (perfusão, débito cardíaco).",
+        "en-US": "Continuous infusion. Usual range 2-20 mcg/kg/min, titrate per clinical response (perfusion, cardiac output).",
+        "es": "Infusión continua. Rango usual 2-20 mcg/kg/min, titular según respuesta clínica (perfusión, gasto cardíaco)."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": "Efeito cronotrópico positivo pode causar ou agravar taquicardia",
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico positivo pode causar ou agravar taquicardia",
+        "en-US": "Positive chronotropic effect may cause or worsen tachycardia",
+        "es": "El efecto cronotrópico positivo puede causar o agravar taquicardia"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização contínua de FC; reduzir dose se taquicardia significativa"
+      "conduta": {
+        "pt-BR": "Monitorização contínua de FC; reduzir dose se taquicardia significativa",
+        "en-US": "Continuous HR monitoring; reduce dose if significant tachycardia",
+        "es": "Monitorización continua de FC; reducir dosis si hay taquicardia significativa"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": "Efeito vasodilatador (beta-2) pode agravar hipotensão em paciente hipovolêmico",
+      "descricao": {
+        "pt-BR": "Efeito vasodilatador (beta-2) pode agravar hipotensão em paciente hipovolêmico",
+        "en-US": "Vasodilator effect (beta-2) may worsen hypotension in a hypovolemic patient",
+        "es": "El efecto vasodilatador (beta-2) puede agravar la hipotensión en un paciente hipovolémico"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Corrigir volemia antes de iniciar; associar vasopressor se hipotensão persistir"
+      "conduta": {
+        "pt-BR": "Corrigir volemia antes de iniciar; associar vasopressor se hipotensão persistir",
+        "en-US": "Correct volume status before starting; add a vasopressor if hypotension persists",
+        "es": "Corregir la volemia antes de iniciar; asociar vasopresor si la hipotensión persiste"
+      }
     }
   ],
-  "alertasGerais": [
-    "Efeito predominantemente inotrópico, com menor efeito vasoconstritor que a dopamina em doses equivalentes",
-    "Frequentemente associada a outra droga vasoativa em choque misto"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Efeito predominantemente inotrópico, com menor efeito vasoconstritor que a dopamina em doses equivalentes",
+      "Frequentemente associada a outra droga vasoativa em choque misto"
+    ],
+    "en-US": [
+      "Predominantly inotropic effect, with less vasoconstrictor effect than dopamine at equivalent doses",
+      "Often combined with another vasoactive drug in mixed shock"
+    ],
+    "es": [
+      "Efecto predominantemente inotrópico, con menor efecto vasoconstrictor que la dopamina en dosis equivalentes",
+      "Frecuentemente asociada a otro fármaco vasoactivo en choque mixto"
+    ]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -43,5 +78,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

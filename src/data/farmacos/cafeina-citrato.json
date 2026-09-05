@@ -1,43 +1,98 @@
 {
   "id": "cafeina-citrato",
-  "nome": "Cafeína (citrato de cafeína)",
-  "nomeGenerico": "Citrato de cafeína",
-  "classeFarmacologica": "Metilxantina / estimulante do SNC respiratório",
-  "indicacoesNeonatais": [
-    "Tratamento da apneia da prematuridade",
-    "Prevenção de apneia pós-extubação em recém-nascidos pré-termo"
-  ],
-  "viasAdministracao": ["Intravenosa", "Oral"],
+  "nome": { "pt-BR": "Cafeína (citrato de cafeína)", "en-US": "Caffeine (caffeine citrate)", "es": "Cafeína (citrato de cafeína)" },
+  "nomeGenerico": { "pt-BR": "Citrato de cafeína", "en-US": "Caffeine citrate", "es": "Citrato de cafeína" },
+  "classeFarmacologica": {
+    "pt-BR": "Metilxantina / estimulante do SNC respiratório",
+    "en-US": "Methylxanthine / respiratory CNS stimulant",
+    "es": "Metilxantina / estimulante del SNC respiratorio"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Tratamento da apneia da prematuridade", "Prevenção de apneia pós-extubação em recém-nascidos pré-termo"],
+    "en-US": ["Treatment of apnea of prematurity", "Prevention of post-extubation apnea in preterm infants"],
+    "es": ["Tratamiento de la apnea de la prematuridad", "Prevención de la apnea posextubación en recién nacidos pretérmino"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
   "faixasDose": [
     {
       "pmaMaxSemanas": 37,
       "doseValor": 20,
-      "doseUnidade": "mg/kg (dose de ataque, citrato de cafeína)",
+      "doseUnidade": "mg/kg",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa ou oral",
-      "observacoes": "Dose de ataque única. Equivale a ~10 mg/kg de cafeína base."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de ataque única (citrato de cafeína), equivale a ~10 mg/kg de cafeína base.",
+        "en-US": "Single loading dose (caffeine citrate), equivalent to ~10 mg/kg of caffeine base.",
+        "es": "Dosis de carga única (citrato de cafeína), equivalente a ~10 mg/kg de cafeína base."
+      }
+    },
+    {
+      "pmaMaxSemanas": 37,
+      "doseValor": 20,
+      "doseUnidade": "mg/kg",
+      "intervaloHoras": 0,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Dose de ataque única (citrato de cafeína), equivale a ~10 mg/kg de cafeína base.",
+        "en-US": "Single loading dose (caffeine citrate), equivalent to ~10 mg/kg of caffeine base.",
+        "es": "Dosis de carga única (citrato de cafeína), equivalente a ~10 mg/kg de cafeína base."
+      }
     },
     {
       "pmaMaxSemanas": 37,
       "doseValor": 5,
-      "doseUnidade": "mg/kg/dia (citrato de cafeína)",
+      "doseUnidade": "mg/kg/dia",
       "intervaloHoras": 24,
-      "viaAdministracao": "Intravenosa ou oral",
-      "observacoes": "Dose de manutenção, iniciar 24h após dose de ataque. Faixa usual 5-10 mg/kg/dia; doses mais altas (10-20 mg/kg/dia) têm eficácia superior segundo meta-análise (ver fontes), à custa de maior incidência de taquicardia — individualizar."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção (citrato de cafeína), iniciar 24h após dose de ataque. Faixa usual 5-10 mg/kg/dia; doses mais altas (10-20 mg/kg/dia) têm eficácia superior segundo meta-análise (ver fontes), à custa de maior incidência de taquicardia — individualizar.",
+        "en-US": "Maintenance dose (caffeine citrate), start 24h after the loading dose. Usual range 5-10 mg/kg/day; higher doses (10-20 mg/kg/day) show superior efficacy per meta-analysis (see sources), at the cost of higher tachycardia incidence — individualize.",
+        "es": "Dosis de mantenimiento (citrato de cafeína), iniciar 24h después de la dosis de carga. Rango usual 5-10 mg/kg/día; dosis más altas (10-20 mg/kg/día) muestran eficacia superior según metanálisis (ver fuentes), a costa de mayor incidencia de taquicardia — individualizar."
+      }
+    },
+    {
+      "pmaMaxSemanas": 37,
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção (citrato de cafeína), iniciar 24h após dose de ataque. Faixa usual 5-10 mg/kg/dia; doses mais altas (10-20 mg/kg/dia) têm eficácia superior segundo meta-análise (ver fontes), à custa de maior incidência de taquicardia — individualizar.",
+        "en-US": "Maintenance dose (caffeine citrate), start 24h after the loading dose. Usual range 5-10 mg/kg/day; higher doses (10-20 mg/kg/day) show superior efficacy per meta-analysis (see sources), at the cost of higher tachycardia incidence — individualize.",
+        "es": "Dosis de mantenimiento (citrato de cafeína), iniciar 24h después de la dosis de carga. Rango usual 5-10 mg/kg/día; dosis más altas (10-20 mg/kg/día) muestran eficacia superior según metanálisis (ver fuentes), a costa de mayor incidencia de taquicardia — individualizar."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": "O efeito cronotrópico positivo da cafeína pode agravar taquicardia preexistente ou taquiarritmias",
+      "descricao": {
+        "pt-BR": "O efeito cronotrópico positivo da cafeína pode agravar taquicardia preexistente ou taquiarritmias",
+        "en-US": "Caffeine's positive chronotropic effect may worsen preexisting tachycardia or tachyarrhythmias",
+        "es": "El efecto cronotrópico positivo de la cafeína puede agravar taquicardia preexistente o taquiarritmias"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Monitorar frequência cardíaca; considerar risco-benefício em cardiopatia estrutural com arritmia"
+      "conduta": {
+        "pt-BR": "Monitorar frequência cardíaca; considerar risco-benefício em cardiopatia estrutural com arritmia",
+        "en-US": "Monitor heart rate; weigh risk-benefit in structural heart disease with arrhythmia",
+        "es": "Monitorizar frecuencia cardíaca; considerar riesgo-beneficio en cardiopatía estructural con arritmia"
+      }
     }
   ],
-  "alertasGerais": [
-    "Monitorar frequência cardíaca e sinais de irritabilidade/intolerância alimentar",
-    "Ajuste de dose geralmente não é necessário por peso após a fase neonatal inicial, mas reavaliar em ganho ponderal rápido"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Monitorar frequência cardíaca e sinais de irritabilidade/intolerância alimentar",
+      "Ajuste de dose geralmente não é necessário por peso após a fase neonatal inicial, mas reavaliar em ganho ponderal rápido"
+    ],
+    "en-US": [
+      "Monitor heart rate and signs of irritability/feeding intolerance",
+      "Dose adjustment for weight is generally not needed after the initial neonatal phase, but reassess with rapid weight gain"
+    ],
+    "es": [
+      "Monitorizar frecuencia cardíaca y signos de irritabilidad/intolerancia alimentaria",
+      "El ajuste de dosis por peso generalmente no es necesario tras la fase neonatal inicial, pero reevaluar ante ganancia ponderal rápida"
+    ]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -49,6 +104,10 @@
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": "Revisão de literatura (PubMed/sistemática) assistida por IA — carece de validação formal por profissional responsável e checagem contra protocolo institucional e bula vigente antes de uso clínico"
+    "revisadoPor": {
+      "pt-BR": "Revisão de literatura (PubMed/sistemática) assistida por IA — carece de validação formal por profissional responsável e checagem contra protocolo institucional e bula vigente antes de uso clínico",
+      "en-US": "AI-assisted literature review (PubMed/systematic) — requires formal validation by a responsible clinician and cross-checking against institutional protocol and current package insert before clinical use",
+      "es": "Revisión de literatura (PubMed/sistemática) asistida por IA — requiere validación formal por un profesional responsable y verificación contra el protocolo institucional y el prospecto vigente antes de uso clínico"
+    }
   }
 }

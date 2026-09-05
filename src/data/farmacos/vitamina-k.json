@@ -1,36 +1,65 @@
 {
   "id": "vitamina-k",
-  "nome": "Vitamina K1 (fitomenadiona)",
-  "nomeGenerico": "Fitomenadiona",
-  "classeFarmacologica": "Vitamina lipossolúvel / fator de coagulação",
-  "indicacoesNeonatais": [
-    "Profilaxia da doença hemorrágica do recém-nascido (dose única ao nascer)",
-    "Tratamento de sangramento por deficiência de vitamina K"
-  ],
-  "viasAdministracao": ["Intramuscular", "Intravenosa (tratamento de sangramento ativo)"],
+  "nome": { "pt-BR": "Vitamina K1 (fitomenadiona)", "en-US": "Vitamin K1 (phytomenadione)", "es": "Vitamina K1 (fitomenadiona)" },
+  "nomeGenerico": { "pt-BR": "Fitomenadiona", "en-US": "Phytomenadione", "es": "Fitomenadiona" },
+  "classeFarmacologica": {
+    "pt-BR": "Vitamina lipossolúvel / fator de coagulação",
+    "en-US": "Fat-soluble vitamin / coagulation factor",
+    "es": "Vitamina liposoluble / factor de coagulación"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Profilaxia da doença hemorrágica do recém-nascido (dose única ao nascer)",
+      "Tratamento de sangramento por deficiência de vitamina K"
+    ],
+    "en-US": ["Prophylaxis of hemorrhagic disease of the newborn (single dose at birth)", "Treatment of bleeding due to vitamin K deficiency"],
+    "es": [
+      "Profilaxis de la enfermedad hemorrágica del recién nacido (dosis única al nacer)",
+      "Tratamiento de sangrado por deficiencia de vitamina K"
+    ]
+  },
+  "viasAdministracao": ["intramuscular", "intravenosa"],
   "faixasDose": [
     {
       "pesoMinG": 1500,
       "doseValor": 1,
-      "doseUnidade": "mg (dose única, profilaxia)",
+      "doseUnidade": "mg",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intramuscular",
-      "observacoes": "RN com peso ≥ 1500 g, dose única ao nascimento."
+      "viaAdministracao": "intramuscular",
+      "observacoes": {
+        "pt-BR": "Dose única de profilaxia. RN com peso ≥ 1500 g, dose única ao nascimento.",
+        "en-US": "Single prophylactic dose. Newborn weighing ≥ 1500 g, single dose at birth.",
+        "es": "Dosis única de profilaxis. RN con peso ≥ 1500 g, dosis única al nacer."
+      }
     },
     {
       "pesoMaxG": 1499,
       "doseValor": 0.5,
-      "doseUnidade": "mg (dose única, profilaxia)",
+      "doseUnidade": "mg",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intramuscular",
-      "observacoes": "RN com peso < 1500 g, dose única ao nascimento."
+      "viaAdministracao": "intramuscular",
+      "observacoes": {
+        "pt-BR": "Dose única de profilaxia. RN com peso < 1500 g, dose única ao nascimento.",
+        "en-US": "Single prophylactic dose. Newborn weighing < 1500 g, single dose at birth.",
+        "es": "Dosis única de profilaxis. RN con peso < 1500 g, dosis única al nacer."
+      }
     }
   ],
   "contraindicacoes": [],
-  "alertasGerais": [
-    "Profilaxia universal ao nascer é recomendada independentemente do peso/idade gestacional",
-    "Em tratamento de sangramento ativo, administração intravenosa deve ser lenta pelo risco de reação anafilactoide"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Profilaxia universal ao nascer é recomendada independentemente do peso/idade gestacional",
+      "Em tratamento de sangramento ativo, administração intravenosa deve ser lenta pelo risco de reação anafilactoide"
+    ],
+    "en-US": [
+      "Universal prophylaxis at birth is recommended regardless of weight/gestational age",
+      "For active bleeding treatment, IV administration must be slow due to the risk of an anaphylactoid reaction"
+    ],
+    "es": [
+      "La profilaxis universal al nacer se recomienda independientemente del peso/edad gestacional",
+      "En el tratamiento del sangrado activo, la administración intravenosa debe ser lenta por el riesgo de reacción anafilactoide"
+    ]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -39,5 +68,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

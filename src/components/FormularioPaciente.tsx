@@ -2,9 +2,10 @@ import { useMemo, useState, type ReactNode } from 'react'
 import type { Farmaco } from '../types/farmaco'
 import type { PatologiaParental } from '../types/patologiaParental'
 import type { ExamesFuncaoOrgao, Paciente, PosologiaInformada, SinaisVitais } from '../types/paciente'
-import { CondicaoClinica } from '../types/comum'
+import { CondicaoClinica, ViaAdministracao } from '../types/comum'
 import { sugerirCondicoesPorSinaisVitais } from '../engine/sinaisVitais'
 import { useLocale } from '../i18n/LocaleContext'
+import { texto } from '../i18n/texto'
 
 interface Props {
   paciente: Paciente
@@ -14,9 +15,10 @@ interface Props {
 }
 
 const TODAS_CONDICOES = CondicaoClinica.options
+const TODAS_VIAS = ViaAdministracao.options
 
 export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, patologiasDisponiveis }: Props) {
-  const { t } = useLocale()
+  const { t, idioma } = useLocale()
   const [novoMedicamentoId, setNovoMedicamentoId] = useState('')
   const [novaPosologia, setNovaPosologia] = useState<PosologiaInformada>({})
   const [novaPatologiaId, setNovaPatologiaId] = useState('')
@@ -373,7 +375,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
             <option value="">{t.form.selecionarFarmaco}</option>
             {farmacosDisponiveis.map((f) => (
               <option key={f.id} value={f.id}>
-                {f.nome}
+                {texto(f.nome, idioma)}
               </option>
             ))}
           </select>
@@ -404,26 +406,36 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               setNovaPosologia((p) => ({ ...p, intervaloHoras: e.target.value ? Number(e.target.value) : undefined }))
             }
           />
-          <input
-            type="text"
-            className="input w-32"
-            placeholder={t.form.via}
+          <select
+            className="input w-36"
             value={novaPosologia.viaAdministracao ?? ''}
-            onChange={(e) => setNovaPosologia((p) => ({ ...p, viaAdministracao: e.target.value || undefined }))}
-          />
+            onChange={(e) =>
+              setNovaPosologia((p) => ({
+                ...p,
+                viaAdministracao: e.target.value ? (e.target.value as ViaAdministracao) : undefined,
+              }))
+            }
+          >
+            <option value="">{t.form.via}</option>
+            {TODAS_VIAS.map((via) => (
+              <option key={via} value={via}>
+                {t.vias[via]}
+              </option>
+            ))}
+          </select>
           <button type="button" className="btn-secondary" onClick={adicionarMedicamento}>
             {t.form.adicionar}
           </button>
         </div>
         <ListaRemovivel
           itens={paciente.medicamentosEmUso.map((m) => {
-            const nome = farmacosDisponiveis.find((f) => f.id === m.farmacoId)?.nome ?? m.farmacoId
+            const nome = texto(farmacosDisponiveis.find((f) => f.id === m.farmacoId)?.nome ?? { 'pt-BR': m.farmacoId, 'en-US': m.farmacoId, es: m.farmacoId }, idioma)
             if (!m.posologia) return nome
             const { doseValor, doseUnidade, intervaloHoras, viaAdministracao } = m.posologia
             const partes = [
               doseValor !== undefined && `${doseValor} ${doseUnidade ?? ''}`.trim(),
               intervaloHoras !== undefined && `${t.form.aCada.replace(' (h)', '')} ${intervaloHoras}h`,
-              viaAdministracao,
+              viaAdministracao && t.vias[viaAdministracao],
             ].filter(Boolean)
             return partes.length > 0 ? `${nome} — ${partes.join(', ')}` : nome
           })}
@@ -444,7 +456,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
             <option value="">{t.form.selecionarPatologia}</option>
             {patologiasDisponiveis.map((p) => (
               <option key={p.id} value={p.id}>
-                {p.nome}
+                {texto(p.nome, idioma)}
               </option>
             ))}
           </select>
@@ -462,7 +474,8 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
         </div>
         <ListaRemovivel
           itens={paciente.patologiasParentais.map((p) => {
-            const nome = patologiasDisponiveis.find((d) => d.id === p.patologiaId)?.nome ?? p.patologiaId
+            const patologia = patologiasDisponiveis.find((d) => d.id === p.patologiaId)
+            const nome = patologia ? texto(patologia.nome, idioma) : p.patologiaId
             return `${nome} (${p.parentesco === 'mae' ? t.form.mae : t.form.pai})`
           })}
           onRemover={removerPatologia}
@@ -499,9 +512,9 @@ function ListaRemovivel({
   }
   return (
     <ul className="space-y-1">
-      {itens.map((texto, i) => (
+      {itens.map((linha, i) => (
         <li key={i} className="flex items-center justify-between bg-slate-100 rounded px-3 py-1.5 text-sm">
-          <span>{texto}</span>
+          <span>{linha}</span>
           <button type="button" className="text-red-600 hover:underline" onClick={() => onRemover(i)}>
             {removerLabel}
           </button>

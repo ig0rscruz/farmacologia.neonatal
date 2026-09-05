@@ -1,45 +1,89 @@
 {
   "id": "indometacina",
-  "nome": "Indometacina",
-  "nomeGenerico": "Indometacina sódica",
-  "classeFarmacologica": "Anti-inflamatório não esteroidal (inibidor da ciclo-oxigenase)",
-  "indicacoesNeonatais": [
-    "Fechamento farmacológico da persistência do canal arterial (PCA)"
-  ],
-  "viasAdministracao": ["Intravenosa"],
+  "nome": { "pt-BR": "Indometacina", "en-US": "Indomethacin", "es": "Indometacina" },
+  "nomeGenerico": { "pt-BR": "Indometacina sódica", "en-US": "Indomethacin sodium", "es": "Indometacina sódica" },
+  "classeFarmacologica": {
+    "pt-BR": "Anti-inflamatório não esteroidal (inibidor da ciclo-oxigenase)",
+    "en-US": "Nonsteroidal anti-inflammatory drug (cyclooxygenase inhibitor)",
+    "es": "Antiinflamatorio no esteroideo (inhibidor de la ciclooxigenasa)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Fechamento farmacológico da persistência do canal arterial (PCA)"],
+    "en-US": ["Pharmacological closure of patent ductus arteriosus (PDA)"],
+    "es": ["Cierre farmacológico de la persistencia del conducto arterioso (PCA)"]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 0.2,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 24,
-      "viaAdministracao": "Intravenosa (infusão lenta ≥ 20-30 min)",
-      "observacoes": "Curso usual de 3 doses a cada 12-24h; segunda e terceira doses podem variar (0.1-0.2 mg/kg) conforme idade pós-natal e protocolo."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão lenta (≥ 20-30 min). Curso usual de 3 doses a cada 12-24h; segunda e terceira doses podem variar (0.1-0.2 mg/kg) conforme idade pós-natal e protocolo.",
+        "en-US": "Slow infusion (≥ 20-30 min). Usual course of 3 doses every 12-24h; second and third doses may vary (0.1-0.2 mg/kg) per postnatal age and protocol.",
+        "es": "Infusión lenta (≥ 20-30 min). Curso usual de 3 dosis cada 12-24h; la segunda y tercera dosis pueden variar (0.1-0.2 mg/kg) según edad posnatal y protocolo."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": "Inibição da síntese de prostaglandinas reduz fluxo sanguíneo renal, podendo causar oligúria/insuficiência renal aguda",
+      "descricao": {
+        "pt-BR": "Inibição da síntese de prostaglandinas reduz fluxo sanguíneo renal, podendo causar oligúria/insuficiência renal aguda",
+        "en-US": "Inhibition of prostaglandin synthesis reduces renal blood flow, potentially causing oliguria/acute renal failure",
+        "es": "La inhibición de la síntesis de prostaglandinas reduce el flujo sanguíneo renal, pudiendo causar oliguria/insuficiencia renal aguda"
+      },
       "gravidade": "contraindicado",
-      "conduta": "Não administrar se oligúria significativa ou disfunção renal presente; reavaliar função renal antes de cada dose"
+      "conduta": {
+        "pt-BR": "Não administrar se oligúria significativa ou disfunção renal presente; reavaliar função renal antes de cada dose",
+        "en-US": "Do not administer if significant oliguria or renal dysfunction is present; reassess renal function before each dose",
+        "es": "No administrar si hay oliguria significativa o disfunción renal presente; reevaluar la función renal antes de cada dosis"
+      }
     },
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": "Inibe função plaquetária, aumentando risco de sangramento (incluindo hemorragia intraventricular)",
+      "descricao": {
+        "pt-BR": "Inibe função plaquetária, aumentando risco de sangramento (incluindo hemorragia intraventricular)",
+        "en-US": "Inhibits platelet function, increasing bleeding risk (including intraventricular hemorrhage)",
+        "es": "Inhibe la función plaquetaria, aumentando el riesgo de sangrado (incluida la hemorragia intraventricular)"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Verificar contagem de plaquetas e sinais de sangramento antes de cada dose; evitar em trombocitopenia significativa"
+      "conduta": {
+        "pt-BR": "Verificar contagem de plaquetas e sinais de sangramento antes de cada dose; evitar em trombocitopenia significativa",
+        "en-US": "Check platelet count and bleeding signs before each dose; avoid in significant thrombocytopenia",
+        "es": "Verificar el recuento de plaquetas y signos de sangrado antes de cada dosis; evitar en trombocitopenia significativa"
+      }
     },
     {
       "condicao": "hiperbilirrubinemia",
-      "descricao": "Pode deslocar bilirrubina da albumina, aumentando risco de kernicterus em hiperbilirrubinemia significativa",
+      "descricao": {
+        "pt-BR": "Pode deslocar bilirrubina da albumina, aumentando risco de kernicterus em hiperbilirrubinemia significativa",
+        "en-US": "May displace bilirubin from albumin, increasing kernicterus risk in significant hyperbilirubinemia",
+        "es": "Puede desplazar la bilirrubina de la albúmina, aumentando el riesgo de kernicterus en hiperbilirrubinemia significativa"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Avaliar nível de bilirrubina antes do uso em neonatos ictéricos"
+      "conduta": {
+        "pt-BR": "Avaliar nível de bilirrubina antes do uso em neonatos ictéricos",
+        "en-US": "Assess bilirubin level before use in jaundiced neonates",
+        "es": "Evaluar el nivel de bilirrubina antes de su uso en neonatos ictéricos"
+      }
     }
   ],
-  "alertasGerais": [
-    "Contraindicada em enterocolite necrosante suspeita ou confirmada, e em sangramento ativo",
-    "Monitorar diurese, função renal e sinais de sangramento gastrointestinal durante o curso de tratamento"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Contraindicada em enterocolite necrosante suspeita ou confirmada, e em sangramento ativo",
+      "Monitorar diurese, função renal e sinais de sangramento gastrointestinal durante o curso de tratamento"
+    ],
+    "en-US": [
+      "Contraindicated in suspected or confirmed necrotizing enterocolitis, and in active bleeding",
+      "Monitor urine output, renal function, and signs of gastrointestinal bleeding during the treatment course"
+    ],
+    "es": [
+      "Contraindicada en enterocolitis necrosante sospechada o confirmada, y en sangrado activo",
+      "Monitorizar diuresis, función renal y signos de sangrado gastrointestinal durante el curso del tratamiento"
+    ]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -48,5 +92,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

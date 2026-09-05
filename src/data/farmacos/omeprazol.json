@@ -1,34 +1,63 @@
 {
   "id": "omeprazol",
-  "nome": "Omeprazol",
-  "nomeGenerico": "Omeprazol",
-  "classeFarmacologica": "Inibidor da bomba de prótons",
-  "indicacoesNeonatais": [
-    "Doença do refluxo gastroesofágico com esofagite documentada ou sintomas significativos",
-    "Profilaxia de úlcera de estresse em contexto selecionado"
-  ],
-  "viasAdministracao": ["Oral"],
+  "nome": { "pt-BR": "Omeprazol", "en-US": "Omeprazole", "es": "Omeprazol" },
+  "nomeGenerico": { "pt-BR": "Omeprazol", "en-US": "Omeprazole", "es": "Omeprazol" },
+  "classeFarmacologica": { "pt-BR": "Inibidor da bomba de prótons", "en-US": "Proton pump inhibitor", "es": "Inhibidor de la bomba de protones" },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Doença do refluxo gastroesofágico com esofagite documentada ou sintomas significativos",
+      "Profilaxia de úlcera de estresse em contexto selecionado"
+    ],
+    "en-US": ["Gastroesophageal reflux disease with documented esophagitis or significant symptoms", "Stress ulcer prophylaxis in selected contexts"],
+    "es": [
+      "Enfermedad por reflujo gastroesofágico con esofagitis documentada o síntomas significativos",
+      "Profilaxis de úlcera de estrés en contexto seleccionado"
+    ]
+  },
+  "viasAdministracao": ["oral"],
   "faixasDose": [
     {
       "doseValor": 0.7,
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 24,
-      "viaAdministracao": "Oral",
-      "observacoes": "Faixa usual 0.5-1 mg/kg/dia, dose única diária. Evidência de eficácia em refluxo neonatal é limitada; reservar para casos com indicação clara."
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.5-1 mg/kg/dia, dose única diária. Evidência de eficácia em refluxo neonatal é limitada; reservar para casos com indicação clara.",
+        "en-US": "Usual range 0.5-1 mg/kg/day, single daily dose. Evidence of efficacy in neonatal reflux is limited; reserve for cases with a clear indication.",
+        "es": "Rango usual 0.5-1 mg/kg/día, dosis única diaria. La evidencia de eficacia en reflujo neonatal es limitada; reservar para casos con indicación clara."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": "Metabolização hepática; possível necessidade de ajuste em disfunção hepática significativa",
+      "descricao": {
+        "pt-BR": "Metabolização hepática; possível necessidade de ajuste em disfunção hepática significativa",
+        "en-US": "Hepatic metabolism; may require adjustment in significant hepatic impairment",
+        "es": "Metabolización hepática; posible necesidad de ajuste en disfunción hepática significativa"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Considerar redução de dose em disfunção hepática significativa"
+      "conduta": {
+        "pt-BR": "Considerar redução de dose em disfunção hepática significativa",
+        "en-US": "Consider dose reduction in significant hepatic impairment",
+        "es": "Considerar reducción de dosis en disfunción hepática significativa"
+      }
     }
   ],
-  "alertasGerais": [
-    "Uso rotineiro para refluxo fisiológico não complicado não é recomendado — reavaliar indicação periodicamente",
-    "Supressão ácida prolongada associada a maior risco de infecções entéricas e respiratórias em lactentes"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Uso rotineiro para refluxo fisiológico não complicado não é recomendado — reavaliar indicação periodicamente",
+      "Supressão ácida prolongada associada a maior risco de infecções entéricas e respiratórias em lactentes"
+    ],
+    "en-US": [
+      "Routine use for uncomplicated physiological reflux is not recommended — periodically reassess the indication",
+      "Prolonged acid suppression is associated with higher risk of enteric and respiratory infections in infants"
+    ],
+    "es": [
+      "No se recomienda el uso rutinario para reflujo fisiológico no complicado — reevaluar la indicación periódicamente",
+      "La supresión ácida prolongada se asocia a mayor riesgo de infecciones entéricas y respiratorias en lactantes"
+    ]
+  },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
@@ -37,5 +66,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

@@ -1,54 +1,87 @@
 {
   "id": "midazolam",
-  "nome": "Midazolam",
-  "nomeGenerico": "Maleato de midazolam",
-  "classeFarmacologica": "Benzodiazepínico",
-  "indicacoesNeonatais": [
-    "Sedação em ventilação mecânica",
-    "Sedação para procedimentos",
-    "Crises convulsivas refratárias (segunda/terceira linha)"
-  ],
-  "viasAdministracao": ["Intravenosa"],
+  "nome": { "pt-BR": "Midazolam", "en-US": "Midazolam", "es": "Midazolam" },
+  "nomeGenerico": { "pt-BR": "Maleato de midazolam", "en-US": "Midazolam maleate", "es": "Maleato de midazolam" },
+  "classeFarmacologica": { "pt-BR": "Benzodiazepínico", "en-US": "Benzodiazepine", "es": "Benzodiacepina" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sedação em ventilação mecânica", "Sedação para procedimentos", "Crises convulsivas refratárias (segunda/terceira linha)"],
+    "en-US": ["Sedation during mechanical ventilation", "Procedural sedation", "Refractory seizures (second/third line)"],
+    "es": ["Sedación en ventilación mecánica", "Sedación para procedimientos", "Crisis convulsivas refractarias (segunda/tercera línea)"]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 0.05,
-      "doseUnidade": "mg/kg/dose (bolus)",
+      "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 4,
-      "viaAdministracao": "Intravenosa (infusão lenta ≥ 5 min)",
-      "observacoes": "Faixa usual 0.05-0.15 mg/kg/dose. Uso rotineiro em bolus não recomendado em prematuros extremos pelo risco de instabilidade hemodinâmica — priorizar avaliação individualizada."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Bolus, infusão lenta (≥ 5 min). Faixa usual 0.05-0.15 mg/kg/dose. Uso rotineiro em bolus não recomendado em prematuros extremos pelo risco de instabilidade hemodinâmica — priorizar avaliação individualizada.",
+        "en-US": "Bolus, slow infusion (≥ 5 min). Usual range 0.05-0.15 mg/kg/dose. Routine bolus use is not recommended in extremely preterm infants due to hemodynamic instability risk — individualize assessment.",
+        "es": "Bolo, infusión lenta (≥ 5 min). Rango usual 0.05-0.15 mg/kg/dosis. No se recomienda el uso rutinario en bolo en prematuros extremos por el riesgo de inestabilidad hemodinámica — priorizar evaluación individualizada."
+      }
     },
     {
       "doseValor": 0.03,
-      "doseUnidade": "mg/kg/hora (infusão contínua)",
+      "doseUnidade": "mg/kg/hora",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa contínua",
-      "observacoes": "Faixa usual 0.02-0.06 mg/kg/hora, titular conforme escala de sedação."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 0.02-0.06 mg/kg/hora, titular conforme escala de sedação.",
+        "en-US": "Continuous infusion. Usual range 0.02-0.06 mg/kg/hour, titrate per a sedation scale.",
+        "es": "Infusión continua. Rango usual 0.02-0.06 mg/kg/hora, titular según escala de sedación."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": "Pode causar hipotensão significativa, especialmente em bolus rápido ou associado a opioides",
+      "descricao": {
+        "pt-BR": "Pode causar hipotensão significativa, especialmente em bolus rápido ou associado a opioides",
+        "en-US": "May cause significant hypotension, especially with rapid bolus or combined with opioids",
+        "es": "Puede causar hipotensión significativa, especialmente con bolo rápido o asociado a opioides"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Infundir lentamente; monitorar pressão arterial; evitar em instabilidade hemodinâmica não corrigida"
+      "conduta": {
+        "pt-BR": "Infundir lentamente; monitorar pressão arterial; evitar em instabilidade hemodinâmica não corrigida",
+        "en-US": "Infuse slowly; monitor blood pressure; avoid in uncorrected hemodynamic instability",
+        "es": "Infundir lentamente; monitorizar presión arterial; evitar en inestabilidad hemodinámica no corregida"
+      }
     },
     {
       "condicao": "apneia",
-      "descricao": "Depressão respiratória, potencializada quando associado a opioides",
+      "descricao": {
+        "pt-BR": "Depressão respiratória, potencializada quando associado a opioides",
+        "en-US": "Respiratory depression, potentiated when combined with opioids",
+        "es": "Depresión respiratoria, potenciada cuando se asocia a opioides"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização respiratória contínua"
+      "conduta": {
+        "pt-BR": "Monitorização respiratória contínua",
+        "en-US": "Continuous respiratory monitoring",
+        "es": "Monitorización respiratoria continua"
+      }
     },
     {
       "condicao": "prematuridade_extrema",
-      "descricao": "Associação descrita com eventos neurológicos adversos em prematuros extremos, especialmente em bolus rápido",
+      "descricao": {
+        "pt-BR": "Associação descrita com eventos neurológicos adversos em prematuros extremos, especialmente em bolus rápido",
+        "en-US": "Association described with adverse neurological events in extremely preterm infants, especially with rapid bolus",
+        "es": "Asociación descrita con eventos neurológicos adversos en prematuros extremos, especialmente con bolo rápido"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": "Reservar para quando benefício superar risco; preferir infusão contínua lenta a bolus quando possível"
+      "conduta": {
+        "pt-BR": "Reservar para quando benefício superar risco; preferir infusão contínua lenta a bolus quando possível",
+        "en-US": "Reserve for when benefit outweighs risk; prefer slow continuous infusion over bolus when possible",
+        "es": "Reservar para cuando el beneficio supere el riesgo; preferir infusión continua lenta sobre bolo cuando sea posible"
+      }
     }
   ],
-  "alertasGerais": [
-    "Uso prolongado associado a tolerância e síndrome de abstinência — desmame gradual",
-    "Evitar bolus rápido em prematuros extremos"
-  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso prolongado associado a tolerância e síndrome de abstinência — desmame gradual", "Evitar bolus rápido em prematuros extremos"],
+    "en-US": ["Prolonged use is associated with tolerance and withdrawal syndrome — wean gradually", "Avoid rapid bolus in extremely preterm infants"],
+    "es": ["El uso prolongado se asocia a tolerancia y síndrome de abstinencia — destete gradual", "Evitar el bolo rápido en prematuros extremos"]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -57,5 +90,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

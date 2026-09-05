@@ -6,19 +6,25 @@ import { SeletorIdioma } from './components/SeletorIdioma'
 import { FARMACOS, INTERACOES, PATOLOGIAS_PARENTAIS } from './data'
 import { verificarFarmaco, type ResultadoVerificacao } from './engine/verificarFarmaco'
 import { useLocale } from './i18n/LocaleContext'
+import { texto } from './i18n/texto'
+import { ViaAdministracao } from './types/comum'
 import { pacienteVazio, type PosologiaInformada } from './types/paciente'
 
 type Aba = 'interacoes' | 'posologia'
+const TODAS_VIAS = ViaAdministracao.options
 
 function App() {
-  const { t } = useLocale()
+  const { t, idioma } = useLocale()
   const [paciente, setPaciente] = useState(pacienteVazio())
   const [candidatoId, setCandidatoId] = useState('')
   const [posologiaCandidato, setPosologiaCandidato] = useState<PosologiaInformada>({})
   const [resultado, setResultado] = useState<ResultadoVerificacao | null>(null)
   const [abaAtiva, setAbaAtiva] = useState<Aba>('interacoes')
 
-  const farmacoNomesPorId = useMemo(() => Object.fromEntries(FARMACOS.map((f) => [f.id, f.nome])), [])
+  const farmacoNomesPorId = useMemo(
+    () => Object.fromEntries(FARMACOS.map((f) => [f.id, texto(f.nome, idioma)])),
+    [idioma],
+  )
   const farmacoCandidato = FARMACOS.find((f) => f.id === candidatoId)
 
   function handleVerificar() {
@@ -71,7 +77,7 @@ function App() {
             <option value="">{t.form.selecionarFarmaco}</option>
             {FARMACOS.map((f) => (
               <option key={f.id} value={f.id}>
-                {f.nome}
+                {texto(f.nome, idioma)}
               </option>
             ))}
           </select>
@@ -111,15 +117,23 @@ function App() {
                     }))
                   }
                 />
-                <input
-                  type="text"
-                  className="input w-32"
-                  placeholder={t.form.via}
+                <select
+                  className="input w-36"
                   value={posologiaCandidato.viaAdministracao ?? ''}
                   onChange={(e) =>
-                    setPosologiaCandidato((p) => ({ ...p, viaAdministracao: e.target.value || undefined }))
+                    setPosologiaCandidato((p) => ({
+                      ...p,
+                      viaAdministracao: e.target.value ? (e.target.value as ViaAdministracao) : undefined,
+                    }))
                   }
-                />
+                >
+                  <option value="">{t.form.via}</option>
+                  {TODAS_VIAS.map((via) => (
+                    <option key={via} value={via}>
+                      {t.vias[via]}
+                    </option>
+                  ))}
+                </select>
               </div>
             </div>
           )}

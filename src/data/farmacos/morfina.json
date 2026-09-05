@@ -1,54 +1,87 @@
 {
   "id": "morfina",
-  "nome": "Morfina",
-  "nomeGenerico": "Sulfato de morfina",
-  "classeFarmacologica": "Opioide",
-  "indicacoesNeonatais": [
-    "Analgesia moderada a intensa",
-    "Sedoanalgesia em ventilação mecânica",
-    "Síndrome de abstinência neonatal (tratamento)"
-  ],
-  "viasAdministracao": ["Intravenosa", "Oral"],
+  "nome": { "pt-BR": "Morfina", "en-US": "Morphine", "es": "Morfina" },
+  "nomeGenerico": { "pt-BR": "Sulfato de morfina", "en-US": "Morphine sulfate", "es": "Sulfato de morfina" },
+  "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Analgesia moderada a intensa", "Sedoanalgesia em ventilação mecânica", "Síndrome de abstinência neonatal (tratamento)"],
+    "en-US": ["Moderate to severe analgesia", "Sedation-analgesia during mechanical ventilation", "Neonatal abstinence syndrome (treatment)"],
+    "es": ["Analgesia moderada a intensa", "Sedoanalgesia en ventilación mecánica", "Síndrome de abstinencia neonatal (tratamiento)"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
   "faixasDose": [
     {
       "doseValor": 0.05,
-      "doseUnidade": "mg/kg/dose (bolus)",
+      "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 4,
-      "viaAdministracao": "Intravenosa (infusão lenta)",
-      "observacoes": "Faixa usual 0.05-0.1 mg/kg/dose a cada 4h conforme necessidade."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Bolus, infusão lenta. Faixa usual 0.05-0.1 mg/kg/dose a cada 4h conforme necessidade.",
+        "en-US": "Bolus, slow infusion. Usual range 0.05-0.1 mg/kg/dose every 4h as needed.",
+        "es": "Bolo, infusión lenta. Rango usual 0.05-0.1 mg/kg/dosis cada 4h según necesidad."
+      }
     },
     {
       "doseValor": 0.01,
-      "doseUnidade": "mg/kg/hora (infusão contínua)",
+      "doseUnidade": "mg/kg/hora",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa contínua",
-      "observacoes": "Faixa usual 0.01-0.02 mg/kg/hora, titular conforme escala de dor/sedação."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 0.01-0.02 mg/kg/hora, titular conforme escala de dor/sedação.",
+        "en-US": "Continuous infusion. Usual range 0.01-0.02 mg/kg/hour, titrate per a pain/sedation scale.",
+        "es": "Infusión continua. Rango usual 0.01-0.02 mg/kg/hora, titular según escala de dolor/sedación."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "apneia",
-      "descricao": "Depressão respiratória dose-dependente",
+      "descricao": {
+        "pt-BR": "Depressão respiratória dose-dependente",
+        "en-US": "Dose-dependent respiratory depression",
+        "es": "Depresión respiratoria dosis-dependiente"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização respiratória e de SatO2 contínua"
+      "conduta": {
+        "pt-BR": "Monitorização respiratória e de SatO2 contínua",
+        "en-US": "Continuous respiratory and SpO2 monitoring",
+        "es": "Monitorización respiratoria y de SatO2 continua"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": "Pode causar hipotensão por liberação de histamina e efeito vasodilatador",
+      "descricao": {
+        "pt-BR": "Pode causar hipotensão por liberação de histamina e efeito vasodilatador",
+        "en-US": "May cause hypotension due to histamine release and vasodilator effect",
+        "es": "Puede causar hipotensión por liberación de histamina y efecto vasodilatador"
+      },
       "gravidade": "monitorar",
-      "conduta": "Infundir lentamente; monitorar pressão arterial"
+      "conduta": {
+        "pt-BR": "Infundir lentamente; monitorar pressão arterial",
+        "en-US": "Infuse slowly; monitor blood pressure",
+        "es": "Infundir lentamente; monitorizar presión arterial"
+      }
     },
     {
       "condicao": "insuficiencia_renal",
-      "descricao": "Metabólitos ativos com eliminação renal podem acumular em disfunção renal",
+      "descricao": {
+        "pt-BR": "Metabólitos ativos com eliminação renal podem acumular em disfunção renal",
+        "en-US": "Active renally-eliminated metabolites may accumulate in renal impairment",
+        "es": "Los metabolitos activos de eliminación renal pueden acumularse en la disfunción renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": "Reduzir dose ou aumentar intervalo em disfunção renal"
+      "conduta": {
+        "pt-BR": "Reduzir dose ou aumentar intervalo em disfunção renal",
+        "en-US": "Reduce dose or extend interval in renal impairment",
+        "es": "Reducir dosis o aumentar el intervalo en la disfunción renal"
+      }
     }
   ],
-  "alertasGerais": [
-    "Uso prolongado associado a tolerância e síndrome de abstinência à retirada — desmame gradual",
-    "Ter naloxona disponível para reversão de emergência"
-  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso prolongado associado a tolerância e síndrome de abstinência à retirada — desmame gradual", "Ter naloxona disponível para reversão de emergência"],
+    "en-US": ["Prolonged use is associated with tolerance and withdrawal syndrome — wean gradually", "Have naloxone available for emergency reversal"],
+    "es": ["El uso prolongado se asocia a tolerancia y síndrome de abstinencia al retirarlo — destete gradual", "Tener naloxona disponible para reversión de emergencia"]
+  },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
@@ -57,5 +90,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

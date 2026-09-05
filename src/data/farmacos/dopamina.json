@@ -1,40 +1,75 @@
 {
   "id": "dopamina",
-  "nome": "Dopamina",
-  "nomeGenerico": "Cloridrato de dopamina",
-  "classeFarmacologica": "Catecolamina / droga vasoativa",
-  "indicacoesNeonatais": [
-    "Hipotensão neonatal refratária à expansão volêmica",
-    "Choque séptico ou cardiogênico"
-  ],
-  "viasAdministracao": ["Intravenosa contínua (preferencialmente acesso central)"],
+  "nome": { "pt-BR": "Dopamina", "en-US": "Dopamine", "es": "Dopamina" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de dopamina", "en-US": "Dopamine hydrochloride", "es": "Clorhidrato de dopamina" },
+  "classeFarmacologica": {
+    "pt-BR": "Catecolamina / droga vasoativa",
+    "en-US": "Catecholamine / vasoactive drug",
+    "es": "Catecolamina / fármaco vasoactivo"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipotensão neonatal refratária à expansão volêmica", "Choque séptico ou cardiogênico"],
+    "en-US": ["Neonatal hypotension refractory to volume expansion", "Septic or cardiogenic shock"],
+    "es": ["Hipotensión neonatal refractaria a la expansión de volumen", "Choque séptico o cardiogénico"]
+  },
+  "viasAdministracao": ["intravenosa"],
   "faixasDose": [
     {
       "doseValor": 5,
-      "doseUnidade": "mcg/kg/minuto (infusão contínua)",
+      "doseUnidade": "mcg/kg/minuto",
       "intervaloHoras": 0,
-      "viaAdministracao": "Intravenosa contínua",
-      "observacoes": "Faixa usual 2-20 mcg/kg/min. Iniciar em 5 mcg/kg/min e titular conforme resposta pressórica (PAM alvo)."
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua, preferencialmente em acesso central. Faixa usual 2-20 mcg/kg/min. Iniciar em 5 mcg/kg/min e titular conforme resposta pressórica (PAM alvo).",
+        "en-US": "Continuous infusion, preferably via central access. Usual range 2-20 mcg/kg/min. Start at 5 mcg/kg/min and titrate per pressor response (target MAP).",
+        "es": "Infusión continua, preferentemente por acceso central. Rango usual 2-20 mcg/kg/min. Iniciar en 5 mcg/kg/min y titular según respuesta presora (PAM objetivo)."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": "Efeito cronotrópico dose-dependente pode induzir ou agravar taquicardia/taquiarritmia",
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico dose-dependente pode induzir ou agravar taquicardia/taquiarritmia",
+        "en-US": "Dose-dependent chronotropic effect may induce or worsen tachycardia/tachyarrhythmia",
+        "es": "El efecto cronotrópico dosis-dependiente puede inducir o agravar taquicardia/taquiarritmia"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorização contínua de FC e ritmo cardíaco; reduzir dose se taquiarritmia significativa"
+      "conduta": {
+        "pt-BR": "Monitorização contínua de FC e ritmo cardíaco; reduzir dose se taquiarritmia significativa",
+        "en-US": "Continuous HR and rhythm monitoring; reduce dose if significant tachyarrhythmia",
+        "es": "Monitorización continua de FC y ritmo cardíaco; reducir dosis si hay taquiarritmia significativa"
+      }
     },
     {
       "condicao": "hipertensao",
-      "descricao": "Em doses mais altas, efeito alfa-adrenérgico pode causar hipertensão e vasoconstrição periférica excessiva",
+      "descricao": {
+        "pt-BR": "Em doses mais altas, efeito alfa-adrenérgico pode causar hipertensão e vasoconstrição periférica excessiva",
+        "en-US": "At higher doses, alpha-adrenergic effect may cause hypertension and excessive peripheral vasoconstriction",
+        "es": "En dosis más altas, el efecto alfa-adrenérgico puede causar hipertensión y vasoconstricción periférica excesiva"
+      },
       "gravidade": "monitorar",
-      "conduta": "Monitorar pressão arterial e perfusão periférica; titular para menor dose eficaz"
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial e perfusão periférica; titular para menor dose eficaz",
+        "en-US": "Monitor blood pressure and peripheral perfusion; titrate to the lowest effective dose",
+        "es": "Monitorizar presión arterial y perfusión periférica; titular a la menor dosis eficaz"
+      }
     }
   ],
-  "alertasGerais": [
-    "Extravasamento pode causar necrose tecidual grave — preferir acesso central; se periférico, monitorar local rigorosamente",
-    "Efeito farmacológico é dose-dependente (predomínio dopaminérgico/beta em doses baixas, alfa em doses altas) — a fronteira exata varia entre pacientes"
-  ],
+  "alertasGerais": {
+    "pt-BR": [
+      "Extravasamento pode causar necrose tecidual grave — preferir acesso central; se periférico, monitorar local rigorosamente",
+      "Efeito farmacológico é dose-dependente (predomínio dopaminérgico/beta em doses baixas, alfa em doses altas) — a fronteira exata varia entre pacientes"
+    ],
+    "en-US": [
+      "Extravasation can cause severe tissue necrosis — prefer central access; if peripheral, monitor the site closely",
+      "Pharmacological effect is dose-dependent (dopaminergic/beta predominance at low doses, alpha at high doses) — the exact threshold varies between patients"
+    ],
+    "es": [
+      "La extravasación puede causar necrosis tisular grave — preferir acceso central; si es periférico, monitorizar el sitio rigurosamente",
+      "El efecto farmacológico es dosis-dependiente (predominio dopaminérgico/beta en dosis bajas, alfa en dosis altas) — el umbral exacto varía entre pacientes"
+    ]
+  },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
@@ -43,5 +78,12 @@
       "dataAcesso": "2026-09-05"
     }
   ],
-  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
 }

@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { CondicaoClinica } from './comum'
+import { CondicaoClinica, ViaAdministracao } from './comum'
 
 /**
  * Dados do paciente preenchidos pelo profissional durante o atendimento.
@@ -18,7 +18,7 @@ export const PosologiaInformada = z.object({
   doseValor: z.number().positive().optional(),
   doseUnidade: z.string().optional(),
   intervaloHoras: z.number().nonnegative().optional(),
-  viaAdministracao: z.string().optional(),
+  viaAdministracao: ViaAdministracao.optional(),
 })
 export type PosologiaInformada = z.infer<typeof PosologiaInformada>
 

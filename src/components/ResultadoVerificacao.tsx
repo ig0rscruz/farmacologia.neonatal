@@ -1,7 +1,8 @@
-import type { ResultadoVerificacao as ResultadoVerificacaoType, NivelConfianca } from '../engine/verificarFarmaco'
+import type { DivergenciaPosologia, ResultadoVerificacao as ResultadoVerificacaoType, NivelConfianca } from '../engine/verificarFarmaco'
 import type { Farmaco } from '../types/farmaco'
 import { useLocale } from '../i18n/LocaleContext'
 import type { Traducao } from '../i18n/traducoes'
+import { texto } from '../i18n/texto'
 
 function estiloNivel(nivel: NivelConfianca, t: Traducao): { titulo: string; classes: string } {
   switch (nivel) {
@@ -16,6 +17,23 @@ function estiloNivel(nivel: NivelConfianca, t: Traducao): { titulo: string; clas
   }
 }
 
+function formatarDivergencia(d: DivergenciaPosologia, t: Traducao): string {
+  switch (d.tipo) {
+    case 'sem_faixa':
+      return t.resultado.divergenciaSemFaixa
+    case 'dose': {
+      const direcao = d.direcao === 'acima' ? t.resultado.direcaoAcima : t.resultado.direcaoAbaixo
+      const informado = `${d.informado} ${d.unidadeInformada ?? d.unidadeRecomendada}`
+      const recomendado = `${d.recomendado} ${d.unidadeRecomendada}`
+      return t.resultado.divergenciaDose(informado, recomendado, direcao)
+    }
+    case 'intervalo':
+      return t.resultado.divergenciaIntervalo(d.informado, d.recomendado)
+    case 'via':
+      return t.resultado.divergenciaVia(t.vias[d.informado] ?? d.informado, t.vias[d.recomendado] ?? d.recomendado)
+  }
+}
+
 /** Painel da aba "Interações": contraindicações por condição clínica, interações medicamentosas e patologias parentais. */
 export function PainelInteracoes({
   resultado,
@@ -24,7 +42,7 @@ export function PainelInteracoes({
   resultado: ResultadoVerificacaoType
   farmacoNomesPorId: Record<string, string>
 }) {
-  const { t } = useLocale()
+  const { t, idioma } = useLocale()
   const estilo = estiloNivel(resultado.nivelConfianca, t)
   const semAlertas =
     resultado.contraindicacoesEncontradas.length === 0 &&
@@ -45,10 +63,10 @@ export function PainelInteracoes({
                   [{t.gravidade[c.gravidade]}] {t.condicoes[c.condicao]}
                   {t.criterios[c.condicao] && ` (${t.criterios[c.condicao]})`}:
                 </span>{' '}
-                {c.descricao}
+                {texto(c.descricao, idioma)}
                 <br />
                 <span className="italic">
-                  {t.resultado.conduta}: {c.conduta}
+                  {t.resultado.conduta}: {texto(c.conduta, idioma)}
                 </span>
               </li>
             ))}
@@ -65,10 +83,10 @@ export function PainelInteracoes({
                 <span className="font-medium">
                   [{t.gravidadeInteracao[e.interacao.gravidade]}] {farmacoNomesPorId[e.outroFarmacoId] ?? e.outroFarmacoId}:
                 </span>{' '}
-                {e.interacao.efeitoClinico}
+                {texto(e.interacao.efeitoClinico, idioma)}
                 <br />
                 <span className="italic">
-                  {t.resultado.conduta}: {e.interacao.conduta}
+                  {t.resultado.conduta}: {texto(e.interacao.conduta, idioma)}
                 </span>
               </li>
             ))}
@@ -83,9 +101,9 @@ export function PainelInteracoes({
             {resultado.patologiasParentaisEncontradas.map((e, i) => (
               <li key={i} className="text-sm bg-white/60 rounded p-2">
                 <span className="font-medium">
-                  [{t.gravidade[e.implicacao.implicacao]}] {e.patologia.nome}:
+                  [{t.gravidade[e.implicacao.implicacao]}] {texto(e.patologia.nome, idioma)}:
                 </span>{' '}
-                {e.implicacao.conduta}
+                {texto(e.implicacao.conduta, idioma)}
               </li>
             ))}
           </ul>
@@ -99,7 +117,7 @@ export function PainelInteracoes({
 
 /** Painel da aba "Posologia": faixa de dose recomendada e divergência com a posologia informada. */
 export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacaoType }) {
-  const { t } = useLocale()
+  const { t, idioma } = useLocale()
   const estilo = estiloNivel(resultado.nivelConfianca, t)
 
   return (
@@ -112,10 +130,10 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
           <p className="text-sm">
             {resultado.faixaDoseAplicavel.doseValor} {resultado.faixaDoseAplicavel.doseUnidade}
             {resultado.faixaDoseAplicavel.intervaloHoras > 0 && ` — ${resultado.faixaDoseAplicavel.intervaloHoras}h`} —{' '}
-            {resultado.faixaDoseAplicavel.viaAdministracao}
+            {t.vias[resultado.faixaDoseAplicavel.viaAdministracao]}
           </p>
           {resultado.faixaDoseAplicavel.observacoes && (
-            <p className="text-sm italic opacity-80">{resultado.faixaDoseAplicavel.observacoes}</p>
+            <p className="text-sm italic opacity-80">{texto(resultado.faixaDoseAplicavel.observacoes, idioma)}</p>
           )}
         </div>
       ) : (
@@ -128,7 +146,7 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
           <ul className="space-y-2">
             {resultado.divergenciasPosologia.map((d, i) => (
               <li key={i} className="text-sm bg-white/60 rounded p-2">
-                {d}
+                {formatarDivergencia(d, t)}
               </li>
             ))}
           </ul>
@@ -143,7 +161,7 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
               .filter((c) => c.gravidade === 'ajustar_dose')
               .map((c, i) => (
                 <li key={i} className="text-sm bg-white/60 rounded p-2">
-                  <span className="font-medium">{t.condicoes[c.condicao]}:</span> {c.conduta}
+                  <span className="font-medium">{t.condicoes[c.condicao]}:</span> {texto(c.conduta, idioma)}
                 </li>
               ))}
           </ul>
@@ -154,7 +172,7 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
 }
 
 export function FonteInfo({ farmaco }: { farmaco: Farmaco }) {
-  const { t } = useLocale()
+  const { t, idioma } = useLocale()
   return (
     <div className="text-xs text-slate-500 mt-2">
       <p>
@@ -162,8 +180,9 @@ export function FonteInfo({ farmaco }: { farmaco: Farmaco }) {
         {t.nivelEvidencia[farmaco.nivelEvidenciaGeral]}
       </p>
       <p>
-        {t.resultado.ultimaRevisao}: {farmaco.ultimaRevisao.data} — {farmaco.ultimaRevisao.revisadoPor}
+        {t.resultado.ultimaRevisao}: {farmaco.ultimaRevisao.data} — {texto(farmaco.ultimaRevisao.revisadoPor, idioma)}
       </p>
     </div>
   )
 }
+

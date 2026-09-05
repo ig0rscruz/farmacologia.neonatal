@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { CondicaoClinica, Fonte, Gravidade, NivelEvidencia } from './comum'
+import { CondicaoClinica, Fonte, Gravidade, NivelEvidencia, TextoMultilingue, TextoMultilinguaArray, ViaAdministracao } from './comum'
 
 /**
  * Faixa de dose aplicável conforme idade pós-menstrual (PMA = idade gestacional
@@ -15,36 +15,36 @@ export const FaixaDose = z.object({
   pesoMinG: z.number().nonnegative().optional(),
   pesoMaxG: z.number().nonnegative().optional(),
   doseValor: z.number().positive(),
-  doseUnidade: z.string().min(1), // ex: "mg/kg/dose"
+  doseUnidade: z.string().min(1), // notação universal, ex: "mg/kg/dose" — não traduzido
   intervaloHoras: z.number().nonnegative(), // 0 = dose única (ex.: dose de ataque)
-  viaAdministracao: z.string().min(1),
-  observacoes: z.string().optional(),
+  viaAdministracao: ViaAdministracao,
+  observacoes: TextoMultilingue.optional(),
 })
 export type FaixaDose = z.infer<typeof FaixaDose>
 
 export const ContraindicacaoFarmaco = z.object({
   condicao: CondicaoClinica,
-  descricao: z.string().min(1),
+  descricao: TextoMultilingue,
   gravidade: Gravidade,
-  conduta: z.string().min(1),
+  conduta: TextoMultilingue,
 })
 export type ContraindicacaoFarmaco = z.infer<typeof ContraindicacaoFarmaco>
 
 export const Farmaco = z.object({
   id: z.string().min(1),
-  nome: z.string().min(1),
-  nomeGenerico: z.string().min(1),
-  classeFarmacologica: z.string().min(1),
-  indicacoesNeonatais: z.array(z.string().min(1)).min(1),
-  viasAdministracao: z.array(z.string().min(1)).min(1),
+  nome: TextoMultilingue,
+  nomeGenerico: TextoMultilingue,
+  classeFarmacologica: TextoMultilingue,
+  indicacoesNeonatais: TextoMultilinguaArray,
+  viasAdministracao: z.array(ViaAdministracao).min(1),
   faixasDose: z.array(FaixaDose).min(1),
   contraindicacoes: z.array(ContraindicacaoFarmaco),
-  alertasGerais: z.array(z.string().min(1)),
+  alertasGerais: TextoMultilinguaArray,
   nivelEvidenciaGeral: NivelEvidencia,
   fontes: z.array(Fonte).min(1),
   ultimaRevisao: z.object({
     data: z.string(),
-    revisadoPor: z.string().min(1),
+    revisadoPor: TextoMultilingue,
   }),
 })
 export type Farmaco = z.infer<typeof Farmaco>
