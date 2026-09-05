@@ -1,14 +1,37 @@
 {
   "id": "fosfato-de-potassio",
-  "nome": { "pt-BR": "Fosfato de potássio", "en-US": "Potassium phosphate", "es": "Fosfato de potasio" },
-  "nomeGenerico": { "pt-BR": "Fosfato de potássio", "en-US": "Potassium phosphate", "es": "Fosfato de potasio" },
-  "classeFarmacologica": { "pt-BR": "Reposição de eletrólito (fósforo/potássio)", "en-US": "Electrolyte replacement (phosphorus/potassium)", "es": "Reposición de electrolito (fósforo/potasio)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hipofosfatemia documentada", "Componente de manutenção eletrolítica em nutrição parenteral"],
-    "en-US": ["Documented hypophosphatemia", "Electrolyte maintenance component in parenteral nutrition"],
-    "es": ["Hipofosfatemia documentada", "Componente de mantenimiento electrolítico en nutrición parenteral"]
+  "nome": {
+    "pt-BR": "Fosfato de potássio",
+    "en-US": "Potassium phosphate",
+    "es": "Fosfato de potasio"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Fosfato de potássio",
+    "en-US": "Potassium phosphate",
+    "es": "Fosfato de potasio"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Reposição de eletrólito (fósforo/potássio)",
+    "en-US": "Electrolyte replacement (phosphorus/potassium)",
+    "es": "Reposición de electrolito (fósforo/potasio)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipofosfatemia documentada",
+      "Componente de manutenção eletrolítica em nutrição parenteral"
+    ],
+    "en-US": [
+      "Documented hypophosphatemia",
+      "Electrolyte maintenance component in parenteral nutrition"
+    ],
+    "es": [
+      "Hipofosfatemia documentada",
+      "Componente de mantenimiento electrolítico en nutrición parenteral"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -25,26 +48,45 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Risco de hiperfosfatemia e hiperpotassemia em disfunção renal", "en-US": "Risk of hyperphosphatemia and hyperkalemia in renal impairment", "es": "Riesgo de hiperfosfatemia e hiperpotasemia en la disfunción renal" },
+      "descricao": {
+        "pt-BR": "Risco de hiperfosfatemia e hiperpotassemia em disfunção renal",
+        "en-US": "Risk of hyperphosphatemia and hyperkalemia in renal impairment",
+        "es": "Riesgo de hiperfosfatemia e hiperpotasemia en la disfunción renal"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Não repor empiricamente sem confirmar nível sérico e função renal adequada", "en-US": "Do not empirically replace without confirming serum level and adequate renal function", "es": "No reponer empíricamente sin confirmar el nivel sérico y una función renal adecuada" }
+      "conduta": {
+        "pt-BR": "Não repor empiricamente sem confirmar nível sérico e função renal adequada",
+        "en-US": "Do not empirically replace without confirming serum level and adequate renal function",
+        "es": "No reponer empíricamente sin confirmar el nivel sérico y una función renal adecuada"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Incompatível com soluções contendo cálcio na mesma via — risco de precipitação de fosfato de cálcio"],
-    "en-US": ["Incompatible with calcium-containing solutions in the same line — risk of calcium phosphate precipitation"],
-    "es": ["Incompatible con soluciones que contienen calcio en la misma vía — riesgo de precipitación de fosfato de calcio"]
+    "pt-BR": [
+      "Incompatível com soluções contendo cálcio na mesma via — risco de precipitação de fosfato de cálcio"
+    ],
+    "en-US": [
+      "Incompatible with calcium-containing solutions in the same line — risk of calcium phosphate precipitation"
+    ],
+    "es": [
+      "Incompatible con soluciones que contienen calcio en la misma vía — riesgo de precipitación de fosfato de calcio"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Phosphorus\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2025/10/Phosphorus_ANMFv5.0_20251204-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

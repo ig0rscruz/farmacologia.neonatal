@@ -1,14 +1,37 @@
 {
   "id": "enoxaparina",
-  "nome": { "pt-BR": "Enoxaparina", "en-US": "Enoxaparin", "es": "Enoxaparina" },
-  "nomeGenerico": { "pt-BR": "Enoxaparina sódica", "en-US": "Enoxaparin sodium", "es": "Enoxaparina sódica" },
-  "classeFarmacologica": { "pt-BR": "Heparina de baixo peso molecular", "en-US": "Low molecular weight heparin", "es": "Heparina de bajo peso molecular" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Tratamento de trombose venosa (ex.: trombose associada a cateter central)", "Profilaxia de trombose em neonatos de alto risco selecionados"],
-    "en-US": ["Treatment of venous thrombosis (e.g., central catheter-associated thrombosis)", "Thrombosis prophylaxis in selected high-risk neonates"],
-    "es": ["Tratamiento de trombosis venosa (p. ej., trombosis asociada a catéter central)", "Profilaxis de trombosis en neonatos de alto riesgo seleccionados"]
+  "nome": {
+    "pt-BR": "Enoxaparina",
+    "en-US": "Enoxaparin",
+    "es": "Enoxaparina"
   },
-  "viasAdministracao": ["subcutanea"],
+  "nomeGenerico": {
+    "pt-BR": "Enoxaparina sódica",
+    "en-US": "Enoxaparin sodium",
+    "es": "Enoxaparina sódica"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Heparina de baixo peso molecular",
+    "en-US": "Low molecular weight heparin",
+    "es": "Heparina de bajo peso molecular"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Tratamento de trombose venosa (ex.: trombose associada a cateter central)",
+      "Profilaxia de trombose em neonatos de alto risco selecionados"
+    ],
+    "en-US": [
+      "Treatment of venous thrombosis (e.g., central catheter-associated thrombosis)",
+      "Thrombosis prophylaxis in selected high-risk neonates"
+    ],
+    "es": [
+      "Tratamiento de trombosis venosa (p. ej., trombosis asociada a catéter central)",
+      "Profilaxis de trombosis en neonatos de alto riesgo seleccionados"
+    ]
+  },
+  "viasAdministracao": [
+    "subcutanea"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 37,
@@ -38,32 +61,62 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Eliminação predominantemente renal — disfunção renal aumenta risco de acúmulo e sangramento", "en-US": "Predominantly renal elimination — renal impairment increases accumulation and bleeding risk", "es": "Eliminación predominantemente renal — la disfunción renal aumenta el riesgo de acumulación y sangrado" },
+      "descricao": {
+        "pt-BR": "Eliminação predominantemente renal — disfunção renal aumenta risco de acúmulo e sangramento",
+        "en-US": "Predominantly renal elimination — renal impairment increases accumulation and bleeding risk",
+        "es": "Eliminación predominantemente renal — la disfunción renal aumenta el riesgo de acumulación y sangrado"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Reduzir dose e monitorar nível de anti-Xa mais frequentemente em disfunção renal", "en-US": "Reduce dose and monitor anti-Xa level more frequently in renal impairment", "es": "Reducir la dosis y monitorizar el nivel de anti-Xa con mayor frecuencia en la disfunción renal" }
+      "conduta": {
+        "pt-BR": "Reduzir dose e monitorar nível de anti-Xa mais frequentemente em disfunção renal",
+        "en-US": "Reduce dose and monitor anti-Xa level more frequently in renal impairment",
+        "es": "Reducir la dosis y monitorizar el nivel de anti-Xa con mayor frecuencia en la disfunción renal"
+      }
     },
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Risco de sangramento aumentado com anticoagulação em vigência de plaquetopenia ou outro distúrbio de coagulação", "en-US": "Increased bleeding risk with anticoagulation in the presence of thrombocytopenia or another coagulation disorder", "es": "Riesgo de sangrado aumentado con anticoagulación en presencia de trombocitopenia u otro trastorno de la coagulación" },
+      "descricao": {
+        "pt-BR": "Risco de sangramento aumentado com anticoagulação em vigência de plaquetopenia ou outro distúrbio de coagulação",
+        "en-US": "Increased bleeding risk with anticoagulation in the presence of thrombocytopenia or another coagulation disorder",
+        "es": "Riesgo de sangrado aumentado con anticoagulación en presencia de trombocitopenia u otro trastorno de la coagulación"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Avaliar risco-benefício; monitorar contagem de plaquetas e sinais de sangramento", "en-US": "Assess risk-benefit; monitor platelet count and bleeding signs", "es": "Evaluar riesgo-beneficio; monitorizar el recuento de plaquetas y los signos de sangrado" }
+      "conduta": {
+        "pt-BR": "Avaliar risco-benefício; monitorar contagem de plaquetas e sinais de sangramento",
+        "en-US": "Assess risk-benefit; monitor platelet count and bleeding signs",
+        "es": "Evaluar riesgo-beneficio; monitorizar el recuento de plaquetas y los signos de sangrado"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Monitorização de anti-Xa é obrigatória para ajuste de dose — farmacocinética neonatal é muito variável", "Protamina reverte apenas parcialmente o efeito anticoagulante da enoxaparina"],
-    "en-US": ["Anti-Xa monitoring is mandatory for dose adjustment — neonatal pharmacokinetics are highly variable", "Protamine only partially reverses enoxaparin's anticoagulant effect"],
-    "es": ["La monitorización de anti-Xa es obligatoria para el ajuste de dosis — la farmacocinética neonatal es muy variable", "La protamina revierte solo parcialmente el efecto anticoagulante de la enoxaparina"]
+    "pt-BR": [
+      "Monitorização de anti-Xa é obrigatória para ajuste de dose — farmacocinética neonatal é muito variável",
+      "Protamina reverte apenas parcialmente o efeito anticoagulante da enoxaparina"
+    ],
+    "en-US": [
+      "Anti-Xa monitoring is mandatory for dose adjustment — neonatal pharmacokinetics are highly variable",
+      "Protamine only partially reverses enoxaparin's anticoagulant effect"
+    ],
+    "es": [
+      "La monitorización de anti-Xa es obligatoria para el ajuste de dosis — la farmacocinética neonatal es muy variable",
+      "La protamina revierte solo parcialmente el efecto anticoagulante de la enoxaparina"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretrizes de anticoagulação pediátrica/neonatal (ex.: American College of Chest Physicians, guidelines de trombose neonatal). Substituir por referência específica revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Enoxaparin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/07/Enoxaparin-Clexane_ANMFv2.1_20260702.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

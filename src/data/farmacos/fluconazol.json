@@ -1,14 +1,38 @@
 {
   "id": "fluconazol",
-  "nome": { "pt-BR": "Fluconazol", "en-US": "Fluconazole", "es": "Fluconazol" },
-  "nomeGenerico": { "pt-BR": "Fluconazol", "en-US": "Fluconazole", "es": "Fluconazol" },
-  "classeFarmacologica": { "pt-BR": "Antifúngico triazólico", "en-US": "Triazole antifungal", "es": "Antifúngico triazólico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Profilaxia de candidíase invasiva em prematuros extremos de alto risco", "Tratamento de candidíase invasiva/candidemia neonatal"],
-    "en-US": ["Prophylaxis of invasive candidiasis in high-risk extremely preterm infants", "Treatment of neonatal invasive candidiasis/candidemia"],
-    "es": ["Profilaxis de candidiasis invasiva en prematuros extremos de alto riesgo", "Tratamiento de candidiasis invasiva/candidemia neonatal"]
+  "nome": {
+    "pt-BR": "Fluconazol",
+    "en-US": "Fluconazole",
+    "es": "Fluconazol"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Fluconazol",
+    "en-US": "Fluconazole",
+    "es": "Fluconazol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antifúngico triazólico",
+    "en-US": "Triazole antifungal",
+    "es": "Antifúngico triazólico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Profilaxia de candidíase invasiva em prematuros extremos de alto risco",
+      "Tratamento de candidíase invasiva/candidemia neonatal"
+    ],
+    "en-US": [
+      "Prophylaxis of invasive candidiasis in high-risk extremely preterm infants",
+      "Treatment of neonatal invasive candidiasis/candidemia"
+    ],
+    "es": [
+      "Profilaxis de candidiasis invasiva en prematuros extremos de alto riesgo",
+      "Tratamiento de candidiasis invasiva/candidemia neonatal"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 6,
@@ -36,32 +60,59 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": { "pt-BR": "Metabolização/eliminação com componente hepático; monitorar em disfunção hepática", "en-US": "Metabolism/elimination has a hepatic component; monitor in hepatic impairment", "es": "El metabolismo/eliminación tiene componente hepático; monitorizar en disfunción hepática" },
+      "descricao": {
+        "pt-BR": "Metabolização/eliminação com componente hepático; monitorar em disfunção hepática",
+        "en-US": "Metabolism/elimination has a hepatic component; monitor in hepatic impairment",
+        "es": "El metabolismo/eliminación tiene componente hepático; monitorizar en disfunción hepática"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar enzimas hepáticas periodicamente", "en-US": "Monitor liver enzymes periodically", "es": "Monitorizar enzimas hepáticas periódicamente" }
+      "conduta": {
+        "pt-BR": "Monitorar enzimas hepáticas periodicamente",
+        "en-US": "Monitor liver enzymes periodically",
+        "es": "Monitorizar enzimas hepáticas periódicamente"
+      }
     },
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal", "en-US": "Predominantly renal elimination; accumulates in renal impairment", "es": "Eliminación predominantemente renal; se acumula en la disfunción renal" },
+      "descricao": {
+        "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal",
+        "en-US": "Predominantly renal elimination; accumulates in renal impairment",
+        "es": "Eliminación predominantemente renal; se acumula en la disfunción renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+      "conduta": {
+        "pt-BR": "Prolongar intervalo de dose conforme função renal",
+        "en-US": "Extend the dosing interval according to renal function",
+        "es": "Prolongar el intervalo de dosis según la función renal"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Profilaxia antifúngica deve ser restrita a unidades com incidência elevada de candidíase invasiva, conforme política local — não é rotina universal"],
-    "en-US": ["Antifungal prophylaxis should be restricted to units with high invasive candidiasis incidence per local policy — not a universal routine"],
-    "es": ["La profilaxis antifúngica debe restringirse a unidades con alta incidencia de candidiasis invasiva según política local — no es una rutina universal"]
+    "pt-BR": [
+      "Profilaxia antifúngica deve ser restrita a unidades com incidência elevada de candidíase invasiva, conforme política local — não é rotina universal"
+    ],
+    "en-US": [
+      "Antifungal prophylaxis should be restricted to units with high invasive candidiasis incidence per local policy — not a universal routine"
+    ],
+    "es": [
+      "La profilaxis antifúngica debe restringirse a unidades con alta incidencia de candidiasis invasiva según política local — no es una rutina universal"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Fluconazole\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/06/Fluconazole_ANMFv3.0_20210916.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,7 +1,15 @@
 {
   "id": "fenobarbital",
-  "nome": { "pt-BR": "Fenobarbital", "en-US": "Phenobarbital", "es": "Fenobarbital" },
-  "nomeGenerico": { "pt-BR": "Fenobarbital sódico", "en-US": "Phenobarbital sodium", "es": "Fenobarbital sódico" },
+  "nome": {
+    "pt-BR": "Fenobarbital",
+    "en-US": "Phenobarbital",
+    "es": "Fenobarbital"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Fenobarbital sódico",
+    "en-US": "Phenobarbital sodium",
+    "es": "Fenobarbital sódico"
+  },
   "classeFarmacologica": {
     "pt-BR": "Barbitúrico anticonvulsivante",
     "en-US": "Anticonvulsant barbiturate",
@@ -24,7 +32,10 @@
       "Síndrome de abstinencia neonatal (adyuvante)"
     ]
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 20,
@@ -122,7 +133,8 @@
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de crises convulsivas neonatais. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Phenobarbital (Phenobarbitone)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/07/Phenobarbital-Phenobarbitone_ANMFv3.1_20270731.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

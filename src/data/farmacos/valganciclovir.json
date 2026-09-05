@@ -1,14 +1,34 @@
 {
   "id": "valganciclovir",
-  "nome": { "pt-BR": "Valganciclovir", "en-US": "Valganciclovir", "es": "Valganciclovir" },
-  "nomeGenerico": { "pt-BR": "Valganciclovir", "en-US": "Valganciclovir", "es": "Valganciclovir" },
-  "classeFarmacologica": { "pt-BR": "Antiviral (pró-fármaco do ganciclovir)", "en-US": "Antiviral (ganciclovir prodrug)", "es": "Antiviral (profármaco del ganciclovir)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Citomegalovírus (CMV) congênito sintomático — tratamento oral, isolado ou após fase IV com ganciclovir"],
-    "en-US": ["Symptomatic congenital cytomegalovirus (CMV) — oral treatment, alone or after an IV ganciclovir phase"],
-    "es": ["Citomegalovirus (CMV) congénito sintomático — tratamiento oral, solo o tras una fase IV con ganciclovir"]
+  "nome": {
+    "pt-BR": "Valganciclovir",
+    "en-US": "Valganciclovir",
+    "es": "Valganciclovir"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Valganciclovir",
+    "en-US": "Valganciclovir",
+    "es": "Valganciclovir"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiviral (pró-fármaco do ganciclovir)",
+    "en-US": "Antiviral (ganciclovir prodrug)",
+    "es": "Antiviral (profármaco del ganciclovir)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Citomegalovírus (CMV) congênito sintomático — tratamento oral, isolado ou após fase IV com ganciclovir"
+    ],
+    "en-US": [
+      "Symptomatic congenital cytomegalovirus (CMV) — oral treatment, alone or after an IV ganciclovir phase"
+    ],
+    "es": [
+      "Citomegalovirus (CMV) congénito sintomático — tratamiento oral, solo o tras una fase IV con ganciclovir"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 16,
@@ -25,32 +45,59 @@
   "contraindicacoes": [
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Neutropenia e trombocitopenia são efeitos adversos hematológicos comuns", "en-US": "Neutropenia and thrombocytopenia are common hematologic adverse effects", "es": "La neutropenia y la trombocitopenia son efectos adversos hematológicos comunes" },
+      "descricao": {
+        "pt-BR": "Neutropenia e trombocitopenia são efeitos adversos hematológicos comuns",
+        "en-US": "Neutropenia and thrombocytopenia are common hematologic adverse effects",
+        "es": "La neutropenia y la trombocitopenia son efectos adversos hematológicos comunes"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar hemograma periodicamente durante o tratamento prolongado", "en-US": "Monitor blood count periodically during prolonged treatment", "es": "Monitorizar el hemograma periódicamente durante el tratamiento prolongado" }
+      "conduta": {
+        "pt-BR": "Monitorar hemograma periodicamente durante o tratamento prolongado",
+        "en-US": "Monitor blood count periodically during prolonged treatment",
+        "es": "Monitorizar el hemograma periódicamente durante el tratamiento prolongado"
+      }
     },
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Eliminação renal; acúmulo em disfunção renal", "en-US": "Renal elimination; accumulates in renal impairment", "es": "Eliminación renal; se acumula en la disfunción renal" },
+      "descricao": {
+        "pt-BR": "Eliminação renal; acúmulo em disfunção renal",
+        "en-US": "Renal elimination; accumulates in renal impairment",
+        "es": "Eliminación renal; se acumula en la disfunción renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Ajustar dose conforme função renal", "en-US": "Adjust dose according to renal function", "es": "Ajustar la dosis según la función renal" }
+      "conduta": {
+        "pt-BR": "Ajustar dose conforme função renal",
+        "en-US": "Adjust dose according to renal function",
+        "es": "Ajustar la dosis según la función renal"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Reservar para CMV congênito sintomático — sem evidência de benefício em infecção assintomática"],
-    "en-US": ["Reserve for symptomatic congenital CMV — no evidence of benefit in asymptomatic infection"],
-    "es": ["Reservar para CMV congénito sintomático — sin evidencia de beneficio en infección asintomática"]
+    "pt-BR": [
+      "Reservar para CMV congênito sintomático — sem evidência de benefício em infecção assintomática"
+    ],
+    "en-US": [
+      "Reserve for symptomatic congenital CMV — no evidence of benefit in asymptomatic infection"
+    ],
+    "es": [
+      "Reservar para CMV congénito sintomático — sin evidencia de beneficio en infección asintomática"
+    ]
   },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre duração de tratamento com valganciclovir em CMV congênito sintomático (estudos comparando 6 semanas vs. 6 meses). Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Valganciclovir\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/valganciclovir-21052021-2.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,35 @@
 {
   "id": "amiodarona",
-  "nome": { "pt-BR": "Amiodarona", "en-US": "Amiodarone", "es": "Amiodarona" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de amiodarona", "en-US": "Amiodarone hydrochloride", "es": "Clorhidrato de amiodarona" },
-  "classeFarmacologica": { "pt-BR": "Antiarrítmico classe III", "en-US": "Class III antiarrhythmic", "es": "Antiarrítmico de clase III" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Taquiarritmias refratárias (supraventricular ou ventricular) a outras medidas"],
-    "en-US": ["Tachyarrhythmias (supraventricular or ventricular) refractory to other measures"],
-    "es": ["Taquiarritmias (supraventriculares o ventriculares) refractarias a otras medidas"]
+  "nome": {
+    "pt-BR": "Amiodarona",
+    "en-US": "Amiodarone",
+    "es": "Amiodarona"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de amiodarona",
+    "en-US": "Amiodarone hydrochloride",
+    "es": "Clorhidrato de amiodarona"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiarrítmico classe III",
+    "en-US": "Class III antiarrhythmic",
+    "es": "Antiarrítmico de clase III"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Taquiarritmias refratárias (supraventricular ou ventricular) a outras medidas"
+    ],
+    "en-US": [
+      "Tachyarrhythmias (supraventricular or ventricular) refractory to other measures"
+    ],
+    "es": [
+      "Taquiarritmias (supraventriculares o ventriculares) refractarias a otras medidas"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 5,
@@ -36,38 +57,76 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Pode causar bradicardia e bloqueio atrioventricular", "en-US": "May cause bradycardia and atrioventricular block", "es": "Puede causar bradicardia y bloqueo auriculoventricular" },
+      "descricao": {
+        "pt-BR": "Pode causar bradicardia e bloqueio atrioventricular",
+        "en-US": "May cause bradycardia and atrioventricular block",
+        "es": "Puede causar bradicardia y bloqueo auriculoventricular"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização de ECG contínua durante infusão", "en-US": "Continuous ECG monitoring during infusion", "es": "Monitorización de ECG continua durante la infusión" }
+      "conduta": {
+        "pt-BR": "Monitorização de ECG contínua durante infusão",
+        "en-US": "Continuous ECG monitoring during infusion",
+        "es": "Monitorización de ECG continua durante la infusión"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Hipotensão é o efeito adverso agudo mais comum, sobretudo com infusão rápida", "en-US": "Hypotension is the most common acute adverse effect, especially with rapid infusion", "es": "La hipotensión es el efecto adverso agudo más común, especialmente con infusión rápida" },
+      "descricao": {
+        "pt-BR": "Hipotensão é o efeito adverso agudo mais comum, sobretudo com infusão rápida",
+        "en-US": "Hypotension is the most common acute adverse effect, especially with rapid infusion",
+        "es": "La hipotensión es el efecto adverso agudo más común, especialmente con infusión rápida"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Infundir lentamente; monitorar pressão arterial continuamente", "en-US": "Infuse slowly; monitor blood pressure continuously", "es": "Infundir lentamente; monitorizar la presión arterial de forma continua" }
+      "conduta": {
+        "pt-BR": "Infundir lentamente; monitorar pressão arterial continuamente",
+        "en-US": "Infuse slowly; monitor blood pressure continuously",
+        "es": "Infundir lentamente; monitorizar la presión arterial de forma continua"
+      }
     },
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": { "pt-BR": "Metabolização hepática; monitorar enzimas hepáticas em uso prolongado", "en-US": "Hepatic metabolism; monitor liver enzymes with prolonged use", "es": "Metabolización hepática; monitorizar enzimas hepáticas en uso prolongado" },
+      "descricao": {
+        "pt-BR": "Metabolização hepática; monitorar enzimas hepáticas em uso prolongado",
+        "en-US": "Hepatic metabolism; monitor liver enzymes with prolonged use",
+        "es": "Metabolización hepática; monitorizar enzimas hepáticas en uso prolongado"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar função hepática e tireoidiana em uso prolongado", "en-US": "Monitor hepatic and thyroid function with prolonged use", "es": "Monitorizar la función hepática y tiroidea en uso prolongado" }
+      "conduta": {
+        "pt-BR": "Monitorar função hepática e tireoidiana em uso prolongado",
+        "en-US": "Monitor hepatic and thyroid function with prolonged use",
+        "es": "Monitorizar la función hepática y tiroidea en uso prolongado"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Contém iodo — pode afetar função tireoidiana neonatal, especialmente com uso prolongado", "Reservar para arritmias refratárias — dado o perfil de efeitos adversos e experiência neonatal limitada"],
-    "en-US": ["Contains iodine — may affect neonatal thyroid function, especially with prolonged use", "Reserve for refractory arrhythmias — given the adverse effect profile and limited neonatal experience"],
-    "es": ["Contiene yodo — puede afectar la función tiroidea neonatal, especialmente con uso prolongado", "Reservar para arritmias refractarias — dado el perfil de efectos adversos y la experiencia neonatal limitada"]
+    "pt-BR": [
+      "Contém iodo — pode afetar função tireoidiana neonatal, especialmente com uso prolongado",
+      "Reservar para arritmias refratárias — dado o perfil de efeitos adversos e experiência neonatal limitada"
+    ],
+    "en-US": [
+      "Contains iodine — may affect neonatal thyroid function, especially with prolonged use",
+      "Reserve for refractory arrhythmias — given the adverse effect profile and limited neonatal experience"
+    ],
+    "es": [
+      "Contiene yodo — puede afectar la función tiroidea neonatal, especialmente con uso prolongado",
+      "Reservar para arritmias refractarias — dado el perfil de efectos adversos y la experiencia neonatal limitada"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Amiodarone\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/02/Amiodarone_ANMFv1.0_20260205.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

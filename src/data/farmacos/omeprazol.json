@@ -1,20 +1,37 @@
 {
   "id": "omeprazol",
-  "nome": { "pt-BR": "Omeprazol", "en-US": "Omeprazole", "es": "Omeprazol" },
-  "nomeGenerico": { "pt-BR": "Omeprazol", "en-US": "Omeprazole", "es": "Omeprazol" },
-  "classeFarmacologica": { "pt-BR": "Inibidor da bomba de prótons", "en-US": "Proton pump inhibitor", "es": "Inhibidor de la bomba de protones" },
+  "nome": {
+    "pt-BR": "Omeprazol",
+    "en-US": "Omeprazole",
+    "es": "Omeprazol"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Omeprazol",
+    "en-US": "Omeprazole",
+    "es": "Omeprazol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Inibidor da bomba de prótons",
+    "en-US": "Proton pump inhibitor",
+    "es": "Inhibidor de la bomba de protones"
+  },
   "indicacoesNeonatais": {
     "pt-BR": [
       "Doença do refluxo gastroesofágico com esofagite documentada ou sintomas significativos",
       "Profilaxia de úlcera de estresse em contexto selecionado"
     ],
-    "en-US": ["Gastroesophageal reflux disease with documented esophagitis or significant symptoms", "Stress ulcer prophylaxis in selected contexts"],
+    "en-US": [
+      "Gastroesophageal reflux disease with documented esophagitis or significant symptoms",
+      "Stress ulcer prophylaxis in selected contexts"
+    ],
     "es": [
       "Enfermedad por reflujo gastroesofágico con esofagitis documentada o síntomas significativos",
       "Profilaxis de úlcera de estrés en contexto seleccionado"
     ]
   },
-  "viasAdministracao": ["oral"],
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.7,
@@ -61,8 +78,9 @@
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre uso de inibidores de bomba de prótons em neonatologia, extrapolado em parte de população pediátrica maior. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Omeprazole\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/Omeprazole_ANMFv3.0_20240208-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

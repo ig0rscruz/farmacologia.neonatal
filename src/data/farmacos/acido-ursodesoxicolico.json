@@ -1,14 +1,34 @@
 {
   "id": "acido-ursodesoxicolico",
-  "nome": { "pt-BR": "Ácido ursodesoxicólico", "en-US": "Ursodeoxycholic acid", "es": "Ácido ursodesoxicólico" },
-  "nomeGenerico": { "pt-BR": "Ácido ursodesoxicólico", "en-US": "Ursodeoxycholic acid", "es": "Ácido ursodesoxicólico" },
-  "classeFarmacologica": { "pt-BR": "Ácido biliar (colerético)", "en-US": "Bile acid (choleretic)", "es": "Ácido biliar (colerético)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Colestase neonatal (associada a nutrição parenteral prolongada ou outras causas)"],
-    "en-US": ["Neonatal cholestasis (associated with prolonged parenteral nutrition or other causes)"],
-    "es": ["Colestasis neonatal (asociada a nutrición parenteral prolongada u otras causas)"]
+  "nome": {
+    "pt-BR": "Ácido ursodesoxicólico",
+    "en-US": "Ursodeoxycholic acid",
+    "es": "Ácido ursodesoxicólico"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Ácido ursodesoxicólico",
+    "en-US": "Ursodeoxycholic acid",
+    "es": "Ácido ursodesoxicólico"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Ácido biliar (colerético)",
+    "en-US": "Bile acid (choleretic)",
+    "es": "Ácido biliar (colerético)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Colestase neonatal (associada a nutrição parenteral prolongada ou outras causas)"
+    ],
+    "en-US": [
+      "Neonatal cholestasis (associated with prolonged parenteral nutrition or other causes)"
+    ],
+    "es": [
+      "Colestasis neonatal (asociada a nutrición parenteral prolongada u otras causas)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 10,
@@ -24,20 +44,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Não substitui a investigação etiológica da colestase (ex.: atresia de vias biliares deve ser excluída)"],
-    "en-US": ["Does not replace etiological investigation of cholestasis (e.g., biliary atresia must be excluded)"],
-    "es": ["No sustituye la investigación etiológica de la colestasis (p. ej., debe descartarse atresia de vías biliares)"]
+    "pt-BR": [
+      "Não substitui a investigação etiológica da colestase (ex.: atresia de vias biliares deve ser excluída)"
+    ],
+    "en-US": [
+      "Does not replace etiological investigation of cholestasis (e.g., biliary atresia must be excluded)"
+    ],
+    "es": [
+      "No sustituye la investigación etiológica de la colestasis (p. ej., debe descartarse atresia de vías biliares)"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre uso de ácido ursodesoxicólico em colestase neonatal. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Ursodeoxycholic Acid\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/Ursodeoxycholic-acid_ANMFv3.0_20240518.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

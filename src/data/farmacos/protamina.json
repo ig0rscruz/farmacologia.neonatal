@@ -1,14 +1,34 @@
 {
   "id": "protamina",
-  "nome": { "pt-BR": "Protamina", "en-US": "Protamine", "es": "Protamina" },
-  "nomeGenerico": { "pt-BR": "Sulfato de protamina", "en-US": "Protamine sulfate", "es": "Sulfato de protamina" },
-  "classeFarmacologica": { "pt-BR": "Antídoto de heparina", "en-US": "Heparin antidote", "es": "Antídoto de la heparina" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Reversão de anticoagulação por heparina não fracionada em sangramento grave ou antes de procedimento urgente"],
-    "en-US": ["Reversal of unfractionated heparin anticoagulation in severe bleeding or before an urgent procedure"],
-    "es": ["Reversión de la anticoagulación por heparina no fraccionada en sangrado grave o antes de un procedimiento urgente"]
+  "nome": {
+    "pt-BR": "Protamina",
+    "en-US": "Protamine",
+    "es": "Protamina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Sulfato de protamina",
+    "en-US": "Protamine sulfate",
+    "es": "Sulfato de protamina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antídoto de heparina",
+    "en-US": "Heparin antidote",
+    "es": "Antídoto de la heparina"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Reversão de anticoagulação por heparina não fracionada em sangramento grave ou antes de procedimento urgente"
+    ],
+    "en-US": [
+      "Reversal of unfractionated heparin anticoagulation in severe bleeding or before an urgent procedure"
+    ],
+    "es": [
+      "Reversión de la anticoagulación por heparina no fraccionada en sangrado grave o antes de un procedimiento urgente"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,26 +45,45 @@
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Infusão rápida pode causar hipotensão grave e reação anafilactoide", "en-US": "Rapid infusion may cause severe hypotension and anaphylactoid reaction", "es": "La infusión rápida puede causar hipotensión grave y reacción anafilactoide" },
+      "descricao": {
+        "pt-BR": "Infusão rápida pode causar hipotensão grave e reação anafilactoide",
+        "en-US": "Rapid infusion may cause severe hypotension and anaphylactoid reaction",
+        "es": "La infusión rápida puede causar hipotensión grave y reacción anafilactoide"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Infundir sempre lentamente com monitorização de pressão arterial", "en-US": "Always infuse slowly with blood pressure monitoring", "es": "Infundir siempre lentamente con monitorización de la presión arterial" }
+      "conduta": {
+        "pt-BR": "Infundir sempre lentamente com monitorização de pressão arterial",
+        "en-US": "Always infuse slowly with blood pressure monitoring",
+        "es": "Infundir siempre lentamente con monitorización de la presión arterial"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Dose excessiva pode ter efeito anticoagulante paradoxal — calcular dose com cuidado"],
-    "en-US": ["Excessive dosing may have a paradoxical anticoagulant effect — calculate the dose carefully"],
-    "es": ["Una dosis excesiva puede tener un efecto anticoagulante paradójico — calcular la dosis con cuidado"]
+    "pt-BR": [
+      "Dose excessiva pode ter efeito anticoagulante paradoxal — calcular dose com cuidado"
+    ],
+    "en-US": [
+      "Excessive dosing may have a paradoxical anticoagulant effect — calculate the dose carefully"
+    ],
+    "es": [
+      "Una dosis excesiva puede tener un efecto anticoagulante paradójico — calcular la dosis con cuidado"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Protamine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/protamine-14012021-1.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

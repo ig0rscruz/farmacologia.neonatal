@@ -1,14 +1,38 @@
 {
   "id": "octreotide",
-  "nome": { "pt-BR": "Octreotide", "en-US": "Octreotide", "es": "Octreótido" },
-  "nomeGenerico": { "pt-BR": "Octreotide (análogo de somatostatina)", "en-US": "Octreotide (somatostatin analog)", "es": "Octreótido (análogo de somatostatina)" },
-  "classeFarmacologica": { "pt-BR": "Análogo de somatostatina", "en-US": "Somatostatin analog", "es": "Análogo de somatostatina" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hiperinsulinismo congênito refratário a diazóxido (uso especializado em endocrinologia pediátrica)", "Quilotórax congênito/pós-cirúrgico refratário (uso adjuvante)"],
-    "en-US": ["Diazoxide-refractory congenital hyperinsulinism (specialized pediatric endocrinology use)", "Refractory congenital/postoperative chylothorax (adjunctive use)"],
-    "es": ["Hiperinsulinismo congénito refractario a diazóxido (uso especializado en endocrinología pediátrica)", "Quilotórax congénito/posquirúrgico refractario (uso adyuvante)"]
+  "nome": {
+    "pt-BR": "Octreotide",
+    "en-US": "Octreotide",
+    "es": "Octreótido"
   },
-  "viasAdministracao": ["intravenosa", "subcutanea"],
+  "nomeGenerico": {
+    "pt-BR": "Octreotide (análogo de somatostatina)",
+    "en-US": "Octreotide (somatostatin analog)",
+    "es": "Octreótido (análogo de somatostatina)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Análogo de somatostatina",
+    "en-US": "Somatostatin analog",
+    "es": "Análogo de somatostatina"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hiperinsulinismo congênito refratário a diazóxido (uso especializado em endocrinologia pediátrica)",
+      "Quilotórax congênito/pós-cirúrgico refratário (uso adjuvante)"
+    ],
+    "en-US": [
+      "Diazoxide-refractory congenital hyperinsulinism (specialized pediatric endocrinology use)",
+      "Refractory congenital/postoperative chylothorax (adjunctive use)"
+    ],
+    "es": [
+      "Hiperinsulinismo congénito refractario a diazóxido (uso especializado en endocrinología pediátrica)",
+      "Quilotórax congénito/posquirúrgico refractario (uso adyuvante)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "subcutanea"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,32 +49,62 @@
   "contraindicacoes": [
     {
       "condicao": "outra",
-      "descricao": { "pt-BR": "Risco descrito de enterocolite necrosante associado ao uso de octreotide em neonatos — mecanismo relacionado à redução do fluxo sanguíneo esplâncnico", "en-US": "Described risk of necrotizing enterocolitis associated with octreotide use in neonates — mechanism related to reduced splanchnic blood flow", "es": "Riesgo descrito de enterocolitis necrosante asociado al uso de octreótido en neonatos — mecanismo relacionado con la reducción del flujo sanguíneo esplácnico" },
+      "descricao": {
+        "pt-BR": "Risco descrito de enterocolite necrosante associado ao uso de octreotide em neonatos — mecanismo relacionado à redução do fluxo sanguíneo esplâncnico",
+        "en-US": "Described risk of necrotizing enterocolitis associated with octreotide use in neonates — mechanism related to reduced splanchnic blood flow",
+        "es": "Riesgo descrito de enterocolitis necrosante asociado al uso de octreótido en neonatos — mecanismo relacionado con la reducción del flujo sanguíneo esplácnico"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorar sinais de intolerância alimentar/distensão abdominal rigorosamente; reservar para casos refratários sob supervisão especializada", "en-US": "Monitor closely for feeding intolerance/abdominal distension signs; reserve for refractory cases under specialized supervision", "es": "Monitorizar rigurosamente los signos de intolerancia alimentaria/distensión abdominal; reservar para casos refractarios bajo supervisión especializada" }
+      "conduta": {
+        "pt-BR": "Monitorar sinais de intolerância alimentar/distensão abdominal rigorosamente; reservar para casos refratários sob supervisão especializada",
+        "en-US": "Monitor closely for feeding intolerance/abdominal distension signs; reserve for refractory cases under specialized supervision",
+        "es": "Monitorizar rigurosamente los signos de intolerancia alimentaria/distensión abdominal; reservar para casos refractarios bajo supervisión especializada"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Pode causar bradicardia e alterações hemodinâmicas em alguns casos", "en-US": "May cause bradycardia and hemodynamic changes in some cases", "es": "Puede causar bradicardia y alteraciones hemodinámicas en algunos casos" },
+      "descricao": {
+        "pt-BR": "Pode causar bradicardia e alterações hemodinâmicas em alguns casos",
+        "en-US": "May cause bradycardia and hemodynamic changes in some cases",
+        "es": "Puede causar bradicardia y alteraciones hemodinámicas en algunos casos"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar frequência cardíaca e pressão arterial ao iniciar/titular", "en-US": "Monitor heart rate and blood pressure when starting/titrating", "es": "Monitorizar la frecuencia cardíaca y la presión arterial al iniciar/titular" }
+      "conduta": {
+        "pt-BR": "Monitorar frequência cardíaca e pressão arterial ao iniciar/titular",
+        "en-US": "Monitor heart rate and blood pressure when starting/titrating",
+        "es": "Monitorizar la frecuencia cardíaca y la presión arterial al iniciar/titular"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Risco de enterocolite necrosante é a principal preocupação de segurança em neonatos — uso deve ser cuidadosamente ponderado e monitorado", "Uso restrito a indicações refratárias sob supervisão especializada"],
-    "en-US": ["Necrotizing enterocolitis risk is the main safety concern in neonates — use must be carefully weighed and monitored", "Restricted use to refractory indications under specialized supervision"],
-    "es": ["El riesgo de enterocolitis necrosante es la principal preocupación de seguridad en neonatos — el uso debe sopesarse y monitorizarse cuidadosamente", "Uso restringido a indicaciones refractarias bajo supervisión especializada"]
+    "pt-BR": [
+      "Risco de enterocolite necrosante é a principal preocupação de segurança em neonatos — uso deve ser cuidadosamente ponderado e monitorado",
+      "Uso restrito a indicações refratárias sob supervisão especializada"
+    ],
+    "en-US": [
+      "Necrotizing enterocolitis risk is the main safety concern in neonates — use must be carefully weighed and monitored",
+      "Restricted use to refractory indications under specialized supervision"
+    ],
+    "es": [
+      "El riesgo de enterocolitis necrosante es la principal preocupación de seguridad en neonatos — el uso debe sopesarse y monitorizarse cuidadosamente",
+      "Uso restringido a indicaciones refractarias bajo supervisión especializada"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — relatos de caso/série sobre octreotide em hiperinsulinismo congênito e quilotórax neonatal, incluindo risco de NEC. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Octreotide\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/04/Octreotide_ANMFv1.0_20240905.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

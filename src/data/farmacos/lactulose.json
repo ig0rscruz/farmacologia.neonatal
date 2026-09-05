@@ -1,14 +1,37 @@
 {
   "id": "lactulose",
-  "nome": { "pt-BR": "Lactulose", "en-US": "Lactulose", "es": "Lactulosa" },
-  "nomeGenerico": { "pt-BR": "Lactulose", "en-US": "Lactulose", "es": "Lactulosa" },
-  "classeFarmacologica": { "pt-BR": "Laxante osmótico", "en-US": "Osmotic laxative", "es": "Laxante osmótico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Constipação/atraso na eliminação de mecônio (uso adjuvante)", "Auxiliar na eliminação de bilirrubina entero-hepática em hiperbilirrubinemia (uso controverso)"],
-    "en-US": ["Constipation/delayed meconium passage (adjunctive use)", "Aid in enterohepatic bilirubin elimination in hyperbilirubinemia (controversial use)"],
-    "es": ["Estreñimiento/retraso en la eliminación de meconio (uso adyuvante)", "Ayuda en la eliminación enterohepática de bilirrubina en hiperbilirrubinemia (uso controvertido)"]
+  "nome": {
+    "pt-BR": "Lactulose",
+    "en-US": "Lactulose",
+    "es": "Lactulosa"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Lactulose",
+    "en-US": "Lactulose",
+    "es": "Lactulosa"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Laxante osmótico",
+    "en-US": "Osmotic laxative",
+    "es": "Laxante osmótico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Constipação/atraso na eliminação de mecônio (uso adjuvante)",
+      "Auxiliar na eliminação de bilirrubina entero-hepática em hiperbilirrubinemia (uso controverso)"
+    ],
+    "en-US": [
+      "Constipation/delayed meconium passage (adjunctive use)",
+      "Aid in enterohepatic bilirubin elimination in hyperbilirubinemia (controversial use)"
+    ],
+    "es": [
+      "Estreñimiento/retraso en la eliminación de meconio (uso adyuvante)",
+      "Ayuda en la eliminación enterohepática de bilirrubina en hiperbilirrubinemia (uso controvertido)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -24,20 +47,34 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Pode causar distensão abdominal e cólicas por fermentação — usar com cautela se distensão abdominal já presente", "Evidência de eficácia para redução de bilirrubina é fraca/controversa"],
-    "en-US": ["May cause abdominal distension and cramping from fermentation — use with caution if abdominal distension is already present", "Evidence of efficacy for bilirubin reduction is weak/controversial"],
-    "es": ["Puede causar distensión abdominal y cólicos por fermentación — usar con precaución si ya hay distensión abdominal presente", "La evidencia de eficacia para la reducción de bilirrubina es débil/controvertida"]
+    "pt-BR": [
+      "Pode causar distensão abdominal e cólicas por fermentação — usar com cautela se distensão abdominal já presente",
+      "Evidência de eficácia para redução de bilirrubina é fraca/controversa"
+    ],
+    "en-US": [
+      "May cause abdominal distension and cramping from fermentation — use with caution if abdominal distension is already present",
+      "Evidence of efficacy for bilirubin reduction is weak/controversial"
+    ],
+    "es": [
+      "Puede causar distensión abdominal y cólicos por fermentación — usar con precaución si ya hay distensión abdominal presente",
+      "La evidencia de eficacia para la reducción de bilirrubina es débil/controvertida"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de lactulose pediátrica (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Lactulose\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/06/Lactulose_ANMFv1.0_20220623.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,18 +1,37 @@
 {
   "id": "dopamina",
-  "nome": { "pt-BR": "Dopamina", "en-US": "Dopamine", "es": "Dopamina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de dopamina", "en-US": "Dopamine hydrochloride", "es": "Clorhidrato de dopamina" },
+  "nome": {
+    "pt-BR": "Dopamina",
+    "en-US": "Dopamine",
+    "es": "Dopamina"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de dopamina",
+    "en-US": "Dopamine hydrochloride",
+    "es": "Clorhidrato de dopamina"
+  },
   "classeFarmacologica": {
     "pt-BR": "Catecolamina / droga vasoativa",
     "en-US": "Catecholamine / vasoactive drug",
     "es": "Catecolamina / fármaco vasoactivo"
   },
   "indicacoesNeonatais": {
-    "pt-BR": ["Hipotensão neonatal refratária à expansão volêmica", "Choque séptico ou cardiogênico"],
-    "en-US": ["Neonatal hypotension refractory to volume expansion", "Septic or cardiogenic shock"],
-    "es": ["Hipotensión neonatal refractaria a la expansión de volumen", "Choque séptico o cardiogénico"]
+    "pt-BR": [
+      "Hipotensão neonatal refratária à expansão volêmica",
+      "Choque séptico ou cardiogênico"
+    ],
+    "en-US": [
+      "Neonatal hypotension refractory to volume expansion",
+      "Septic or cardiogenic shock"
+    ],
+    "es": [
+      "Hipotensión neonatal refractaria a la expansión de volumen",
+      "Choque séptico o cardiogénico"
+    ]
   },
-  "viasAdministracao": ["intravenosa"],
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 5,
@@ -74,7 +93,8 @@
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de hipotensão/choque neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Dopamine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/DOPamine_ANMFv3.0_20230726.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

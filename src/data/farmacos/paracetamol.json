@@ -1,7 +1,15 @@
 {
   "id": "paracetamol",
-  "nome": { "pt-BR": "Paracetamol", "en-US": "Acetaminophen (paracetamol)", "es": "Paracetamol" },
-  "nomeGenerico": { "pt-BR": "Acetaminofeno", "en-US": "Acetaminophen", "es": "Acetaminofén" },
+  "nome": {
+    "pt-BR": "Paracetamol",
+    "en-US": "Acetaminophen (paracetamol)",
+    "es": "Paracetamol"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Acetaminofeno",
+    "en-US": "Acetaminophen",
+    "es": "Acetaminofén"
+  },
   "classeFarmacologica": {
     "pt-BR": "Analgésico e antipirético (não opioide)",
     "en-US": "Analgesic and antipyretic (non-opioid)",
@@ -24,7 +32,11 @@
       "Alternativa para el cierre farmacológico del conducto arterioso (uso adyuvante/alternativo a indometacina/ibuprofeno)"
     ]
   },
-  "viasAdministracao": ["oral", "intravenosa", "retal"],
+  "viasAdministracao": [
+    "oral",
+    "intravenosa",
+    "retal"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 31.9,
@@ -32,7 +44,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
       "viaAdministracao": "oral",
-      "observacoes": { "pt-BR": "PMA < 32 semanas.", "en-US": "PMA < 32 weeks.", "es": "EPM < 32 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA < 32 semanas.",
+        "en-US": "PMA < 32 weeks.",
+        "es": "EPM < 32 semanas."
+      }
     },
     {
       "pmaMaxSemanas": 31.9,
@@ -40,7 +56,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA < 32 semanas.", "en-US": "PMA < 32 weeks.", "es": "EPM < 32 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA < 32 semanas.",
+        "en-US": "PMA < 32 weeks.",
+        "es": "EPM < 32 semanas."
+      }
     },
     {
       "pmaMinSemanas": 32,
@@ -49,7 +69,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "oral",
-      "observacoes": { "pt-BR": "PMA 32-36 semanas.", "en-US": "PMA 32-36 weeks.", "es": "EPM 32-36 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA 32-36 semanas.",
+        "en-US": "PMA 32-36 weeks.",
+        "es": "EPM 32-36 semanas."
+      }
     },
     {
       "pmaMinSemanas": 32,
@@ -58,7 +82,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA 32-36 semanas.", "en-US": "PMA 32-36 weeks.", "es": "EPM 32-36 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA 32-36 semanas.",
+        "en-US": "PMA 32-36 weeks.",
+        "es": "EPM 32-36 semanas."
+      }
     },
     {
       "pmaMinSemanas": 37,
@@ -118,8 +146,9 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de paracetamol intravenoso/oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Paracetamol\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/02/Paracetamol_-ANMFv4.0_20220203.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

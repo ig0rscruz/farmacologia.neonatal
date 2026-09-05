@@ -7,6 +7,11 @@ export interface Traducao {
   app: {
     subtitulo: string
   }
+  rodape: {
+    construidoPor: string
+    telefone: string
+    email: string
+  }
   banner: {
     titulo: string
     texto: string
@@ -100,6 +105,11 @@ const pt: Traducao = {
   app: {
     subtitulo:
       'Verificação de adequação de fármacos, interações medicamentosas e implicações de patologias parentais para o paciente neonatal.',
+  },
+  rodape: {
+    construidoPor: 'Construído por: Igor Santana Cruz',
+    telefone: 'Telefone para contato: +55 92 98170-3592',
+    email: 'E-mail: igorscruz.am@gmail.com',
   },
   banner: {
     titulo: 'Ferramenta de apoio à decisão clínica.',
@@ -256,6 +266,11 @@ const en: Traducao = {
     subtitulo:
       'Checks drug appropriateness, drug-drug interactions, and parental pathology implications for the neonatal patient.',
   },
+  rodape: {
+    construidoPor: 'Built by: Igor Santana Cruz',
+    telefone: 'Contact phone: +55 92 98170-3592',
+    email: 'Email: igorscruz.am@gmail.com',
+  },
   banner: {
     titulo: 'Clinical decision support tool.',
     texto:
@@ -410,6 +425,11 @@ const es: Traducao = {
   app: {
     subtitulo:
       'Verificación de la idoneidad de fármacos, interacciones medicamentosas e implicaciones de patologías parentales para el paciente neonatal.',
+  },
+  rodape: {
+    construidoPor: 'Construido por: Igor Santana Cruz',
+    telefone: 'Teléfono de contacto: +55 92 98170-3592',
+    email: 'Correo electrónico: igorscruz.am@gmail.com',
   },
   banner: {
     titulo: 'Herramienta de apoyo a la decisión clínica.',

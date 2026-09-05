@@ -1,14 +1,37 @@
 {
   "id": "metilprednisolona",
-  "nome": { "pt-BR": "Metilprednisolona", "en-US": "Methylprednisolone", "es": "Metilprednisolona" },
-  "nomeGenerico": { "pt-BR": "Succinato sódico de metilprednisolona", "en-US": "Methylprednisolone sodium succinate", "es": "Succinato sódico de metilprednisolona" },
-  "classeFarmacologica": { "pt-BR": "Corticosteroide sistêmico", "en-US": "Systemic corticosteroid", "es": "Corticosteroide sistémico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Choque refratário a catecolaminas com suspeita de insuficiência adrenal relativa", "Reações alérgicas graves selecionadas"],
-    "en-US": ["Catecholamine-refractory shock with suspected relative adrenal insufficiency", "Selected severe allergic reactions"],
-    "es": ["Choque refractario a catecolaminas con sospecha de insuficiencia suprarrenal relativa", "Reacciones alérgicas graves seleccionadas"]
+  "nome": {
+    "pt-BR": "Metilprednisolona",
+    "en-US": "Methylprednisolone",
+    "es": "Metilprednisolona"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Succinato sódico de metilprednisolona",
+    "en-US": "Methylprednisolone sodium succinate",
+    "es": "Succinato sódico de metilprednisolona"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Corticosteroide sistêmico",
+    "en-US": "Systemic corticosteroid",
+    "es": "Corticosteroide sistémico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Choque refratário a catecolaminas com suspeita de insuficiência adrenal relativa",
+      "Reações alérgicas graves selecionadas"
+    ],
+    "en-US": [
+      "Catecholamine-refractory shock with suspected relative adrenal insufficiency",
+      "Selected severe allergic reactions"
+    ],
+    "es": [
+      "Choque refractario a catecolaminas con sospecha de insuficiencia suprarrenal relativa",
+      "Reacciones alérgicas graves seleccionadas"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,32 +48,62 @@
   "contraindicacoes": [
     {
       "condicao": "sepse",
-      "descricao": { "pt-BR": "Imunossupressão relativa pode mascarar sinais de infecção e teoricamente piorar desfecho séptico se usado sem indicação clara", "en-US": "Relative immunosuppression may mask infection signs and theoretically worsen septic outcomes if used without a clear indication", "es": "La inmunosupresión relativa puede enmascarar los signos de infección y teóricamente empeorar el desenlace séptico si se usa sin indicación clara" },
+      "descricao": {
+        "pt-BR": "Imunossupressão relativa pode mascarar sinais de infecção e teoricamente piorar desfecho séptico se usado sem indicação clara",
+        "en-US": "Relative immunosuppression may mask infection signs and theoretically worsen septic outcomes if used without a clear indication",
+        "es": "La inmunosupresión relativa puede enmascarar los signos de infección y teóricamente empeorar el desenlace séptico si se usa sin indicación clara"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Reservar para choque refratário com suspeita de insuficiência adrenal, sob avaliação especializada; manter cobertura antimicrobiana adequada", "en-US": "Reserve for refractory shock with suspected adrenal insufficiency, under specialized evaluation; maintain adequate antimicrobial coverage", "es": "Reservar para choque refractario con sospecha de insuficiencia suprarrenal, bajo evaluación especializada; mantener cobertura antimicrobiana adecuada" }
+      "conduta": {
+        "pt-BR": "Reservar para choque refratário com suspeita de insuficiência adrenal, sob avaliação especializada; manter cobertura antimicrobiana adequada",
+        "en-US": "Reserve for refractory shock with suspected adrenal insufficiency, under specialized evaluation; maintain adequate antimicrobial coverage",
+        "es": "Reservar para choque refractario con sospecha de insuficiencia suprarrenal, bajo evaluación especializada; mantener cobertura antimicrobiana adecuada"
+      }
     },
     {
       "condicao": "hipertensao",
-      "descricao": { "pt-BR": "Corticosteroides podem causar retenção hidrossalina e elevação da pressão arterial", "en-US": "Corticosteroids may cause fluid/sodium retention and elevated blood pressure", "es": "Los corticosteroides pueden causar retención hidrosalina y elevación de la presión arterial" },
+      "descricao": {
+        "pt-BR": "Corticosteroides podem causar retenção hidrossalina e elevação da pressão arterial",
+        "en-US": "Corticosteroids may cause fluid/sodium retention and elevated blood pressure",
+        "es": "Los corticosteroides pueden causar retención hidrosalina y elevación de la presión arterial"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial e balanço hídrico", "en-US": "Monitor blood pressure and fluid balance", "es": "Monitorizar la presión arterial y el balance hídrico" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial e balanço hídrico",
+        "en-US": "Monitor blood pressure and fluid balance",
+        "es": "Monitorizar la presión arterial y el balance hídrico"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso prolongado associado a supressão do eixo hipotálamo-hipófise-adrenal, hiperglicemia e risco aumentado de infecção", "Desmame gradual recomendado após uso prolongado"],
-    "en-US": ["Prolonged use associated with hypothalamic-pituitary-adrenal axis suppression, hyperglycemia, and increased infection risk", "Gradual tapering recommended after prolonged use"],
-    "es": ["El uso prolongado se asocia a supresión del eje hipotálamo-hipófisis-suprarrenal, hiperglucemia y mayor riesgo de infección", "Se recomienda una reducción gradual tras el uso prolongado"]
+    "pt-BR": [
+      "Uso prolongado associado a supressão do eixo hipotálamo-hipófise-adrenal, hiperglicemia e risco aumentado de infecção",
+      "Desmame gradual recomendado após uso prolongado"
+    ],
+    "en-US": [
+      "Prolonged use associated with hypothalamic-pituitary-adrenal axis suppression, hyperglycemia, and increased infection risk",
+      "Gradual tapering recommended after prolonged use"
+    ],
+    "es": [
+      "El uso prolongado se asocia a supresión del eje hipotálamo-hipófisis-suprarrenal, hiperglucemia y mayor riesgo de infección",
+      "Se recomienda una reducción gradual tras el uso prolongado"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre corticosteroides em choque neonatal refratário a catecolaminas. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Methylprednisolone\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/05/Methylprednisolone_ANMFv1.0_20240502-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

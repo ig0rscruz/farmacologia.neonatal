@@ -1,14 +1,38 @@
 {
   "id": "flecainida",
-  "nome": { "pt-BR": "Flecainida", "en-US": "Flecainide", "es": "Flecainida" },
-  "nomeGenerico": { "pt-BR": "Acetato de flecainida", "en-US": "Flecainide acetate", "es": "Acetato de flecainida" },
-  "classeFarmacologica": { "pt-BR": "Antiarrítmico classe IC", "en-US": "Class IC antiarrhythmic", "es": "Antiarrítmico clase IC" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Taquicardia supraventricular refratária a outros antiarrítmicos (segunda/terceira linha)", "Taquicardia fetal/neonatal em alguns protocolos especializados"],
-    "en-US": ["Supraventricular tachycardia refractory to other antiarrhythmics (second/third line)", "Fetal/neonatal tachycardia in some specialized protocols"],
-    "es": ["Taquicardia supraventricular refractaria a otros antiarrítmicos (segunda/tercera línea)", "Taquicardia fetal/neonatal en algunos protocolos especializados"]
+  "nome": {
+    "pt-BR": "Flecainida",
+    "en-US": "Flecainide",
+    "es": "Flecainida"
   },
-  "viasAdministracao": ["oral", "intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Acetato de flecainida",
+    "en-US": "Flecainide acetate",
+    "es": "Acetato de flecainida"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiarrítmico classe IC",
+    "en-US": "Class IC antiarrhythmic",
+    "es": "Antiarrítmico clase IC"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Taquicardia supraventricular refratária a outros antiarrítmicos (segunda/terceira linha)",
+      "Taquicardia fetal/neonatal em alguns protocolos especializados"
+    ],
+    "en-US": [
+      "Supraventricular tachycardia refractory to other antiarrhythmics (second/third line)",
+      "Fetal/neonatal tachycardia in some specialized protocols"
+    ],
+    "es": [
+      "Taquicardia supraventricular refractaria a otros antiarrítmicos (segunda/tercera línea)",
+      "Taquicardia fetal/neonatal en algunos protocolos especializados"
+    ]
+  },
+  "viasAdministracao": [
+    "oral",
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 2,
@@ -25,32 +49,62 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Eliminação parcialmente renal — disfunção renal aumenta risco de acúmulo e toxicidade pró-arrítmica", "en-US": "Partially renal elimination — renal impairment increases accumulation risk and pro-arrhythmic toxicity", "es": "Eliminación parcialmente renal — la disfunción renal aumenta el riesgo de acumulación y toxicidad proarrítmica" },
+      "descricao": {
+        "pt-BR": "Eliminação parcialmente renal — disfunção renal aumenta risco de acúmulo e toxicidade pró-arrítmica",
+        "en-US": "Partially renal elimination — renal impairment increases accumulation risk and pro-arrhythmic toxicity",
+        "es": "Eliminación parcialmente renal — la disfunción renal aumenta el riesgo de acumulación y toxicidad proarrítmica"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Reduzir dose e monitorar ECG e nível sérico mais frequentemente em disfunção renal", "en-US": "Reduce dose and monitor ECG and serum level more frequently in renal impairment", "es": "Reducir la dosis y monitorizar el ECG y el nivel sérico con mayor frecuencia en la disfunción renal" }
+      "conduta": {
+        "pt-BR": "Reduzir dose e monitorar ECG e nível sérico mais frequentemente em disfunção renal",
+        "en-US": "Reduce dose and monitor ECG and serum level more frequently in renal impairment",
+        "es": "Reducir la dosis y monitorizar el ECG y el nivel sérico con mayor frecuencia en la disfunción renal"
+      }
     },
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": { "pt-BR": "Metabolização hepática parcial — disfunção hepática pode aumentar níveis séricos", "en-US": "Partial hepatic metabolism — hepatic impairment may increase serum levels", "es": "Metabolización hepática parcial — la disfunción hepática puede aumentar los niveles séricos" },
+      "descricao": {
+        "pt-BR": "Metabolização hepática parcial — disfunção hepática pode aumentar níveis séricos",
+        "en-US": "Partial hepatic metabolism — hepatic impairment may increase serum levels",
+        "es": "Metabolización hepática parcial — la disfunción hepática puede aumentar los niveles séricos"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Reduzir dose em disfunção hepática; monitorar ECG", "en-US": "Reduce dose in hepatic impairment; monitor ECG", "es": "Reducir la dosis en la disfunción hepática; monitorizar el ECG" }
+      "conduta": {
+        "pt-BR": "Reduzir dose em disfunção hepática; monitorar ECG",
+        "en-US": "Reduce dose in hepatic impairment; monitor ECG",
+        "es": "Reducir la dosis en la disfunción hepática; monitorizar el ECG"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Efeito pró-arrítmico é risco grave conhecido — reservar para casos refratários com monitorização eletrocardiográfica próxima", "Evitar associação com outros antiarrítmicos classe IC/III sem supervisão de cardiologia pediátrica"],
-    "en-US": ["Pro-arrhythmic effect is a known serious risk — reserve for refractory cases with close ECG monitoring", "Avoid combination with other class IC/III antiarrhythmics without pediatric cardiology supervision"],
-    "es": ["El efecto proarrítmico es un riesgo grave conocido — reservar para casos refractarios con monitorización electrocardiográfica estrecha", "Evitar la asociación con otros antiarrítmicos de clase IC/III sin supervisión de cardiología pediátrica"]
+    "pt-BR": [
+      "Efeito pró-arrítmico é risco grave conhecido — reservar para casos refratários com monitorização eletrocardiográfica próxima",
+      "Evitar associação com outros antiarrítmicos classe IC/III sem supervisão de cardiologia pediátrica"
+    ],
+    "en-US": [
+      "Pro-arrhythmic effect is a known serious risk — reserve for refractory cases with close ECG monitoring",
+      "Avoid combination with other class IC/III antiarrhythmics without pediatric cardiology supervision"
+    ],
+    "es": [
+      "El efecto proarrítmico es un riesgo grave conocido — reservar para casos refractarios con monitorización electrocardiográfica estrecha",
+      "Evitar la asociación con otros antiarrítmicos de clase IC/III sin supervisión de cardiología pediátrica"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura de cardiologia pediátrica/fetal sobre flecainida em taquiarritmia refratária. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Flecainide\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/05/Flecainide_ANMFv3.0_20240718-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

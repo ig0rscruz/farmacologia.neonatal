@@ -1,14 +1,34 @@
 {
   "id": "alprostadil",
-  "nome": { "pt-BR": "Alprostadil (prostaglandina E1)", "en-US": "Alprostadil (prostaglandin E1)", "es": "Alprostadil (prostaglandina E1)" },
-  "nomeGenerico": { "pt-BR": "Alprostadil", "en-US": "Alprostadil", "es": "Alprostadil" },
-  "classeFarmacologica": { "pt-BR": "Prostaglandina (mantenedor da patência do canal arterial)", "en-US": "Prostaglandin (ductus arteriosus patency maintainer)", "es": "Prostaglandina (mantenedor de la permeabilidad del conducto arterioso)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Manutenção da patência do canal arterial em cardiopatias congênitas canal-dependentes, até correção/paliação cirúrgica"],
-    "en-US": ["Maintaining ductus arteriosus patency in duct-dependent congenital heart disease, until surgical correction/palliation"],
-    "es": ["Mantenimiento de la permeabilidad del conducto arterioso en cardiopatías congénitas conducto-dependientes, hasta la corrección/paliación quirúrgica"]
+  "nome": {
+    "pt-BR": "Alprostadil (prostaglandina E1)",
+    "en-US": "Alprostadil (prostaglandin E1)",
+    "es": "Alprostadil (prostaglandina E1)"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Alprostadil",
+    "en-US": "Alprostadil",
+    "es": "Alprostadil"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Prostaglandina (mantenedor da patência do canal arterial)",
+    "en-US": "Prostaglandin (ductus arteriosus patency maintainer)",
+    "es": "Prostaglandina (mantenedor de la permeabilidad del conducto arterioso)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Manutenção da patência do canal arterial em cardiopatias congênitas canal-dependentes, até correção/paliação cirúrgica"
+    ],
+    "en-US": [
+      "Maintaining ductus arteriosus patency in duct-dependent congenital heart disease, until surgical correction/palliation"
+    ],
+    "es": [
+      "Mantenimiento de la permeabilidad del conducto arterioso en cardiopatías congénitas conducto-dependientes, hasta la corrección/paliación quirúrgica"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.05,
@@ -25,32 +45,62 @@
   "contraindicacoes": [
     {
       "condicao": "apneia",
-      "descricao": { "pt-BR": "Apneia é efeito adverso dose-dependente comum, mais frequente em prematuros e em doses mais altas", "en-US": "Apnea is a common dose-dependent adverse effect, more frequent in preterm infants and at higher doses", "es": "La apnea es un efecto adverso dosis-dependiente frecuente, más común en prematuros y con dosis más altas" },
+      "descricao": {
+        "pt-BR": "Apneia é efeito adverso dose-dependente comum, mais frequente em prematuros e em doses mais altas",
+        "en-US": "Apnea is a common dose-dependent adverse effect, more frequent in preterm infants and at higher doses",
+        "es": "La apnea es un efecto adverso dosis-dependiente frecuente, más común en prematuros y con dosis más altas"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Ter suporte ventilatório prontamente disponível; considerar intubação eletiva antes do transporte", "en-US": "Have ventilatory support readily available; consider elective intubation before transport", "es": "Tener soporte ventilatorio disponible de inmediato; considerar intubación electiva antes del traslado" }
+      "conduta": {
+        "pt-BR": "Ter suporte ventilatório prontamente disponível; considerar intubação eletiva antes do transporte",
+        "en-US": "Have ventilatory support readily available; consider elective intubation before transport",
+        "es": "Tener soporte ventilatorio disponible de inmediato; considerar intubación electiva antes del traslado"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Efeito vasodilatador pode causar hipotensão e rubor cutâneo", "en-US": "Vasodilator effect may cause hypotension and cutaneous flushing", "es": "El efecto vasodilatador puede causar hipotensión y rubor cutáneo" },
+      "descricao": {
+        "pt-BR": "Efeito vasodilatador pode causar hipotensão e rubor cutâneo",
+        "en-US": "Vasodilator effect may cause hypotension and cutaneous flushing",
+        "es": "El efecto vasodilatador puede causar hipotensión y rubor cutáneo"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial continuamente", "en-US": "Monitor blood pressure continuously", "es": "Monitorizar presión arterial de forma continua" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial continuamente",
+        "en-US": "Monitor blood pressure continuously",
+        "es": "Monitorizar presión arterial de forma continua"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso prolongado (> 120h) associado a hiperostose cortical/proliferação da mucosa gástrica antral — reavaliar necessidade periodicamente", "Não interromper subitamente sem plano definido — risco de fechamento ductal e colapso hemodinâmico em cardiopatia canal-dependente"],
-    "en-US": ["Prolonged use (> 120h) associated with cortical hyperostosis/antral gastric mucosal proliferation — reassess need periodically", "Do not stop abruptly without a defined plan — risk of ductal closure and hemodynamic collapse in duct-dependent heart disease"],
-    "es": ["El uso prolongado (> 120h) se asocia a hiperostosis cortical/proliferación de la mucosa gástrica antral — reevaluar la necesidad periódicamente", "No interrumpir bruscamente sin un plan definido — riesgo de cierre ductal y colapso hemodinámico en cardiopatía conducto-dependiente"]
+    "pt-BR": [
+      "Uso prolongado (> 120h) associado a hiperostose cortical/proliferação da mucosa gástrica antral — reavaliar necessidade periodicamente",
+      "Não interromper subitamente sem plano definido — risco de fechamento ductal e colapso hemodinâmico em cardiopatia canal-dependente"
+    ],
+    "en-US": [
+      "Prolonged use (> 120h) associated with cortical hyperostosis/antral gastric mucosal proliferation — reassess need periodically",
+      "Do not stop abruptly without a defined plan — risk of ductal closure and hemodynamic collapse in duct-dependent heart disease"
+    ],
+    "es": [
+      "El uso prolongado (> 120h) se asocia a hiperostosis cortical/proliferación de la mucosa gástrica antral — reevaluar la necesidad periódicamente",
+      "No interrumpir bruscamente sin un plan definido — riesgo de cierre ductal y colapso hemodinámico en cardiopatía conducto-dependiente"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de cardiopatia congênita canal-dependente. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Alprostadil (Prostaglandin E1)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2025/11/Alprostadil_ANMFv3.0_20250925-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,38 @@
 {
   "id": "dexametasona",
-  "nome": { "pt-BR": "Dexametasona", "en-US": "Dexamethasone", "es": "Dexametasona" },
-  "nomeGenerico": { "pt-BR": "Fosfato dissódico de dexametasona", "en-US": "Dexamethasone sodium phosphate", "es": "Fosfato disódico de dexametasona" },
-  "classeFarmacologica": { "pt-BR": "Corticosteroide", "en-US": "Corticosteroid", "es": "Corticosteroide" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Facilitar extubação em displasia broncopulmonar estabelecida/em evolução", "Edema de vias aéreas pós-extubação"],
-    "en-US": ["Facilitate extubation in established/evolving bronchopulmonary dysplasia", "Post-extubation airway edema"],
-    "es": ["Facilitar la extubación en displasia broncopulmonar establecida/en evolución", "Edema de vías aéreas posextubación"]
+  "nome": {
+    "pt-BR": "Dexametasona",
+    "en-US": "Dexamethasone",
+    "es": "Dexametasona"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Fosfato dissódico de dexametasona",
+    "en-US": "Dexamethasone sodium phosphate",
+    "es": "Fosfato disódico de dexametasona"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Corticosteroide",
+    "en-US": "Corticosteroid",
+    "es": "Corticosteroide"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Facilitar extubação em displasia broncopulmonar estabelecida/em evolução",
+      "Edema de vias aéreas pós-extubação"
+    ],
+    "en-US": [
+      "Facilitate extubation in established/evolving bronchopulmonary dysplasia",
+      "Post-extubation airway edema"
+    ],
+    "es": [
+      "Facilitar la extubación en displasia broncopulmonar establecida/en evolución",
+      "Edema de vías aéreas posextubación"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.15,
@@ -25,32 +49,62 @@
   "contraindicacoes": [
     {
       "condicao": "hipertensao",
-      "descricao": { "pt-BR": "Efeito mineralocorticoide pode causar retenção hidrossalina e hipertensão", "en-US": "Mineralocorticoid effect may cause fluid/salt retention and hypertension", "es": "El efecto mineralocorticoide puede causar retención hidrosalina e hipertensión" },
+      "descricao": {
+        "pt-BR": "Efeito mineralocorticoide pode causar retenção hidrossalina e hipertensão",
+        "en-US": "Mineralocorticoid effect may cause fluid/salt retention and hypertension",
+        "es": "El efecto mineralocorticoide puede causar retención hidrosalina e hipertensión"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial", "en-US": "Monitor blood pressure", "es": "Monitorizar presión arterial" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial",
+        "en-US": "Monitor blood pressure",
+        "es": "Monitorizar presión arterial"
+      }
     },
     {
       "condicao": "sepse",
-      "descricao": { "pt-BR": "Imunossupressão relativa pode mascarar/agravar infecção não controlada", "en-US": "Relative immunosuppression may mask/worsen an uncontrolled infection", "es": "La inmunosupresión relativa puede enmascarar/agravar una infección no controlada" },
+      "descricao": {
+        "pt-BR": "Imunossupressão relativa pode mascarar/agravar infecção não controlada",
+        "en-US": "Relative immunosuppression may mask/worsen an uncontrolled infection",
+        "es": "La inmunosupresión relativa puede enmascarar/agravar una infección no controlada"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Assegurar cobertura antimicrobiana adequada quando indicado em contexto infeccioso", "en-US": "Ensure adequate antimicrobial coverage when indicated in an infectious context", "es": "Asegurar cobertura antimicrobiana adecuada cuando esté indicado en contexto infeccioso" }
+      "conduta": {
+        "pt-BR": "Assegurar cobertura antimicrobiana adequada quando indicado em contexto infeccioso",
+        "en-US": "Ensure adequate antimicrobial coverage when indicated in an infectious context",
+        "es": "Asegurar cobertura antimicrobiana adecuada cuando esté indicado en contexto infeccioso"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso precoce (primeiras 96h de vida) associado a maior risco de paralisia cerebral em estudos observacionais — evitar nesse período; individualizar risco-benefício em casos graves", "Monitorar glicemia (hiperglicemia) e sinais de sangramento gastrointestinal"],
-    "en-US": ["Early use (first 96h of life) associated with increased cerebral palsy risk in observational studies — avoid in this period; individualize risk-benefit in severe cases", "Monitor glycemia (hyperglycemia) and signs of gastrointestinal bleeding"],
-    "es": ["El uso precoz (primeras 96h de vida) se asocia a mayor riesgo de parálisis cerebral en estudios observacionales — evitar en este período; individualizar riesgo-beneficio en casos graves", "Monitorizar glucemia (hiperglucemia) y signos de sangrado gastrointestinal"]
+    "pt-BR": [
+      "Uso precoce (primeiras 96h de vida) associado a maior risco de paralisia cerebral em estudos observacionais — evitar nesse período; individualizar risco-benefício em casos graves",
+      "Monitorar glicemia (hiperglicemia) e sinais de sangramento gastrointestinal"
+    ],
+    "en-US": [
+      "Early use (first 96h of life) associated with increased cerebral palsy risk in observational studies — avoid in this period; individualize risk-benefit in severe cases",
+      "Monitor glycemia (hyperglycemia) and signs of gastrointestinal bleeding"
+    ],
+    "es": [
+      "El uso precoz (primeras 96h de vida) se asocia a mayor riesgo de parálisis cerebral en estudios observacionales — evitar en este período; individualizar riesgo-beneficio en casos graves",
+      "Monitorizar glucemia (hiperglucemia) y signos de sangrado gastrointestinal"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook / protocolo DART). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Dexamethasone\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/12/Dexamethasone_ANMFv6.0_20241205-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

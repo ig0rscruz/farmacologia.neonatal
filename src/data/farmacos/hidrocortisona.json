@@ -1,18 +1,37 @@
 {
   "id": "hidrocortisona",
-  "nome": { "pt-BR": "Hidrocortisona", "en-US": "Hydrocortisone", "es": "Hidrocortisona" },
+  "nome": {
+    "pt-BR": "Hidrocortisona",
+    "en-US": "Hydrocortisone",
+    "es": "Hidrocortisona"
+  },
   "nomeGenerico": {
     "pt-BR": "Succinato sódico de hidrocortisona",
     "en-US": "Hydrocortisone sodium succinate",
     "es": "Succinato sódico de hidrocortisona"
   },
-  "classeFarmacologica": { "pt-BR": "Corticosteroide", "en-US": "Corticosteroid", "es": "Corticosteroide" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hipotensão refratária a drogas vasoativas (insuficiência adrenal relativa)", "Insuficiência adrenal congênita ou adquirida"],
-    "en-US": ["Hypotension refractory to vasoactive drugs (relative adrenal insufficiency)", "Congenital or acquired adrenal insufficiency"],
-    "es": ["Hipotensión refractaria a fármacos vasoactivos (insuficiencia suprarrenal relativa)", "Insuficiencia suprarrenal congénita o adquirida"]
+  "classeFarmacologica": {
+    "pt-BR": "Corticosteroide",
+    "en-US": "Corticosteroid",
+    "es": "Corticosteroide"
   },
-  "viasAdministracao": ["intravenosa"],
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipotensão refratária a drogas vasoativas (insuficiência adrenal relativa)",
+      "Insuficiência adrenal congênita ou adquirida"
+    ],
+    "en-US": [
+      "Hypotension refractory to vasoactive drugs (relative adrenal insufficiency)",
+      "Congenital or acquired adrenal insufficiency"
+    ],
+    "es": [
+      "Hipotensión refractaria a fármacos vasoactivos (insuficiencia suprarrenal relativa)",
+      "Insuficiencia suprarrenal congénita o adquirida"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -57,15 +76,25 @@
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Monitorar glicemia (risco de hiperglicemia)", "Desmame gradual após uso prolongado para evitar insuficiência adrenal de rebote"],
-    "en-US": ["Monitor glycemia (hyperglycemia risk)", "Wean gradually after prolonged use to avoid rebound adrenal insufficiency"],
-    "es": ["Monitorizar glucemia (riesgo de hiperglucemia)", "Destete gradual tras uso prolongado para evitar insuficiencia suprarrenal de rebote"]
+    "pt-BR": [
+      "Monitorar glicemia (risco de hiperglicemia)",
+      "Desmame gradual após uso prolongado para evitar insuficiência adrenal de rebote"
+    ],
+    "en-US": [
+      "Monitor glycemia (hyperglycemia risk)",
+      "Wean gradually after prolonged use to avoid rebound adrenal insufficiency"
+    ],
+    "es": [
+      "Monitorizar glucemia (riesgo de hiperglucemia)",
+      "Destete gradual tras uso prolongado para evitar insuficiencia suprarrenal de rebote"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de hipotensão refratária neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Hydrocortisone\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/12/Hydrocortisone_ANMFv2.0_20221110.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

@@ -1,8 +1,20 @@
 {
   "id": "adrenalina",
-  "nome": { "pt-BR": "Adrenalina (epinefrina)", "en-US": "Epinephrine (adrenaline)", "es": "Adrenalina (epinefrina)" },
-  "nomeGenerico": { "pt-BR": "Epinefrina", "en-US": "Epinephrine", "es": "Epinefrina" },
-  "classeFarmacologica": { "pt-BR": "Catecolamina / vasopressor", "en-US": "Catecholamine / vasopressor", "es": "Catecolamina / vasopresor" },
+  "nome": {
+    "pt-BR": "Adrenalina (epinefrina)",
+    "en-US": "Epinephrine (adrenaline)",
+    "es": "Adrenalina (epinefrina)"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Epinefrina",
+    "en-US": "Epinephrine",
+    "es": "Epinefrina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Catecolamina / vasopressor",
+    "en-US": "Catecholamine / vasopressor",
+    "es": "Catecolamina / vasopresor"
+  },
   "indicacoesNeonatais": {
     "pt-BR": [
       "Reanimação neonatal (parada cardiorrespiratória, FC < 60 bpm apesar de ventilação e compressões adequadas)",
@@ -17,7 +29,11 @@
       "Choque refractario a otros fármacos vasoactivos"
     ]
   },
-  "viasAdministracao": ["intravenosa", "intraossea", "endotraqueal"],
+  "viasAdministracao": [
+    "intravenosa",
+    "intraossea",
+    "endotraqueal"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.01,
@@ -101,7 +117,8 @@
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de reanimação neonatal (estilo Programa de Reanimação Neonatal). Substituir por versão vigente da diretriz antes de uso clínico.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Adrenaline (Epinephrine) Intravenous bolus\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/adrenaline-epinephrine-intravenous-bolus-20052021-2.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

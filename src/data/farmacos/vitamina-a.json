@@ -1,14 +1,34 @@
 {
   "id": "vitamina-a",
-  "nome": { "pt-BR": "Vitamina A (retinol)", "en-US": "Vitamin A (retinol)", "es": "Vitamina A (retinol)" },
-  "nomeGenerico": { "pt-BR": "Palmitato de retinol", "en-US": "Retinol palmitate", "es": "Palmitato de retinol" },
-  "classeFarmacologica": { "pt-BR": "Vitamina lipossolúvel", "en-US": "Fat-soluble vitamin", "es": "Vitamina liposoluble" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Prevenção de displasia broncopulmonar em prematuros extremos de muito baixo peso"],
-    "en-US": ["Prevention of bronchopulmonary dysplasia in extremely low birth weight preterm infants"],
-    "es": ["Prevención de la displasia broncopulmonar en prematuros extremos de muy bajo peso"]
+  "nome": {
+    "pt-BR": "Vitamina A (retinol)",
+    "en-US": "Vitamin A (retinol)",
+    "es": "Vitamina A (retinol)"
   },
-  "viasAdministracao": ["intramuscular"],
+  "nomeGenerico": {
+    "pt-BR": "Palmitato de retinol",
+    "en-US": "Retinol palmitate",
+    "es": "Palmitato de retinol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Vitamina lipossolúvel",
+    "en-US": "Fat-soluble vitamin",
+    "es": "Vitamina liposoluble"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Prevenção de displasia broncopulmonar em prematuros extremos de muito baixo peso"
+    ],
+    "en-US": [
+      "Prevention of bronchopulmonary dysplasia in extremely low birth weight preterm infants"
+    ],
+    "es": [
+      "Prevención de la displasia broncopulmonar en prematuros extremos de muy bajo peso"
+    ]
+  },
+  "viasAdministracao": [
+    "intramuscular"
+  ],
   "faixasDose": [
     {
       "doseValor": 5000,
@@ -24,20 +44,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Administração intramuscular repetida pode ser dolorosa — benefício deve ser pesado contra o desconforto do procedimento, o que limitou a adoção rotineira em muitas unidades"],
-    "en-US": ["Repeated intramuscular administration may be painful — benefit should be weighed against procedural discomfort, which has limited routine adoption in many units"],
-    "es": ["La administración intramuscular repetida puede ser dolorosa — el beneficio debe sopesarse frente a la incomodidad del procedimiento, lo que ha limitado su adopción rutinaria en muchas unidades"]
+    "pt-BR": [
+      "Administração intramuscular repetida pode ser dolorosa — benefício deve ser pesado contra o desconforto do procedimento, o que limitou a adoção rotineira em muitas unidades"
+    ],
+    "en-US": [
+      "Repeated intramuscular administration may be painful — benefit should be weighed against procedural discomfort, which has limited routine adoption in many units"
+    ],
+    "es": [
+      "La administración intramuscular repetida puede ser dolorosa — el beneficio debe sopesarse frente a la incomodidad del procedimiento, lo que ha limitado su adopción rutinaria en muchas unidades"
+    ]
   },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre suplementação de vitamina A para prevenção de displasia broncopulmonar. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Vitamin A\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/02/Vitamin-A_ANMFv2.0_20260129-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

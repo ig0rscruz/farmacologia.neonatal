@@ -1,14 +1,39 @@
 {
   "id": "glucagon",
-  "nome": { "pt-BR": "Glucagon", "en-US": "Glucagon", "es": "Glucagón" },
-  "nomeGenerico": { "pt-BR": "Glucagon (hormônio pancreático)", "en-US": "Glucagon (pancreatic hormone)", "es": "Glucagón (hormona pancreática)" },
-  "classeFarmacologica": { "pt-BR": "Hormônio hiperglicemiante", "en-US": "Hyperglycemic hormone", "es": "Hormona hiperglucemiante" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hipoglicemia neonatal refratária/grave quando acesso venoso para glicose é difícil ou como medida temporária", "Hiperinsulinismo neonatal (uso adjuvante selecionado)"],
-    "en-US": ["Refractory/severe neonatal hypoglycemia when IV glucose access is difficult, or as a temporary measure", "Neonatal hyperinsulinism (selected adjunctive use)"],
-    "es": ["Hipoglucemia neonatal refractaria/grave cuando el acceso venoso para glucosa es difícil, o como medida temporal", "Hiperinsulinismo neonatal (uso adyuvante seleccionado)"]
+  "nome": {
+    "pt-BR": "Glucagon",
+    "en-US": "Glucagon",
+    "es": "Glucagón"
   },
-  "viasAdministracao": ["intravenosa", "intramuscular", "subcutanea"],
+  "nomeGenerico": {
+    "pt-BR": "Glucagon (hormônio pancreático)",
+    "en-US": "Glucagon (pancreatic hormone)",
+    "es": "Glucagón (hormona pancreática)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Hormônio hiperglicemiante",
+    "en-US": "Hyperglycemic hormone",
+    "es": "Hormona hiperglucemiante"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipoglicemia neonatal refratária/grave quando acesso venoso para glicose é difícil ou como medida temporária",
+      "Hiperinsulinismo neonatal (uso adjuvante selecionado)"
+    ],
+    "en-US": [
+      "Refractory/severe neonatal hypoglycemia when IV glucose access is difficult, or as a temporary measure",
+      "Neonatal hyperinsulinism (selected adjunctive use)"
+    ],
+    "es": [
+      "Hipoglucemia neonatal refractaria/grave cuando el acceso venoso para glucosa es difícil, o como medida temporal",
+      "Hiperinsulinismo neonatal (uso adyuvante seleccionado)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "intramuscular",
+    "subcutanea"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.1,
@@ -25,26 +50,48 @@
   "contraindicacoes": [
     {
       "condicao": "outra",
-      "descricao": { "pt-BR": "Eficácia depende de reservas hepáticas de glicogênio adequadas — pode ser ineficaz em neonatos com depleção de glicogênio (ex.: restrição de crescimento grave, jejum prolongado)", "en-US": "Efficacy depends on adequate hepatic glycogen stores — may be ineffective in neonates with glycogen depletion (e.g., severe growth restriction, prolonged fasting)", "es": "La eficacia depende de reservas hepáticas de glucógeno adecuadas — puede ser ineficaz en neonatos con depleción de glucógeno (p. ej., restricción de crecimiento grave, ayuno prolongado)" },
+      "descricao": {
+        "pt-BR": "Eficácia depende de reservas hepáticas de glicogênio adequadas — pode ser ineficaz em neonatos com depleção de glicogênio (ex.: restrição de crescimento grave, jejum prolongado)",
+        "en-US": "Efficacy depends on adequate hepatic glycogen stores — may be ineffective in neonates with glycogen depletion (e.g., severe growth restriction, prolonged fasting)",
+        "es": "La eficacia depende de reservas hepáticas de glucógeno adecuadas — puede ser ineficaz en neonatos con depleción de glucógeno (p. ej., restricción de crecimiento grave, ayuno prolongado)"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Não usar como substituto de correção definitiva de glicemia (glicose IV); reavaliar se não houver resposta em 20-30 minutos", "en-US": "Do not use as a substitute for definitive glucose correction (IV glucose); reassess if there is no response within 20-30 minutes", "es": "No usar como sustituto de la corrección definitiva de la glucemia (glucosa IV); reevaluar si no hay respuesta en 20-30 minutos" }
+      "conduta": {
+        "pt-BR": "Não usar como substituto de correção definitiva de glicemia (glicose IV); reavaliar se não houver resposta em 20-30 minutos",
+        "en-US": "Do not use as a substitute for definitive glucose correction (IV glucose); reassess if there is no response within 20-30 minutes",
+        "es": "No usar como sustituto de la corrección definitiva de la glucemia (glucosa IV); reevaluar si no hay respuesta en 20-30 minutos"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Medida temporária/adjuvante — não substitui infusão de glicose IV para hipoglicemia neonatal", "Pode causar hiperglicemia rebote e vômitos"],
-    "en-US": ["Temporary/adjunctive measure — does not replace IV glucose infusion for neonatal hypoglycemia", "May cause rebound hyperglycemia and vomiting"],
-    "es": ["Medida temporal/adyuvante — no sustituye la infusión de glucosa IV para la hipoglucemia neonatal", "Puede causar hiperglucemia de rebote y vómitos"]
+    "pt-BR": [
+      "Medida temporária/adjuvante — não substitui infusão de glicose IV para hipoglicemia neonatal",
+      "Pode causar hiperglicemia rebote e vômitos"
+    ],
+    "en-US": [
+      "Temporary/adjunctive measure — does not replace IV glucose infusion for neonatal hypoglycemia",
+      "May cause rebound hyperglycemia and vomiting"
+    ],
+    "es": [
+      "Medida temporal/adyuvante — no sustituye la infusión de glucosa IV para la hipoglucemia neonatal",
+      "Puede causar hiperglucemia de rebote y vómitos"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre manejo de hipoglicemia neonatal e hiperinsulinismo (ex.: Pediatric Endocrine Society guidelines). Substituir por referência específica revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Glucagon\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/Glucagon_ANMFv2.0_20251127.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,34 @@
 {
   "id": "vitamina-d",
-  "nome": { "pt-BR": "Vitamina D (colecalciferol)", "en-US": "Vitamin D (cholecalciferol)", "es": "Vitamina D (colecalciferol)" },
-  "nomeGenerico": { "pt-BR": "Colecalciferol", "en-US": "Cholecalciferol", "es": "Colecalciferol" },
-  "classeFarmacologica": { "pt-BR": "Vitamina lipossolúvel", "en-US": "Fat-soluble vitamin", "es": "Vitamina liposoluble" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Suplementação de rotina para prevenção de raquitismo/osteopenia da prematuridade"],
-    "en-US": ["Routine supplementation to prevent rickets/osteopenia of prematurity"],
-    "es": ["Suplementación de rutina para prevenir raquitismo/osteopenia de la prematuridad"]
+  "nome": {
+    "pt-BR": "Vitamina D (colecalciferol)",
+    "en-US": "Vitamin D (cholecalciferol)",
+    "es": "Vitamina D (colecalciferol)"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Colecalciferol",
+    "en-US": "Cholecalciferol",
+    "es": "Colecalciferol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Vitamina lipossolúvel",
+    "en-US": "Fat-soluble vitamin",
+    "es": "Vitamina liposoluble"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Suplementação de rotina para prevenção de raquitismo/osteopenia da prematuridade"
+    ],
+    "en-US": [
+      "Routine supplementation to prevent rickets/osteopenia of prematurity"
+    ],
+    "es": [
+      "Suplementación de rutina para prevenir raquitismo/osteopenia de la prematuridad"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 400,
@@ -24,20 +44,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Doses excessivas podem causar hipercalcemia — respeitar limites de segurança"],
-    "en-US": ["Excessive doses may cause hypercalcemia — respect safety limits"],
-    "es": ["Las dosis excesivas pueden causar hipercalcemia — respetar los límites de seguridad"]
+    "pt-BR": [
+      "Doses excessivas podem causar hipercalcemia — respeitar limites de segurança"
+    ],
+    "en-US": [
+      "Excessive doses may cause hypercalcemia — respect safety limits"
+    ],
+    "es": [
+      "Las dosis excesivas pueden causar hipercalcemia — respetar los límites de seguridad"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal (ex.: sociedades de pediatria/neonatologia). Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Vitamin D (Cholecalciferol)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/08/Vitamin-D_ANMF_v4.0_20230810-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

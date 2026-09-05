@@ -1,14 +1,37 @@
 {
   "id": "dexmedetomidina",
-  "nome": { "pt-BR": "Dexmedetomidina", "en-US": "Dexmedetomidine", "es": "Dexmedetomidina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de dexmedetomidina", "en-US": "Dexmedetomidine hydrochloride", "es": "Clorhidrato de dexmedetomidina" },
-  "classeFarmacologica": { "pt-BR": "Agonista alfa-2 adrenérgico (sedativo)", "en-US": "Alpha-2 adrenergic agonist (sedative)", "es": "Agonista alfa-2 adrenérgico (sedante)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sedação em ventilação mecânica (alternativa com menor depressão respiratória)", "Sedação adjuvante para desmame de opioides/benzodiazepínicos"],
-    "en-US": ["Sedation during mechanical ventilation (alternative with less respiratory depression)", "Adjunctive sedation for opioid/benzodiazepine weaning"],
-    "es": ["Sedación en ventilación mecánica (alternativa con menor depresión respiratoria)", "Sedación adyuvante para el destete de opioides/benzodiacepinas"]
+  "nome": {
+    "pt-BR": "Dexmedetomidina",
+    "en-US": "Dexmedetomidine",
+    "es": "Dexmedetomidina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de dexmedetomidina",
+    "en-US": "Dexmedetomidine hydrochloride",
+    "es": "Clorhidrato de dexmedetomidina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Agonista alfa-2 adrenérgico (sedativo)",
+    "en-US": "Alpha-2 adrenergic agonist (sedative)",
+    "es": "Agonista alfa-2 adrenérgico (sedante)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sedação em ventilação mecânica (alternativa com menor depressão respiratória)",
+      "Sedação adjuvante para desmame de opioides/benzodiazepínicos"
+    ],
+    "en-US": [
+      "Sedation during mechanical ventilation (alternative with less respiratory depression)",
+      "Adjunctive sedation for opioid/benzodiazepine weaning"
+    ],
+    "es": [
+      "Sedación en ventilación mecánica (alternativa con menor depresión respiratoria)",
+      "Sedación adyuvante para el destete de opioides/benzodiacepinas"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.2,
@@ -25,32 +48,59 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Efeito simpaticolítico pode causar bradicardia", "en-US": "Sympatholytic effect may cause bradycardia", "es": "El efecto simpaticolítico puede causar bradicardia" },
+      "descricao": {
+        "pt-BR": "Efeito simpaticolítico pode causar bradicardia",
+        "en-US": "Sympatholytic effect may cause bradycardia",
+        "es": "El efecto simpaticolítico puede causar bradicardia"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização contínua de FC; reduzir dose ou suspender se bradicardia significativa", "en-US": "Continuous HR monitoring; reduce dose or discontinue if significant bradycardia", "es": "Monitorización continua de FC; reducir la dosis o suspender si hay bradicardia significativa" }
+      "conduta": {
+        "pt-BR": "Monitorização contínua de FC; reduzir dose ou suspender se bradicardia significativa",
+        "en-US": "Continuous HR monitoring; reduce dose or discontinue if significant bradycardia",
+        "es": "Monitorización continua de FC; reducir la dosis o suspender si hay bradicardia significativa"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Pode causar hipotensão, especialmente em bolus ou hipovolemia", "en-US": "May cause hypotension, especially with bolus dosing or hypovolemia", "es": "Puede causar hipotensión, especialmente con bolo o hipovolemia" },
+      "descricao": {
+        "pt-BR": "Pode causar hipotensão, especialmente em bolus ou hipovolemia",
+        "en-US": "May cause hypotension, especially with bolus dosing or hypovolemia",
+        "es": "Puede causar hipotensión, especialmente con bolo o hipovolemia"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Evitar bolus; monitorar pressão arterial", "en-US": "Avoid bolus dosing; monitor blood pressure", "es": "Evitar el bolo; monitorizar presión arterial" }
+      "conduta": {
+        "pt-BR": "Evitar bolus; monitorar pressão arterial",
+        "en-US": "Avoid bolus dosing; monitor blood pressure",
+        "es": "Evitar el bolo; monitorizar presión arterial"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Experiência em neonatos é mais limitada que em crianças maiores — usar com acompanhamento próximo, especialmente em prematuros"],
-    "en-US": ["Experience in neonates is more limited than in older children — use with close monitoring, especially in preterm infants"],
-    "es": ["La experiencia en neonatos es más limitada que en niños mayores — usar con seguimiento estrecho, especialmente en prematuros"]
+    "pt-BR": [
+      "Experiência em neonatos é mais limitada que em crianças maiores — usar com acompanhamento próximo, especialmente em prematuros"
+    ],
+    "en-US": [
+      "Experience in neonates is more limited than in older children — use with close monitoring, especially in preterm infants"
+    ],
+    "es": [
+      "La experiencia en neonatos es más limitada que en niños mayores — usar con seguimiento estrecho, especialmente en prematuros"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Dexmedetomidine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2025/11/Dexmedetomidine_ANMFv4.0_20250410-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

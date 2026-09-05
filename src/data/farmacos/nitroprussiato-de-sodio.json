@@ -1,14 +1,37 @@
 {
   "id": "nitroprussiato-de-sodio",
-  "nome": { "pt-BR": "Nitroprussiato de sódio", "en-US": "Sodium nitroprusside", "es": "Nitroprusiato de sodio" },
-  "nomeGenerico": { "pt-BR": "Nitroprussiato de sódio", "en-US": "Sodium nitroprusside", "es": "Nitroprusiato de sodio" },
-  "classeFarmacologica": { "pt-BR": "Vasodilatador (doador de óxido nítrico)", "en-US": "Vasodilator (nitric oxide donor)", "es": "Vasodilatador (donante de óxido nítrico)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hipertensão arterial grave/emergência hipertensiva", "Redução de pós-carga em disfunção miocárdica selecionada"],
-    "en-US": ["Severe hypertension/hypertensive emergency", "Afterload reduction in selected myocardial dysfunction"],
-    "es": ["Hipertensión arterial grave/emergencia hipertensiva", "Reducción de la poscarga en disfunción miocárdica seleccionada"]
+  "nome": {
+    "pt-BR": "Nitroprussiato de sódio",
+    "en-US": "Sodium nitroprusside",
+    "es": "Nitroprusiato de sodio"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Nitroprussiato de sódio",
+    "en-US": "Sodium nitroprusside",
+    "es": "Nitroprusiato de sodio"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Vasodilatador (doador de óxido nítrico)",
+    "en-US": "Vasodilator (nitric oxide donor)",
+    "es": "Vasodilatador (donante de óxido nítrico)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipertensão arterial grave/emergência hipertensiva",
+      "Redução de pós-carga em disfunção miocárdica selecionada"
+    ],
+    "en-US": [
+      "Severe hypertension/hypertensive emergency",
+      "Afterload reduction in selected myocardial dysfunction"
+    ],
+    "es": [
+      "Hipertensión arterial grave/emergencia hipertensiva",
+      "Reducción de la poscarga en disfunción miocárdica seleccionada"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -25,32 +48,59 @@
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Efeito vasodilatador potente pode causar hipotensão significativa", "en-US": "Potent vasodilator effect may cause significant hypotension", "es": "El efecto vasodilatador potente puede causar hipotensión significativa" },
+      "descricao": {
+        "pt-BR": "Efeito vasodilatador potente pode causar hipotensão significativa",
+        "en-US": "Potent vasodilator effect may cause significant hypotension",
+        "es": "El efecto vasodilatador potente puede causar hipotensión significativa"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização contínua de pressão arterial, idealmente invasiva", "en-US": "Continuous blood pressure monitoring, ideally invasive", "es": "Monitorización continua de la presión arterial, idealmente invasiva" }
+      "conduta": {
+        "pt-BR": "Monitorização contínua de pressão arterial, idealmente invasiva",
+        "en-US": "Continuous blood pressure monitoring, ideally invasive",
+        "es": "Monitorización continua de la presión arterial, idealmente invasiva"
+      }
     },
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Risco de acúmulo de cianeto/tiocianato em uso prolongado ou disfunção renal/hepática", "en-US": "Risk of cyanide/thiocyanate accumulation with prolonged use or renal/hepatic impairment", "es": "Riesgo de acumulación de cianuro/tiocianato en uso prolongado o disfunción renal/hepática" },
+      "descricao": {
+        "pt-BR": "Risco de acúmulo de cianeto/tiocianato em uso prolongado ou disfunção renal/hepática",
+        "en-US": "Risk of cyanide/thiocyanate accumulation with prolonged use or renal/hepatic impairment",
+        "es": "Riesgo de acumulación de cianuro/tiocianato en uso prolongado o disfunción renal/hepática"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Limitar duração e dose cumulativa; monitorar sinais de toxicidade por cianeto/tiocianato em uso prolongado", "en-US": "Limit duration and cumulative dose; monitor for cyanide/thiocyanate toxicity signs with prolonged use", "es": "Limitar la duración y la dosis acumulada; monitorizar signos de toxicidad por cianuro/tiocianato en uso prolongado" }
+      "conduta": {
+        "pt-BR": "Limitar duração e dose cumulativa; monitorar sinais de toxicidade por cianeto/tiocianato em uso prolongado",
+        "en-US": "Limit duration and cumulative dose; monitor for cyanide/thiocyanate toxicity signs with prolonged use",
+        "es": "Limitar la duración y la dosis acumulada; monitorizar signos de toxicidad por cianuro/tiocianato en uso prolongado"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Proteger a solução da luz durante a infusão — degrada e perde eficácia quando exposta"],
-    "en-US": ["Protect the solution from light during infusion — it degrades and loses efficacy when exposed"],
-    "es": ["Proteger la solución de la luz durante la infusión — se degrada y pierde eficacia al exponerse"]
+    "pt-BR": [
+      "Proteger a solução da luz durante a infusão — degrada e perde eficácia quando exposta"
+    ],
+    "en-US": [
+      "Protect the solution from light during infusion — it degrades and loses efficacy when exposed"
+    ],
+    "es": [
+      "Proteger la solución de la luz durante la infusión — se degrada y pierde eficacia al exponerse"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Sodium Nitroprusside\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/01/Sodium-nitroprusside_ANMFv1.1_20260423.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

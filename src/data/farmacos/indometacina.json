@@ -1,18 +1,34 @@
 {
   "id": "indometacina",
-  "nome": { "pt-BR": "Indometacina", "en-US": "Indomethacin", "es": "Indometacina" },
-  "nomeGenerico": { "pt-BR": "Indometacina sódica", "en-US": "Indomethacin sodium", "es": "Indometacina sódica" },
+  "nome": {
+    "pt-BR": "Indometacina",
+    "en-US": "Indomethacin",
+    "es": "Indometacina"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Indometacina sódica",
+    "en-US": "Indomethacin sodium",
+    "es": "Indometacina sódica"
+  },
   "classeFarmacologica": {
     "pt-BR": "Anti-inflamatório não esteroidal (inibidor da ciclo-oxigenase)",
     "en-US": "Nonsteroidal anti-inflammatory drug (cyclooxygenase inhibitor)",
     "es": "Antiinflamatorio no esteroideo (inhibidor de la ciclooxigenasa)"
   },
   "indicacoesNeonatais": {
-    "pt-BR": ["Fechamento farmacológico da persistência do canal arterial (PCA)"],
-    "en-US": ["Pharmacological closure of patent ductus arteriosus (PDA)"],
-    "es": ["Cierre farmacológico de la persistencia del conducto arterioso (PCA)"]
+    "pt-BR": [
+      "Fechamento farmacológico da persistência do canal arterial (PCA)"
+    ],
+    "en-US": [
+      "Pharmacological closure of patent ductus arteriosus (PDA)"
+    ],
+    "es": [
+      "Cierre farmacológico de la persistencia del conducto arterioso (PCA)"
+    ]
   },
-  "viasAdministracao": ["intravenosa"],
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.2,
@@ -88,7 +104,8 @@
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo farmacológico da persistência do canal arterial. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Indometacin (Indomethacin)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/06/Indometacin_ANMFv3.1_20260416.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

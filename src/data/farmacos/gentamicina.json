@@ -1,18 +1,38 @@
 {
   "id": "gentamicina",
-  "nome": { "pt-BR": "Gentamicina", "en-US": "Gentamicin", "es": "Gentamicina" },
-  "nomeGenerico": { "pt-BR": "Sulfato de gentamicina", "en-US": "Gentamicin sulfate", "es": "Sulfato de gentamicina" },
+  "nome": {
+    "pt-BR": "Gentamicina",
+    "en-US": "Gentamicin",
+    "es": "Gentamicina"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Sulfato de gentamicina",
+    "en-US": "Gentamicin sulfate",
+    "es": "Sulfato de gentamicina"
+  },
   "classeFarmacologica": {
     "pt-BR": "Antibiótico aminoglicosídeo",
     "en-US": "Aminoglycoside antibiotic",
     "es": "Antibiótico aminoglucósido"
   },
   "indicacoesNeonatais": {
-    "pt-BR": ["Sepse neonatal precoce (associada a ampicilina, empírica)", "Infecções por bacilos Gram-negativos"],
-    "en-US": ["Early-onset neonatal sepsis (empiric, combined with ampicillin)", "Gram-negative bacillary infections"],
-    "es": ["Sepsis neonatal precoz (asociada a ampicilina, empírica)", "Infecciones por bacilos Gram-negativos"]
+    "pt-BR": [
+      "Sepse neonatal precoce (associada a ampicilina, empírica)",
+      "Infecções por bacilos Gram-negativos"
+    ],
+    "en-US": [
+      "Early-onset neonatal sepsis (empiric, combined with ampicillin)",
+      "Gram-negative bacillary infections"
+    ],
+    "es": [
+      "Sepsis neonatal precoz (asociada a ampicilina, empírica)",
+      "Infecciones por bacilos Gram-negativos"
+    ]
   },
-  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "viasAdministracao": [
+    "intravenosa",
+    "intramuscular"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
@@ -20,7 +40,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 48,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA < 30 semanas.",
+        "en-US": "PMA < 30 weeks.",
+        "es": "EPM < 30 semanas."
+      }
     },
     {
       "pmaMinSemanas": 30,
@@ -29,7 +53,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 36,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA 30-34 semanas.", "en-US": "PMA 30-34 weeks.", "es": "EPM 30-34 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA 30-34 semanas.",
+        "en-US": "PMA 30-34 weeks.",
+        "es": "EPM 30-34 semanas."
+      }
     },
     {
       "pmaMinSemanas": 35,
@@ -37,7 +65,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 24,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA ≥ 35 semanas.", "en-US": "PMA ≥ 35 weeks.", "es": "EPM ≥ 35 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA ≥ 35 semanas.",
+        "en-US": "PMA ≥ 35 weeks.",
+        "es": "EPM ≥ 35 semanas."
+      }
     }
   ],
   "contraindicacoes": [
@@ -87,9 +119,10 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — Protocolo de antibioticoterapia neonatal baseado em faixas de PMA (estilo NeoFax/Micromedex). Substituir por fonte institucional vigente antes de uso clínico.",
-      "dataAcesso": "2026-09-04"
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Gentamicin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/04/Gentamicin_ANMFv4.0_20240424.pdf",
+      "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {

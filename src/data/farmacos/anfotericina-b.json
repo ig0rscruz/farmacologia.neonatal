@@ -1,14 +1,37 @@
 {
   "id": "anfotericina-b",
-  "nome": { "pt-BR": "Anfotericina B", "en-US": "Amphotericin B", "es": "Anfotericina B" },
-  "nomeGenerico": { "pt-BR": "Anfotericina B (desoxicolato ou lipossomal)", "en-US": "Amphotericin B (deoxycholate or liposomal)", "es": "Anfotericina B (desoxicolato o liposomal)" },
-  "classeFarmacologica": { "pt-BR": "Antifúngico poliênico sistêmico", "en-US": "Systemic polyene antifungal", "es": "Antifúngico poliénico sistémico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Candidíase invasiva/candidemia grave ou refratária a fluconazol", "Infecção fúngica invasiva por outros fungos filamentosos selecionados"],
-    "en-US": ["Severe invasive candidiasis/candidemia or refractory to fluconazole", "Invasive infection due to other selected filamentous fungi"],
-    "es": ["Candidiasis invasiva/candidemia grave o refractaria a fluconazol", "Infección fúngica invasiva por otros hongos filamentosos seleccionados"]
+  "nome": {
+    "pt-BR": "Anfotericina B",
+    "en-US": "Amphotericin B",
+    "es": "Anfotericina B"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Anfotericina B (desoxicolato ou lipossomal)",
+    "en-US": "Amphotericin B (deoxycholate or liposomal)",
+    "es": "Anfotericina B (desoxicolato o liposomal)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antifúngico poliênico sistêmico",
+    "en-US": "Systemic polyene antifungal",
+    "es": "Antifúngico poliénico sistémico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Candidíase invasiva/candidemia grave ou refratária a fluconazol",
+      "Infecção fúngica invasiva por outros fungos filamentosos selecionados"
+    ],
+    "en-US": [
+      "Severe invasive candidiasis/candidemia or refractory to fluconazole",
+      "Invasive infection due to other selected filamentous fungi"
+    ],
+    "es": [
+      "Candidiasis invasiva/candidemia grave o refractaria a fluconazol",
+      "Infección fúngica invasiva por otros hongos filamentosos seleccionados"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,26 +48,48 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Nefrotoxicidade é efeito adverso comum e dose-limitante, especialmente com a formulação desoxicolato", "en-US": "Nephrotoxicity is a common, dose-limiting adverse effect, especially with the deoxycholate formulation", "es": "La nefrotoxicidad es un efecto adverso común y limitante de la dosis, especialmente con la formulación desoxicolato" },
+      "descricao": {
+        "pt-BR": "Nefrotoxicidade é efeito adverso comum e dose-limitante, especialmente com a formulação desoxicolato",
+        "en-US": "Nephrotoxicity is a common, dose-limiting adverse effect, especially with the deoxycholate formulation",
+        "es": "La nefrotoxicidad es un efecto adverso común y limitante de la dosis, especialmente con la formulación desoxicolato"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorar função renal e eletrólitos (potássio, magnésio) frequentemente; preferir formulação lipossomal se disponível", "en-US": "Monitor renal function and electrolytes (potassium, magnesium) frequently; prefer liposomal formulation if available", "es": "Monitorizar la función renal y los electrolitos (potasio, magnesio) con frecuencia; preferir la formulación liposomal si está disponible" }
+      "conduta": {
+        "pt-BR": "Monitorar função renal e eletrólitos (potássio, magnésio) frequentemente; preferir formulação lipossomal se disponível",
+        "en-US": "Monitor renal function and electrolytes (potassium, magnesium) frequently; prefer liposomal formulation if available",
+        "es": "Monitorizar la función renal y los electrolitos (potasio, magnesio) con frecuencia; preferir la formulación liposomal si está disponible"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Infundir lentamente — reações relacionadas à infusão (febre, calafrios) são comuns", "Monitorar potássio e magnésio séricos periodicamente durante o tratamento"],
-    "en-US": ["Infuse slowly — infusion-related reactions (fever, chills) are common", "Monitor serum potassium and magnesium periodically during treatment"],
-    "es": ["Infundir lentamente — las reacciones relacionadas con la infusión (fiebre, escalofríos) son comunes", "Monitorizar el potasio y magnesio séricos periódicamente durante el tratamiento"]
+    "pt-BR": [
+      "Infundir lentamente — reações relacionadas à infusão (febre, calafrios) são comuns",
+      "Monitorar potássio e magnésio séricos periodicamente durante o tratamento"
+    ],
+    "en-US": [
+      "Infuse slowly — infusion-related reactions (fever, chills) are common",
+      "Monitor serum potassium and magnesium periodically during treatment"
+    ],
+    "es": [
+      "Infundir lentamente — las reacciones relacionadas con la infusión (fiebre, escalofríos) son comunes",
+      "Monitorizar el potasio y magnesio séricos periódicamente durante el tratamiento"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Amphotericin B Conventional\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/amphotericin-b-conventional-05012021-2.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

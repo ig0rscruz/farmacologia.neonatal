@@ -1,18 +1,37 @@
 {
   "id": "dobutamina",
-  "nome": { "pt-BR": "Dobutamina", "en-US": "Dobutamine", "es": "Dobutamina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de dobutamina", "en-US": "Dobutamine hydrochloride", "es": "Clorhidrato de dobutamina" },
+  "nome": {
+    "pt-BR": "Dobutamina",
+    "en-US": "Dobutamine",
+    "es": "Dobutamina"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de dobutamina",
+    "en-US": "Dobutamine hydrochloride",
+    "es": "Clorhidrato de dobutamina"
+  },
   "classeFarmacologica": {
     "pt-BR": "Catecolamina sintética / inotrópico",
     "en-US": "Synthetic catecholamine / inotrope",
     "es": "Catecolamina sintética / inotrópico"
   },
   "indicacoesNeonatais": {
-    "pt-BR": ["Disfunção miocárdica com débito cardíaco reduzido", "Choque cardiogênico"],
-    "en-US": ["Myocardial dysfunction with reduced cardiac output", "Cardiogenic shock"],
-    "es": ["Disfunción miocárdica con gasto cardíaco reducido", "Choque cardiogénico"]
+    "pt-BR": [
+      "Disfunção miocárdica com débito cardíaco reduzido",
+      "Choque cardiogênico"
+    ],
+    "en-US": [
+      "Myocardial dysfunction with reduced cardiac output",
+      "Cardiogenic shock"
+    ],
+    "es": [
+      "Disfunción miocárdica con gasto cardíaco reducido",
+      "Choque cardiogénico"
+    ]
   },
-  "viasAdministracao": ["intravenosa"],
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 5,
@@ -74,7 +93,8 @@
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de disfunção miocárdica/choque neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Dobutamine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/12/DOBUTamine_ANMFv4.0_20240229.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

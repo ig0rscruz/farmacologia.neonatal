@@ -1,14 +1,38 @@
 {
   "id": "clonidina",
-  "nome": { "pt-BR": "Clonidina", "en-US": "Clonidine", "es": "Clonidina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de clonidina", "en-US": "Clonidine hydrochloride", "es": "Clorhidrato de clonidina" },
-  "classeFarmacologica": { "pt-BR": "Agonista alfa-2 adrenérgico", "en-US": "Alpha-2 adrenergic agonist", "es": "Agonista alfa-2 adrenérgico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Síndrome de abstinência neonatal (adjuvante a opioide/metadona)", "Adjuvante de sedoanalgesia para reduzir necessidade de opioide"],
-    "en-US": ["Neonatal abstinence syndrome (adjunct to opioid/methadone)", "Adjunct for sedation-analgesia to reduce opioid requirement"],
-    "es": ["Síndrome de abstinencia neonatal (adyuvante a opioide/metadona)", "Adyuvante de sedoanalgesia para reducir la necesidad de opioide"]
+  "nome": {
+    "pt-BR": "Clonidina",
+    "en-US": "Clonidine",
+    "es": "Clonidina"
   },
-  "viasAdministracao": ["oral", "intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de clonidina",
+    "en-US": "Clonidine hydrochloride",
+    "es": "Clorhidrato de clonidina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Agonista alfa-2 adrenérgico",
+    "en-US": "Alpha-2 adrenergic agonist",
+    "es": "Agonista alfa-2 adrenérgico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Síndrome de abstinência neonatal (adjuvante a opioide/metadona)",
+      "Adjuvante de sedoanalgesia para reduzir necessidade de opioide"
+    ],
+    "en-US": [
+      "Neonatal abstinence syndrome (adjunct to opioid/methadone)",
+      "Adjunct for sedation-analgesia to reduce opioid requirement"
+    ],
+    "es": [
+      "Síndrome de abstinencia neonatal (adyuvante a opioide/metadona)",
+      "Adyuvante de sedoanalgesia para reducir la necesidad de opioide"
+    ]
+  },
+  "viasAdministracao": [
+    "oral",
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,32 +49,59 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Efeito simpaticolítico pode causar bradicardia", "en-US": "Sympatholytic effect may cause bradycardia", "es": "El efecto simpaticolítico puede causar bradicardia" },
+      "descricao": {
+        "pt-BR": "Efeito simpaticolítico pode causar bradicardia",
+        "en-US": "Sympatholytic effect may cause bradycardia",
+        "es": "El efecto simpaticolítico puede causar bradicardia"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização de FC durante o tratamento", "en-US": "HR monitoring during treatment", "es": "Monitorización de FC durante el tratamiento" }
+      "conduta": {
+        "pt-BR": "Monitorização de FC durante o tratamento",
+        "en-US": "HR monitoring during treatment",
+        "es": "Monitorización de FC durante el tratamiento"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Efeito simpaticolítico pode causar hipotensão", "en-US": "Sympatholytic effect may cause hypotension", "es": "El efecto simpaticolítico puede causar hipotensión" },
+      "descricao": {
+        "pt-BR": "Efeito simpaticolítico pode causar hipotensão",
+        "en-US": "Sympatholytic effect may cause hypotension",
+        "es": "El efecto simpaticolítico puede causar hipotensión"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial durante titulação e desmame", "en-US": "Monitor blood pressure during titration and weaning", "es": "Monitorizar la presión arterial durante la titulación y el destete" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial durante titulação e desmame",
+        "en-US": "Monitor blood pressure during titration and weaning",
+        "es": "Monitorizar la presión arterial durante la titulación y el destete"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Não suspender abruptamente — desmame gradual obrigatório pelo risco de hipertensão rebote"],
-    "en-US": ["Do not stop abruptly — gradual tapering is mandatory due to rebound hypertension risk"],
-    "es": ["No suspender bruscamente — el destete gradual es obligatorio por el riesgo de hipertensión de rebote"]
+    "pt-BR": [
+      "Não suspender abruptamente — desmame gradual obrigatório pelo risco de hipertensão rebote"
+    ],
+    "en-US": [
+      "Do not stop abruptly — gradual tapering is mandatory due to rebound hypertension risk"
+    ],
+    "es": [
+      "No suspender bruscamente — el destete gradual es obligatorio por el riesgo de hipertensión de rebote"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo da síndrome de abstinência neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Clonidine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/08/Clonidine_ANMFv5.0_20241017-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

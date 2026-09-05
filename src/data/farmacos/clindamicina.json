@@ -1,14 +1,40 @@
 {
   "id": "clindamicina",
-  "nome": { "pt-BR": "Clindamicina", "en-US": "Clindamycin", "es": "Clindamicina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de clindamicina", "en-US": "Clindamycin hydrochloride", "es": "Clorhidrato de clindamicina" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico lincosamida", "en-US": "Lincosamide antibiotic", "es": "Antibiótico lincosamida" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Infecções por anaeróbios", "Infecção de pele/partes moles em alérgicos a beta-lactâmico", "Coadjuvante em fasciíte necrosante"],
-    "en-US": ["Anaerobic infections", "Skin/soft tissue infection in beta-lactam allergy", "Adjunct in necrotizing fasciitis"],
-    "es": ["Infecciones por anaerobios", "Infección de piel/partes blandas en alérgicos a betalactámicos", "Coadyuvante en fascitis necrosante"]
+  "nome": {
+    "pt-BR": "Clindamicina",
+    "en-US": "Clindamycin",
+    "es": "Clindamicina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de clindamicina",
+    "en-US": "Clindamycin hydrochloride",
+    "es": "Clorhidrato de clindamicina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico lincosamida",
+    "en-US": "Lincosamide antibiotic",
+    "es": "Antibiótico lincosamida"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Infecções por anaeróbios",
+      "Infecção de pele/partes moles em alérgicos a beta-lactâmico",
+      "Coadjuvante em fasciíte necrosante"
+    ],
+    "en-US": [
+      "Anaerobic infections",
+      "Skin/soft tissue infection in beta-lactam allergy",
+      "Adjunct in necrotizing fasciitis"
+    ],
+    "es": [
+      "Infecciones por anaerobios",
+      "Infección de piel/partes blandas en alérgicos a betalactámicos",
+      "Coadyuvante en fascitis necrosante"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 32,
@@ -16,7 +42,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA ≤ 32 semanas.", "en-US": "PMA ≤ 32 weeks.", "es": "EPM ≤ 32 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA ≤ 32 semanas.",
+        "en-US": "PMA ≤ 32 weeks.",
+        "es": "EPM ≤ 32 semanas."
+      }
     },
     {
       "pmaMinSemanas": 32.1,
@@ -24,32 +54,55 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA > 32 semanas.", "en-US": "PMA > 32 weeks.", "es": "EPM > 32 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA > 32 semanas.",
+        "en-US": "PMA > 32 weeks.",
+        "es": "EPM > 32 semanas."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "sepse",
-      "descricao": { "pt-BR": "Associação descrita com colite por Clostridioides difficile (rara em neonatos, mas descrita)", "en-US": "Association described with Clostridioides difficile colitis (rare in neonates, but reported)", "es": "Asociación descrita con colitis por Clostridioides difficile (rara en neonatos, pero descrita)" },
+      "descricao": {
+        "pt-BR": "Associação descrita com colite por Clostridioides difficile (rara em neonatos, mas descrita)",
+        "en-US": "Association described with Clostridioides difficile colitis (rare in neonates, but reported)",
+        "es": "Asociación descrita con colitis por Clostridioides difficile (rara en neonatos, pero descrita)"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Observar sinais de diarreia/distensão abdominal durante o tratamento", "en-US": "Watch for diarrhea/abdominal distension during treatment", "es": "Vigilar signos de diarrea/distensión abdominal durante el tratamiento" }
+      "conduta": {
+        "pt-BR": "Observar sinais de diarreia/distensão abdominal durante o tratamento",
+        "en-US": "Watch for diarrhea/abdominal distension during treatment",
+        "es": "Vigilar signos de diarrea/distensión abdominal durante el tratamiento"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Não cobre Gram-negativos nem enterococos — associar cobertura adequada conforme foco infeccioso"],
-    "en-US": ["Does not cover Gram-negatives or enterococci — add appropriate coverage per infection source"],
-    "es": ["No cubre Gram-negativos ni enterococos — asociar cobertura adecuada según el foco infeccioso"]
+    "pt-BR": [
+      "Não cobre Gram-negativos nem enterococos — associar cobertura adequada conforme foco infeccioso"
+    ],
+    "en-US": [
+      "Does not cover Gram-negatives or enterococci — add appropriate coverage per infection source"
+    ],
+    "es": [
+      "No cubre Gram-negativos ni enterococos — asociar cobertura adecuada según el foco infeccioso"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Clindamycin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/06/Clindamycin_ANMFv1.0_20240208-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

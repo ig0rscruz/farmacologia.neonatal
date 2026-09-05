@@ -1,14 +1,38 @@
 {
   "id": "metronidazol",
-  "nome": { "pt-BR": "Metronidazol", "en-US": "Metronidazole", "es": "Metronidazol" },
-  "nomeGenerico": { "pt-BR": "Metronidazol", "en-US": "Metronidazole", "es": "Metronidazol" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico nitroimidazólico", "en-US": "Nitroimidazole antibiotic", "es": "Antibiótico nitroimidazólico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Enterocolite necrosante (cobertura de anaeróbios)", "Infecções intra-abdominais"],
-    "en-US": ["Necrotizing enterocolitis (anaerobic coverage)", "Intra-abdominal infections"],
-    "es": ["Enterocolitis necrosante (cobertura de anaerobios)", "Infecciones intraabdominales"]
+  "nome": {
+    "pt-BR": "Metronidazol",
+    "en-US": "Metronidazole",
+    "es": "Metronidazol"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Metronidazol",
+    "en-US": "Metronidazole",
+    "es": "Metronidazol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico nitroimidazólico",
+    "en-US": "Nitroimidazole antibiotic",
+    "es": "Antibiótico nitroimidazólico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Enterocolite necrosante (cobertura de anaeróbios)",
+      "Infecções intra-abdominais"
+    ],
+    "en-US": [
+      "Necrotizing enterocolitis (anaerobic coverage)",
+      "Intra-abdominal infections"
+    ],
+    "es": [
+      "Enterocolitis necrosante (cobertura de anaerobios)",
+      "Infecciones intraabdominales"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
@@ -16,7 +40,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA < 30 semanas.",
+        "en-US": "PMA < 30 weeks.",
+        "es": "EPM < 30 semanas."
+      }
     },
     {
       "pmaMinSemanas": 30,
@@ -24,32 +52,55 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA ≥ 30 semanas.", "en-US": "PMA ≥ 30 weeks.", "es": "EPM ≥ 30 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA ≥ 30 semanas.",
+        "en-US": "PMA ≥ 30 weeks.",
+        "es": "EPM ≥ 30 semanas."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": { "pt-BR": "Metabolização hepática; risco de acúmulo em disfunção hepática grave", "en-US": "Hepatic metabolism; risk of accumulation in severe hepatic impairment", "es": "Metabolización hepática; riesgo de acumulación en disfunción hepática grave" },
+      "descricao": {
+        "pt-BR": "Metabolização hepática; risco de acúmulo em disfunção hepática grave",
+        "en-US": "Hepatic metabolism; risk of accumulation in severe hepatic impairment",
+        "es": "Metabolización hepática; riesgo de acumulación en disfunción hepática grave"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Considerar redução de dose ou aumento de intervalo em disfunção hepática grave", "en-US": "Consider dose reduction or extended interval in severe hepatic impairment", "es": "Considerar reducción de dosis o aumento del intervalo en disfunción hepática grave" }
+      "conduta": {
+        "pt-BR": "Considerar redução de dose ou aumento de intervalo em disfunção hepática grave",
+        "en-US": "Consider dose reduction or extended interval in severe hepatic impairment",
+        "es": "Considerar reducción de dosis o aumento del intervalo en disfunción hepática grave"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Não usar concomitantemente com álcool (excipientes) — reação tipo dissulfiram é teórica em neonatos, mas evitar exposição desnecessária"],
-    "en-US": ["Avoid concomitant alcohol exposure (excipients) — disulfiram-like reaction is theoretical in neonates, but avoid unnecessary exposure"],
-    "es": ["Evitar exposición concomitante a alcohol (excipientes) — la reacción tipo disulfiram es teórica en neonatos, pero evitar exposición innecesaria"]
+    "pt-BR": [
+      "Não usar concomitantemente com álcool (excipientes) — reação tipo dissulfiram é teórica em neonatos, mas evitar exposição desnecessária"
+    ],
+    "en-US": [
+      "Avoid concomitant alcohol exposure (excipients) — disulfiram-like reaction is theoretical in neonates, but avoid unnecessary exposure"
+    ],
+    "es": [
+      "Evitar exposición concomitante a alcohol (excipientes) — la reacción tipo disulfiram es teórica en neonatos, pero evitar exposición innecesaria"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Metronidazole\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/metronidazole-17052021-2.1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,40 @@
 {
   "id": "midazolam",
-  "nome": { "pt-BR": "Midazolam", "en-US": "Midazolam", "es": "Midazolam" },
-  "nomeGenerico": { "pt-BR": "Maleato de midazolam", "en-US": "Midazolam maleate", "es": "Maleato de midazolam" },
-  "classeFarmacologica": { "pt-BR": "Benzodiazepínico", "en-US": "Benzodiazepine", "es": "Benzodiacepina" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sedação em ventilação mecânica", "Sedação para procedimentos", "Crises convulsivas refratárias (segunda/terceira linha)"],
-    "en-US": ["Sedation during mechanical ventilation", "Procedural sedation", "Refractory seizures (second/third line)"],
-    "es": ["Sedación en ventilación mecánica", "Sedación para procedimientos", "Crisis convulsivas refractarias (segunda/tercera línea)"]
+  "nome": {
+    "pt-BR": "Midazolam",
+    "en-US": "Midazolam",
+    "es": "Midazolam"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Maleato de midazolam",
+    "en-US": "Midazolam maleate",
+    "es": "Maleato de midazolam"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Benzodiazepínico",
+    "en-US": "Benzodiazepine",
+    "es": "Benzodiacepina"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sedação em ventilação mecânica",
+      "Sedação para procedimentos",
+      "Crises convulsivas refratárias (segunda/terceira linha)"
+    ],
+    "en-US": [
+      "Sedation during mechanical ventilation",
+      "Procedural sedation",
+      "Refractory seizures (second/third line)"
+    ],
+    "es": [
+      "Sedación en ventilación mecánica",
+      "Sedación para procedimientos",
+      "Crisis convulsivas refractarias (segunda/tercera línea)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.05,
@@ -78,15 +104,25 @@
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso prolongado associado a tolerância e síndrome de abstinência — desmame gradual", "Evitar bolus rápido em prematuros extremos"],
-    "en-US": ["Prolonged use is associated with tolerance and withdrawal syndrome — wean gradually", "Avoid rapid bolus in extremely preterm infants"],
-    "es": ["El uso prolongado se asocia a tolerancia y síndrome de abstinencia — destete gradual", "Evitar el bolo rápido en prematuros extremos"]
+    "pt-BR": [
+      "Uso prolongado associado a tolerância e síndrome de abstinência — desmame gradual",
+      "Evitar bolus rápido em prematuros extremos"
+    ],
+    "en-US": [
+      "Prolonged use is associated with tolerance and withdrawal syndrome — wean gradually",
+      "Avoid rapid bolus in extremely preterm infants"
+    ],
+    "es": [
+      "El uso prolongado se asocia a tolerancia y síndrome de abstinencia — destete gradual",
+      "Evitar el bolo rápido en prematuros extremos"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de sedoanalgesia neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Midazolam\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/09/Midazolam_ANMFv4.0_20240916-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

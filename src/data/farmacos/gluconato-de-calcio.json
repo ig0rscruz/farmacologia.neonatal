@@ -1,7 +1,15 @@
 {
   "id": "gluconato-de-calcio",
-  "nome": { "pt-BR": "Gluconato de cálcio", "en-US": "Calcium gluconate", "es": "Gluconato de calcio" },
-  "nomeGenerico": { "pt-BR": "Gluconato de cálcio 10%", "en-US": "Calcium gluconate 10%", "es": "Gluconato de calcio 10%" },
+  "nome": {
+    "pt-BR": "Gluconato de cálcio",
+    "en-US": "Calcium gluconate",
+    "es": "Gluconato de calcio"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Gluconato de cálcio 10%",
+    "en-US": "Calcium gluconate 10%",
+    "es": "Gluconato de calcio 10%"
+  },
   "classeFarmacologica": {
     "pt-BR": "Reposição de eletrólito (cálcio)",
     "en-US": "Electrolyte replacement (calcium)",
@@ -24,7 +32,9 @@
       "Hiperpotasemia con alteraciones electrocardiográficas (estabilización de membrana)"
     ]
   },
-  "viasAdministracao": ["intravenosa"],
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 100,
@@ -71,8 +81,9 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — protocolo de manejo de distúrbios do cálcio em neonatologia. Substituir por fonte institucional revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Calcium Gluconate\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2025/07/Calcium-Gluconate_ANMFv3.0_20250619-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

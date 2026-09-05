@@ -1,14 +1,37 @@
 {
   "id": "zinco",
-  "nome": { "pt-BR": "Zinco (sulfato de zinco)", "en-US": "Zinc (zinc sulfate)", "es": "Zinc (sulfato de zinc)" },
-  "nomeGenerico": { "pt-BR": "Sulfato de zinco", "en-US": "Zinc sulfate", "es": "Sulfato de zinc" },
-  "classeFarmacologica": { "pt-BR": "Suplemento de oligoelemento", "en-US": "Trace element supplement", "es": "Suplemento de oligoelemento" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Suplementação em prematuros com necessidade aumentada", "Deficiência de zinco documentada (ex.: acrodermatite, má absorção)"],
-    "en-US": ["Supplementation in preterm infants with increased requirements", "Documented zinc deficiency (e.g., acrodermatitis, malabsorption)"],
-    "es": ["Suplementación en prematuros con necesidad aumentada", "Deficiencia de zinc documentada (p. ej., acrodermatitis, malabsorción)"]
+  "nome": {
+    "pt-BR": "Zinco (sulfato de zinco)",
+    "en-US": "Zinc (zinc sulfate)",
+    "es": "Zinc (sulfato de zinc)"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Sulfato de zinco",
+    "en-US": "Zinc sulfate",
+    "es": "Sulfato de zinc"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Suplemento de oligoelemento",
+    "en-US": "Trace element supplement",
+    "es": "Suplemento de oligoelemento"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Suplementação em prematuros com necessidade aumentada",
+      "Deficiência de zinco documentada (ex.: acrodermatite, má absorção)"
+    ],
+    "en-US": [
+      "Supplementation in preterm infants with increased requirements",
+      "Documented zinc deficiency (e.g., acrodermatitis, malabsorption)"
+    ],
+    "es": [
+      "Suplementación en prematuros con necesidad aumentada",
+      "Deficiencia de zinc documentada (p. ej., acrodermatitis, malabsorción)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -24,20 +47,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Doses excessivas e prolongadas podem interferir na absorção de cobre — monitorar em suplementação prolongada"],
-    "en-US": ["Excessive, prolonged doses may interfere with copper absorption — monitor with prolonged supplementation"],
-    "es": ["Dosis excesivas y prolongadas pueden interferir con la absorción de cobre — monitorizar en suplementación prolongada"]
+    "pt-BR": [
+      "Doses excessivas e prolongadas podem interferir na absorção de cobre — monitorar em suplementação prolongada"
+    ],
+    "en-US": [
+      "Excessive, prolonged doses may interfere with copper absorption — monitor with prolonged supplementation"
+    ],
+    "es": [
+      "Dosis excesivas y prolongadas pueden interferir con la absorción de cobre — monitorizar en suplementación prolongada"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Zinc - ORAL\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/08/Zinc_ANMFv1.0_20240808-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

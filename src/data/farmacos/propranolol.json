@@ -1,14 +1,37 @@
 {
   "id": "propranolol",
-  "nome": { "pt-BR": "Propranolol", "en-US": "Propranolol", "es": "Propranolol" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de propranolol", "en-US": "Propranolol hydrochloride", "es": "Clorhidrato de propranolol" },
-  "classeFarmacologica": { "pt-BR": "Betabloqueador", "en-US": "Beta-blocker", "es": "Betabloqueador" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hemangioma infantil proliferativo com risco funcional/estético", "Controle de frequência em taquiarritmias supraventriculares"],
-    "en-US": ["Proliferating infantile hemangioma with functional/cosmetic risk", "Rate control in supraventricular tachyarrhythmias"],
-    "es": ["Hemangioma infantil proliferativo con riesgo funcional/estético", "Control de frecuencia en taquiarritmias supraventriculares"]
+  "nome": {
+    "pt-BR": "Propranolol",
+    "en-US": "Propranolol",
+    "es": "Propranolol"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de propranolol",
+    "en-US": "Propranolol hydrochloride",
+    "es": "Clorhidrato de propranolol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Betabloqueador",
+    "en-US": "Beta-blocker",
+    "es": "Betabloqueador"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hemangioma infantil proliferativo com risco funcional/estético",
+      "Controle de frequência em taquiarritmias supraventriculares"
+    ],
+    "en-US": [
+      "Proliferating infantile hemangioma with functional/cosmetic risk",
+      "Rate control in supraventricular tachyarrhythmias"
+    ],
+    "es": [
+      "Hemangioma infantil proliferativo con riesgo funcional/estético",
+      "Control de frecuencia en taquiarritmias supraventriculares"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,32 +48,59 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Efeito cronotrópico negativo pode causar bradicardia sintomática", "en-US": "Negative chronotropic effect may cause symptomatic bradycardia", "es": "El efecto cronotrópico negativo puede causar bradicardia sintomática" },
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico negativo pode causar bradicardia sintomática",
+        "en-US": "Negative chronotropic effect may cause symptomatic bradycardia",
+        "es": "El efecto cronotrópico negativo puede causar bradicardia sintomática"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar FC nas primeiras doses e após cada aumento de dose", "en-US": "Monitor HR at the first doses and after each dose increase", "es": "Monitorizar la FC en las primeras dosis y tras cada aumento de dosis" }
+      "conduta": {
+        "pt-BR": "Monitorar FC nas primeiras doses e após cada aumento de dose",
+        "en-US": "Monitor HR at the first doses and after each dose increase",
+        "es": "Monitorizar la FC en las primeras dosis y tras cada aumento de dosis"
+      }
     },
     {
       "condicao": "hipoxemia",
-      "descricao": { "pt-BR": "Bloqueio beta-2 pode causar broncoespasmo em predispostos (ex.: displasia broncopulmonar)", "en-US": "Beta-2 blockade may cause bronchospasm in predisposed infants (e.g., bronchopulmonary dysplasia)", "es": "El bloqueo beta-2 puede causar broncoespasmo en predispuestos (p. ej., displasia broncopulmonar)" },
+      "descricao": {
+        "pt-BR": "Bloqueio beta-2 pode causar broncoespasmo em predispostos (ex.: displasia broncopulmonar)",
+        "en-US": "Beta-2 blockade may cause bronchospasm in predisposed infants (e.g., bronchopulmonary dysplasia)",
+        "es": "El bloqueo beta-2 puede causar broncoespasmo en predispuestos (p. ej., displasia broncopulmonar)"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Observar sinais respiratórios ao iniciar/aumentar dose em pacientes com doença pulmonar crônica", "en-US": "Watch for respiratory signs when starting/increasing dose in patients with chronic lung disease", "es": "Vigilar signos respiratorios al iniciar/aumentar la dosis en pacientes con enfermedad pulmonar crónica" }
+      "conduta": {
+        "pt-BR": "Observar sinais respiratórios ao iniciar/aumentar dose em pacientes com doença pulmonar crônica",
+        "en-US": "Watch for respiratory signs when starting/increasing dose in patients with chronic lung disease",
+        "es": "Vigilar signos respiratorios al iniciar/aumentar la dosis en pacientes con enfermedad pulmonar crónica"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Pode mascarar sinais adrenérgicos de hipoglicemia — monitorar glicemia, especialmente ao iniciar tratamento e em jejum prolongado"],
-    "en-US": ["May mask adrenergic signs of hypoglycemia — monitor glycemia, especially when starting treatment and during prolonged fasting"],
-    "es": ["Puede enmascarar los signos adrenérgicos de hipoglucemia — monitorizar la glucemia, especialmente al iniciar el tratamiento y durante ayuno prolongado"]
+    "pt-BR": [
+      "Pode mascarar sinais adrenérgicos de hipoglicemia — monitorar glicemia, especialmente ao iniciar tratamento e em jejum prolongado"
+    ],
+    "en-US": [
+      "May mask adrenergic signs of hypoglycemia — monitor glycemia, especially when starting treatment and during prolonged fasting"
+    ],
+    "es": [
+      "Puede enmascarar los signos adrenérgicos de hipoglucemia — monitorizar la glucemia, especialmente al iniciar el tratamiento y durante ayuno prolongado"
+    ]
   },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal/pediátrica para tratamento de hemangioma infantil. Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Propranolol\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/propanolol-15042019-1.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

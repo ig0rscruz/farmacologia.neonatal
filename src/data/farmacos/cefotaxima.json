@@ -1,14 +1,41 @@
 {
   "id": "cefotaxima",
-  "nome": { "pt-BR": "Cefotaxima", "en-US": "Cefotaxime", "es": "Cefotaxima" },
-  "nomeGenerico": { "pt-BR": "Cefotaxima sódica", "en-US": "Cefotaxime sodium", "es": "Cefotaxima sódica" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico cefalosporina de 3ª geração", "en-US": "Third-generation cephalosporin antibiotic", "es": "Antibiótico cefalosporina de 3ª generación" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Meningite neonatal (associada a ampicilina)", "Sepse neonatal por Gram-negativos", "Alternativa a aminoglicosídeo em disfunção renal"],
-    "en-US": ["Neonatal meningitis (combined with ampicillin)", "Gram-negative neonatal sepsis", "Alternative to aminoglycoside in renal impairment"],
-    "es": ["Meningitis neonatal (asociada a ampicilina)", "Sepsis neonatal por Gram-negativos", "Alternativa a aminoglucósido en disfunción renal"]
+  "nome": {
+    "pt-BR": "Cefotaxima",
+    "en-US": "Cefotaxime",
+    "es": "Cefotaxima"
   },
-  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "nomeGenerico": {
+    "pt-BR": "Cefotaxima sódica",
+    "en-US": "Cefotaxime sodium",
+    "es": "Cefotaxima sódica"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico cefalosporina de 3ª geração",
+    "en-US": "Third-generation cephalosporin antibiotic",
+    "es": "Antibiótico cefalosporina de 3ª generación"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Meningite neonatal (associada a ampicilina)",
+      "Sepse neonatal por Gram-negativos",
+      "Alternativa a aminoglicosídeo em disfunção renal"
+    ],
+    "en-US": [
+      "Neonatal meningitis (combined with ampicillin)",
+      "Gram-negative neonatal sepsis",
+      "Alternative to aminoglycoside in renal impairment"
+    ],
+    "es": [
+      "Meningitis neonatal (asociada a ampicilina)",
+      "Sepsis neonatal por Gram-negativos",
+      "Alternativa a aminoglucósido en disfunción renal"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "intramuscular"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
@@ -16,7 +43,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA < 30 semanas.",
+        "en-US": "PMA < 30 weeks.",
+        "es": "EPM < 30 semanas."
+      }
     },
     {
       "pmaMinSemanas": 30,
@@ -25,7 +56,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA 30-36 semanas.", "en-US": "PMA 30-36 weeks.", "es": "EPM 30-36 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA 30-36 semanas.",
+        "en-US": "PMA 30-36 weeks.",
+        "es": "EPM 30-36 semanas."
+      }
     },
     {
       "pmaMinSemanas": 37,
@@ -57,15 +92,22 @@
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso amplo de cefalosporinas de espectro estendido associado a maior seleção de resistência — reservar para indicação clara"],
-    "en-US": ["Broad use of extended-spectrum cephalosporins is associated with increased resistance selection — reserve for clear indications"],
-    "es": ["El uso amplio de cefalosporinas de espectro extendido se asocia a mayor selección de resistencia — reservar para indicación clara"]
+    "pt-BR": [
+      "Uso amplo de cefalosporinas de espectro estendido associado a maior seleção de resistência — reservar para indicação clara"
+    ],
+    "en-US": [
+      "Broad use of extended-spectrum cephalosporins is associated with increased resistance selection — reserve for clear indications"
+    ],
+    "es": [
+      "El uso amplio de cefalosporinas de espectro extendido se asocia a mayor selección de resistencia — reservar para indicación clara"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Cefotaxime\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/cefotaxime-16122020-3.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

@@ -1,7 +1,15 @@
 {
   "id": "ampicilina",
-  "nome": { "pt-BR": "Ampicilina", "en-US": "Ampicillin", "es": "Ampicilina" },
-  "nomeGenerico": { "pt-BR": "Ampicilina sódica", "en-US": "Ampicillin sodium", "es": "Ampicilina sódica" },
+  "nome": {
+    "pt-BR": "Ampicilina",
+    "en-US": "Ampicillin",
+    "es": "Ampicilina"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Ampicilina sódica",
+    "en-US": "Ampicillin sodium",
+    "es": "Ampicilina sódica"
+  },
   "classeFarmacologica": {
     "pt-BR": "Antibiótico beta-lactâmico (aminopenicilina)",
     "en-US": "Beta-lactam antibiotic (aminopenicillin)",
@@ -24,7 +32,10 @@
       "Infección por Streptococcus agalactiae (grupo B) y Listeria monocytogenes"
     ]
   },
-  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "viasAdministracao": [
+    "intravenosa",
+    "intramuscular"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
@@ -46,7 +57,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA 30-36 semanas.", "en-US": "PMA 30-36 weeks.", "es": "EPM 30-36 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA 30-36 semanas.",
+        "en-US": "PMA 30-36 weeks.",
+        "es": "EPM 30-36 semanas."
+      }
     },
     {
       "pmaMinSemanas": 37,
@@ -78,16 +93,26 @@
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Risco de reação alérgica cruzada com outros beta-lactâmicos", "Pode alterar flora intestinal; observar sinais de enterocolite"],
-    "en-US": ["Risk of cross allergic reaction with other beta-lactams", "May alter gut flora; watch for signs of enterocolitis"],
-    "es": ["Riesgo de reacción alérgica cruzada con otros betalactámicos", "Puede alterar la flora intestinal; vigilar signos de enterocolitis"]
+    "pt-BR": [
+      "Risco de reação alérgica cruzada com outros beta-lactâmicos",
+      "Pode alterar flora intestinal; observar sinais de enterocolite"
+    ],
+    "en-US": [
+      "Risk of cross allergic reaction with other beta-lactams",
+      "May alter gut flora; watch for signs of enterocolitis"
+    ],
+    "es": [
+      "Riesgo de reacción alérgica cruzada con otros betalactámicos",
+      "Puede alterar la flora intestinal; vigilar signos de enterocolitis"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — protocolo de sepse neonatal precoce baseado em faixas de PMA/DOL (estilo NeoFax/Micromedex). Substituir por fonte institucional vigente antes de uso clínico.",
-      "dataAcesso": "2026-09-04"
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Ampicillin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/05/Ampicillin_ANMFv3.0_20211014.pdf",
+      "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {

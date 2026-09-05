@@ -1,14 +1,37 @@
 {
   "id": "espironolactona",
-  "nome": { "pt-BR": "Espironolactona", "en-US": "Spironolactone", "es": "Espironolactona" },
-  "nomeGenerico": { "pt-BR": "Espironolactona", "en-US": "Spironolactone", "es": "Espironolactona" },
-  "classeFarmacologica": { "pt-BR": "Diurético poupador de potássio (antagonista da aldosterona)", "en-US": "Potassium-sparing diuretic (aldosterone antagonist)", "es": "Diurético ahorrador de potasio (antagonista de la aldosterona)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Displasia broncopulmonar (uso adjuvante com diurético de alça)", "Sobrecarga de volume crônica"],
-    "en-US": ["Bronchopulmonary dysplasia (adjunctive use with loop diuretic)", "Chronic volume overload"],
-    "es": ["Displasia broncopulmonar (uso adyuvante con diurético de asa)", "Sobrecarga de volumen crónica"]
+  "nome": {
+    "pt-BR": "Espironolactona",
+    "en-US": "Spironolactone",
+    "es": "Espironolactona"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Espironolactona",
+    "en-US": "Spironolactone",
+    "es": "Espironolactona"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Diurético poupador de potássio (antagonista da aldosterona)",
+    "en-US": "Potassium-sparing diuretic (aldosterone antagonist)",
+    "es": "Diurético ahorrador de potasio (antagonista de la aldosterona)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Displasia broncopulmonar (uso adjuvante com diurético de alça)",
+      "Sobrecarga de volume crônica"
+    ],
+    "en-US": [
+      "Bronchopulmonary dysplasia (adjunctive use with loop diuretic)",
+      "Chronic volume overload"
+    ],
+    "es": [
+      "Displasia broncopulmonar (uso adyuvante con diurético de asa)",
+      "Sobrecarga de volumen crónica"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 1.5,
@@ -25,26 +48,45 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Risco de hiperpotassemia, especialmente em disfunção renal", "en-US": "Risk of hyperkalemia, especially in renal impairment", "es": "Riesgo de hiperpotasemia, especialmente en la disfunción renal" },
+      "descricao": {
+        "pt-BR": "Risco de hiperpotassemia, especialmente em disfunção renal",
+        "en-US": "Risk of hyperkalemia, especially in renal impairment",
+        "es": "Riesgo de hiperpotasemia, especialmente en la disfunción renal"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar potássio sérico e função renal periodicamente", "en-US": "Monitor serum potassium and renal function periodically", "es": "Monitorizar potasio sérico y función renal periódicamente" }
+      "conduta": {
+        "pt-BR": "Monitorar potássio sérico e função renal periodicamente",
+        "en-US": "Monitor serum potassium and renal function periodically",
+        "es": "Monitorizar potasio sérico y función renal periódicamente"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Evitar associação com suplementos de potássio sem monitorização rigorosa"],
-    "en-US": ["Avoid combining with potassium supplements without close monitoring"],
-    "es": ["Evitar la asociación con suplementos de potasio sin monitorización rigurosa"]
+    "pt-BR": [
+      "Evitar associação com suplementos de potássio sem monitorização rigorosa"
+    ],
+    "en-US": [
+      "Avoid combining with potassium supplements without close monitoring"
+    ],
+    "es": [
+      "Evitar la asociación con suplementos de potasio sin monitorización rigurosa"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Spironolactone\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/spironolactone-18032021-4.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

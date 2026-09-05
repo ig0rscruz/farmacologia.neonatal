@@ -1,14 +1,37 @@
 {
   "id": "carbonato-de-calcio",
-  "nome": { "pt-BR": "Carbonato de cálcio", "en-US": "Calcium carbonate", "es": "Carbonato de calcio" },
-  "nomeGenerico": { "pt-BR": "Carbonato de cálcio oral", "en-US": "Oral calcium carbonate", "es": "Carbonato de calcio oral" },
-  "classeFarmacologica": { "pt-BR": "Suplemento de cálcio / quelante de fósforo", "en-US": "Calcium supplement / phosphate binder", "es": "Suplemento de calcio / quelante de fósforo" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Suplementação de cálcio em osteopenia da prematuridade", "Quelante de fósforo em hiperfosfatemia associada a disfunção renal (alternativa preferida ao hidróxido de alumínio)"],
-    "en-US": ["Calcium supplementation in osteopenia of prematurity", "Phosphate binder in hyperphosphatemia associated with renal impairment (preferred alternative to aluminum hydroxide)"],
-    "es": ["Suplementación de calcio en la osteopenia de la prematuridad", "Quelante de fósforo en la hiperfosfatemia asociada a disfunción renal (alternativa preferida al hidróxido de aluminio)"]
+  "nome": {
+    "pt-BR": "Carbonato de cálcio",
+    "en-US": "Calcium carbonate",
+    "es": "Carbonato de calcio"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Carbonato de cálcio oral",
+    "en-US": "Oral calcium carbonate",
+    "es": "Carbonato de calcio oral"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Suplemento de cálcio / quelante de fósforo",
+    "en-US": "Calcium supplement / phosphate binder",
+    "es": "Suplemento de calcio / quelante de fósforo"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Suplementação de cálcio em osteopenia da prematuridade",
+      "Quelante de fósforo em hiperfosfatemia associada a disfunção renal (alternativa preferida ao hidróxido de alumínio)"
+    ],
+    "en-US": [
+      "Calcium supplementation in osteopenia of prematurity",
+      "Phosphate binder in hyperphosphatemia associated with renal impairment (preferred alternative to aluminum hydroxide)"
+    ],
+    "es": [
+      "Suplementación de calcio en la osteopenia de la prematuridad",
+      "Quelante de fósforo en la hiperfosfatemia asociada a disfunción renal (alternativa preferida al hidróxido de aluminio)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 50,
@@ -25,26 +48,48 @@
   "contraindicacoes": [
     {
       "condicao": "outra",
-      "descricao": { "pt-BR": "Hipercalcemia é risco com uso excessivo ou associação com outras fontes de cálcio/vitamina D", "en-US": "Hypercalcemia is a risk with excessive use or combination with other calcium/vitamin D sources", "es": "La hipercalcemia es un riesgo con el uso excesivo o la combinación con otras fuentes de calcio/vitamina D" },
+      "descricao": {
+        "pt-BR": "Hipercalcemia é risco com uso excessivo ou associação com outras fontes de cálcio/vitamina D",
+        "en-US": "Hypercalcemia is a risk with excessive use or combination with other calcium/vitamin D sources",
+        "es": "La hipercalcemia es un riesgo con el uso excesivo o la combinación con otras fuentes de calcio/vitamina D"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar cálcio sérico periodicamente, especialmente se associado a vitamina D ou calcitriol", "en-US": "Monitor serum calcium periodically, especially if combined with vitamin D or calcitriol", "es": "Monitorizar el calcio sérico periódicamente, especialmente si se asocia con vitamina D o calcitriol" }
+      "conduta": {
+        "pt-BR": "Monitorar cálcio sérico periodicamente, especialmente se associado a vitamina D ou calcitriol",
+        "en-US": "Monitor serum calcium periodically, especially if combined with vitamin D or calcitriol",
+        "es": "Monitorizar el calcio sérico periódicamente, especialmente si se asocia con vitamina D o calcitriol"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Administrar junto às refeições quando usado como quelante de fósforo para maximizar ligação intestinal", "Preferível ao hidróxido de alumínio como quelante de fósforo em neonatos pelo menor risco de toxicidade"],
-    "en-US": ["Administer with feeds when used as a phosphate binder to maximize intestinal binding", "Preferable to aluminum hydroxide as a phosphate binder in neonates due to lower toxicity risk"],
-    "es": ["Administrar junto con las tomas cuando se usa como quelante de fósforo para maximizar la unión intestinal", "Preferible al hidróxido de aluminio como quelante de fósforo en neonatos por el menor riesgo de toxicidad"]
+    "pt-BR": [
+      "Administrar junto às refeições quando usado como quelante de fósforo para maximizar ligação intestinal",
+      "Preferível ao hidróxido de alumínio como quelante de fósforo em neonatos pelo menor risco de toxicidade"
+    ],
+    "en-US": [
+      "Administer with feeds when used as a phosphate binder to maximize intestinal binding",
+      "Preferable to aluminum hydroxide as a phosphate binder in neonates due to lower toxicity risk"
+    ],
+    "es": [
+      "Administrar junto con las tomas cuando se usa como quelante de fósforo para maximizar la unión intestinal",
+      "Preferible al hidróxido de aluminio como quelante de fósforo en neonatos por el menor riesgo de toxicidad"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "livro_texto",
-      "descricao": "EXEMPLO — literatura de nefrologia/metabolismo ósseo neonatal sobre suplementação de cálcio e quelação de fósforo. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Calcium Oral\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/calcium-oral-16012020-2.0.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

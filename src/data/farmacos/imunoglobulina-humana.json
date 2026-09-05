@@ -1,14 +1,37 @@
 {
   "id": "imunoglobulina-humana",
-  "nome": { "pt-BR": "Imunoglobulina humana intravenosa (IGIV)", "en-US": "Intravenous human immunoglobulin (IVIG)", "es": "Inmunoglobulina humana intravenosa (IGIV)" },
-  "nomeGenerico": { "pt-BR": "Imunoglobulina humana normal", "en-US": "Normal human immunoglobulin", "es": "Inmunoglobulina humana normal" },
-  "classeFarmacologica": { "pt-BR": "Imunoglobulina (imunomodulador)", "en-US": "Immunoglobulin (immunomodulator)", "es": "Inmunoglobulina (inmunomodulador)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Doença hemolítica do recém-nascido por incompatibilidade Rh/ABO (reduz necessidade de exsanguineotransfusão)", "Sepse neonatal grave selecionada (uso adjuvante, evidência limitada)"],
-    "en-US": ["Hemolytic disease of the newborn due to Rh/ABO incompatibility (reduces need for exchange transfusion)", "Selected severe neonatal sepsis (adjunctive use, limited evidence)"],
-    "es": ["Enfermedad hemolítica del recién nacido por incompatibilidad Rh/ABO (reduce la necesidad de exanguinotransfusión)", "Sepsis neonatal grave seleccionada (uso adyuvante, evidencia limitada)"]
+  "nome": {
+    "pt-BR": "Imunoglobulina humana intravenosa (IGIV)",
+    "en-US": "Intravenous human immunoglobulin (IVIG)",
+    "es": "Inmunoglobulina humana intravenosa (IGIV)"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Imunoglobulina humana normal",
+    "en-US": "Normal human immunoglobulin",
+    "es": "Inmunoglobulina humana normal"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Imunoglobulina (imunomodulador)",
+    "en-US": "Immunoglobulin (immunomodulator)",
+    "es": "Inmunoglobulina (inmunomodulador)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Doença hemolítica do recém-nascido por incompatibilidade Rh/ABO (reduz necessidade de exsanguineotransfusão)",
+      "Sepse neonatal grave selecionada (uso adjuvante, evidência limitada)"
+    ],
+    "en-US": [
+      "Hemolytic disease of the newborn due to Rh/ABO incompatibility (reduces need for exchange transfusion)",
+      "Selected severe neonatal sepsis (adjunctive use, limited evidence)"
+    ],
+    "es": [
+      "Enfermedad hemolítica del recién nacido por incompatibilidad Rh/ABO (reduce la necesidad de exanguinotransfusión)",
+      "Sepsis neonatal grave seleccionada (uso adyuvante, evidencia limitada)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 500,
@@ -25,26 +48,45 @@
   "contraindicacoes": [
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Risco teórico de hemólise/eventos trombóticos raros descritos com IGIV", "en-US": "Theoretical risk of hemolysis/rare thrombotic events described with IVIG", "es": "Riesgo teórico de hemólisis/eventos trombóticos raros descritos con IGIV" },
+      "descricao": {
+        "pt-BR": "Risco teórico de hemólise/eventos trombóticos raros descritos com IGIV",
+        "en-US": "Theoretical risk of hemolysis/rare thrombotic events described with IVIG",
+        "es": "Riesgo teórico de hemólisis/eventos trombóticos raros descritos con IGIV"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar hemograma e sinais clínicos durante e após a infusão", "en-US": "Monitor blood count and clinical signs during and after infusion", "es": "Monitorizar el hemograma y los signos clínicos durante y después de la infusión" }
+      "conduta": {
+        "pt-BR": "Monitorar hemograma e sinais clínicos durante e após a infusão",
+        "en-US": "Monitor blood count and clinical signs during and after infusion",
+        "es": "Monitorizar el hemograma y los signos clínicos durante y después de la infusión"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Infundir lentamente, especialmente no início — reações relacionadas à infusão (febre, rubor) podem ocorrer"],
-    "en-US": ["Infuse slowly, especially at the start — infusion-related reactions (fever, flushing) may occur"],
-    "es": ["Infundir lentamente, especialmente al inicio — pueden ocurrir reacciones relacionadas con la infusión (fiebre, rubor)"]
+    "pt-BR": [
+      "Infundir lentamente, especialmente no início — reações relacionadas à infusão (febre, rubor) podem ocorrer"
+    ],
+    "en-US": [
+      "Infuse slowly, especially at the start — infusion-related reactions (fever, flushing) may occur"
+    ],
+    "es": [
+      "Infundir lentamente, especialmente al inicio — pueden ocurrir reacciones relacionadas con la infusión (fiebre, rubor)"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo da doença hemolítica do recém-nascido. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Intravenous Immunoglobulin (IVIG) – Privigen/Privigen AU\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/07/Immunoglobulin-IVIG_Privigen_ANMFv2.0_20240905-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

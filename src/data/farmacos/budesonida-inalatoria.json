@@ -1,14 +1,34 @@
 {
   "id": "budesonida-inalatoria",
-  "nome": { "pt-BR": "Budesonida inalatória", "en-US": "Inhaled budesonide", "es": "Budesonida inhalada" },
-  "nomeGenerico": { "pt-BR": "Budesonida", "en-US": "Budesonide", "es": "Budesonida" },
-  "classeFarmacologica": { "pt-BR": "Corticosteroide inalatório", "en-US": "Inhaled corticosteroid", "es": "Corticosteroide inhalado" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Prevenção/manejo de displasia broncopulmonar (via inalatória ou associada a surfactante)"],
-    "en-US": ["Prevention/management of bronchopulmonary dysplasia (inhaled, or combined with surfactant)"],
-    "es": ["Prevención/manejo de la displasia broncopulmonar (vía inhalada, o asociada a surfactante)"]
+  "nome": {
+    "pt-BR": "Budesonida inalatória",
+    "en-US": "Inhaled budesonide",
+    "es": "Budesonida inhalada"
   },
-  "viasAdministracao": ["inalatoria"],
+  "nomeGenerico": {
+    "pt-BR": "Budesonida",
+    "en-US": "Budesonide",
+    "es": "Budesonida"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Corticosteroide inalatório",
+    "en-US": "Inhaled corticosteroid",
+    "es": "Corticosteroide inhalado"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Prevenção/manejo de displasia broncopulmonar (via inalatória ou associada a surfactante)"
+    ],
+    "en-US": [
+      "Prevention/management of bronchopulmonary dysplasia (inhaled, or combined with surfactant)"
+    ],
+    "es": [
+      "Prevención/manejo de la displasia broncopulmonar (vía inhalada, o asociada a surfactante)"
+    ]
+  },
+  "viasAdministracao": [
+    "inalatoria"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.25,
@@ -24,20 +44,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Efeito sistêmico é menor que corticosteroide sistêmico, mas não nulo — considerar exposição cumulativa em uso prolongado"],
-    "en-US": ["Systemic effect is lower than systemic corticosteroids, but not zero — consider cumulative exposure with prolonged use"],
-    "es": ["El efecto sistémico es menor que el de un corticosteroide sistémico, pero no nulo — considerar la exposición acumulada en uso prolongado"]
+    "pt-BR": [
+      "Efeito sistêmico é menor que corticosteroide sistêmico, mas não nulo — considerar exposição cumulativa em uso prolongado"
+    ],
+    "en-US": [
+      "Systemic effect is lower than systemic corticosteroids, but not zero — consider cumulative exposure with prolonged use"
+    ],
+    "es": [
+      "El efecto sistémico es menor que el de un corticosteroide sistémico, pero no nulo — considerar la exposición acumulada en uso prolongado"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Budesonide\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/05/Budesonide_ANMFv1.0_20220505-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,35 @@
 {
   "id": "eritropoetina",
-  "nome": { "pt-BR": "Eritropoetina", "en-US": "Erythropoietin", "es": "Eritropoyetina" },
-  "nomeGenerico": { "pt-BR": "Eritropoetina humana recombinante", "en-US": "Recombinant human erythropoietin", "es": "Eritropoyetina humana recombinante" },
-  "classeFarmacologica": { "pt-BR": "Fator estimulador da eritropoiese", "en-US": "Erythropoiesis-stimulating agent", "es": "Agente estimulante de la eritropoyesis" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Prevenção/tratamento de anemia da prematuridade, reduzindo necessidade de transfusão"],
-    "en-US": ["Prevention/treatment of anemia of prematurity, reducing transfusion needs"],
-    "es": ["Prevención/tratamiento de la anemia de la prematuridad, reduciendo la necesidad de transfusión"]
+  "nome": {
+    "pt-BR": "Eritropoetina",
+    "en-US": "Erythropoietin",
+    "es": "Eritropoyetina"
   },
-  "viasAdministracao": ["subcutanea", "intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Eritropoetina humana recombinante",
+    "en-US": "Recombinant human erythropoietin",
+    "es": "Eritropoyetina humana recombinante"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Fator estimulador da eritropoiese",
+    "en-US": "Erythropoiesis-stimulating agent",
+    "es": "Agente estimulante de la eritropoyesis"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Prevenção/tratamento de anemia da prematuridade, reduzindo necessidade de transfusão"
+    ],
+    "en-US": [
+      "Prevention/treatment of anemia of prematurity, reducing transfusion needs"
+    ],
+    "es": [
+      "Prevención/tratamiento de la anemia de la prematuridad, reduciendo la necesidad de transfusión"
+    ]
+  },
+  "viasAdministracao": [
+    "subcutanea",
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 400,
@@ -25,26 +46,48 @@
   "contraindicacoes": [
     {
       "condicao": "hipertensao",
-      "descricao": { "pt-BR": "Hipertensão é efeito adverso descrito, mais relevante em uso pediátrico/adulto que neonatal", "en-US": "Hypertension is a described adverse effect, more relevant in pediatric/adult use than neonatal", "es": "La hipertensión es un efecto adverso descrito, más relevante en uso pediátrico/adulto que neonatal" },
+      "descricao": {
+        "pt-BR": "Hipertensão é efeito adverso descrito, mais relevante em uso pediátrico/adulto que neonatal",
+        "en-US": "Hypertension is a described adverse effect, more relevant in pediatric/adult use than neonatal",
+        "es": "La hipertensión es un efecto adverso descrito, más relevante en uso pediátrico/adulto que neonatal"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial periodicamente", "en-US": "Monitor blood pressure periodically", "es": "Monitorizar la presión arterial periódicamente" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial periodicamente",
+        "en-US": "Monitor blood pressure periodically",
+        "es": "Monitorizar la presión arterial periódicamente"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Possível associação com aumento de retinopatia da prematuridade em alguns estudos — manter rastreio oftalmológico de rotina", "Não substitui critérios transfusionais em anemia sintomática aguda"],
-    "en-US": ["Possible association with increased retinopathy of prematurity in some studies — maintain routine ophthalmologic screening", "Does not replace transfusion criteria in acute symptomatic anemia"],
-    "es": ["Posible asociación con aumento de retinopatía del prematuro en algunos estudios — mantener el cribado oftalmológico de rutina", "No sustituye los criterios transfusionales en anemia sintomática aguda"]
+    "pt-BR": [
+      "Possível associação com aumento de retinopatia da prematuridade em alguns estudos — manter rastreio oftalmológico de rotina",
+      "Não substitui critérios transfusionais em anemia sintomática aguda"
+    ],
+    "en-US": [
+      "Possible association with increased retinopathy of prematurity in some studies — maintain routine ophthalmologic screening",
+      "Does not replace transfusion criteria in acute symptomatic anemia"
+    ],
+    "es": [
+      "Posible asociación con aumento de retinopatía del prematuro en algunos estudios — mantener el cribado oftalmológico de rutina",
+      "No sustituye los criterios transfusionales en anemia sintomática aguda"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Erythropoietin (EPO)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/08/Erythropoietin_ANMFv2.0_20230817-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

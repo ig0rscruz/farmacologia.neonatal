@@ -1,14 +1,37 @@
 {
   "id": "rocuronio",
-  "nome": { "pt-BR": "Rocurônio", "en-US": "Rocuronium", "es": "Rocuronio" },
-  "nomeGenerico": { "pt-BR": "Brometo de rocurônio", "en-US": "Rocuronium bromide", "es": "Bromuro de rocuronio" },
-  "classeFarmacologica": { "pt-BR": "Bloqueador neuromuscular (não despolarizante)", "en-US": "Neuromuscular blocker (non-depolarizing)", "es": "Bloqueador neuromuscular (no despolarizante)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Facilitação de intubação endotraqueal (sequência rápida ou eletiva)", "Paralisia para procedimentos/ventilação em situações selecionadas"],
-    "en-US": ["Facilitation of endotracheal intubation (rapid sequence or elective)", "Paralysis for procedures/ventilation in selected situations"],
-    "es": ["Facilitación de la intubación endotraqueal (secuencia rápida o electiva)", "Parálisis para procedimientos/ventilación en situaciones seleccionadas"]
+  "nome": {
+    "pt-BR": "Rocurônio",
+    "en-US": "Rocuronium",
+    "es": "Rocuronio"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Brometo de rocurônio",
+    "en-US": "Rocuronium bromide",
+    "es": "Bromuro de rocuronio"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Bloqueador neuromuscular (não despolarizante)",
+    "en-US": "Neuromuscular blocker (non-depolarizing)",
+    "es": "Bloqueador neuromuscular (no despolarizante)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Facilitação de intubação endotraqueal (sequência rápida ou eletiva)",
+      "Paralisia para procedimentos/ventilação em situações selecionadas"
+    ],
+    "en-US": [
+      "Facilitation of endotracheal intubation (rapid sequence or elective)",
+      "Paralysis for procedures/ventilation in selected situations"
+    ],
+    "es": [
+      "Facilitación de la intubación endotraqueal (secuencia rápida o electiva)",
+      "Parálisis para procedimientos/ventilación en situaciones seleccionadas"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.6,
@@ -25,26 +48,48 @@
   "contraindicacoes": [
     {
       "condicao": "apneia",
-      "descricao": { "pt-BR": "Causa paralisia respiratória completa — apneia é efeito esperado e obrigatório suporte ventilatório", "en-US": "Causes complete respiratory paralysis — apnea is an expected effect and ventilatory support is mandatory", "es": "Causa parálisis respiratoria completa — la apnea es un efecto esperado y el soporte ventilatorio es obligatorio" },
+      "descricao": {
+        "pt-BR": "Causa paralisia respiratória completa — apneia é efeito esperado e obrigatório suporte ventilatório",
+        "en-US": "Causes complete respiratory paralysis — apnea is an expected effect and ventilatory support is mandatory",
+        "es": "Causa parálisis respiratoria completa — la apnea es un efecto esperado y el soporte ventilatorio es obligatorio"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Nunca administrar sem via aérea segura e suporte ventilatório imediatamente disponível", "en-US": "Never administer without a secured airway and ventilatory support immediately available", "es": "Nunca administrar sin una vía aérea asegurada y soporte ventilatorio disponible de inmediato" }
+      "conduta": {
+        "pt-BR": "Nunca administrar sem via aérea segura e suporte ventilatório imediatamente disponível",
+        "en-US": "Never administer without a secured airway and ventilatory support immediately available",
+        "es": "Nunca administrar sin una vía aérea asegurada y soporte ventilatorio disponible de inmediato"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Não possui efeito sedativo/analgésico — o paciente permanece consciente e sente dor se não sedado/analgesiado adequadamente antes", "Ter plano de via aérea e reversão definidos antes da administração"],
-    "en-US": ["Has no sedative/analgesic effect — the patient remains conscious and feels pain if not adequately sedated/given analgesia beforehand", "Have an airway plan and reversal strategy defined before administration"],
-    "es": ["No tiene efecto sedante/analgésico — el paciente permanece consciente y siente dolor si no se sedó/analgesió adecuadamente antes", "Tener un plan de vía aérea y de reversión definido antes de la administración"]
+    "pt-BR": [
+      "Não possui efeito sedativo/analgésico — o paciente permanece consciente e sente dor se não sedado/analgesiado adequadamente antes",
+      "Ter plano de via aérea e reversão definidos antes da administração"
+    ],
+    "en-US": [
+      "Has no sedative/analgesic effect — the patient remains conscious and feels pain if not adequately sedated/given analgesia beforehand",
+      "Have an airway plan and reversal strategy defined before administration"
+    ],
+    "es": [
+      "No tiene efecto sedante/analgésico — el paciente permanece consciente y siente dolor si no se sedó/analgesió adecuadamente antes",
+      "Tener un plan de vía aérea y de reversión definido antes de la administración"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Rocuronium\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/06/Rocuronium_ANMFv2.2_20260618-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,37 @@
 {
   "id": "captopril",
-  "nome": { "pt-BR": "Captopril", "en-US": "Captopril", "es": "Captopril" },
-  "nomeGenerico": { "pt-BR": "Captopril", "en-US": "Captopril", "es": "Captopril" },
-  "classeFarmacologica": { "pt-BR": "Inibidor da enzima conversora de angiotensina (IECA)", "en-US": "Angiotensin-converting enzyme (ACE) inhibitor", "es": "Inhibidor de la enzima convertidora de angiotensina (IECA)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Insuficiência cardíaca congestiva (pós-carga elevada, shunt esquerda-direita significativo)", "Hipertensão arterial neonatal"],
-    "en-US": ["Congestive heart failure (elevated afterload, significant left-to-right shunt)", "Neonatal hypertension"],
-    "es": ["Insuficiencia cardíaca congestiva (poscarga elevada, cortocircuito izquierda-derecha significativo)", "Hipertensión arterial neonatal"]
+  "nome": {
+    "pt-BR": "Captopril",
+    "en-US": "Captopril",
+    "es": "Captopril"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Captopril",
+    "en-US": "Captopril",
+    "es": "Captopril"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Inibidor da enzima conversora de angiotensina (IECA)",
+    "en-US": "Angiotensin-converting enzyme (ACE) inhibitor",
+    "es": "Inhibidor de la enzima convertidora de angiotensina (IECA)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Insuficiência cardíaca congestiva (pós-carga elevada, shunt esquerda-direita significativo)",
+      "Hipertensão arterial neonatal"
+    ],
+    "en-US": [
+      "Congestive heart failure (elevated afterload, significant left-to-right shunt)",
+      "Neonatal hypertension"
+    ],
+    "es": [
+      "Insuficiencia cardíaca congestiva (poscarga elevada, cortocircuito izquierda-derecha significativo)",
+      "Hipertensión arterial neonatal"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.05,
@@ -25,32 +48,59 @@
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Hipotensão de primeira dose é risco conhecido, especialmente em prematuros e hipovolemia", "en-US": "First-dose hypotension is a known risk, especially in preterm infants and hypovolemia", "es": "La hipotensión de primera dosis es un riesgo conocido, especialmente en prematuros e hipovolemia" },
+      "descricao": {
+        "pt-BR": "Hipotensão de primeira dose é risco conhecido, especialmente em prematuros e hipovolemia",
+        "en-US": "First-dose hypotension is a known risk, especially in preterm infants and hypovolemia",
+        "es": "La hipotensión de primera dosis es un riesgo conocido, especialmente en prematuros e hipovolemia"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Iniciar com dose de teste baixa e monitorar pressão arterial de perto após a primeira dose", "en-US": "Start with a low test dose and monitor blood pressure closely after the first dose", "es": "Iniciar con dosis de prueba baja y monitorizar la presión arterial de cerca tras la primera dosis" }
+      "conduta": {
+        "pt-BR": "Iniciar com dose de teste baixa e monitorar pressão arterial de perto após a primeira dose",
+        "en-US": "Start with a low test dose and monitor blood pressure closely after the first dose",
+        "es": "Iniciar con dosis de prueba baja y monitorizar la presión arterial de cerca tras la primera dosis"
+      }
     },
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Pode reduzir taxa de filtração glomerular, especialmente em estenose de artéria renal ou depleção de volume; eliminação parcialmente renal", "en-US": "May reduce glomerular filtration rate, especially in renal artery stenosis or volume depletion; partly renal elimination", "es": "Puede reducir la tasa de filtración glomerular, especialmente en estenosis de arteria renal o depleción de volumen; eliminación parcialmente renal" },
+      "descricao": {
+        "pt-BR": "Pode reduzir taxa de filtração glomerular, especialmente em estenose de artéria renal ou depleção de volume; eliminação parcialmente renal",
+        "en-US": "May reduce glomerular filtration rate, especially in renal artery stenosis or volume depletion; partly renal elimination",
+        "es": "Puede reducir la tasa de filtración glomerular, especialmente en estenosis de arteria renal o depleción de volumen; eliminación parcialmente renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Monitorar função renal e potássio sérico após início/ajuste de dose", "en-US": "Monitor renal function and serum potassium after starting/adjusting dose", "es": "Monitorizar la función renal y el potasio sérico tras iniciar/ajustar la dosis" }
+      "conduta": {
+        "pt-BR": "Monitorar função renal e potássio sérico após início/ajuste de dose",
+        "en-US": "Monitor renal function and serum potassium after starting/adjusting dose",
+        "es": "Monitorizar la función renal y el potasio sérico tras iniciar/ajustar la dosis"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Monitorar potássio sérico (risco de hiperpotassemia)"],
-    "en-US": ["Monitor serum potassium (hyperkalemia risk)"],
-    "es": ["Monitorizar el potasio sérico (riesgo de hiperpotasemia)"]
+    "pt-BR": [
+      "Monitorar potássio sérico (risco de hiperpotassemia)"
+    ],
+    "en-US": [
+      "Monitor serum potassium (hyperkalemia risk)"
+    ],
+    "es": [
+      "Monitorizar el potasio sérico (riesgo de hiperpotasemia)"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Captopril\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/10/Captopril_ANMFv3.0_20240620-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

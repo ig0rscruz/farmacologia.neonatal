@@ -1,14 +1,34 @@
 {
   "id": "bicarbonato-de-sodio",
-  "nome": { "pt-BR": "Bicarbonato de sódio", "en-US": "Sodium bicarbonate", "es": "Bicarbonato de sodio" },
-  "nomeGenerico": { "pt-BR": "Bicarbonato de sódio", "en-US": "Sodium bicarbonate", "es": "Bicarbonato de sodio" },
-  "classeFarmacologica": { "pt-BR": "Alcalinizante sistêmico", "en-US": "Systemic alkalinizing agent", "es": "Alcalinizante sistémico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Acidose metabólica grave documentada (uso controverso e restrito — não indicado rotineiramente em reanimação)"],
-    "en-US": ["Documented severe metabolic acidosis (controversial and restricted use — not routinely indicated in resuscitation)"],
-    "es": ["Acidosis metabólica grave documentada (uso controvertido y restringido — no indicado rutinariamente en la reanimación)"]
+  "nome": {
+    "pt-BR": "Bicarbonato de sódio",
+    "en-US": "Sodium bicarbonate",
+    "es": "Bicarbonato de sodio"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Bicarbonato de sódio",
+    "en-US": "Sodium bicarbonate",
+    "es": "Bicarbonato de sodio"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Alcalinizante sistêmico",
+    "en-US": "Systemic alkalinizing agent",
+    "es": "Alcalinizante sistémico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Acidose metabólica grave documentada (uso controverso e restrito — não indicado rotineiramente em reanimação)"
+    ],
+    "en-US": [
+      "Documented severe metabolic acidosis (controversial and restricted use — not routinely indicated in resuscitation)"
+    ],
+    "es": [
+      "Acidosis metabólica grave documentada (uso controvertido y restringido — no indicado rutinariamente en la reanimación)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,32 +45,62 @@
   "contraindicacoes": [
     {
       "condicao": "hipertensao",
-      "descricao": { "pt-BR": "Alta carga de sódio pode causar hipernatremia e expansão de volume", "en-US": "High sodium load may cause hypernatremia and volume expansion", "es": "La alta carga de sodio puede causar hipernatremia y expansión de volumen" },
+      "descricao": {
+        "pt-BR": "Alta carga de sódio pode causar hipernatremia e expansão de volume",
+        "en-US": "High sodium load may cause hypernatremia and volume expansion",
+        "es": "La alta carga de sodio puede causar hipernatremia y expansión de volumen"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar sódio sérico e status volêmico", "en-US": "Monitor serum sodium and volume status", "es": "Monitorizar sodio sérico y estado de volumen" }
+      "conduta": {
+        "pt-BR": "Monitorar sódio sérico e status volêmico",
+        "en-US": "Monitor serum sodium and volume status",
+        "es": "Monitorizar sodio sérico y estado de volumen"
+      }
     },
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Infusão rápida (especialmente hipertônica) associada a hemorragia intraventricular em prematuros, por flutuação rápida de osmolaridade/pressão", "en-US": "Rapid infusion (especially hypertonic) is associated with intraventricular hemorrhage in preterm infants, due to rapid osmolality/pressure fluctuation", "es": "La infusión rápida (especialmente hipertónica) se asocia a hemorragia intraventricular en prematuros, por fluctuación rápida de osmolaridad/presión" },
+      "descricao": {
+        "pt-BR": "Infusão rápida (especialmente hipertônica) associada a hemorragia intraventricular em prematuros, por flutuação rápida de osmolaridade/pressão",
+        "en-US": "Rapid infusion (especially hypertonic) is associated with intraventricular hemorrhage in preterm infants, due to rapid osmolality/pressure fluctuation",
+        "es": "La infusión rápida (especialmente hipertónica) se asocia a hemorragia intraventricular en prematuros, por fluctuación rápida de osmolaridad/presión"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Sempre diluir e infundir lentamente em prematuros", "en-US": "Always dilute and infuse slowly in preterm infants", "es": "Diluir siempre e infundir lentamente en prematuros" }
+      "conduta": {
+        "pt-BR": "Sempre diluir e infundir lentamente em prematuros",
+        "en-US": "Always dilute and infuse slowly in preterm infants",
+        "es": "Diluir siempre e infundir lentamente en prematuros"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Não recomendado rotineiramente durante reanimação neonatal pelas diretrizes atuais", "Incompatível com soluções contendo cálcio na mesma via — risco de precipitação"],
-    "en-US": ["Not routinely recommended during neonatal resuscitation per current guidelines", "Incompatible with calcium-containing solutions in the same line — risk of precipitation"],
-    "es": ["No se recomienda rutinariamente durante la reanimación neonatal según las directrices actuales", "Incompatible con soluciones que contienen calcio en la misma vía — riesgo de precipitación"]
+    "pt-BR": [
+      "Não recomendado rotineiramente durante reanimação neonatal pelas diretrizes atuais",
+      "Incompatível com soluções contendo cálcio na mesma via — risco de precipitação"
+    ],
+    "en-US": [
+      "Not routinely recommended during neonatal resuscitation per current guidelines",
+      "Incompatible with calcium-containing solutions in the same line — risk of precipitation"
+    ],
+    "es": [
+      "No se recomienda rutinariamente durante la reanimación neonatal según las directrices actuales",
+      "Incompatible con soluciones que contienen calcio en la misma vía — riesgo de precipitación"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de reanimação neonatal. Substituir por versão vigente da diretriz antes de uso clínico.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Sodium Bicarbonate\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/05/Sodium-bicarbonate_ANMFv3.0_20211021.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

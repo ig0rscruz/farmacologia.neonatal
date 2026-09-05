@@ -1,14 +1,34 @@
 {
   "id": "propofol",
-  "nome": { "pt-BR": "Propofol", "en-US": "Propofol", "es": "Propofol" },
-  "nomeGenerico": { "pt-BR": "Propofol", "en-US": "Propofol", "es": "Propofol" },
-  "classeFarmacologica": { "pt-BR": "Anestésico geral (sedativo-hipnótico)", "en-US": "General anesthetic (sedative-hypnotic)", "es": "Anestésico general (sedante-hipnótico)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sedação para intubação eletiva (uso controverso em neonatos, especialmente prematuros, pelo risco de hipotensão)"],
-    "en-US": ["Sedation for elective intubation (controversial use in neonates, especially preterm infants, due to hypotension risk)"],
-    "es": ["Sedación para intubación electiva (uso controvertido en neonatos, especialmente prematuros, por el riesgo de hipotensión)"]
+  "nome": {
+    "pt-BR": "Propofol",
+    "en-US": "Propofol",
+    "es": "Propofol"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Propofol",
+    "en-US": "Propofol",
+    "es": "Propofol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Anestésico geral (sedativo-hipnótico)",
+    "en-US": "General anesthetic (sedative-hypnotic)",
+    "es": "Anestésico general (sedante-hipnótico)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sedação para intubação eletiva (uso controverso em neonatos, especialmente prematuros, pelo risco de hipotensão)"
+    ],
+    "en-US": [
+      "Sedation for elective intubation (controversial use in neonates, especially preterm infants, due to hypotension risk)"
+    ],
+    "es": [
+      "Sedación para intubación electiva (uso controvertido en neonatos, especialmente prematuros, por el riesgo de hipotensión)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,32 +45,62 @@
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Hipotensão significativa é risco bem descrito, mais pronunciado em neonatos que em crianças maiores", "en-US": "Significant hypotension is a well-described risk, more pronounced in neonates than in older children", "es": "La hipotensión significativa es un riesgo bien descrito, más pronunciado en neonatos que en niños mayores" },
+      "descricao": {
+        "pt-BR": "Hipotensão significativa é risco bem descrito, mais pronunciado em neonatos que em crianças maiores",
+        "en-US": "Significant hypotension is a well-described risk, more pronounced in neonates than in older children",
+        "es": "La hipotensión significativa es un riesgo bien descrito, más pronunciado en neonatos que en niños mayores"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorização de pressão arterial contínua; ter suporte vasopressor disponível", "en-US": "Continuous blood pressure monitoring; have vasopressor support available", "es": "Monitorización continua de la presión arterial; tener soporte vasopresor disponible" }
+      "conduta": {
+        "pt-BR": "Monitorização de pressão arterial contínua; ter suporte vasopressor disponível",
+        "en-US": "Continuous blood pressure monitoring; have vasopressor support available",
+        "es": "Monitorización continua de la presión arterial; tener soporte vasopresor disponible"
+      }
     },
     {
       "condicao": "apneia",
-      "descricao": { "pt-BR": "Depressão respiratória e apneia são efeitos esperados", "en-US": "Respiratory depression and apnea are expected effects", "es": "La depresión respiratoria y la apnea son efectos esperados" },
+      "descricao": {
+        "pt-BR": "Depressão respiratória e apneia são efeitos esperados",
+        "en-US": "Respiratory depression and apnea are expected effects",
+        "es": "La depresión respiratoria y la apnea son efectos esperados"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Administrar apenas com via aérea segura e suporte ventilatório disponível", "en-US": "Administer only with a secured airway and ventilatory support available", "es": "Administrar solo con vía aérea asegurada y soporte ventilatorio disponible" }
+      "conduta": {
+        "pt-BR": "Administrar apenas com via aérea segura e suporte ventilatório disponível",
+        "en-US": "Administer only with a secured airway and ventilatory support available",
+        "es": "Administrar solo con vía aérea asegurada y soporte ventilatorio disponible"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Síndrome da infusão por propofol (acidose metabólica, rabdomiólise) é risco descrito com infusão prolongada — evitar uso contínuo prolongado em neonatos", "Experiência neonatal é mais limitada que em crianças maiores"],
-    "en-US": ["Propofol infusion syndrome (metabolic acidosis, rhabdomyolysis) is a described risk with prolonged infusion — avoid prolonged continuous use in neonates", "Neonatal experience is more limited than in older children"],
-    "es": ["El síndrome de infusión por propofol (acidosis metabólica, rabdomiólisis) es un riesgo descrito con infusión prolongada — evitar el uso continuo prolongado en neonatos", "La experiencia neonatal es más limitada que en niños mayores"]
+    "pt-BR": [
+      "Síndrome da infusão por propofol (acidose metabólica, rabdomiólise) é risco descrito com infusão prolongada — evitar uso contínuo prolongado em neonatos",
+      "Experiência neonatal é mais limitada que em crianças maiores"
+    ],
+    "en-US": [
+      "Propofol infusion syndrome (metabolic acidosis, rhabdomyolysis) is a described risk with prolonged infusion — avoid prolonged continuous use in neonates",
+      "Neonatal experience is more limited than in older children"
+    ],
+    "es": [
+      "El síndrome de infusión por propofol (acidosis metabólica, rabdomiólisis) es un riesgo descrito con infusión prolongada — evitar el uso continuo prolongado en neonatos",
+      "La experiencia neonatal es más limitada que en niños mayores"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Propofol\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/09/Propofol_ANMFv2.0_20210826.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

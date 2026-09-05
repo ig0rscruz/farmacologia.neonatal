@@ -1,14 +1,40 @@
 {
   "id": "fentanil",
-  "nome": { "pt-BR": "Fentanila", "en-US": "Fentanyl", "es": "Fentanilo" },
-  "nomeGenerico": { "pt-BR": "Citrato de fentanila", "en-US": "Fentanyl citrate", "es": "Citrato de fentanilo" },
-  "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Analgesia para procedimentos dolorosos", "Sedoanalgesia contínua em ventilação mecânica", "Analgesia pré/pós-operatória"],
-    "en-US": ["Analgesia for painful procedures", "Continuous sedation-analgesia during mechanical ventilation", "Pre/postoperative analgesia"],
-    "es": ["Analgesia para procedimientos dolorosos", "Sedoanalgesia continua en ventilación mecánica", "Analgesia pre/posoperatoria"]
+  "nome": {
+    "pt-BR": "Fentanila",
+    "en-US": "Fentanyl",
+    "es": "Fentanilo"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Citrato de fentanila",
+    "en-US": "Fentanyl citrate",
+    "es": "Citrato de fentanilo"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Opioide",
+    "en-US": "Opioid",
+    "es": "Opioide"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Analgesia para procedimentos dolorosos",
+      "Sedoanalgesia contínua em ventilação mecânica",
+      "Analgesia pré/pós-operatória"
+    ],
+    "en-US": [
+      "Analgesia for painful procedures",
+      "Continuous sedation-analgesia during mechanical ventilation",
+      "Pre/postoperative analgesia"
+    ],
+    "es": [
+      "Analgesia para procedimientos dolorosos",
+      "Sedoanalgesia continua en ventilación mecánica",
+      "Analgesia pre/posoperatoria"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -95,7 +121,8 @@
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de dor neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Fentanyl - Intravenous\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/10/Fentanyl-Intravenous_ANMFv4.0_20231012-2.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

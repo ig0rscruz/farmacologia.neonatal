@@ -1,14 +1,38 @@
 {
   "id": "furosemida",
-  "nome": { "pt-BR": "Furosemida", "en-US": "Furosemide", "es": "Furosemida" },
-  "nomeGenerico": { "pt-BR": "Furosemida", "en-US": "Furosemide", "es": "Furosemida" },
-  "classeFarmacologica": { "pt-BR": "Diurético de alça", "en-US": "Loop diuretic", "es": "Diurético de asa" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sobrecarga de volume / edema", "Manejo adjuvante em displasia broncopulmonar"],
-    "en-US": ["Volume overload / edema", "Adjunctive management of bronchopulmonary dysplasia"],
-    "es": ["Sobrecarga de volumen / edema", "Manejo adyuvante en displasia broncopulmonar"]
+  "nome": {
+    "pt-BR": "Furosemida",
+    "en-US": "Furosemide",
+    "es": "Furosemida"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Furosemida",
+    "en-US": "Furosemide",
+    "es": "Furosemida"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Diurético de alça",
+    "en-US": "Loop diuretic",
+    "es": "Diurético de asa"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sobrecarga de volume / edema",
+      "Manejo adjuvante em displasia broncopulmonar"
+    ],
+    "en-US": [
+      "Volume overload / edema",
+      "Adjunctive management of bronchopulmonary dysplasia"
+    ],
+    "es": [
+      "Sobrecarga de volumen / edema",
+      "Manejo adyuvante en displasia broncopulmonar"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -64,16 +88,26 @@
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Monitorar eletrólitos séricos (sódio, potássio, cloro) e status de hidratação", "Risco de nefrocalcinose com uso prolongado"],
-    "en-US": ["Monitor serum electrolytes (sodium, potassium, chloride) and hydration status", "Risk of nephrocalcinosis with prolonged use"],
-    "es": ["Monitorizar electrolitos séricos (sodio, potasio, cloro) y estado de hidratación", "Riesgo de nefrocalcinosis con uso prolongado"]
+    "pt-BR": [
+      "Monitorar eletrólitos séricos (sódio, potássio, cloro) e status de hidratação",
+      "Risco de nefrocalcinose com uso prolongado"
+    ],
+    "en-US": [
+      "Monitor serum electrolytes (sodium, potassium, chloride) and hydration status",
+      "Risk of nephrocalcinosis with prolonged use"
+    ],
+    "es": [
+      "Monitorizar electrolitos séricos (sodio, potasio, cloro) y estado de hidratación",
+      "Riesgo de nefrocalcinosis con uso prolongado"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — Bula de furosemida injetável/oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
-      "dataAcesso": "2026-09-04"
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Furosemide\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/06/Furosemide_ANMFv3.0_20251127.pdf",
+      "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {

@@ -1,14 +1,37 @@
 {
   "id": "esmolol",
-  "nome": { "pt-BR": "Esmolol", "en-US": "Esmolol", "es": "Esmolol" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de esmolol", "en-US": "Esmolol hydrochloride", "es": "Clorhidrato de esmolol" },
-  "classeFarmacologica": { "pt-BR": "Betabloqueador de ação ultracurta", "en-US": "Ultra-short-acting beta-blocker", "es": "Betabloqueador de acción ultracorta" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Taquiarritmia supraventricular aguda (controle de frequência)", "Hipertensão aguda perioperatória"],
-    "en-US": ["Acute supraventricular tachyarrhythmia (rate control)", "Acute perioperative hypertension"],
-    "es": ["Taquiarritmia supraventricular aguda (control de frecuencia)", "Hipertensión aguda perioperatoria"]
+  "nome": {
+    "pt-BR": "Esmolol",
+    "en-US": "Esmolol",
+    "es": "Esmolol"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de esmolol",
+    "en-US": "Esmolol hydrochloride",
+    "es": "Clorhidrato de esmolol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Betabloqueador de ação ultracurta",
+    "en-US": "Ultra-short-acting beta-blocker",
+    "es": "Betabloqueador de acción ultracorta"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Taquiarritmia supraventricular aguda (controle de frequência)",
+      "Hipertensão aguda perioperatória"
+    ],
+    "en-US": [
+      "Acute supraventricular tachyarrhythmia (rate control)",
+      "Acute perioperative hypertension"
+    ],
+    "es": [
+      "Taquiarritmia supraventricular aguda (control de frecuencia)",
+      "Hipertensión aguda perioperatoria"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 500,
@@ -25,32 +48,59 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Efeito cronotrópico negativo esperado pode causar bradicardia excessiva", "en-US": "Expected negative chronotropic effect may cause excessive bradycardia", "es": "El efecto cronotrópico negativo esperado puede causar bradicardia excesiva" },
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico negativo esperado pode causar bradicardia excessiva",
+        "en-US": "Expected negative chronotropic effect may cause excessive bradycardia",
+        "es": "El efecto cronotrópico negativo esperado puede causar bradicardia excesiva"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização contínua de ECG e FC — meia-vida curta permite suspensão rápida se necessário", "en-US": "Continuous ECG and HR monitoring — short half-life allows rapid discontinuation if needed", "es": "Monitorización continua de ECG y FC — la vida media corta permite suspensión rápida si es necesario" }
+      "conduta": {
+        "pt-BR": "Monitorização contínua de ECG e FC — meia-vida curta permite suspensão rápida se necessário",
+        "en-US": "Continuous ECG and HR monitoring — short half-life allows rapid discontinuation if needed",
+        "es": "Monitorización continua de ECG y FC — la vida media corta permite suspensión rápida si es necesario"
+      }
     },
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Pode causar hipotensão, especialmente com dose de ataque", "en-US": "May cause hypotension, especially with the loading dose", "es": "Puede causar hipotensión, especialmente con la dosis de carga" },
+      "descricao": {
+        "pt-BR": "Pode causar hipotensão, especialmente com dose de ataque",
+        "en-US": "May cause hypotension, especially with the loading dose",
+        "es": "Puede causar hipotensión, especialmente con la dosis de carga"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial continuamente", "en-US": "Monitor blood pressure continuously", "es": "Monitorizar la presión arterial de forma continua" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial continuamente",
+        "en-US": "Monitor blood pressure continuously",
+        "es": "Monitorizar la presión arterial de forma continua"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Experiência neonatal é limitada — reservar para situações agudas com necessidade de controle rápido e reversível"],
-    "en-US": ["Neonatal experience is limited — reserve for acute situations requiring rapid, reversible control"],
-    "es": ["La experiencia neonatal es limitada — reservar para situaciones agudas que requieran control rápido y reversible"]
+    "pt-BR": [
+      "Experiência neonatal é limitada — reservar para situações agudas com necessidade de controle rápido e reversível"
+    ],
+    "en-US": [
+      "Neonatal experience is limited — reserve for acute situations requiring rapid, reversible control"
+    ],
+    "es": [
+      "La experiencia neonatal es limitada — reservar para situaciones agudas que requieran control rápido y reversible"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Esmolol\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/02/Esmolol_ANMFv2.0_20260205-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

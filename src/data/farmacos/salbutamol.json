@@ -1,14 +1,38 @@
 {
   "id": "salbutamol",
-  "nome": { "pt-BR": "Salbutamol (albuterol)", "en-US": "Albuterol (salbutamol)", "es": "Salbutamol (albuterol)" },
-  "nomeGenerico": { "pt-BR": "Sulfato de salbutamol", "en-US": "Albuterol sulfate", "es": "Sulfato de salbutamol" },
-  "classeFarmacologica": { "pt-BR": "Agonista beta-2 adrenérgico (broncodilatador)", "en-US": "Beta-2 adrenergic agonist (bronchodilator)", "es": "Agonista beta-2 adrenérgico (broncodilatador)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Broncoespasmo em displasia broncopulmonar", "Hiperpotassemia (uso adjuvante nebulizado/IV para deslocar potássio intracelular)"],
-    "en-US": ["Bronchospasm in bronchopulmonary dysplasia", "Hyperkalemia (adjunctive nebulized/IV use to shift potassium intracellularly)"],
-    "es": ["Broncoespasmo en displasia broncopulmonar", "Hiperpotasemia (uso adyuvante nebulizado/IV para desplazar potasio intracelular)"]
+  "nome": {
+    "pt-BR": "Salbutamol (albuterol)",
+    "en-US": "Albuterol (salbutamol)",
+    "es": "Salbutamol (albuterol)"
   },
-  "viasAdministracao": ["inalatoria", "intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Sulfato de salbutamol",
+    "en-US": "Albuterol sulfate",
+    "es": "Sulfato de salbutamol"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Agonista beta-2 adrenérgico (broncodilatador)",
+    "en-US": "Beta-2 adrenergic agonist (bronchodilator)",
+    "es": "Agonista beta-2 adrenérgico (broncodilatador)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Broncoespasmo em displasia broncopulmonar",
+      "Hiperpotassemia (uso adjuvante nebulizado/IV para deslocar potássio intracelular)"
+    ],
+    "en-US": [
+      "Bronchospasm in bronchopulmonary dysplasia",
+      "Hyperkalemia (adjunctive nebulized/IV use to shift potassium intracellularly)"
+    ],
+    "es": [
+      "Broncoespasmo en displasia broncopulmonar",
+      "Hiperpotasemia (uso adyuvante nebulizado/IV para desplazar potasio intracelular)"
+    ]
+  },
+  "viasAdministracao": [
+    "inalatoria",
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.1,
@@ -25,26 +49,45 @@
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": { "pt-BR": "Efeito beta-adrenérgico pode causar taquicardia e tremor", "en-US": "Beta-adrenergic effect may cause tachycardia and tremor", "es": "El efecto betaadrenérgico puede causar taquicardia y temblor" },
+      "descricao": {
+        "pt-BR": "Efeito beta-adrenérgico pode causar taquicardia e tremor",
+        "en-US": "Beta-adrenergic effect may cause tachycardia and tremor",
+        "es": "El efecto betaadrenérgico puede causar taquicardia y temblor"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar FC durante o uso, especialmente em doses repetidas", "en-US": "Monitor HR during use, especially with repeated doses", "es": "Monitorizar la FC durante el uso, especialmente con dosis repetidas" }
+      "conduta": {
+        "pt-BR": "Monitorar FC durante o uso, especialmente em doses repetidas",
+        "en-US": "Monitor HR during use, especially with repeated doses",
+        "es": "Monitorizar la FC durante el uso, especialmente con dosis repetidas"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Monitorar potássio sérico quando usado com finalidade de deslocamento de potássio em hiperpotassemia"],
-    "en-US": ["Monitor serum potassium when used for potassium-shifting purposes in hyperkalemia"],
-    "es": ["Monitorizar el potasio sérico cuando se use con fines de desplazamiento de potasio en hiperpotasemia"]
+    "pt-BR": [
+      "Monitorar potássio sérico quando usado com finalidade de deslocamento de potássio em hiperpotassemia"
+    ],
+    "en-US": [
+      "Monitor serum potassium when used for potassium-shifting purposes in hyperkalemia"
+    ],
+    "es": [
+      "Monitorizar el potasio sérico cuando se use con fines de desplazamiento de potasio en hiperpotasemia"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Salbutamol\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/02/Salbutamol_ANMFv3.0_20260122-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

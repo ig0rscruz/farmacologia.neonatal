@@ -1,8 +1,20 @@
 {
   "id": "vancomicina",
-  "nome": { "pt-BR": "Vancomicina", "en-US": "Vancomycin", "es": "Vancomicina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de vancomicina", "en-US": "Vancomycin hydrochloride", "es": "Clorhidrato de vancomicina" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico glicopeptídeo", "en-US": "Glycopeptide antibiotic", "es": "Antibiótico glucopéptido" },
+  "nome": {
+    "pt-BR": "Vancomicina",
+    "en-US": "Vancomycin",
+    "es": "Vancomicina"
+  },
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de vancomicina",
+    "en-US": "Vancomycin hydrochloride",
+    "es": "Clorhidrato de vancomicina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico glicopeptídeo",
+    "en-US": "Glycopeptide antibiotic",
+    "es": "Antibiótico glucopéptido"
+  },
   "indicacoesNeonatais": {
     "pt-BR": [
       "Sepse neonatal tardia com suspeita de Staphylococcus resistente",
@@ -20,7 +32,9 @@
       "Meningitis por cocos Gram-positivos resistentes"
     ]
   },
-  "viasAdministracao": ["intravenosa"],
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 29.9,
@@ -107,8 +121,9 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — protocolo de sepse neonatal tardia baseado em faixas de PMA (estilo NeoFax/Micromedex). Substituir por fonte institucional vigente antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Vancomycin – intermittent regimen\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/12/Vancomycin-Intermittent_ANMFv3.0_20241121-2.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

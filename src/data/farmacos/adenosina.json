@@ -1,14 +1,34 @@
 {
   "id": "adenosina",
-  "nome": { "pt-BR": "Adenosina", "en-US": "Adenosine", "es": "Adenosina" },
-  "nomeGenerico": { "pt-BR": "Adenosina", "en-US": "Adenosine", "es": "Adenosina" },
-  "classeFarmacologica": { "pt-BR": "Antiarrítmico (nucleosídeo endógeno)", "en-US": "Antiarrhythmic (endogenous nucleoside)", "es": "Antiarrítmico (nucleósido endógeno)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Reversão aguda de taquicardia supraventricular (TSV) por reentrada nodal"],
-    "en-US": ["Acute reversal of supraventricular tachycardia (SVT) due to nodal reentry"],
-    "es": ["Reversión aguda de taquicardia supraventricular (TSV) por reentrada nodal"]
+  "nome": {
+    "pt-BR": "Adenosina",
+    "en-US": "Adenosine",
+    "es": "Adenosina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Adenosina",
+    "en-US": "Adenosine",
+    "es": "Adenosina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiarrítmico (nucleosídeo endógeno)",
+    "en-US": "Antiarrhythmic (endogenous nucleoside)",
+    "es": "Antiarrítmico (nucleósido endógeno)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Reversão aguda de taquicardia supraventricular (TSV) por reentrada nodal"
+    ],
+    "en-US": [
+      "Acute reversal of supraventricular tachycardia (SVT) due to nodal reentry"
+    ],
+    "es": [
+      "Reversión aguda de taquicardia supraventricular (TSV) por reentrada nodal"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.1,
@@ -25,26 +45,48 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Pode causar bloqueio atrioventricular transitório ou bradicardia/assistolia breve — efeito esperado do mecanismo de ação", "en-US": "May cause transient atrioventricular block or brief bradycardia/asystole — an expected effect of its mechanism of action", "es": "Puede causar bloqueo auriculoventricular transitorio o bradicardia/asistolia breve — efecto esperado de su mecanismo de acción" },
+      "descricao": {
+        "pt-BR": "Pode causar bloqueio atrioventricular transitório ou bradicardia/assistolia breve — efeito esperado do mecanismo de ação",
+        "en-US": "May cause transient atrioventricular block or brief bradycardia/asystole — an expected effect of its mechanism of action",
+        "es": "Puede causar bloqueo auriculoventricular transitorio o bradicardia/asistolia breve — efecto esperado de su mecanismo de acción"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Administrar apenas com monitorização de ECG contínua e capacidade de reanimação imediatamente disponível", "en-US": "Administer only with continuous ECG monitoring and resuscitation capability immediately available", "es": "Administrar solo con monitorización de ECG continua y capacidad de reanimación disponible de inmediato" }
+      "conduta": {
+        "pt-BR": "Administrar apenas com monitorização de ECG contínua e capacidade de reanimação imediatamente disponível",
+        "en-US": "Administer only with continuous ECG monitoring and resuscitation capability immediately available",
+        "es": "Administrar solo con monitorización de ECG continua y capacidad de reanimación disponible de inmediato"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Diagnóstico e tratamento simultâneos — resposta característica (interrupção abrupta da TSV) ajuda a confirmar o mecanismo arrítmico", "Registrar tira de ritmo durante a administração"],
-    "en-US": ["Simultaneous diagnosis and treatment — the characteristic response (abrupt SVT termination) helps confirm the arrhythmic mechanism", "Record a rhythm strip during administration"],
-    "es": ["Diagnóstico y tratamiento simultáneos — la respuesta característica (interrupción abrupta de la TSV) ayuda a confirmar el mecanismo arrítmico", "Registrar una tira de ritmo durante la administración"]
+    "pt-BR": [
+      "Diagnóstico e tratamento simultâneos — resposta característica (interrupção abrupta da TSV) ajuda a confirmar o mecanismo arrítmico",
+      "Registrar tira de ritmo durante a administração"
+    ],
+    "en-US": [
+      "Simultaneous diagnosis and treatment — the characteristic response (abrupt SVT termination) helps confirm the arrhythmic mechanism",
+      "Record a rhythm strip during administration"
+    ],
+    "es": [
+      "Diagnóstico y tratamiento simultáneos — la respuesta característica (interrupción abrupta de la TSV) ayuda a confirmar el mecanismo arrítmico",
+      "Registrar una tira de ritmo durante la administración"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Adenosine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/08/Adenosine_ANMFv2.0_20230622.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

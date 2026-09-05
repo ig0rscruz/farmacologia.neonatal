@@ -1,14 +1,34 @@
 {
   "id": "nifedipina",
-  "nome": { "pt-BR": "Nifedipina", "en-US": "Nifedipine", "es": "Nifedipino" },
-  "nomeGenerico": { "pt-BR": "Nifedipina", "en-US": "Nifedipine", "es": "Nifedipino" },
-  "classeFarmacologica": { "pt-BR": "Bloqueador de canal de cálcio", "en-US": "Calcium channel blocker", "es": "Bloqueador de los canales de calcio" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hipertensão arterial neonatal refratária a outros agentes (uso menos comum, off-label)"],
-    "en-US": ["Neonatal arterial hypertension refractory to other agents (less common, off-label use)"],
-    "es": ["Hipertensión arterial neonatal refractaria a otros agentes (uso menos común, fuera de ficha técnica)"]
+  "nome": {
+    "pt-BR": "Nifedipina",
+    "en-US": "Nifedipine",
+    "es": "Nifedipino"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Nifedipina",
+    "en-US": "Nifedipine",
+    "es": "Nifedipino"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Bloqueador de canal de cálcio",
+    "en-US": "Calcium channel blocker",
+    "es": "Bloqueador de los canales de calcio"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipertensão arterial neonatal refratária a outros agentes (uso menos comum, off-label)"
+    ],
+    "en-US": [
+      "Neonatal arterial hypertension refractory to other agents (less common, off-label use)"
+    ],
+    "es": [
+      "Hipertensión arterial neonatal refractaria a otros agentes (uso menos común, fuera de ficha técnica)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.25,
@@ -25,26 +45,45 @@
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Efeito vasodilatador pode causar hipotensão significativa, especialmente em associação com outros anti-hipertensivos", "en-US": "Vasodilator effect may cause significant hypotension, especially combined with other antihypertensives", "es": "El efecto vasodilatador puede causar hipotensión significativa, especialmente en asociación con otros antihipertensivos" },
+      "descricao": {
+        "pt-BR": "Efeito vasodilatador pode causar hipotensão significativa, especialmente em associação com outros anti-hipertensivos",
+        "en-US": "Vasodilator effect may cause significant hypotension, especially combined with other antihypertensives",
+        "es": "El efecto vasodilatador puede causar hipotensión significativa, especialmente en asociación con otros antihipertensivos"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar pressão arterial continuamente após cada dose", "en-US": "Monitor blood pressure continuously after each dose", "es": "Monitorizar la presión arterial de forma continua tras cada dosis" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial continuamente após cada dose",
+        "en-US": "Monitor blood pressure continuously after each dose",
+        "es": "Monitorizar la presión arterial de forma continua tras cada dosis"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso neonatal é off-label e a experiência publicada é limitada — reservar para hipertensão refratária"],
-    "en-US": ["Neonatal use is off-label and published experience is limited — reserve for refractory hypertension"],
-    "es": ["El uso neonatal es fuera de ficha técnica y la experiencia publicada es limitada — reservar para hipertensión refractaria"]
+    "pt-BR": [
+      "Uso neonatal é off-label e a experiência publicada é limitada — reservar para hipertensão refratária"
+    ],
+    "en-US": [
+      "Neonatal use is off-label and published experience is limited — reserve for refractory hypertension"
+    ],
+    "es": [
+      "El uso neonatal es fuera de ficha técnica y la experiencia publicada es limitada — reservar para hipertensión refractaria"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
-      "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — relatos de caso/série sobre uso de nifedipina em hipertensão neonatal refratária. Substituir por fonte revisada.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Nifedipine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/07/Nifedipine_ANMFv1.0_20240704.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

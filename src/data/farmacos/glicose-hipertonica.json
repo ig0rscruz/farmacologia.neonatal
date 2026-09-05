@@ -1,14 +1,34 @@
 {
   "id": "glicose-hipertonica",
-  "nome": { "pt-BR": "Glicose hipertônica (10-25%)", "en-US": "Hypertonic glucose (10-25%)", "es": "Glucosa hipertónica (10-25%)" },
-  "nomeGenerico": { "pt-BR": "Glicose (dextrose)", "en-US": "Glucose (dextrose)", "es": "Glucosa (dextrosa)" },
-  "classeFarmacologica": { "pt-BR": "Carboidrato / correção de hipoglicemia", "en-US": "Carbohydrate / hypoglycemia correction", "es": "Carbohidrato / corrección de hipoglucemia" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hipoglicemia neonatal sintomática ou refratária a alimentação"],
-    "en-US": ["Symptomatic neonatal hypoglycemia or hypoglycemia refractory to feeding"],
-    "es": ["Hipoglucemia neonatal sintomática o refractaria a la alimentación"]
+  "nome": {
+    "pt-BR": "Glicose hipertônica (10-25%)",
+    "en-US": "Hypertonic glucose (10-25%)",
+    "es": "Glucosa hipertónica (10-25%)"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Glicose (dextrose)",
+    "en-US": "Glucose (dextrose)",
+    "es": "Glucosa (dextrosa)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Carboidrato / correção de hipoglicemia",
+    "en-US": "Carbohydrate / hypoglycemia correction",
+    "es": "Carbohidrato / corrección de hipoglucemia"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hipoglicemia neonatal sintomática ou refratária a alimentação"
+    ],
+    "en-US": [
+      "Symptomatic neonatal hypoglycemia or hypoglycemia refractory to feeding"
+    ],
+    "es": [
+      "Hipoglucemia neonatal sintomática o refractaria a la alimentación"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 200,
@@ -24,20 +44,34 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Concentrações acima de 12.5% requerem acesso venoso central pelo risco de flebite/esclerose de veia periférica", "Reconfirmar glicemia após bolus e ajustar infusão de manutenção conforme resposta"],
-    "en-US": ["Concentrations above 12.5% require central venous access due to phlebitis/peripheral vein sclerosis risk", "Recheck glucose after the bolus and adjust the maintenance infusion per response"],
-    "es": ["Las concentraciones superiores al 12.5% requieren acceso venoso central por el riesgo de flebitis/esclerosis de vena periférica", "Reconfirmar la glucemia tras el bolo y ajustar la infusión de mantenimiento según la respuesta"]
+    "pt-BR": [
+      "Concentrações acima de 12.5% requerem acesso venoso central pelo risco de flebite/esclerose de veia periférica",
+      "Reconfirmar glicemia após bolus e ajustar infusão de manutenção conforme resposta"
+    ],
+    "en-US": [
+      "Concentrations above 12.5% require central venous access due to phlebitis/peripheral vein sclerosis risk",
+      "Recheck glucose after the bolus and adjust the maintenance infusion per response"
+    ],
+    "es": [
+      "Las concentraciones superiores al 12.5% requieren acceso venoso central por el riesgo de flebitis/esclerosis de vena periférica",
+      "Reconfirmar la glucemia tras el bolo y ajustar la infusión de mantenimiento según la respuesta"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de hipoglicemia neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Glucose 40%\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2025/11/Glucose-40_ANMFv4.0_20250717-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

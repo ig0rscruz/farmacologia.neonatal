@@ -182,6 +182,12 @@ function App() {
             </>
           )}
         </div>
+
+        <footer className="text-center text-xs text-slate-400 pb-4 space-y-0.5">
+          <p>{t.rodape.construidoPor}</p>
+          <p>{t.rodape.telefone}</p>
+          <p>{t.rodape.email}</p>
+        </footer>
       </div>
     </div>
   )

@@ -1,14 +1,37 @@
 {
   "id": "heparina",
-  "nome": { "pt-BR": "Heparina não fracionada", "en-US": "Unfractionated heparin", "es": "Heparina no fraccionada" },
-  "nomeGenerico": { "pt-BR": "Heparina sódica", "en-US": "Heparin sodium", "es": "Heparina sódica" },
-  "classeFarmacologica": { "pt-BR": "Anticoagulante", "en-US": "Anticoagulant", "es": "Anticoagulante" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Manutenção da patência de cateter venoso/arterial central (baixa dose)", "Tratamento de trombose (dose terapêutica)"],
-    "en-US": ["Maintaining patency of central venous/arterial catheters (low dose)", "Treatment of thrombosis (therapeutic dose)"],
-    "es": ["Mantenimiento de la permeabilidad de catéter venoso/arterial central (dosis baja)", "Tratamiento de trombosis (dosis terapéutica)"]
+  "nome": {
+    "pt-BR": "Heparina não fracionada",
+    "en-US": "Unfractionated heparin",
+    "es": "Heparina no fraccionada"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Heparina sódica",
+    "en-US": "Heparin sodium",
+    "es": "Heparina sódica"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Anticoagulante",
+    "en-US": "Anticoagulant",
+    "es": "Anticoagulante"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Manutenção da patência de cateter venoso/arterial central (baixa dose)",
+      "Tratamento de trombose (dose terapêutica)"
+    ],
+    "en-US": [
+      "Maintaining patency of central venous/arterial catheters (low dose)",
+      "Treatment of thrombosis (therapeutic dose)"
+    ],
+    "es": [
+      "Mantenimiento de la permeabilidad de catéter venoso/arterial central (dosis baja)",
+      "Tratamiento de trombosis (dosis terapéutica)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -25,26 +48,45 @@
   "contraindicacoes": [
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Risco de sangramento, incluindo hemorragia intraventricular em prematuros, especialmente em dose terapêutica", "en-US": "Bleeding risk, including intraventricular hemorrhage in preterm infants, especially at therapeutic dose", "es": "Riesgo de sangrado, incluida la hemorragia intraventricular en prematuros, especialmente a dosis terapéutica" },
+      "descricao": {
+        "pt-BR": "Risco de sangramento, incluindo hemorragia intraventricular em prematuros, especialmente em dose terapêutica",
+        "en-US": "Bleeding risk, including intraventricular hemorrhage in preterm infants, especially at therapeutic dose",
+        "es": "Riesgo de sangrado, incluida la hemorragia intraventricular en prematuros, especialmente a dosis terapéutica"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorar TTPa (dose terapêutica) e sinais de sangramento; ter protamina disponível como antídoto", "en-US": "Monitor aPTT (therapeutic dose) and bleeding signs; have protamine available as an antidote", "es": "Monitorizar el TTPa (dosis terapéutica) y signos de sangrado; tener protamina disponible como antídoto" }
+      "conduta": {
+        "pt-BR": "Monitorar TTPa (dose terapêutica) e sinais de sangramento; ter protamina disponível como antídoto",
+        "en-US": "Monitor aPTT (therapeutic dose) and bleeding signs; have protamine available as an antidote",
+        "es": "Monitorizar el TTPa (dosis terapéutica) y signos de sangrado; tener protamina disponible como antídoto"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Trombocitopenia induzida por heparina é rara mas descrita — monitorar plaquetas em uso prolongado"],
-    "en-US": ["Heparin-induced thrombocytopenia is rare but described — monitor platelets with prolonged use"],
-    "es": ["La trombocitopenia inducida por heparina es rara pero descrita — monitorizar plaquetas en uso prolongado"]
+    "pt-BR": [
+      "Trombocitopenia induzida por heparina é rara mas descrita — monitorar plaquetas em uso prolongado"
+    ],
+    "en-US": [
+      "Heparin-induced thrombocytopenia is rare but described — monitor platelets with prolonged use"
+    ],
+    "es": [
+      "La trombocitopenia inducida por heparina es rara pero descrita — monitorizar plaquetas en uso prolongado"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Heparin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2022/10/Heparin_ANMFv5.1_20260618.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

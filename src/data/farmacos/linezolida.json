@@ -1,14 +1,35 @@
 {
   "id": "linezolida",
-  "nome": { "pt-BR": "Linezolida", "en-US": "Linezolid", "es": "Linezolid" },
-  "nomeGenerico": { "pt-BR": "Linezolida", "en-US": "Linezolid", "es": "Linezolid" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico oxazolidinona", "en-US": "Oxazolidinone antibiotic", "es": "Antibiótico oxazolidinona" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Infecção por Gram-positivos resistentes (ex.: Enterococcus resistente à vancomicina, Staphylococcus aureus resistente à meticilina) quando outras opções não são adequadas"],
-    "en-US": ["Infection due to resistant Gram-positives (e.g., vancomycin-resistant Enterococcus, methicillin-resistant Staphylococcus aureus) when other options are not suitable"],
-    "es": ["Infección por Gram-positivos resistentes (p. ej., Enterococcus resistente a vancomicina, Staphylococcus aureus resistente a meticilina) cuando otras opciones no son adecuadas"]
+  "nome": {
+    "pt-BR": "Linezolida",
+    "en-US": "Linezolid",
+    "es": "Linezolid"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Linezolida",
+    "en-US": "Linezolid",
+    "es": "Linezolid"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico oxazolidinona",
+    "en-US": "Oxazolidinone antibiotic",
+    "es": "Antibiótico oxazolidinona"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Infecção por Gram-positivos resistentes (ex.: Enterococcus resistente à vancomicina, Staphylococcus aureus resistente à meticilina) quando outras opções não são adequadas"
+    ],
+    "en-US": [
+      "Infection due to resistant Gram-positives (e.g., vancomycin-resistant Enterococcus, methicillin-resistant Staphylococcus aureus) when other options are not suitable"
+    ],
+    "es": [
+      "Infección por Gram-positivos resistentes (p. ej., Enterococcus resistente a vancomicina, Staphylococcus aureus resistente a meticilina) cuando otras opciones no son adecuadas"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "pmaMaxSemanas": 34,
@@ -16,7 +37,11 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 12,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA < 34 semanas.", "en-US": "PMA < 34 weeks.", "es": "EPM < 34 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA < 34 semanas.",
+        "en-US": "PMA < 34 weeks.",
+        "es": "EPM < 34 semanas."
+      }
     },
     {
       "pmaMinSemanas": 34.1,
@@ -24,32 +49,55 @@
       "doseUnidade": "mg/kg/dose",
       "intervaloHoras": 8,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "PMA ≥ 34 semanas.", "en-US": "PMA ≥ 34 weeks.", "es": "EPM ≥ 34 semanas." }
+      "observacoes": {
+        "pt-BR": "PMA ≥ 34 semanas.",
+        "en-US": "PMA ≥ 34 weeks.",
+        "es": "EPM ≥ 34 semanas."
+      }
     }
   ],
   "contraindicacoes": [
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Trombocitopenia é efeito adverso descrito, especialmente com uso além de 2 semanas", "en-US": "Thrombocytopenia is a described adverse effect, especially with use beyond 2 weeks", "es": "La trombocitopenia es un efecto adverso descrito, especialmente con uso más allá de 2 semanas" },
+      "descricao": {
+        "pt-BR": "Trombocitopenia é efeito adverso descrito, especialmente com uso além de 2 semanas",
+        "en-US": "Thrombocytopenia is a described adverse effect, especially with use beyond 2 weeks",
+        "es": "La trombocitopenia es un efecto adverso descrito, especialmente con uso más allá de 2 semanas"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar hemograma (plaquetas) periodicamente, especialmente em uso prolongado", "en-US": "Monitor blood count (platelets) periodically, especially with prolonged use", "es": "Monitorizar el hemograma (plaquetas) periódicamente, especialmente en uso prolongado" }
+      "conduta": {
+        "pt-BR": "Monitorar hemograma (plaquetas) periodicamente, especialmente em uso prolongado",
+        "en-US": "Monitor blood count (platelets) periodically, especially with prolonged use",
+        "es": "Monitorizar el hemograma (plaquetas) periódicamente, especialmente en uso prolongado"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Reservar para infecções por patógenos resistentes confirmados/fortemente suspeitos — não é antibiótico de primeira linha"],
-    "en-US": ["Reserve for infections due to confirmed/strongly suspected resistant pathogens — not a first-line antibiotic"],
-    "es": ["Reservar para infecciones por patógenos resistentes confirmados/fuertemente sospechados — no es un antibiótico de primera línea"]
+    "pt-BR": [
+      "Reservar para infecções por patógenos resistentes confirmados/fortemente suspeitos — não é antibiótico de primeira linha"
+    ],
+    "en-US": [
+      "Reserve for infections due to confirmed/strongly suspected resistant pathogens — not a first-line antibiotic"
+    ],
+    "es": [
+      "Reservar para infecciones por patógenos resistentes confirmados/fuertemente sospechados — no es un antibiótico de primera línea"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Linezolid\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/Linezolid_ANMFv1.1_20230726.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

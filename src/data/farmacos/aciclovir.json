@@ -1,14 +1,34 @@
 {
   "id": "aciclovir",
-  "nome": { "pt-BR": "Aciclovir", "en-US": "Acyclovir", "es": "Aciclovir" },
-  "nomeGenerico": { "pt-BR": "Aciclovir sódico", "en-US": "Acyclovir sodium", "es": "Aciclovir sódico" },
-  "classeFarmacologica": { "pt-BR": "Antiviral (análogo de nucleosídeo)", "en-US": "Antiviral (nucleoside analog)", "es": "Antiviral (análogo de nucleósido)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Infecção neonatal por herpes simples (HSV) — cutânea, ocular, oral, do SNC ou disseminada"],
-    "en-US": ["Neonatal herpes simplex virus (HSV) infection — skin/eye/mouth, CNS, or disseminated disease"],
-    "es": ["Infección neonatal por virus del herpes simple (VHS) — cutánea, ocular, oral, del SNC o diseminada"]
+  "nome": {
+    "pt-BR": "Aciclovir",
+    "en-US": "Acyclovir",
+    "es": "Aciclovir"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Aciclovir sódico",
+    "en-US": "Acyclovir sodium",
+    "es": "Aciclovir sódico"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiviral (análogo de nucleosídeo)",
+    "en-US": "Antiviral (nucleoside analog)",
+    "es": "Antiviral (análogo de nucleósido)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Infecção neonatal por herpes simples (HSV) — cutânea, ocular, oral, do SNC ou disseminada"
+    ],
+    "en-US": [
+      "Neonatal herpes simplex virus (HSV) infection — skin/eye/mouth, CNS, or disseminated disease"
+    ],
+    "es": [
+      "Infección neonatal por virus del herpes simple (VHS) — cutánea, ocular, oral, del SNC o diseminada"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 20,
@@ -25,32 +45,59 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Pode cristalizar nos túbulos renais, especialmente com infusão rápida ou desidratação; eliminação renal", "en-US": "May crystallize in renal tubules, especially with rapid infusion or dehydration; renal elimination", "es": "Puede cristalizar en los túbulos renales, especialmente con infusión rápida o deshidratación; eliminación renal" },
+      "descricao": {
+        "pt-BR": "Pode cristalizar nos túbulos renais, especialmente com infusão rápida ou desidratação; eliminação renal",
+        "en-US": "May crystallize in renal tubules, especially with rapid infusion or dehydration; renal elimination",
+        "es": "Puede cristalizar en los túbulos renales, especialmente con infusión rápida o deshidratación; eliminación renal"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Infundir lentamente, garantir hidratação adequada, monitorar creatinina sérica e prolongar intervalo se necessário", "en-US": "Infuse slowly, ensure adequate hydration, monitor serum creatinine, and extend the interval if needed", "es": "Infundir lentamente, asegurar hidratación adecuada, monitorizar creatinina sérica y prolongar el intervalo si es necesario" }
+      "conduta": {
+        "pt-BR": "Infundir lentamente, garantir hidratação adequada, monitorar creatinina sérica e prolongar intervalo se necessário",
+        "en-US": "Infuse slowly, ensure adequate hydration, monitor serum creatinine, and extend the interval if needed",
+        "es": "Infundir lentamente, asegurar hidratación adecuada, monitorizar creatinina sérica y prolongar el intervalo si es necesario"
+      }
     },
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Neutropenia é efeito adverso hematológico descrito", "en-US": "Neutropenia is a described hematologic adverse effect", "es": "La neutropenia es un efecto adverso hematológico descrito" },
+      "descricao": {
+        "pt-BR": "Neutropenia é efeito adverso hematológico descrito",
+        "en-US": "Neutropenia is a described hematologic adverse effect",
+        "es": "La neutropenia es un efecto adverso hematológico descrito"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorar hemograma periodicamente durante o tratamento", "en-US": "Monitor blood count periodically during treatment", "es": "Monitorizar hemograma periódicamente durante el tratamiento" }
+      "conduta": {
+        "pt-BR": "Monitorar hemograma periodicamente durante o tratamento",
+        "en-US": "Monitor blood count periodically during treatment",
+        "es": "Monitorizar hemograma periódicamente durante el tratamiento"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Início precoce do tratamento (mesmo antes da confirmação laboratorial, se suspeita clínica forte) reduz mortalidade e sequelas no herpes neonatal disseminado/SNC"],
-    "en-US": ["Early treatment initiation (even before laboratory confirmation, if clinical suspicion is strong) reduces mortality and sequelae in disseminated/CNS neonatal herpes"],
-    "es": ["El inicio precoz del tratamiento (incluso antes de la confirmación de laboratorio, si la sospecha clínica es fuerte) reduce la mortalidad y las secuelas en el herpes neonatal diseminado/del SNC"]
+    "pt-BR": [
+      "Início precoce do tratamento (mesmo antes da confirmação laboratorial, se suspeita clínica forte) reduz mortalidade e sequelas no herpes neonatal disseminado/SNC"
+    ],
+    "en-US": [
+      "Early treatment initiation (even before laboratory confirmation, if clinical suspicion is strong) reduces mortality and sequelae in disseminated/CNS neonatal herpes"
+    ],
+    "es": [
+      "El inicio precoz del tratamiento (incluso antes de la confirmación de laboratorio, si la sospecha clínica es fuerte) reduce la mortalidad y las secuelas en el herpes neonatal diseminado/del SNC"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Aciclovir (Acyclovir)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2024/12/Aciclovir_ANMFv4.0_20250213-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

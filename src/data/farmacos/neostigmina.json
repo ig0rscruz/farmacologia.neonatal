@@ -1,14 +1,34 @@
 {
   "id": "neostigmina",
-  "nome": { "pt-BR": "Neostigmina", "en-US": "Neostigmine", "es": "Neostigmina" },
-  "nomeGenerico": { "pt-BR": "Metilsulfato de neostigmina", "en-US": "Neostigmine methylsulfate", "es": "Metilsulfato de neostigmina" },
-  "classeFarmacologica": { "pt-BR": "Inibidor da acetilcolinesterase (reversor de bloqueio neuromuscular)", "en-US": "Acetylcholinesterase inhibitor (neuromuscular blockade reversal)", "es": "Inhibidor de la acetilcolinesterasa (reversor del bloqueo neuromuscular)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Reversão de bloqueio neuromuscular não despolarizante (ex.: após rocurônio), sempre associada a anticolinérgico (atropina)"],
-    "en-US": ["Reversal of non-depolarizing neuromuscular blockade (e.g., after rocuronium), always combined with an anticholinergic (atropine)"],
-    "es": ["Reversión del bloqueo neuromuscular no despolarizante (p. ej., tras rocuronio), siempre asociada a un anticolinérgico (atropina)"]
+  "nome": {
+    "pt-BR": "Neostigmina",
+    "en-US": "Neostigmine",
+    "es": "Neostigmina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Metilsulfato de neostigmina",
+    "en-US": "Neostigmine methylsulfate",
+    "es": "Metilsulfato de neostigmina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Inibidor da acetilcolinesterase (reversor de bloqueio neuromuscular)",
+    "en-US": "Acetylcholinesterase inhibitor (neuromuscular blockade reversal)",
+    "es": "Inhibidor de la acetilcolinesterasa (reversor del bloqueo neuromuscular)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Reversão de bloqueio neuromuscular não despolarizante (ex.: após rocurônio), sempre associada a anticolinérgico (atropina)"
+    ],
+    "en-US": [
+      "Reversal of non-depolarizing neuromuscular blockade (e.g., after rocuronium), always combined with an anticholinergic (atropine)"
+    ],
+    "es": [
+      "Reversión del bloqueo neuromuscular no despolarizante (p. ej., tras rocuronio), siempre asociada a un anticolinérgico (atropina)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.05,
@@ -25,26 +45,45 @@
   "contraindicacoes": [
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Efeito muscarínico (colinérgico) causa bradicardia se não antagonizado por atropina", "en-US": "Muscarinic (cholinergic) effect causes bradycardia if not antagonized by atropine", "es": "El efecto muscarínico (colinérgico) causa bradicardia si no se antagoniza con atropina" },
+      "descricao": {
+        "pt-BR": "Efeito muscarínico (colinérgico) causa bradicardia se não antagonizado por atropina",
+        "en-US": "Muscarinic (cholinergic) effect causes bradycardia if not antagonized by atropine",
+        "es": "El efecto muscarínico (colinérgico) causa bradicardia si no se antagoniza con atropina"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Nunca administrar neostigmina sem atropina (ou glicopirrolato) concomitante", "en-US": "Never administer neostigmine without concomitant atropine (or glycopyrrolate)", "es": "Nunca administrar neostigmina sin atropina (o glicopirrolato) concomitante" }
+      "conduta": {
+        "pt-BR": "Nunca administrar neostigmina sem atropina (ou glicopirrolato) concomitante",
+        "en-US": "Never administer neostigmine without concomitant atropine (or glycopyrrolate)",
+        "es": "Nunca administrar neostigmina sin atropina (o glicopirrolato) concomitante"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Eficácia da reversão depende do grau de bloqueio neuromuscular residual — pode ser insuficiente em bloqueio profundo recente"],
-    "en-US": ["Reversal efficacy depends on the degree of residual neuromuscular blockade — may be insufficient for recent deep blockade"],
-    "es": ["La eficacia de la reversión depende del grado de bloqueo neuromuscular residual — puede ser insuficiente en un bloqueo profundo reciente"]
+    "pt-BR": [
+      "Eficácia da reversão depende do grau de bloqueio neuromuscular residual — pode ser insuficiente em bloqueio profundo recente"
+    ],
+    "en-US": [
+      "Reversal efficacy depends on the degree of residual neuromuscular blockade — may be insufficient for recent deep blockade"
+    ],
+    "es": [
+      "La eficacia de la reversión depende del grado de bloqueo neuromuscular residual — puede ser insuficiente en un bloqueo profundo reciente"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Neostigmine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2025/06/Neostigmine_ANMFv1.0_20250529.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

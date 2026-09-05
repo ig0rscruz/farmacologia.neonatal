@@ -1,14 +1,38 @@
 {
   "id": "ceftriaxona",
-  "nome": { "pt-BR": "Ceftriaxona", "en-US": "Ceftriaxone", "es": "Ceftriaxona" },
-  "nomeGenerico": { "pt-BR": "Ceftriaxona sódica", "en-US": "Ceftriaxone sodium", "es": "Ceftriaxona sódica" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico cefalosporina de 3ª geração", "en-US": "Third-generation cephalosporin antibiotic", "es": "Antibiótico cefalosporina de 3ª generación" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Geralmente EVITADA em neonatos pelo risco de precipitação com cálcio — usar cefotaxima como alternativa da mesma classe quando cobertura de 3ª geração é necessária", "Dose única em situações muito específicas fora do período neonatal imediato (ex.: alguns protocolos de sífilis/gonococo em contextos selecionados)"],
-    "en-US": ["Generally AVOIDED in neonates due to calcium precipitation risk — use cefotaxime as a same-class alternative when 3rd-generation coverage is needed", "Single dose in very specific situations beyond the immediate neonatal period (e.g., some syphilis/gonococcal protocols in selected contexts)"],
-    "es": ["Generalmente EVITADA en neonatos por el riesgo de precipitación con calcio — usar cefotaxima como alternativa de la misma clase cuando se necesita cobertura de 3ª generación", "Dosis única en situaciones muy específicas más allá del período neonatal inmediato (p. ej., algunos protocolos de sífilis/gonococo en contextos seleccionados)"]
+  "nome": {
+    "pt-BR": "Ceftriaxona",
+    "en-US": "Ceftriaxone",
+    "es": "Ceftriaxona"
   },
-  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "nomeGenerico": {
+    "pt-BR": "Ceftriaxona sódica",
+    "en-US": "Ceftriaxone sodium",
+    "es": "Ceftriaxona sódica"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico cefalosporina de 3ª geração",
+    "en-US": "Third-generation cephalosporin antibiotic",
+    "es": "Antibiótico cefalosporina de 3ª generación"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Geralmente EVITADA em neonatos pelo risco de precipitação com cálcio — usar cefotaxima como alternativa da mesma classe quando cobertura de 3ª geração é necessária",
+      "Dose única em situações muito específicas fora do período neonatal imediato (ex.: alguns protocolos de sífilis/gonococo em contextos selecionados)"
+    ],
+    "en-US": [
+      "Generally AVOIDED in neonates due to calcium precipitation risk — use cefotaxime as a same-class alternative when 3rd-generation coverage is needed",
+      "Single dose in very specific situations beyond the immediate neonatal period (e.g., some syphilis/gonococcal protocols in selected contexts)"
+    ],
+    "es": [
+      "Generalmente EVITADA en neonatos por el riesgo de precipitación con calcio — usar cefotaxima como alternativa de la misma clase cuando se necesita cobertura de 3ª generación",
+      "Dosis única en situaciones muy específicas más allá del período neonatal inmediato (p. ej., algunos protocolos de sífilis/gonococo en contextos seleccionados)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "intramuscular"
+  ],
   "faixasDose": [
     {
       "doseValor": 50,
@@ -25,32 +49,62 @@
   "contraindicacoes": [
     {
       "condicao": "hiperbilirrubinemia",
-      "descricao": { "pt-BR": "Desloca bilirrubina da albumina, aumentando risco de kernicterus — contraindicada em neonatos ictéricos, especialmente prematuros", "en-US": "Displaces bilirubin from albumin, increasing kernicterus risk — contraindicated in jaundiced neonates, especially preterm infants", "es": "Desplaza la bilirrubina de la albúmina, aumentando el riesgo de kernicterus — contraindicada en neonatos ictéricos, especialmente prematuros" },
+      "descricao": {
+        "pt-BR": "Desloca bilirrubina da albumina, aumentando risco de kernicterus — contraindicada em neonatos ictéricos, especialmente prematuros",
+        "en-US": "Displaces bilirubin from albumin, increasing kernicterus risk — contraindicated in jaundiced neonates, especially preterm infants",
+        "es": "Desplaza la bilirrubina de la albúmina, aumentando el riesgo de kernicterus — contraindicada en neonatos ictéricos, especialmente prematuros"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Não usar em neonatos ictéricos, especialmente prematuros — usar cefotaxima como alternativa", "en-US": "Do not use in jaundiced neonates, especially preterm infants — use cefotaxime as an alternative", "es": "No usar en neonatos ictéricos, especialmente prematuros — usar cefotaxima como alternativa" }
+      "conduta": {
+        "pt-BR": "Não usar em neonatos ictéricos, especialmente prematuros — usar cefotaxima como alternativa",
+        "en-US": "Do not use in jaundiced neonates, especially preterm infants — use cefotaxime as an alternative",
+        "es": "No usar en neonatos ictéricos, especialmente prematuros — usar cefotaxima como alternativa"
+      }
     },
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Risco de precipitação de cálcio-ceftriaxona é maior em disfunção renal", "en-US": "Risk of calcium-ceftriaxone precipitation is higher in renal impairment", "es": "El riesgo de precipitación de calcio-ceftriaxona es mayor en la disfunción renal" },
+      "descricao": {
+        "pt-BR": "Risco de precipitação de cálcio-ceftriaxona é maior em disfunção renal",
+        "en-US": "Risk of calcium-ceftriaxone precipitation is higher in renal impairment",
+        "es": "El riesgo de precipitación de calcio-ceftriaxona es mayor en la disfunción renal"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Evitar em neonatos com disfunção renal — usar cefotaxima", "en-US": "Avoid in neonates with renal impairment — use cefotaxime", "es": "Evitar en neonatos con disfunción renal — usar cefotaxima" }
+      "conduta": {
+        "pt-BR": "Evitar em neonatos com disfunção renal — usar cefotaxima",
+        "en-US": "Avoid in neonates with renal impairment — use cefotaxime",
+        "es": "Evitar en neonatos con disfunción renal — usar cefotaxima"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["CONTRAINDICADA em neonatos com hiperbilirrubinemia e em uso concomitante com produtos contendo cálcio — alerta de segurança regulatório amplamente reconhecido (relatos de óbito por precipitação pulmonar/renal fatal)", "Cefotaxima é a alternativa preferida da mesma classe em neonatologia"],
-    "en-US": ["CONTRAINDICATED in neonates with hyperbilirubinemia and with concomitant calcium-containing products — widely recognized regulatory safety alert (fatal lung/kidney precipitation deaths reported)", "Cefotaxime is the preferred same-class alternative in neonatology"],
-    "es": ["CONTRAINDICADA en neonatos con hiperbilirrubinemia y con uso concomitante de productos que contienen calcio — alerta de seguridad regulatoria ampliamente reconocida (se han reportado muertes por precipitación pulmonar/renal fatal)", "La cefotaxima es la alternativa preferida de la misma clase en neonatología"]
+    "pt-BR": [
+      "CONTRAINDICADA em neonatos com hiperbilirrubinemia e em uso concomitante com produtos contendo cálcio — alerta de segurança regulatório amplamente reconhecido (relatos de óbito por precipitação pulmonar/renal fatal)",
+      "Cefotaxima é a alternativa preferida da mesma classe em neonatologia"
+    ],
+    "en-US": [
+      "CONTRAINDICATED in neonates with hyperbilirubinemia and with concomitant calcium-containing products — widely recognized regulatory safety alert (fatal lung/kidney precipitation deaths reported)",
+      "Cefotaxime is the preferred same-class alternative in neonatology"
+    ],
+    "es": [
+      "CONTRAINDICADA en neonatos con hiperbilirrubinemia y con uso concomitante de productos que contienen calcio — alerta de seguridad regulatoria ampliamente reconocida (se han reportado muertes por precipitación pulmonar/renal fatal)",
+      "La cefotaxima es la alternativa preferida de la misma clase en neonatología"
+    ]
   },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de ceftriaxona com alerta de contraindicação em neonatos por risco de precipitação com cálcio (alerta regulatório amplamente documentado, ex.: FDA). Substituir pela versão vigente antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Ceftriaxone\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/Ceftriaxone_ANMFv1.0_20230724.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

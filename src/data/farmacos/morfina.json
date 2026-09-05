@@ -1,14 +1,41 @@
 {
   "id": "morfina",
-  "nome": { "pt-BR": "Morfina", "en-US": "Morphine", "es": "Morfina" },
-  "nomeGenerico": { "pt-BR": "Sulfato de morfina", "en-US": "Morphine sulfate", "es": "Sulfato de morfina" },
-  "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Analgesia moderada a intensa", "Sedoanalgesia em ventilação mecânica", "Síndrome de abstinência neonatal (tratamento)"],
-    "en-US": ["Moderate to severe analgesia", "Sedation-analgesia during mechanical ventilation", "Neonatal abstinence syndrome (treatment)"],
-    "es": ["Analgesia moderada a intensa", "Sedoanalgesia en ventilación mecánica", "Síndrome de abstinencia neonatal (tratamiento)"]
+  "nome": {
+    "pt-BR": "Morfina",
+    "en-US": "Morphine",
+    "es": "Morfina"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Sulfato de morfina",
+    "en-US": "Morphine sulfate",
+    "es": "Sulfato de morfina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Opioide",
+    "en-US": "Opioid",
+    "es": "Opioide"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Analgesia moderada a intensa",
+      "Sedoanalgesia em ventilação mecânica",
+      "Síndrome de abstinência neonatal (tratamento)"
+    ],
+    "en-US": [
+      "Moderate to severe analgesia",
+      "Sedation-analgesia during mechanical ventilation",
+      "Neonatal abstinence syndrome (treatment)"
+    ],
+    "es": [
+      "Analgesia moderada a intensa",
+      "Sedoanalgesia en ventilación mecánica",
+      "Síndrome de abstinencia neonatal (tratamiento)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.05,
@@ -78,15 +105,25 @@
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso prolongado associado a tolerância e síndrome de abstinência à retirada — desmame gradual", "Ter naloxona disponível para reversão de emergência"],
-    "en-US": ["Prolonged use is associated with tolerance and withdrawal syndrome — wean gradually", "Have naloxone available for emergency reversal"],
-    "es": ["El uso prolongado se asocia a tolerancia y síndrome de abstinencia al retirarlo — destete gradual", "Tener naloxona disponible para reversión de emergencia"]
+    "pt-BR": [
+      "Uso prolongado associado a tolerância e síndrome de abstinência à retirada — desmame gradual",
+      "Ter naloxona disponível para reversão de emergência"
+    ],
+    "en-US": [
+      "Prolonged use is associated with tolerance and withdrawal syndrome — wean gradually",
+      "Have naloxone available for emergency reversal"
+    ],
+    "es": [
+      "El uso prolongado se asocia a tolerancia y síndrome de abstinencia al retirarlo — destete gradual",
+      "Tener naloxona disponible para reversión de emergencia"
+    ]
   },
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
       "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo de dor neonatal. Substituir por fonte revisada.",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Morphine - Intravenous\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2026/03/Morphine-Intravenous_ANMFv5.2_20260312-1.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],

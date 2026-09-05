@@ -1,14 +1,38 @@
 {
   "id": "atropina",
-  "nome": { "pt-BR": "Atropina", "en-US": "Atropine", "es": "Atropina" },
-  "nomeGenerico": { "pt-BR": "Sulfato de atropina", "en-US": "Atropine sulfate", "es": "Sulfato de atropina" },
-  "classeFarmacologica": { "pt-BR": "Antagonista muscarínico (anticolinérgico)", "en-US": "Muscarinic antagonist (anticholinergic)", "es": "Antagonista muscarínico (anticolinérgico)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Bradicardia sintomática (especialmente vagal, ex.: durante intubação/laringoscopia)", "Pré-medicação para intubação eletiva"],
-    "en-US": ["Symptomatic bradycardia (especially vagally mediated, e.g., during intubation/laryngoscopy)", "Premedication for elective intubation"],
-    "es": ["Bradicardia sintomática (especialmente vagal, p. ej., durante intubación/laringoscopia)", "Premedicación para intubación electiva"]
+  "nome": {
+    "pt-BR": "Atropina",
+    "en-US": "Atropine",
+    "es": "Atropina"
   },
-  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "nomeGenerico": {
+    "pt-BR": "Sulfato de atropina",
+    "en-US": "Atropine sulfate",
+    "es": "Sulfato de atropina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antagonista muscarínico (anticolinérgico)",
+    "en-US": "Muscarinic antagonist (anticholinergic)",
+    "es": "Antagonista muscarínico (anticolinérgico)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Bradicardia sintomática (especialmente vagal, ex.: durante intubação/laringoscopia)",
+      "Pré-medicação para intubação eletiva"
+    ],
+    "en-US": [
+      "Symptomatic bradycardia (especially vagally mediated, e.g., during intubation/laryngoscopy)",
+      "Premedication for elective intubation"
+    ],
+    "es": [
+      "Bradicardia sintomática (especialmente vagal, p. ej., durante intubación/laringoscopia)",
+      "Premedicación para intubación electiva"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "intramuscular"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.02,
@@ -25,26 +49,45 @@
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": { "pt-BR": "Efeito cronotrópico positivo esperado pode resultar em taquicardia", "en-US": "The expected positive chronotropic effect may result in tachycardia", "es": "El efecto cronotrópico positivo esperado puede resultar en taquicardia" },
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico positivo esperado pode resultar em taquicardia",
+        "en-US": "The expected positive chronotropic effect may result in tachycardia",
+        "es": "El efecto cronotrópico positivo esperado puede resultar en taquicardia"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização de FC durante e após administração", "en-US": "HR monitoring during and after administration", "es": "Monitorización de FC durante y después de la administración" }
+      "conduta": {
+        "pt-BR": "Monitorização de FC durante e após administração",
+        "en-US": "HR monitoring during and after administration",
+        "es": "Monitorización de FC durante y después de la administración"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Doses muito baixas podem causar bradicardia paradoxal — respeitar dose mínima recomendada"],
-    "en-US": ["Very low doses may cause paradoxical bradycardia — respect the minimum recommended dose"],
-    "es": ["Dosis muy bajas pueden causar bradicardia paradójica — respetar la dosis mínima recomendada"]
+    "pt-BR": [
+      "Doses muito baixas podem causar bradicardia paradoxal — respeitar dose mínima recomendada"
+    ],
+    "en-US": [
+      "Very low doses may cause paradoxical bradycardia — respect the minimum recommended dose"
+    ],
+    "es": [
+      "Dosis muy bajas pueden causar bradicardia paradójica — respetar la dosis mínima recomendada"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Atropine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2021/11/Atropine_ANMFv4.0_20260806.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }
