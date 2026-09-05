@@ -1,0 +1,56 @@
+{
+  "id": "vasopressina",
+  "nome": { "pt-BR": "Vasopressina", "en-US": "Vasopressin", "es": "Vasopresina" },
+  "nomeGenerico": { "pt-BR": "Hormônio antidiurético (vasopressina)", "en-US": "Antidiuretic hormone (vasopressin)", "es": "Hormona antidiurética (vasopresina)" },
+  "classeFarmacologica": { "pt-BR": "Vasopressor (hormônio antidiurético)", "en-US": "Vasopressor (antidiuretic hormone)", "es": "Vasopresor (hormona antidiurética)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Choque séptico/vasodilatado refratário a catecolaminas"],
+    "en-US": ["Septic/vasodilatory shock refractory to catecholamines"],
+    "es": ["Choque séptico/vasodilatado refractario a catecolaminas"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.0002,
+      "doseUnidade": "U/kg/minuto",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 0.0002-0.002 U/kg/min (equivalente a 0.2-2 mU/kg/min); iniciar na dose mais baixa e titular conforme resposta pressórica.",
+        "en-US": "Continuous infusion. Usual range 0.0002-0.002 U/kg/min (equivalent to 0.2-2 mU/kg/min); start at the lowest dose and titrate per pressor response.",
+        "es": "Infusión continua. Rango usual 0.0002-0.002 U/kg/min (equivalente a 0.2-2 mU/kg/min); iniciar en la dosis más baja y titular según respuesta presora."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipertensao",
+      "descricao": { "pt-BR": "Vasoconstrição potente pode causar hipertensão e isquemia tecidual/de extremidades em doses altas", "en-US": "Potent vasoconstriction may cause hypertension and tissue/limb ischemia at high doses", "es": "La vasoconstricción potente puede causar hipertensión e isquemia tisular/de extremidades en dosis altas" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial e perfusão periférica continuamente; usar menor dose eficaz", "en-US": "Monitor blood pressure and peripheral perfusion continuously; use the lowest effective dose", "es": "Monitorizar la presión arterial y la perfusión periférica de forma continua; usar la menor dosis eficaz" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Pode causar hiponatremia por retenção de água livre (efeito antidiurético)", "en-US": "May cause hyponatremia from free water retention (antidiuretic effect)", "es": "Puede causar hiponatremia por retención de agua libre (efecto antidiurético)" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar sódio sérico e balanço hídrico", "en-US": "Monitor serum sodium and fluid balance", "es": "Monitorizar el sodio sérico y el balance hídrico" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Experiência neonatal é mais limitada que em crianças maiores/adultos — reservar para choque refratário a catecolaminas convencionais"],
+    "en-US": ["Neonatal experience is more limited than in older children/adults — reserve for shock refractory to conventional catecholamines"],
+    "es": ["La experiencia neonatal es más limitada que en niños mayores/adultos — reservar para choque refractario a catecolaminas convencionales"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

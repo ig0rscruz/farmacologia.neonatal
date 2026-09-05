@@ -1,0 +1,51 @@
+{
+  "id": "pirimetamina",
+  "nome": { "pt-BR": "Pirimetamina", "en-US": "Pyrimethamine", "es": "Pirimetamina" },
+  "nomeGenerico": { "pt-BR": "Pirimetamina", "en-US": "Pyrimethamine", "es": "Pirimetamina" },
+  "classeFarmacologica": { "pt-BR": "Antifólico antiparasitário", "en-US": "Antifolate antiparasitic", "es": "Antifólico antiparasitario" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Toxoplasmose congênita (associada a sulfadiazina e ácido folínico)"],
+    "en-US": ["Congenital toxoplasmosis (combined with sulfadiazine and folinic acid)"],
+    "es": ["Toxoplasmosis congénita (asociada a sulfadiazina y ácido folínico)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 2,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "2 mg/kg/dia por 2 dias, seguido de 1 mg/kg/dia por até 6 meses, depois 3x/semana até completar 12 meses de tratamento. Sempre associada a ácido folínico.",
+        "en-US": "2 mg/kg/day for 2 days, then 1 mg/kg/day for up to 6 months, then 3 times weekly until completing 12 months of treatment. Always combined with folinic acid.",
+        "es": "2 mg/kg/día durante 2 días, seguido de 1 mg/kg/día hasta 6 meses, luego 3 veces/semana hasta completar 12 meses de tratamiento. Siempre asociada a ácido folínico."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Mielossupressão dose-dependente (neutropenia, trombocitopenia, anemia) é efeito adverso esperado por antagonismo do folato", "en-US": "Dose-dependent myelosuppression (neutropenia, thrombocytopenia, anemia) is an expected adverse effect from folate antagonism", "es": "La mielosupresión dosis-dependiente (neutropenia, trombocitopenia, anemia) es un efecto adverso esperado por antagonismo del folato" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar hemograma periodicamente durante todo o tratamento; ácido folínico é coadministrado justamente para mitigar esse risco", "en-US": "Monitor blood count periodically throughout treatment; folinic acid is co-administered precisely to mitigate this risk", "es": "Monitorizar el hemograma periódicamente durante todo el tratamiento; el ácido folínico se coadministra justamente para mitigar este riesgo" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Nunca administrar sem ácido folínico concomitante", "Tratamento prolongado (12 meses) requer adesão rigorosa e monitorização hematológica regular"],
+    "en-US": ["Never administer without concomitant folinic acid", "Prolonged treatment (12 months) requires strict adherence and regular hematologic monitoring"],
+    "es": ["Nunca administrar sin ácido folínico concomitante", "El tratamiento prolongado (12 meses) requiere adherencia estricta y monitorización hematológica regular"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "Maldonado YA, Read JS; Committee on Infectious Diseases, American Academy of Pediatrics. Diagnosis, Treatment, and Prevention of Congenital Toxoplasmosis in the United States. Pediatrics. 2017;139(2):e20163860.",
+      "url": "https://doi.org/10.1542/peds.2016-3860",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

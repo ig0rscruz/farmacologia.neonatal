@@ -1,0 +1,57 @@
+{
+  "id": "sulfadiazina",
+  "nome": { "pt-BR": "Sulfadiazina", "en-US": "Sulfadiazine", "es": "Sulfadiazina" },
+  "nomeGenerico": { "pt-BR": "Sulfadiazina", "en-US": "Sulfadiazine", "es": "Sulfadiazina" },
+  "classeFarmacologica": { "pt-BR": "Sulfonamida antiparasitária", "en-US": "Antiparasitic sulfonamide", "es": "Sulfonamida antiparasitaria" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Toxoplasmose congênita (associada a pirimetamina e ácido folínico)"],
+    "en-US": ["Congenital toxoplasmosis (combined with pyrimethamine and folinic acid)"],
+    "es": ["Toxoplasmosis congénita (asociada a pirimetamina y ácido folínico)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "100 mg/kg/dia dividido a cada 12h, por 12 meses, associada a pirimetamina e ácido folínico.",
+        "en-US": "100 mg/kg/day divided every 12h, for 12 months, combined with pyrimethamine and folinic acid.",
+        "es": "100 mg/kg/día dividido cada 12h, durante 12 meses, asociada a pirimetamina y ácido folínico."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": { "pt-BR": "Sulfonamidas competem com bilirrubina pela ligação à albumina, aumentando risco de kernicterus", "en-US": "Sulfonamides compete with bilirubin for albumin binding, increasing kernicterus risk", "es": "Las sulfonamidas compiten con la bilirrubina por la unión a la albúmina, aumentando el riesgo de kernicterus" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Evitar em neonatos ictéricos, especialmente prematuros, pelo risco de deslocamento de bilirrubina e kernicterus", "en-US": "Avoid in jaundiced neonates, especially preterm infants, due to bilirubin displacement and kernicterus risk", "es": "Evitar en neonatos ictéricos, especialmente prematuros, por el riesgo de desplazamiento de bilirrubina y kernicterus" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; risco de cristalúria e acúmulo em disfunção renal", "en-US": "Renal elimination; risk of crystalluria and accumulation in renal impairment", "es": "Eliminación renal; riesgo de cristaluria y acumulación en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Garantir hidratação adequada; ajustar dose conforme função renal", "en-US": "Ensure adequate hydration; adjust dose according to renal function", "es": "Asegurar hidratación adecuada; ajustar la dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Sempre associada a pirimetamina e ácido folínico — nunca usada isoladamente para toxoplasmose congênita"],
+    "en-US": ["Always combined with pyrimethamine and folinic acid — never used alone for congenital toxoplasmosis"],
+    "es": ["Siempre asociada a pirimetamina y ácido folínico — nunca se usa sola para la toxoplasmosis congénita"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "Maldonado YA, Read JS; Committee on Infectious Diseases, American Academy of Pediatrics. Diagnosis, Treatment, and Prevention of Congenital Toxoplasmosis in the United States. Pediatrics. 2017;139(2):e20163860.",
+      "url": "https://doi.org/10.1542/peds.2016-3860",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

@@ -389,16 +389,29 @@
     },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": {
-          "pt-BR": "Antifólico antiparasitário (pirimetamina)",
-          "en-US": "Antifolate antiparasitic (pyrimethamine)",
-          "es": "Antifólico antiparasitario (pirimetamina)"
-        },
+        "farmacoId": "pirimetamina",
         "implicacao": "monitorar",
         "conduta": {
           "pt-BR": "Tratamento neonatal padrão: pirimetamina + sulfadiazina + ácido folínico por 12 meses. Pirimetamina causa mielossupressão dose-dependente — hemograma deve ser monitorado periodicamente durante todo o tratamento; ácido folínico é coadministrado justamente para mitigar esse risco.",
           "en-US": "Standard neonatal treatment: pyrimethamine + sulfadiazine + folinic acid for 12 months. Pyrimethamine causes dose-dependent myelosuppression — a blood count should be monitored periodically throughout treatment; folinic acid is co-administered precisely to mitigate this risk.",
           "es": "Tratamiento neonatal estándar: pirimetamina + sulfadiazina + ácido folínico durante 12 meses. La pirimetamina causa mielosupresión dosis-dependiente — el hemograma debe monitorizarse periódicamente durante todo el tratamiento; el ácido folínico se coadministra justamente para mitigar este riesgo."
+        },
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "Maldonado YA, Read JS; Committee on Infectious Diseases, American Academy of Pediatrics. Diagnosis, Treatment, and Prevention of Congenital Toxoplasmosis in the United States. Pediatrics. 2017;139(2):e20163860.",
+            "url": "https://doi.org/10.1542/peds.2016-3860",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      },
+      {
+        "farmacoId": "sulfadiazina",
+        "implicacao": "monitorar",
+        "conduta": {
+          "pt-BR": "Tratamento neonatal padrão: sulfadiazina + pirimetamina + ácido folínico por 12 meses. Evitar em hiperbilirrubinemia significativa pelo risco de deslocamento de bilirrubina.",
+          "en-US": "Standard neonatal treatment: sulfadiazine + pyrimethamine + folinic acid for 12 months. Avoid in significant hyperbilirubinemia due to bilirubin displacement risk.",
+          "es": "Tratamiento neonatal estándar: sulfadiazina + pirimetamina + ácido folínico durante 12 meses. Evitar en hiperbilirrubinemia significativa por el riesgo de desplazamiento de bilirrubina."
         },
         "fontes": [
           {
@@ -440,16 +453,28 @@
     },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": {
-          "pt-BR": "Antiviral (ganciclovir/valganciclovir)",
-          "en-US": "Antiviral (ganciclovir/valganciclovir)",
-          "es": "Antiviral (ganciclovir/valganciclovir)"
-        },
+        "farmacoId": "ganciclovir",
         "implicacao": "monitorar",
         "conduta": {
-          "pt-BR": "Terapia antiviral (valganciclovir oral, ou ganciclovir IV seguido de valganciclovir em doença grave) é reservada para CMV congênito sintomático ao nascimento (ex.: microcefalia, calcificações, alteração liquórica, coriorretinite, perda auditiva) — não há evidência de benefício em infecção assintomática. Requer monitorização de neutropenia durante o tratamento.",
-          "en-US": "Antiviral therapy (oral valganciclovir, or IV ganciclovir followed by valganciclovir in severe disease) is reserved for congenital CMV symptomatic at birth (e.g., microcephaly, calcifications, CSF abnormalities, chorioretinitis, hearing loss) — there is no evidence of benefit in asymptomatic infection. Requires neutropenia monitoring during treatment.",
-          "es": "La terapia antiviral (valganciclovir oral, o ganciclovir IV seguido de valganciclovir en enfermedad grave) se reserva para CMV congénito sintomático al nacer (p. ej., microcefalia, calcificaciones, alteración del LCR, coriorretinitis, pérdida auditiva) — no hay evidencia de beneficio en infección asintomática. Requiere monitorización de neutropenia durante el tratamiento."
+          "pt-BR": "Terapia antiviral (ganciclovir IV, geralmente seguido de valganciclovir) é reservada para CMV congênito sintomático ao nascimento (ex.: microcefalia, calcificações, alteração liquórica, coriorretinite, perda auditiva) — não há evidência de benefício em infecção assintomática. Requer monitorização de neutropenia durante o tratamento.",
+          "en-US": "Antiviral therapy (IV ganciclovir, usually followed by valganciclovir) is reserved for congenital CMV symptomatic at birth (e.g., microcephaly, calcifications, CSF abnormalities, chorioretinitis, hearing loss) — there is no evidence of benefit in asymptomatic infection. Requires neutropenia monitoring during treatment.",
+          "es": "La terapia antiviral (ganciclovir IV, generalmente seguido de valganciclovir) se reserva para CMV congénito sintomático al nacer (p. ej., microcefalia, calcificaciones, alteración del LCR, coriorretinitis, pérdida auditiva) — no hay evidencia de beneficio en infección asintomática. Requiere monitorización de neutropenia durante el tratamiento."
+        },
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "Revisão da literatura sobre papel do valganciclovir em CMV congênito sintomático: tratamento por 6 meses associado a melhores desfechos auditivos/neurodesenvolvimento a longo prazo comparado a 6 semanas.",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      },
+      {
+        "farmacoId": "valganciclovir",
+        "implicacao": "monitorar",
+        "conduta": {
+          "pt-BR": "Terapia antiviral oral (valganciclovir), isolada ou após fase IV com ganciclovir, é reservada para CMV congênito sintomático ao nascimento — não há evidência de benefício em infecção assintomática. Requer monitorização de neutropenia durante o tratamento.",
+          "en-US": "Oral antiviral therapy (valganciclovir), alone or after an IV ganciclovir phase, is reserved for congenital CMV symptomatic at birth — there is no evidence of benefit in asymptomatic infection. Requires neutropenia monitoring during treatment.",
+          "es": "La terapia antiviral oral (valganciclovir), sola o tras una fase IV con ganciclovir, se reserva para CMV congénito sintomático al nacer — no hay evidencia de beneficio en infección asintomática. Requiere monitorización de neutropenia durante el tratamiento."
         },
         "fontes": [
           {
@@ -567,7 +592,7 @@
     },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": { "pt-BR": "Tripanocida (benznidazol/nifurtimox)", "en-US": "Trypanocidal (benznidazole/nifurtimox)", "es": "Tripanocida (benznidazol/nifurtimox)" },
+        "farmacoId": "benznidazol",
         "implicacao": "monitorar",
         "conduta": {
           "pt-BR": "Tratamento neonatal com benznidazol ou nifurtimox tem taxa de cura > 90% quando iniciado no primeiro ano de vida. Nifurtimox é aprovado pela FDA desde o nascimento; benznidazol é aprovado para 2-12 anos, com uso neonatal fora de bula quando indicado.",

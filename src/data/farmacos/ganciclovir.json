@@ -1,0 +1,56 @@
+{
+  "id": "ganciclovir",
+  "nome": { "pt-BR": "Ganciclovir", "en-US": "Ganciclovir", "es": "Ganciclovir" },
+  "nomeGenerico": { "pt-BR": "Ganciclovir sódico", "en-US": "Ganciclovir sodium", "es": "Ganciclovir sódico" },
+  "classeFarmacologica": { "pt-BR": "Antiviral (análogo de nucleosídeo)", "en-US": "Antiviral (nucleoside analog)", "es": "Antiviral (análogo de nucleósido)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Citomegalovírus (CMV) congênito sintomático (fase intravenosa inicial, geralmente seguida de valganciclovir oral)"],
+    "en-US": ["Symptomatic congenital cytomegalovirus (CMV) (initial IV phase, usually followed by oral valganciclovir)"],
+    "es": ["Citomegalovirus (CMV) congénito sintomático (fase intravenosa inicial, generalmente seguida de valganciclovir oral)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 6,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão lenta (≥ 1h). Duração usual de 2-6 semanas conforme gravidade, com transição para valganciclovir oral quando possível.",
+        "en-US": "Slow infusion (≥ 1h). Usual duration 2-6 weeks depending on severity, with transition to oral valganciclovir when possible.",
+        "es": "Infusión lenta (≥ 1h). Duración usual de 2-6 semanas según gravedad, con transición a valganciclovir oral cuando sea posible."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Neutropenia e trombocitopenia são efeitos adversos hematológicos comuns e dose-limitantes", "en-US": "Neutropenia and thrombocytopenia are common, dose-limiting hematologic adverse effects", "es": "La neutropenia y la trombocitopenia son efectos adversos hematológicos comunes y limitantes de la dosis" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar hemograma completo pelo menos 2x/semana durante o tratamento; considerar redução de dose ou suspensão se neutropenia grave", "en-US": "Monitor complete blood count at least twice weekly during treatment; consider dose reduction or discontinuation if severe neutropenia occurs", "es": "Monitorizar el hemograma completo al menos 2 veces/semana durante el tratamiento; considerar reducción de dosis o suspensión si hay neutropenia grave" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo e maior toxicidade em disfunção renal", "en-US": "Renal elimination; accumulation and increased toxicity in renal impairment", "es": "Eliminación renal; acumulación y mayor toxicidad en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Ajustar dose conforme função renal", "en-US": "Adjust dose according to renal function", "es": "Ajustar la dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Reservar para CMV congênito sintomático — sem evidência de benefício em infecção assintomática"],
+    "en-US": ["Reserve for symptomatic congenital CMV — no evidence of benefit in asymptomatic infection"],
+    "es": ["Reservar para CMV congénito sintomático — sin evidencia de beneficio en infección asintomática"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal para CMV congênito. Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

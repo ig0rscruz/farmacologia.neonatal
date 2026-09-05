@@ -1,0 +1,57 @@
+{
+  "id": "benznidazol",
+  "nome": { "pt-BR": "Benznidazol", "en-US": "Benznidazole", "es": "Benznidazol" },
+  "nomeGenerico": { "pt-BR": "Benznidazol", "en-US": "Benznidazole", "es": "Benznidazol" },
+  "classeFarmacologica": { "pt-BR": "Tripanocida (nitroimidazólico)", "en-US": "Trypanocidal (nitroimidazole)", "es": "Tripanocida (nitroimidazólico)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Doença de Chagas congênita confirmada"],
+    "en-US": ["Confirmed congenital Chagas disease"],
+    "es": ["Enfermedad de Chagas congénita confirmada"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 5-10 mg/kg/dia dividido a cada 12h, por 60 dias. Taxa de cura > 90% quando iniciado no primeiro ano de vida. Uso neonatal é considerado fora de bula em muitas formulações (aprovado formalmente para 2-12 anos), mas amplamente utilizado com esse fim.",
+        "en-US": "Usual range 5-10 mg/kg/day divided every 12h, for 60 days. Cure rate > 90% when started in the first year of life. Neonatal use is off-label for many formulations (formally approved for ages 2-12), but widely used for this purpose.",
+        "es": "Rango usual 5-10 mg/kg/día dividido cada 12h, durante 60 días. Tasa de curación > 90% cuando se inicia en el primer año de vida. El uso neonatal es fuera de ficha técnica en muchas formulaciones (aprobado formalmente para 2-12 años), pero ampliamente utilizado con este fin."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Depressão de medula óssea é efeito adverso descrito, embora menos comum em neonatos que em adultos", "en-US": "Bone marrow suppression is a described adverse effect, though less common in neonates than in adults", "es": "La supresión de la médula ósea es un efecto adverso descrito, aunque menos común en neonatos que en adultos" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar hemograma periodicamente durante o tratamento", "en-US": "Monitor blood count periodically during treatment", "es": "Monitorizar el hemograma periódicamente durante el tratamiento" }
+    },
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Metabolização hepática; monitorar enzimas hepáticas durante o tratamento", "en-US": "Hepatic metabolism; monitor liver enzymes during treatment", "es": "Metabolización hepática; monitorizar enzimas hepáticas durante el tratamiento" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar função hepática periodicamente", "en-US": "Monitor liver function periodically", "es": "Monitorizar la función hepática periódicamente" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Tratamento precoce (neonatal/lactente) tem eficácia e tolerabilidade superiores ao tratamento em fase crônica adulta — não postergar diagnóstico/tratamento"],
+    "en-US": ["Early (neonatal/infant) treatment has superior efficacy and tolerability compared to treatment in the adult chronic phase — do not delay diagnosis/treatment"],
+    "es": ["El tratamiento precoz (neonatal/lactante) tiene eficacia y tolerabilidad superiores al tratamiento en la fase crónica adulta — no postergar el diagnóstico/tratamiento"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "de Moraes FCA, Souza MEC, Dal Moro L, Donadon IB, da Silva ER, de Souza DSM, Burbano RMR. Prevention of congenital chagas disease by trypanocide treatment in women of reproductive age: A meta-analysis of observational studies. PLoS Negl Trop Dis. 2024;18(9):e0012407.",
+      "url": "https://doi.org/10.1371/journal.pntd.0012407",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

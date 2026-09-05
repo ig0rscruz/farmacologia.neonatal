@@ -1,0 +1,56 @@
+{
+  "id": "teicoplanina",
+  "nome": { "pt-BR": "Teicoplanina", "en-US": "Teicoplanin", "es": "Teicoplanina" },
+  "nomeGenerico": { "pt-BR": "Teicoplanina", "en-US": "Teicoplanin", "es": "Teicoplanina" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico glicopeptídeo", "en-US": "Glycopeptide antibiotic", "es": "Antibiótico glucopéptido" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sepse neonatal tardia por Gram-positivos resistentes (alternativa à vancomicina, especialmente quando infusão mais lenta em menor volume é desejável)"],
+    "en-US": ["Late-onset neonatal sepsis due to resistant Gram-positives (alternative to vancomycin, especially when a slower infusion in smaller volume is desirable)"],
+    "es": ["Sepsis neonatal tardía por Gram-positivos resistentes (alternativa a vancomicina, especialmente cuando es deseable una infusión más lenta en menor volumen)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 8,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de ataque: 2-3 doses de 8-10 mg/kg a cada 12h no primeiro dia, seguida de manutenção 8-10 mg/kg a cada 24h. Experiência neonatal é mais limitada que a de vancomicina.",
+        "en-US": "Loading dose: 2-3 doses of 8-10 mg/kg every 12h on day 1, followed by 8-10 mg/kg maintenance every 24h. Neonatal experience is more limited than with vancomycin.",
+        "es": "Dosis de carga: 2-3 dosis de 8-10 mg/kg cada 12h el primer día, seguida de mantenimiento de 8-10 mg/kg cada 24h. La experiencia neonatal es más limitada que con vancomicina."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo em disfunção renal", "en-US": "Renal elimination; accumulates in renal impairment", "es": "Eliminación renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    },
+    {
+      "condicao": "risco_ototoxicidade",
+      "descricao": { "pt-BR": "Risco de ototoxicidade, semelhante a outros glicopeptídeos", "en-US": "Ototoxicity risk, similar to other glycopeptides", "es": "Riesgo de ototoxicidad, similar a otros glucopéptidos" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar níveis séricos quando disponível", "en-US": "Monitor serum levels when available", "es": "Monitorizar niveles séricos cuando estén disponibles" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Menor incidência de reação relacionada à infusão que vancomicina, mas dados de segurança em neonatos são mais limitados"],
+    "en-US": ["Lower incidence of infusion-related reaction than vancomycin, but safety data in neonates are more limited"],
+    "es": ["Menor incidencia de reacción relacionada con la infusión que la vancomicina, pero los datos de seguridad en neonatos son más limitados"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

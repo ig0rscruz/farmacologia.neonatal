@@ -1,0 +1,56 @@
+{
+  "id": "valganciclovir",
+  "nome": { "pt-BR": "Valganciclovir", "en-US": "Valganciclovir", "es": "Valganciclovir" },
+  "nomeGenerico": { "pt-BR": "Valganciclovir", "en-US": "Valganciclovir", "es": "Valganciclovir" },
+  "classeFarmacologica": { "pt-BR": "Antiviral (pró-fármaco do ganciclovir)", "en-US": "Antiviral (ganciclovir prodrug)", "es": "Antiviral (profármaco del ganciclovir)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Citomegalovírus (CMV) congênito sintomático — tratamento oral, isolado ou após fase IV com ganciclovir"],
+    "en-US": ["Symptomatic congenital cytomegalovirus (CMV) — oral treatment, alone or after an IV ganciclovir phase"],
+    "es": ["Citomegalovirus (CMV) congénito sintomático — tratamiento oral, solo o tras una fase IV con ganciclovir"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 16,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Duração usual de 6 meses (tratamento prolongado associado a melhores desfechos auditivos/neurodesenvolvimento a longo prazo comparado a 6 semanas, segundo estudos comparativos).",
+        "en-US": "Usual duration 6 months (prolonged treatment associated with better long-term hearing/neurodevelopmental outcomes compared to 6 weeks, per comparative studies).",
+        "es": "Duración usual de 6 meses (el tratamiento prolongado se asocia a mejores desenlaces auditivos/neurodesarrollo a largo plazo comparado con 6 semanas, según estudios comparativos)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Neutropenia e trombocitopenia são efeitos adversos hematológicos comuns", "en-US": "Neutropenia and thrombocytopenia are common hematologic adverse effects", "es": "La neutropenia y la trombocitopenia son efectos adversos hematológicos comunes" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar hemograma periodicamente durante o tratamento prolongado", "en-US": "Monitor blood count periodically during prolonged treatment", "es": "Monitorizar el hemograma periódicamente durante el tratamiento prolongado" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo em disfunção renal", "en-US": "Renal elimination; accumulates in renal impairment", "es": "Eliminación renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Ajustar dose conforme função renal", "en-US": "Adjust dose according to renal function", "es": "Ajustar la dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Reservar para CMV congênito sintomático — sem evidência de benefício em infecção assintomática"],
+    "en-US": ["Reserve for symptomatic congenital CMV — no evidence of benefit in asymptomatic infection"],
+    "es": ["Reservar para CMV congénito sintomático — sin evidencia de beneficio en infección asintomática"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre duração de tratamento com valganciclovir em CMV congênito sintomático (estudos comparando 6 semanas vs. 6 meses). Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

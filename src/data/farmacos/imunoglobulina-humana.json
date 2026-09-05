@@ -1,0 +1,50 @@
+{
+  "id": "imunoglobulina-humana",
+  "nome": { "pt-BR": "Imunoglobulina humana intravenosa (IGIV)", "en-US": "Intravenous human immunoglobulin (IVIG)", "es": "Inmunoglobulina humana intravenosa (IGIV)" },
+  "nomeGenerico": { "pt-BR": "Imunoglobulina humana normal", "en-US": "Normal human immunoglobulin", "es": "Inmunoglobulina humana normal" },
+  "classeFarmacologica": { "pt-BR": "Imunoglobulina (imunomodulador)", "en-US": "Immunoglobulin (immunomodulator)", "es": "Inmunoglobulina (inmunomodulador)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Doença hemolítica do recém-nascido por incompatibilidade Rh/ABO (reduz necessidade de exsanguineotransfusão)", "Sepse neonatal grave selecionada (uso adjuvante, evidência limitada)"],
+    "en-US": ["Hemolytic disease of the newborn due to Rh/ABO incompatibility (reduces need for exchange transfusion)", "Selected severe neonatal sepsis (adjunctive use, limited evidence)"],
+    "es": ["Enfermedad hemolítica del recién nacido por incompatibilidad Rh/ABO (reduce la necesidad de exanguinotransfusión)", "Sepsis neonatal grave seleccionada (uso adyuvante, evidencia limitada)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 500,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 500-1000 mg/kg, dose única, infusão lenta conforme protocolo do produto — pode repetir em 12h se hiperbilirrubinemia hemolítica persistir. Infundir lentamente para reduzir reações relacionadas à infusão.",
+        "en-US": "Usual range 500-1000 mg/kg, single dose, slow infusion per product protocol — may repeat in 12h if hemolytic hyperbilirubinemia persists. Infuse slowly to reduce infusion-related reactions.",
+        "es": "Rango usual 500-1000 mg/kg, dosis única, infusión lenta según protocolo del producto — puede repetirse en 12h si persiste la hiperbilirrubinemia hemolítica. Infundir lentamente para reducir reacciones relacionadas con la infusión."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Risco teórico de hemólise/eventos trombóticos raros descritos com IGIV", "en-US": "Theoretical risk of hemolysis/rare thrombotic events described with IVIG", "es": "Riesgo teórico de hemólisis/eventos trombóticos raros descritos con IGIV" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar hemograma e sinais clínicos durante e após a infusão", "en-US": "Monitor blood count and clinical signs during and after infusion", "es": "Monitorizar el hemograma y los signos clínicos durante y después de la infusión" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Infundir lentamente, especialmente no início — reações relacionadas à infusão (febre, rubor) podem ocorrer"],
+    "en-US": ["Infuse slowly, especially at the start — infusion-related reactions (fever, flushing) may occur"],
+    "es": ["Infundir lentamente, especialmente al inicio — pueden ocurrir reacciones relacionadas con la infusión (fiebre, rubor)"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo da doença hemolítica do recém-nascido. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}
