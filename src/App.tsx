@@ -3,7 +3,6 @@ import { BannerAviso } from './components/BannerAviso'
 import { FormularioPaciente } from './components/FormularioPaciente'
 import { FonteInfo, PainelInteracoes, PainelPosologia } from './components/ResultadoVerificacao'
 import { SeletorIdioma } from './components/SeletorIdioma'
-import { LogoIcon } from './components/Logo'
 import { FARMACOS, INTERACOES, PATOLOGIAS_PARENTAIS } from './data'
 import { verificarFarmaco, type ResultadoVerificacao } from './engine/verificarFarmaco'
 import { useLocale } from './i18n/LocaleContext'
@@ -51,14 +50,15 @@ function App() {
     <div className="min-h-screen">
       <BannerAviso />
       <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-        <header className="relative flex flex-col items-center text-center gap-1 pt-2">
+        <header className="relative flex flex-col items-center text-center gap-2 pt-2">
           <div className="absolute right-0 top-2">
             <SeletorIdioma />
           </div>
-          <LogoIcon size={56} />
-          <h1 className="text-3xl font-bold text-brand-blue-dark tracking-tight">
-            Neo<span className="text-brand-blue">Dose</span>
-          </h1>
+          <img
+            src={`${import.meta.env.BASE_URL}logo-neodose.jpg`}
+            alt="NeoDose"
+            className="h-44 sm:h-52 w-auto rounded-full"
+          />
           <p className="text-brand-teal-dark/80 text-sm max-w-md">{t.app.subtitulo}</p>
         </header>
 
