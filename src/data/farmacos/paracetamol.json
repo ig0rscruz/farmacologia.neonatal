@@ -1,0 +1,60 @@
+{
+  "id": "paracetamol",
+  "nome": "Paracetamol",
+  "nomeGenerico": "Acetaminofeno",
+  "classeFarmacologica": "Analgésico e antipirético (não opioide)",
+  "indicacoesNeonatais": [
+    "Analgesia leve a moderada",
+    "Antipirese",
+    "Alternativa para fechamento farmacológico do canal arterial (uso adjuvante/alternativo à indometacina/ibuprofeno)"
+  ],
+  "viasAdministracao": ["Oral", "Intravenosa", "Retal"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 31.9,
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "Oral ou intravenosa",
+      "observacoes": "PMA < 32 semanas."
+    },
+    {
+      "pmaMinSemanas": 32,
+      "pmaMaxSemanas": 36.9,
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "Oral ou intravenosa",
+      "observacoes": "PMA 32-36 semanas."
+    },
+    {
+      "pmaMinSemanas": 37,
+      "doseValor": 12.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "Oral ou intravenosa",
+      "observacoes": "PMA ≥ 37 semanas. Dose máxima diária deve respeitar limite cumulativo para evitar hepatotoxicidade."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": "Metabolização hepática; risco de hepatotoxicidade em disfunção hepática ou doses cumulativas excessivas",
+      "gravidade": "ajustar_dose",
+      "conduta": "Reduzir dose e/ou aumentar intervalo; evitar uso prolongado sem reavaliação de função hepática"
+    }
+  ],
+  "alertasGerais": [
+    "Respeitar dose máxima diária cumulativa conforme idade pós-menstrual para evitar hepatotoxicidade",
+    "Via intravenosa requer atenção especial à diluição e velocidade de infusão"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de paracetamol intravenoso/oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ampicilina",
+  "nome": "Ampicilina",
+  "nomeGenerico": "Ampicilina sódica",
+  "classeFarmacologica": "Antibiótico beta-lactâmico (aminopenicilina)",
+  "indicacoesNeonatais": [
+    "Sepse neonatal precoce (associada a aminoglicosídeo, empírica)",
+    "Meningite neonatal (associada a cefotaxima ou aminoglicosídeo)",
+    "Infecção por Streptococcus agalactiae (grupo B) e Listeria monocytogenes"
+  ],
+  "viasAdministracao": ["Intravenosa", "Intramuscular"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "dolMaxDias": 28,
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA < 30 semanas, primeiras 4 semanas de vida. Dobrar dose/reduzir intervalo em meningite conforme protocolo institucional."
+    },
+    {
+      "pmaMinSemanas": 30,
+      "pmaMaxSemanas": 36.9,
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA 30-36 semanas."
+    },
+    {
+      "pmaMinSemanas": 37,
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA ≥ 37 semanas. Em meningite, considerar 75-100 mg/kg/dose conforme protocolo."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": "Eliminação predominantemente renal; acúmulo em disfunção renal",
+      "gravidade": "ajustar_dose",
+      "conduta": "Prolongar intervalo de dose conforme função renal"
+    }
+  ],
+  "alertasGerais": [
+    "Risco de reação alérgica cruzada com outros beta-lactâmicos",
+    "Pode alterar flora intestinal; observar sinais de enterocolite"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — protocolo de sepse neonatal precoce baseado em faixas de PMA/DOL (estilo NeoFax/Micromedex). Substituir por fonte institucional vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-04"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-04", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

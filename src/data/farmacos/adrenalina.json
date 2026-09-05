@@ -1,0 +1,54 @@
+{
+  "id": "adrenalina",
+  "nome": "Adrenalina (epinefrina)",
+  "nomeGenerico": "Epinefrina",
+  "classeFarmacologica": "Catecolamina / vasopressor",
+  "indicacoesNeonatais": [
+    "Reanimação neonatal (parada cardiorrespiratória, FC < 60 bpm apesar de ventilação e compressões adequadas)",
+    "Choque refratário a outras drogas vasoativas"
+  ],
+  "viasAdministracao": ["Intravenosa", "Intraóssea", "Endotraqueal (menos eficaz, uso apenas se acesso vascular não disponível)"],
+  "faixasDose": [
+    {
+      "doseValor": 0.01,
+      "doseUnidade": "mg/kg/dose (0.1 mL/kg da solução 1:10.000)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa ou intraóssea",
+      "observacoes": "Dose de reanimação; pode repetir a cada 3-5 minutos se necessário. Faixa 0.01-0.03 mg/kg/dose IV."
+    },
+    {
+      "doseValor": 0.1,
+      "doseUnidade": "mcg/kg/minuto (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa contínua",
+      "observacoes": "Faixa usual 0.05-1 mcg/kg/min em choque refratário, titular conforme resposta."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": "Efeito cronotrópico e arritmogênico potente",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização contínua de FC e ritmo; usar menor dose eficaz"
+    },
+    {
+      "condicao": "hipertensao",
+      "descricao": "Potente vasoconstritor alfa-adrenérgico, risco de hipertensão grave e isquemia tecidual",
+      "gravidade": "monitorar",
+      "conduta": "Monitorar pressão arterial e perfusão periférica continuamente"
+    }
+  ],
+  "alertasGerais": [
+    "Extravasamento causa necrose tecidual grave — preferir acesso central para infusão contínua",
+    "Em reanimação, confirmar concentração (1:10.000) e via antes da administração — erro de concentração é risco crítico de segurança"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de reanimação neonatal (estilo Programa de Reanimação Neonatal). Substituir por versão vigente da diretriz antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cafeina-citrato",
+  "nome": "Cafeína (citrato de cafeína)",
+  "nomeGenerico": "Citrato de cafeína",
+  "classeFarmacologica": "Metilxantina / estimulante do SNC respiratório",
+  "indicacoesNeonatais": [
+    "Tratamento da apneia da prematuridade",
+    "Prevenção de apneia pós-extubação em recém-nascidos pré-termo"
+  ],
+  "viasAdministracao": ["Intravenosa", "Oral"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 37,
+      "doseValor": 20,
+      "doseUnidade": "mg/kg (dose de ataque, citrato de cafeína)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa ou oral",
+      "observacoes": "Dose de ataque única. Equivale a ~10 mg/kg de cafeína base."
+    },
+    {
+      "pmaMaxSemanas": 37,
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dia (citrato de cafeína)",
+      "intervaloHoras": 24,
+      "viaAdministracao": "Intravenosa ou oral",
+      "observacoes": "Dose de manutenção, iniciar 24h após dose de ataque. Faixa usual 5-10 mg/kg/dia."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": "O efeito cronotrópico positivo da cafeína pode agravar taquicardia preexistente ou taquiarritmias",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Monitorar frequência cardíaca; considerar risco-benefício em cardiopatia estrutural com arritmia"
+    }
+  ],
+  "alertasGerais": [
+    "Monitorar frequência cardíaca e sinais de irritabilidade/intolerância alimentar",
+    "Ajuste de dose geralmente não é necessário por peso após a fase neonatal inicial, mas reavaliar em ganho ponderal rápido"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — Bula de citrato de cafeína injetável/oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-04"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-04",
+    "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável"
+  }
+}

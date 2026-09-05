@@ -1,0 +1,61 @@
+{
+  "id": "morfina",
+  "nome": "Morfina",
+  "nomeGenerico": "Sulfato de morfina",
+  "classeFarmacologica": "Opioide",
+  "indicacoesNeonatais": [
+    "Analgesia moderada a intensa",
+    "Sedoanalgesia em ventilação mecânica",
+    "Síndrome de abstinência neonatal (tratamento)"
+  ],
+  "viasAdministracao": ["Intravenosa", "Oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.05,
+      "doseUnidade": "mg/kg/dose (bolus)",
+      "intervaloHoras": 4,
+      "viaAdministracao": "Intravenosa (infusão lenta)",
+      "observacoes": "Faixa usual 0.05-0.1 mg/kg/dose a cada 4h conforme necessidade."
+    },
+    {
+      "doseValor": 0.01,
+      "doseUnidade": "mg/kg/hora (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa contínua",
+      "observacoes": "Faixa usual 0.01-0.02 mg/kg/hora, titular conforme escala de dor/sedação."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "apneia",
+      "descricao": "Depressão respiratória dose-dependente",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização respiratória e de SatO2 contínua"
+    },
+    {
+      "condicao": "hipotensao",
+      "descricao": "Pode causar hipotensão por liberação de histamina e efeito vasodilatador",
+      "gravidade": "monitorar",
+      "conduta": "Infundir lentamente; monitorar pressão arterial"
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": "Metabólitos ativos com eliminação renal podem acumular em disfunção renal",
+      "gravidade": "ajustar_dose",
+      "conduta": "Reduzir dose ou aumentar intervalo em disfunção renal"
+    }
+  ],
+  "alertasGerais": [
+    "Uso prolongado associado a tolerância e síndrome de abstinência à retirada — desmame gradual",
+    "Ter naloxona disponível para reversão de emergência"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de dor neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

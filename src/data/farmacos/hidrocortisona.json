@@ -1,0 +1,47 @@
+{
+  "id": "hidrocortisona",
+  "nome": "Hidrocortisona",
+  "nomeGenerico": "Succinato sódico de hidrocortisona",
+  "classeFarmacologica": "Corticosteroide",
+  "indicacoesNeonatais": [
+    "Hipotensão refratária a drogas vasoativas (insuficiência adrenal relativa)",
+    "Insuficiência adrenal congênita ou adquirida"
+  ],
+  "viasAdministracao": ["Intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "Faixa usual 1-2 mg/kg/dose a cada 8-12h para hipotensão refratária; doses de estresse podem ser maiores conforme indicação endócrina específica."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipertensao",
+      "descricao": "Efeito mineralocorticoide pode causar retenção hidrossalina e hipertensão",
+      "gravidade": "monitorar",
+      "conduta": "Monitorar pressão arterial e balanço hídrico"
+    },
+    {
+      "condicao": "sepse",
+      "descricao": "Imunossupressão relativa pode mascarar ou agravar quadro infeccioso não controlado",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Assegurar cobertura antimicrobiana adequada quando usada em contexto séptico"
+    }
+  ],
+  "alertasGerais": [
+    "Monitorar glicemia (risco de hiperglicemia)",
+    "Desmame gradual após uso prolongado para evitar insuficiência adrenal de rebote"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de hipotensão refratária neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

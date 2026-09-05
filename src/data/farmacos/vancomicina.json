@@ -1,0 +1,66 @@
+{
+  "id": "vancomicina",
+  "nome": "Vancomicina",
+  "nomeGenerico": "Cloridrato de vancomicina",
+  "classeFarmacologica": "Antibiótico glicopeptídeo",
+  "indicacoesNeonatais": [
+    "Sepse neonatal tardia com suspeita de Staphylococcus resistente",
+    "Infecção de cateter central",
+    "Meningite por cocos Gram-positivos resistentes"
+  ],
+  "viasAdministracao": ["Intravenosa (infusão lenta, mínimo 60 minutos)"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 18,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA < 30 semanas. Ajustar por nível sérico quando disponível."
+    },
+    {
+      "pmaMinSemanas": 30,
+      "pmaMaxSemanas": 36.9,
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA 30-36 semanas."
+    },
+    {
+      "pmaMinSemanas": 37,
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA ≥ 37 semanas."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": "Eliminação renal; alto risco de acúmulo e nefrotoxicidade em disfunção renal",
+      "gravidade": "ajustar_dose",
+      "conduta": "Monitorar creatinina sérica e, idealmente, nível sérico do fármaco (vale); prolongar intervalo conforme necessário"
+    },
+    {
+      "condicao": "risco_ototoxicidade",
+      "descricao": "Risco de ototoxicidade, sobretudo com níveis séricos elevados ou uso concomitante de outros ototóxicos",
+      "gravidade": "monitorar",
+      "conduta": "Monitorar níveis séricos quando disponível; considerar triagem auditiva"
+    }
+  ],
+  "alertasGerais": [
+    "Infundir sempre lentamente (≥ 60 min) para reduzir risco de reação relacionada à infusão (\"síndrome do pescoço vermelho\")",
+    "Considerar monitorização de nível sérico em uso prolongado ou disfunção renal"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — protocolo de sepse neonatal tardia baseado em faixas de PMA (estilo NeoFax/Micromedex). Substituir por fonte institucional vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

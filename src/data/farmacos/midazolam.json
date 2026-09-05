@@ -1,0 +1,61 @@
+{
+  "id": "midazolam",
+  "nome": "Midazolam",
+  "nomeGenerico": "Maleato de midazolam",
+  "classeFarmacologica": "Benzodiazepínico",
+  "indicacoesNeonatais": [
+    "Sedação em ventilação mecânica",
+    "Sedação para procedimentos",
+    "Crises convulsivas refratárias (segunda/terceira linha)"
+  ],
+  "viasAdministracao": ["Intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.05,
+      "doseUnidade": "mg/kg/dose (bolus)",
+      "intervaloHoras": 4,
+      "viaAdministracao": "Intravenosa (infusão lenta ≥ 5 min)",
+      "observacoes": "Faixa usual 0.05-0.15 mg/kg/dose. Uso rotineiro em bolus não recomendado em prematuros extremos pelo risco de instabilidade hemodinâmica — priorizar avaliação individualizada."
+    },
+    {
+      "doseValor": 0.03,
+      "doseUnidade": "mg/kg/hora (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa contínua",
+      "observacoes": "Faixa usual 0.02-0.06 mg/kg/hora, titular conforme escala de sedação."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipotensao",
+      "descricao": "Pode causar hipotensão significativa, especialmente em bolus rápido ou associado a opioides",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Infundir lentamente; monitorar pressão arterial; evitar em instabilidade hemodinâmica não corrigida"
+    },
+    {
+      "condicao": "apneia",
+      "descricao": "Depressão respiratória, potencializada quando associado a opioides",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização respiratória contínua"
+    },
+    {
+      "condicao": "prematuridade_extrema",
+      "descricao": "Associação descrita com eventos neurológicos adversos em prematuros extremos, especialmente em bolus rápido",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Reservar para quando benefício superar risco; preferir infusão contínua lenta a bolus quando possível"
+    }
+  ],
+  "alertasGerais": [
+    "Uso prolongado associado a tolerância e síndrome de abstinência — desmame gradual",
+    "Evitar bolus rápido em prematuros extremos"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de sedoanalgesia neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

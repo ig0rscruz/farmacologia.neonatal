@@ -1,0 +1,68 @@
+{
+  "id": "gentamicina",
+  "nome": "Gentamicina",
+  "nomeGenerico": "Sulfato de gentamicina",
+  "classeFarmacologica": "Antibiótico aminoglicosídeo",
+  "indicacoesNeonatais": [
+    "Sepse neonatal precoce (associada a ampicilina, empírica)",
+    "Infecções por bacilos Gram-negativos"
+  ],
+  "viasAdministracao": ["Intravenosa", "Intramuscular"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 48,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA < 30 semanas."
+    },
+    {
+      "pmaMinSemanas": 30,
+      "pmaMaxSemanas": 34.9,
+      "doseValor": 4.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 36,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA 30-34 semanas."
+    },
+    {
+      "pmaMinSemanas": 35,
+      "doseValor": 4,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 24,
+      "viaAdministracao": "Intravenosa",
+      "observacoes": "PMA ≥ 35 semanas."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": "Aminoglicosídeos têm eliminação renal; função renal reduzida aumenta risco de acúmulo e toxicidade",
+      "gravidade": "ajustar_dose",
+      "conduta": "Prolongar intervalo de dose conforme função renal; monitorar creatinina sérica e, se disponível, nível sérico do fármaco"
+    },
+    {
+      "condicao": "risco_ototoxicidade",
+      "descricao": "Risco de toxicidade coclear/vestibular, especialmente com uso prolongado ou associação com outros ototóxicos",
+      "gravidade": "monitorar",
+      "conduta": "Limitar duração do tratamento ao necessário; considerar triagem auditiva quando indicado"
+    }
+  ],
+  "alertasGerais": [
+    "Considerar monitorização de níveis séricos (pico/vale) em uso prolongado (> 48h) ou disfunção renal",
+    "Evitar associação com outros nefrotóxicos/ototóxicos sem necessidade clara"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — Protocolo de antibioticoterapia neonatal baseado em faixas de PMA (estilo NeoFax/Micromedex). Substituir por fonte institucional vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-04"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-04",
+    "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável"
+  }
+}

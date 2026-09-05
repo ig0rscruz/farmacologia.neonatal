@@ -1,0 +1,47 @@
+{
+  "id": "dobutamina",
+  "nome": "Dobutamina",
+  "nomeGenerico": "Cloridrato de dobutamina",
+  "classeFarmacologica": "Catecolamina sintética / inotrópico",
+  "indicacoesNeonatais": [
+    "Disfunção miocárdica com débito cardíaco reduzido",
+    "Choque cardiogênico"
+  ],
+  "viasAdministracao": ["Intravenosa contínua"],
+  "faixasDose": [
+    {
+      "doseValor": 5,
+      "doseUnidade": "mcg/kg/minuto (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa contínua",
+      "observacoes": "Faixa usual 2-20 mcg/kg/min, titular conforme resposta clínica (perfusão, débito cardíaco)."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": "Efeito cronotrópico positivo pode causar ou agravar taquicardia",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização contínua de FC; reduzir dose se taquicardia significativa"
+    },
+    {
+      "condicao": "hipotensao",
+      "descricao": "Efeito vasodilatador (beta-2) pode agravar hipotensão em paciente hipovolêmico",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Corrigir volemia antes de iniciar; associar vasopressor se hipotensão persistir"
+    }
+  ],
+  "alertasGerais": [
+    "Efeito predominantemente inotrópico, com menor efeito vasoconstritor que a dopamina em doses equivalentes",
+    "Frequentemente associada a outra droga vasoativa em choque misto"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de disfunção miocárdica/choque neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

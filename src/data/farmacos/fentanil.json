@@ -1,0 +1,61 @@
+{
+  "id": "fentanil",
+  "nome": "Fentanila",
+  "nomeGenerico": "Citrato de fentanila",
+  "classeFarmacologica": "Opioide sintético",
+  "indicacoesNeonatais": [
+    "Analgesia para procedimentos dolorosos",
+    "Sedoanalgesia contínua em ventilação mecânica",
+    "Analgesia pré/pós-operatória"
+  ],
+  "viasAdministracao": ["Intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "mcg/kg/dose (bolus)",
+      "intervaloHoras": 2,
+      "viaAdministracao": "Intravenosa (infusão lenta ≥ 3-5 min)",
+      "observacoes": "Faixa usual 0.5-2 mcg/kg/dose em bolus, conforme resposta. Infundir lentamente para reduzir risco de rigidez torácica."
+    },
+    {
+      "doseValor": 1,
+      "doseUnidade": "mcg/kg/hora (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa contínua",
+      "observacoes": "Faixa usual 0.5-3 mcg/kg/hora; titular conforme escala de dor/sedação validada."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "apneia",
+      "descricao": "Depressão respiratória dose-dependente é o principal risco dos opioides",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização respiratória e de SatO2 contínua; ter suporte ventilatório disponível"
+    },
+    {
+      "condicao": "hipotensao",
+      "descricao": "Pode causar hipotensão, especialmente em bolus rápido ou hipovolemia",
+      "gravidade": "monitorar",
+      "conduta": "Infundir lentamente; monitorar pressão arterial"
+    },
+    {
+      "condicao": "bradicardia",
+      "descricao": "Rigidez torácica e bradicardia podem ocorrer com infusão rápida em bolus",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Infundir lentamente (≥ 3-5 minutos); ter naloxona disponível"
+    }
+  ],
+  "alertasGerais": [
+    "Uso prolongado (> 5-7 dias) associado a tolerância e síndrome de abstinência à retirada — considerar desmame gradual",
+    "Ter naloxona disponível para reversão de emergência"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de dor neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

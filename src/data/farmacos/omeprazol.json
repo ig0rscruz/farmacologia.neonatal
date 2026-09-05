@@ -1,0 +1,41 @@
+{
+  "id": "omeprazol",
+  "nome": "Omeprazol",
+  "nomeGenerico": "Omeprazol",
+  "classeFarmacologica": "Inibidor da bomba de prótons",
+  "indicacoesNeonatais": [
+    "Doença do refluxo gastroesofágico com esofagite documentada ou sintomas significativos",
+    "Profilaxia de úlcera de estresse em contexto selecionado"
+  ],
+  "viasAdministracao": ["Oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.7,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 24,
+      "viaAdministracao": "Oral",
+      "observacoes": "Faixa usual 0.5-1 mg/kg/dia, dose única diária. Evidência de eficácia em refluxo neonatal é limitada; reservar para casos com indicação clara."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": "Metabolização hepática; possível necessidade de ajuste em disfunção hepática significativa",
+      "gravidade": "ajustar_dose",
+      "conduta": "Considerar redução de dose em disfunção hepática significativa"
+    }
+  ],
+  "alertasGerais": [
+    "Uso rotineiro para refluxo fisiológico não complicado não é recomendado — reavaliar indicação periodicamente",
+    "Supressão ácida prolongada associada a maior risco de infecções entéricas e respiratórias em lactentes"
+  ],
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre uso de inibidores de bomba de prótons em neonatologia, extrapolado em parte de população pediátrica maior. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

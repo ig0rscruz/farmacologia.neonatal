@@ -1,0 +1,47 @@
+{
+  "id": "dopamina",
+  "nome": "Dopamina",
+  "nomeGenerico": "Cloridrato de dopamina",
+  "classeFarmacologica": "Catecolamina / droga vasoativa",
+  "indicacoesNeonatais": [
+    "Hipotensão neonatal refratária à expansão volêmica",
+    "Choque séptico ou cardiogênico"
+  ],
+  "viasAdministracao": ["Intravenosa contínua (preferencialmente acesso central)"],
+  "faixasDose": [
+    {
+      "doseValor": 5,
+      "doseUnidade": "mcg/kg/minuto (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa contínua",
+      "observacoes": "Faixa usual 2-20 mcg/kg/min. Iniciar em 5 mcg/kg/min e titular conforme resposta pressórica (PAM alvo)."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": "Efeito cronotrópico dose-dependente pode induzir ou agravar taquicardia/taquiarritmia",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização contínua de FC e ritmo cardíaco; reduzir dose se taquiarritmia significativa"
+    },
+    {
+      "condicao": "hipertensao",
+      "descricao": "Em doses mais altas, efeito alfa-adrenérgico pode causar hipertensão e vasoconstrição periférica excessiva",
+      "gravidade": "monitorar",
+      "conduta": "Monitorar pressão arterial e perfusão periférica; titular para menor dose eficaz"
+    }
+  ],
+  "alertasGerais": [
+    "Extravasamento pode causar necrose tecidual grave — preferir acesso central; se periférico, monitorar local rigorosamente",
+    "Efeito farmacológico é dose-dependente (predomínio dopaminérgico/beta em doses baixas, alfa em doses altas) — a fronteira exata varia entre pacientes"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de hipotensão/choque neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

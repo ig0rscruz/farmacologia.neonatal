@@ -1,0 +1,43 @@
+{
+  "id": "vitamina-k",
+  "nome": "Vitamina K1 (fitomenadiona)",
+  "nomeGenerico": "Fitomenadiona",
+  "classeFarmacologica": "Vitamina lipossolúvel / fator de coagulação",
+  "indicacoesNeonatais": [
+    "Profilaxia da doença hemorrágica do recém-nascido (dose única ao nascer)",
+    "Tratamento de sangramento por deficiência de vitamina K"
+  ],
+  "viasAdministracao": ["Intramuscular", "Intravenosa (tratamento de sangramento ativo)"],
+  "faixasDose": [
+    {
+      "pesoMinG": 1500,
+      "doseValor": 1,
+      "doseUnidade": "mg (dose única, profilaxia)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intramuscular",
+      "observacoes": "RN com peso ≥ 1500 g, dose única ao nascimento."
+    },
+    {
+      "pesoMaxG": 1499,
+      "doseValor": 0.5,
+      "doseUnidade": "mg (dose única, profilaxia)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intramuscular",
+      "observacoes": "RN com peso < 1500 g, dose única ao nascimento."
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": [
+    "Profilaxia universal ao nascer é recomendada independentemente do peso/idade gestacional",
+    "Em tratamento de sangramento ativo, administração intravenosa deve ser lenta pelo risco de reação anafilactoide"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de profilaxia da doença hemorrágica do recém-nascido (amplamente adotada, ex.: OMS/sociedades de pediatria). Substituir por fonte revisada vigente.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

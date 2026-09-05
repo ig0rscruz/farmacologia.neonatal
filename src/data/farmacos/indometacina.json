@@ -1,0 +1,52 @@
+{
+  "id": "indometacina",
+  "nome": "Indometacina",
+  "nomeGenerico": "Indometacina sódica",
+  "classeFarmacologica": "Anti-inflamatório não esteroidal (inibidor da ciclo-oxigenase)",
+  "indicacoesNeonatais": [
+    "Fechamento farmacológico da persistência do canal arterial (PCA)"
+  ],
+  "viasAdministracao": ["Intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.2,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 24,
+      "viaAdministracao": "Intravenosa (infusão lenta ≥ 20-30 min)",
+      "observacoes": "Curso usual de 3 doses a cada 12-24h; segunda e terceira doses podem variar (0.1-0.2 mg/kg) conforme idade pós-natal e protocolo."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": "Inibição da síntese de prostaglandinas reduz fluxo sanguíneo renal, podendo causar oligúria/insuficiência renal aguda",
+      "gravidade": "contraindicado",
+      "conduta": "Não administrar se oligúria significativa ou disfunção renal presente; reavaliar função renal antes de cada dose"
+    },
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": "Inibe função plaquetária, aumentando risco de sangramento (incluindo hemorragia intraventricular)",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Verificar contagem de plaquetas e sinais de sangramento antes de cada dose; evitar em trombocitopenia significativa"
+    },
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": "Pode deslocar bilirrubina da albumina, aumentando risco de kernicterus em hiperbilirrubinemia significativa",
+      "gravidade": "usar_com_cautela",
+      "conduta": "Avaliar nível de bilirrubina antes do uso em neonatos ictéricos"
+    }
+  ],
+  "alertasGerais": [
+    "Contraindicada em enterocolite necrosante suspeita ou confirmada, e em sangramento ativo",
+    "Monitorar diurese, função renal e sinais de sangramento gastrointestinal durante o curso de tratamento"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo farmacológico da persistência do canal arterial. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

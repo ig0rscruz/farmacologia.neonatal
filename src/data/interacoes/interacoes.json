@@ -1,0 +1,70 @@
+[
+  {
+    "id": "gentamicina_furosemida",
+    "farmacoAId": "gentamicina",
+    "farmacoBId": "furosemida",
+    "gravidade": "grave",
+    "mecanismo": "Furosemida potencializa a ototoxicidade e nefrotoxicidade dos aminoglicosídeos, especialmente com infusão intravenosa rápida.",
+    "efeitoClinico": "Risco aumentado de lesão renal aguda e de perda auditiva sensorioneural.",
+    "conduta": "Evitar uso concomitante quando possível. Se necessário, infundir furosemida lentamente, monitorar função renal (creatinina sérica) e considerar triagem auditiva. Reavaliar intervalo de dose da gentamicina conforme função renal.",
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "EXEMPLO — interação aminoglicosídeo + diurético de alça amplamente descrita na literatura de farmacologia neonatal. Substituir por referência específica revisada.",
+        "dataAcesso": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "id": "gentamicina_vancomicina",
+    "farmacoAId": "gentamicina",
+    "farmacoBId": "vancomicina",
+    "gravidade": "grave",
+    "mecanismo": "Ambos os fármacos têm potencial nefrotóxico e ototóxico independente; o uso concomitante é aditivo/sinérgico.",
+    "efeitoClinico": "Risco aumentado de lesão renal aguda e de perda auditiva sensorioneural.",
+    "conduta": "Quando a associação for clinicamente necessária, monitorar função renal (creatinina seriada) e níveis séricos de ambos os fármacos quando disponível; considerar triagem auditiva.",
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "EXEMPLO — interação aminoglicosídeo + glicopeptídeo amplamente descrita na literatura de farmacologia neonatal. Substituir por referência específica revisada.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "gentamicina_indometacina",
+    "farmacoAId": "gentamicina",
+    "farmacoBId": "indometacina",
+    "gravidade": "grave",
+    "mecanismo": "Indometacina reduz o fluxo sanguíneo renal por inibição de prostaglandinas; associado a aminoglicosídeo nefrotóxico, o risco de lesão renal é potencializado.",
+    "efeitoClinico": "Risco aumentado de lesão renal aguda e de acúmulo do aminoglicosídeo por redução da depuração renal.",
+    "conduta": "Monitorar função renal e diurese rigorosamente durante o curso de indometacina; considerar prolongar intervalo de dose da gentamicina ou monitorar nível sérico.",
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "EXEMPLO — interação anti-inflamatório inibidor da COX + aminoglicosídeo. Substituir por referência específica revisada.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "fentanil_midazolam",
+    "farmacoAId": "fentanil",
+    "farmacoBId": "midazolam",
+    "gravidade": "grave",
+    "mecanismo": "Opioide e benzodiazepínico têm efeito depressor do SNC e respiratório sinérgico (não meramente aditivo) quando associados.",
+    "efeitoClinico": "Risco aumentado de depressão respiratória, apneia e hipotensão além do esperado por cada fármaco isoladamente.",
+    "conduta": "Se a associação for necessária, reduzir as doses individuais em relação ao uso isolado, monitorizar continuamente padrão respiratório, SatO2 e pressão arterial, e ter suporte ventilatório prontamente disponível.",
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "EXEMPLO — sinergismo de depressão respiratória entre opioides e benzodiazepínicos, amplamente descrito na literatura. Substituir por referência específica revisada.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  }
+]

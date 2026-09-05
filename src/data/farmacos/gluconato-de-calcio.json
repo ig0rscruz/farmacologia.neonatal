@@ -1,0 +1,42 @@
+{
+  "id": "gluconato-de-calcio",
+  "nome": "Gluconato de cálcio",
+  "nomeGenerico": "Gluconato de cálcio 10%",
+  "classeFarmacologica": "Reposição de eletrólito (cálcio)",
+  "indicacoesNeonatais": [
+    "Hipocalcemia sintomática ou significativa",
+    "Suporte durante exsanguineotransfusão",
+    "Hipercalemia com alterações eletrocardiográficas (estabilização de membrana)"
+  ],
+  "viasAdministracao": ["Intravenosa (infusão lenta, com monitorização de FC)"],
+  "faixasDose": [
+    {
+      "doseValor": 100,
+      "doseUnidade": "mg/kg/dose (gluconato de cálcio 10%)",
+      "intervaloHoras": 6,
+      "viaAdministracao": "Intravenosa (infusão lenta)",
+      "observacoes": "Faixa usual 100-200 mg/kg/dose conforme gravidade; infundir lentamente com monitorização cardíaca contínua."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "bradicardia",
+      "descricao": "Infusão rápida pode causar bradicardia grave e arritmia",
+      "gravidade": "monitorar",
+      "conduta": "Infundir sempre lentamente com monitorização contínua de FC; interromper se bradicardia significativa"
+    }
+  ],
+  "alertasGerais": [
+    "Extravasamento causa necrose tecidual grave — preferir acesso central quando possível; se periférico, monitorar local rigorosamente",
+    "Incompatível com soluções contendo bicarbonato na mesma via — risco de precipitação"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — protocolo de manejo de distúrbios do cálcio em neonatologia. Substituir por fonte institucional revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

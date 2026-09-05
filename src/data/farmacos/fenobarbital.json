@@ -1,0 +1,61 @@
+{
+  "id": "fenobarbital",
+  "nome": "Fenobarbital",
+  "nomeGenerico": "Fenobarbital sódico",
+  "classeFarmacologica": "Barbitúrico anticonvulsivante",
+  "indicacoesNeonatais": [
+    "Primeira linha para crises convulsivas neonatais",
+    "Encefalopatia hipóxico-isquêmica com crises associadas",
+    "Síndrome de abstinência neonatal (adjuvante)"
+  ],
+  "viasAdministracao": ["Intravenosa", "Oral"],
+  "faixasDose": [
+    {
+      "doseValor": 20,
+      "doseUnidade": "mg/kg (dose de ataque)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "Intravenosa (infusão lenta)",
+      "observacoes": "Dose de ataque única; pode repetir 10 mg/kg se crise persistir, até dose cumulativa usual de 40 mg/kg."
+    },
+    {
+      "doseValor": 3.5,
+      "doseUnidade": "mg/kg/dia (manutenção)",
+      "intervaloHoras": 24,
+      "viaAdministracao": "Intravenosa ou oral",
+      "observacoes": "Iniciar 12-24h após dose de ataque. Faixa usual de manutenção 3-5 mg/kg/dia, dose única ou dividida."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": "Metabolização hepática; risco de acúmulo e sedação excessiva em disfunção hepática",
+      "gravidade": "ajustar_dose",
+      "conduta": "Considerar redução de dose e monitorar nível sérico quando disponível"
+    },
+    {
+      "condicao": "hipotensao",
+      "descricao": "Infusão rápida pode causar hipotensão e depressão respiratória",
+      "gravidade": "monitorar",
+      "conduta": "Infundir lentamente; monitorar pressão arterial e padrão respiratório durante e após a dose de ataque"
+    },
+    {
+      "condicao": "apneia",
+      "descricao": "Efeito depressor do SNC pode agravar apneia, especialmente associado a outros depressores",
+      "gravidade": "monitorar",
+      "conduta": "Monitorização respiratória contínua, sobretudo nas primeiras horas após dose de ataque"
+    }
+  ],
+  "alertasGerais": [
+    "Monitorar nível sérico (faixa terapêutica usual 15-40 mcg/mL) em uso prolongado",
+    "Efeito sedativo pode mascarar outros sinais neurológicos"
+  ],
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de crises convulsivas neonatais. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": { "data": "2026-09-05", "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável" }
+}

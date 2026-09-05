@@ -1,0 +1,50 @@
+{
+  "id": "furosemida",
+  "nome": "Furosemida",
+  "nomeGenerico": "Furosemida",
+  "classeFarmacologica": "Diurético de alça",
+  "indicacoesNeonatais": [
+    "Sobrecarga de volume / edema",
+    "Manejo adjuvante em displasia broncopulmonar"
+  ],
+  "viasAdministracao": ["Intravenosa", "Oral"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "Intravenosa ou oral",
+      "observacoes": "Faixa usual 1-2 mg/kg/dose a cada 12-24h conforme resposta clínica."
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": "Efeito diurético pode ser reduzido e distúrbios eletrolíticos exacerbados em disfunção renal",
+      "gravidade": "ajustar_dose",
+      "conduta": "Monitorar função renal e eletrólitos; ajustar dose/intervalo conforme resposta"
+    },
+    {
+      "condicao": "risco_ototoxicidade",
+      "descricao": "Ototoxicidade descrita principalmente com infusão IV rápida ou uso prolongado",
+      "gravidade": "monitorar",
+      "conduta": "Preferir infusão IV lenta; evitar uso prolongado sem reavaliação"
+    }
+  ],
+  "alertasGerais": [
+    "Monitorar eletrólitos séricos (sódio, potássio, cloro) e status de hidratação",
+    "Risco de nefrocalcinose com uso prolongado"
+  ],
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — Bula de furosemida injetável/oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-04"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-04",
+    "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável"
+  }
+}

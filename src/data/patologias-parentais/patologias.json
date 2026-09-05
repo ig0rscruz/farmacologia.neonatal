@@ -1,0 +1,80 @@
+[
+  {
+    "id": "diabetes-gestacional",
+    "nome": "Diabetes mellitus gestacional",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Hiperglicemia materna leva a hiperinsulinismo fetal, predispondo a hipoglicemia neonatal nas primeiras horas/dias de vida.",
+    "riscosNeonato": [
+      "Hipoglicemia neonatal",
+      "Macrossomia",
+      "Desconforto respiratório"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Betabloqueadores",
+        "implicacao": "monitorar",
+        "conduta": "Betabloqueadores podem mascarar sinais adrenérgicos de hipoglicemia; monitorar glicemia capilar com maior frequência quando essa classe for utilizada no neonato.",
+        "fontes": [
+          {
+            "tipo": "livro_texto",
+            "descricao": "EXEMPLO — referência de farmacologia neonatal sobre mascaramento de hipoglicemia por betabloqueadores. Substituir por fonte revisada.",
+            "dataAcesso": "2026-09-04"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "diretriz_sociedade",
+        "descricao": "EXEMPLO — diretriz sobre filho de mãe diabética. Substituir por fonte institucional/sociedade revisada.",
+        "dataAcesso": "2026-09-04"
+      }
+    ]
+  },
+  {
+    "id": "uso-opioides-gestacao",
+    "nome": "Uso de opioides durante a gestação",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Exposição intraútero a opioides pode causar dependência fisiológica no feto, com risco de síndrome de abstinência neonatal (SAN) após o nascimento.",
+    "riscosNeonato": [
+      "Síndrome de abstinência neonatal",
+      "Irritabilidade e instabilidade autonômica",
+      "Dificuldade de alimentação"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Opioides",
+        "implicacao": "ajustar_dose",
+        "conduta": "Avaliar necessidade real antes de administrar novos opioides ao neonato; se indicado, considerar que o limiar de resposta pode estar alterado. Monitorar com escala validada de abstinência (ex.: Finnegan).",
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal. Substituir por fonte revisada.",
+            "dataAcesso": "2026-09-04"
+          }
+        ]
+      },
+      {
+        "classeFarmacologica": "Sedativos/Benzodiazepínicos",
+        "implicacao": "monitorar",
+        "conduta": "Uso concomitante com quadro de abstinência pode confundir avaliação clínica e potencializar depressão respiratória; monitorar estreitamente.",
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal. Substituir por fonte revisada.",
+            "dataAcesso": "2026-09-04"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "diretriz_sociedade",
+        "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal. Substituir por fonte institucional/sociedade revisada.",
+        "dataAcesso": "2026-09-04"
+      }
+    ]
+  }
+]
