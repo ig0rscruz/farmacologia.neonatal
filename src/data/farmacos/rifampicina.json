@@ -1,0 +1,56 @@
+{
+  "id": "rifampicina",
+  "nome": { "pt-BR": "Rifampicina", "en-US": "Rifampin (rifampicin)", "es": "Rifampicina" },
+  "nomeGenerico": { "pt-BR": "Rifampicina", "en-US": "Rifampin", "es": "Rifampicina" },
+  "classeFarmacologica": { "pt-BR": "Antituberculostático (rifamicina)", "en-US": "Antituberculosis drug (rifamycin)", "es": "Antituberculoso (rifamicina)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Tuberculose neonatal (componente do esquema combinado)", "Profilaxia de contatos selecionados de meningite meningocócica/Haemophilus influenzae"],
+    "en-US": ["Neonatal tuberculosis (component of combination therapy)", "Prophylaxis for selected contacts of meningococcal/Haemophilus influenzae meningitis"],
+    "es": ["Tuberculosis neonatal (componente del esquema combinado)", "Profilaxis de contactos seleccionados de meningitis meningocócica/Haemophilus influenzae"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 10-20 mg/kg/dia, dose única diária, sempre como parte de esquema combinado para tuberculose (nunca em monoterapia).",
+        "en-US": "Usual range 10-20 mg/kg/day, once daily, always as part of combination therapy for tuberculosis (never as monotherapy).",
+        "es": "Rango usual 10-20 mg/kg/día, dosis única diaria, siempre como parte de un esquema combinado para tuberculosis (nunca en monoterapia)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Hepatotoxicidade é efeito adverso conhecido; metabolização hepática", "en-US": "Hepatotoxicity is a known adverse effect; hepatic metabolism", "es": "La hepatotoxicidad es un efecto adverso conocido; metabolización hepática" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar enzimas hepáticas periodicamente durante o tratamento", "en-US": "Monitor liver enzymes periodically during treatment", "es": "Monitorizar enzimas hepáticas periódicamente durante el tratamiento" }
+    },
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": { "pt-BR": "Pode competir com bilirrubina pela excreção biliar, aumentando bilirrubina indireta transitoriamente", "en-US": "May compete with bilirubin for biliary excretion, transiently increasing indirect bilirubin", "es": "Puede competir con la bilirrubina por la excreción biliar, aumentando transitoriamente la bilirrubina indirecta" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar bilirrubina em neonatos ictéricos", "en-US": "Monitor bilirubin in jaundiced neonates", "es": "Monitorizar la bilirrubina en neonatos ictéricos" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Potente indutor enzimático — pode reduzir eficácia de outros fármacos metabolizados pelo citocromo P450", "Coloração alaranjada de urina/secreções é esperada e não indica toxicidade"],
+    "en-US": ["Potent enzyme inducer — may reduce the efficacy of other drugs metabolized by cytochrome P450", "Orange discoloration of urine/secretions is expected and does not indicate toxicity"],
+    "es": ["Inductor enzimático potente — puede reducir la eficacia de otros fármacos metabolizados por el citocromo P450", "La coloración anaranjada de la orina/secreciones es esperada y no indica toxicidad"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de tratamento da tuberculose neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

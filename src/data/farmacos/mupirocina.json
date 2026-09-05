@@ -1,0 +1,43 @@
+{
+  "id": "mupirocina",
+  "nome": { "pt-BR": "Mupirocina", "en-US": "Mupirocin", "es": "Mupirocina" },
+  "nomeGenerico": { "pt-BR": "Mupirocina (pomada tópica)", "en-US": "Mupirocin (topical ointment)", "es": "Mupirocina (pomada tópica)" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico tópico", "en-US": "Topical antibiotic", "es": "Antibiótico tópico" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Infecção cutânea localizada por Staphylococcus/Streptococcus sensíveis (ex.: impetigo, onfalite localizada leve)", "Descolonização nasal de Staphylococcus aureus em contexto de surto (uso seletivo)"],
+    "en-US": ["Localized skin infection due to susceptible Staphylococcus/Streptococcus (e.g., impetigo, mild localized omphalitis)", "Nasal Staphylococcus aureus decolonization in an outbreak context (selective use)"],
+    "es": ["Infección cutánea localizada por Staphylococcus/Streptococcus sensibles (p. ej., impétigo, onfalitis localizada leve)", "Descolonización nasal de Staphylococcus aureus en contexto de brote (uso selectivo)"]
+  },
+  "viasAdministracao": ["topica"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "aplicação tópica (dose fixa)",
+      "intervaloHoras": 8,
+      "viaAdministracao": "topica",
+      "observacoes": {
+        "pt-BR": "Aplicar camada fina na área afetada 2-3x/dia por 5-10 dias, conforme indicação.",
+        "en-US": "Apply a thin layer to the affected area 2-3 times daily for 5-10 days, per indication.",
+        "es": "Aplicar una capa fina en el área afectada 2-3 veces/día durante 5-10 días, según indicación."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Não indicada para infecção cutânea extensa ou sinais de infecção sistêmica — nesses casos, tratamento sistêmico é necessário"],
+    "en-US": ["Not indicated for extensive skin infection or signs of systemic infection — systemic treatment is necessary in those cases"],
+    "es": ["No indicada para infección cutánea extensa o signos de infección sistémica — en esos casos se requiere tratamiento sistémico"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de mupirocina tópica (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "vacina-bcg",
+  "nome": { "pt-BR": "Vacina BCG", "en-US": "BCG vaccine", "es": "Vacuna BCG" },
+  "nomeGenerico": { "pt-BR": "Bacilo Calmette-Guérin (vacina atenuada)", "en-US": "Bacillus Calmette-Guérin (live attenuated vaccine)", "es": "Bacilo Calmette-Guérin (vacuna atenuada)" },
+  "classeFarmacologica": { "pt-BR": "Vacina (imunoprofilaxia ativa)", "en-US": "Vaccine (active immunoprophylaxis)", "es": "Vacuna (inmunoprofilaxis activa)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Profilaxia de formas graves de tuberculose (miliar, meníngea), esquema de rotina ao nascer em áreas de alta incidência"],
+    "en-US": ["Prophylaxis against severe tuberculosis forms (miliary, meningeal), routine schedule at birth in high-incidence areas"],
+    "es": ["Profilaxis de formas graves de tuberculosis (miliar, meníngea), esquema de rutina al nacer en áreas de alta incidencia"]
+  },
+  "viasAdministracao": ["intradermica"],
+  "faixasDose": [
+    {
+      "doseValor": 0.05,
+      "doseUnidade": "mL (dose fixa neonatal)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intradermica",
+      "observacoes": {
+        "pt-BR": "Dose fixa 0.05 mL, via intradérmica estrita, geralmente na inserção do deltoide direito. Postergar se mãe bacilífera não tratada (ver patologia \"Tuberculose materna ativa\").",
+        "en-US": "Fixed dose 0.05 mL, strictly intradermal, usually at the right deltoid insertion. Defer if the mother is an untreated smear-positive case (see \"Active maternal tuberculosis\" pathology).",
+        "es": "Dosis fija 0.05 mL, estrictamente intradérmica, generalmente en la inserción del deltoides derecho. Postergar si la madre es bacilífera no tratada (ver patología \"Tuberculosis materna activa\")."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Contraindicada em imunodeficiência grave conhecida/suspeita (é vacina de bactéria viva atenuada)", "Postergar até o término da quimioprofilaxia com isoniazida se mãe bacilífera não tratada"],
+    "en-US": ["Contraindicated in known/suspected severe immunodeficiency (it is a live attenuated bacterial vaccine)", "Defer until isoniazid chemoprophylaxis is completed if the mother is an untreated smear-positive case"],
+    "es": ["Contraindicada en inmunodeficiencia grave conocida/sospechada (es una vacuna de bacteria viva atenuada)", "Postergar hasta finalizar la quimioprofilaxis con isoniazida si la madre es bacilífera no tratada"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "Hasan N, Nourse C, Schaaf HS, Bekker A, Loveday M, Alcântara Gabardo BM, Coulter C, Chabala C, Kabra S, Moore E, Maleche-Obimbo E, Salazar-Austin N, Ritz N, Starke JR, Steenhoff AP, Triasih R, Welch SB, Marais BJ. Management of the infant born to a mother with tuberculosis: a systematic review and consensus practice guideline. Lancet Child Adolesc Health. 2024;8(5):369-378.",
+      "url": "https://doi.org/10.1016/S2352-4642(23)00345-0",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

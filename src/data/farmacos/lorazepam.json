@@ -1,0 +1,56 @@
+{
+  "id": "lorazepam",
+  "nome": { "pt-BR": "Lorazepam", "en-US": "Lorazepam", "es": "Lorazepam" },
+  "nomeGenerico": { "pt-BR": "Lorazepam", "en-US": "Lorazepam", "es": "Lorazepam" },
+  "classeFarmacologica": { "pt-BR": "Benzodiazepínico", "en-US": "Benzodiazepine", "es": "Benzodiacepina" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Crise convulsiva aguda (tratamento de resgate)", "Sedação de curta duração para procedimentos"],
+    "en-US": ["Acute seizure (rescue treatment)", "Short-duration sedation for procedures"],
+    "es": ["Crisis convulsiva aguda (tratamiento de rescate)", "Sedación de corta duración para procedimientos"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.05,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.05-0.1 mg/kg/dose, infusão lenta. Pode repetir uma vez se crise persistir.",
+        "en-US": "Usual range 0.05-0.1 mg/kg/dose, slow infusion. May repeat once if the seizure persists.",
+        "es": "Rango usual 0.05-0.1 mg/kg/dosis, infusión lenta. Puede repetirse una vez si la crisis persiste."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "apneia",
+      "descricao": { "pt-BR": "Depressão respiratória, potencializada quando associado a opioides", "en-US": "Respiratory depression, potentiated when combined with opioids", "es": "Depresión respiratoria, potenciada cuando se asocia a opioides" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorização respiratória contínua", "en-US": "Continuous respiratory monitoring", "es": "Monitorización respiratoria continua" }
+    },
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Pode causar hipotensão, especialmente em bolus rápido", "en-US": "May cause hypotension, especially with rapid bolus", "es": "Puede causar hipotensión, especialmente con bolo rápido" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Infundir lentamente; monitorar pressão arterial", "en-US": "Infuse slowly; monitor blood pressure", "es": "Infundir lentamente; monitorizar presión arterial" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Contém propilenoglicol na formulação injetável — uso repetido/prolongado pode causar toxicidade por acúmulo, especialmente em disfunção renal"],
+    "en-US": ["Injectable formulation contains propylene glycol — repeated/prolonged use may cause accumulation toxicity, especially in renal impairment"],
+    "es": ["La formulación inyectable contiene propilenglicol — el uso repetido/prolongado puede causar toxicidad por acumulación, especialmente en la disfunción renal"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

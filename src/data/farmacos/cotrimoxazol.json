@@ -1,0 +1,56 @@
+{
+  "id": "cotrimoxazol",
+  "nome": { "pt-BR": "Sulfametoxazol-trimetoprima (cotrimoxazol)", "en-US": "Sulfamethoxazole-trimethoprim (co-trimoxazole)", "es": "Sulfametoxazol-trimetoprima (cotrimoxazol)" },
+  "nomeGenerico": { "pt-BR": "Sulfametoxazol + trimetoprima", "en-US": "Sulfamethoxazole + trimethoprim", "es": "Sulfametoxazol + trimetoprima" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico sulfonamida + inibidor da di-hidrofolato redutase", "en-US": "Sulfonamide antibiotic + dihydrofolate reductase inhibitor", "es": "Antibiótico sulfonamida + inhibidor de la dihidrofolato reductasa" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Geralmente evitado no período neonatal precoce pelo risco de kernicterus — uso restrito a situações muito específicas após o período neonatal imediato (ex.: profilaxia de Pneumocystis jirovecii em lactentes maiores selecionados)"],
+    "en-US": ["Generally avoided in the early neonatal period due to kernicterus risk — use restricted to very specific situations beyond the immediate neonatal period (e.g., Pneumocystis jirovecii prophylaxis in selected older infants)"],
+    "es": ["Generalmente evitado en el período neonatal precoz por el riesgo de kernicterus — uso restringido a situaciones muy específicas más allá del período neonatal inmediato (p. ej., profilaxis de Pneumocystis jirovecii en lactantes mayores seleccionados)"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dose (componente trimetoprima)",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Uso apenas após o período neonatal imediato, conforme indicação específica — evitar em recém-nascidos, especialmente prematuros ou com hiperbilirrubinemia.",
+        "en-US": "Use only beyond the immediate neonatal period, per specific indication — avoid in newborns, especially preterm infants or those with hyperbilirubinemia.",
+        "es": "Uso solo más allá del período neonatal inmediato, según indicación específica — evitar en recién nacidos, especialmente prematuros o con hiperbilirrubinemia."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": { "pt-BR": "Sulfonamidas deslocam bilirrubina da albumina, aumentando risco de kernicterus — risco particularmente alto no período neonatal", "en-US": "Sulfonamides displace bilirubin from albumin, increasing kernicterus risk — risk is particularly high in the neonatal period", "es": "Las sulfonamidas desplazan la bilirrubina de la albúmina, aumentando el riesgo de kernicterus — el riesgo es particularmente alto en el período neonatal" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Evitar em neonatos, especialmente prematuros ou ictéricos — usar alternativa quando possível", "en-US": "Avoid in neonates, especially preterm or jaundiced infants — use an alternative when possible", "es": "Evitar en neonatos, especialmente prematuros o ictéricos — usar una alternativa cuando sea posible" }
+    },
+    {
+      "condicao": "prematuridade_extrema",
+      "descricao": { "pt-BR": "Risco de kernicterus é maior em prematuros extremos", "en-US": "Kernicterus risk is higher in extremely preterm infants", "es": "El riesgo de kernicterus es mayor en prematuros extremos" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Evitar em prematuros extremos, especialmente nas primeiras semanas de vida", "en-US": "Avoid in extremely preterm infants, especially in the first weeks of life", "es": "Evitar en prematuros extremos, especialmente en las primeras semanas de vida" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Contraindicado no período neonatal precoce na maioria dos protocolos, pelo risco de kernicterus"],
+    "en-US": ["Contraindicated in the early neonatal period per most protocols, due to kernicterus risk"],
+    "es": ["Contraindicado en el período neonatal precoz según la mayoría de los protocolos, por el riesgo de kernicterus"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de sulfametoxazol-trimetoprima (ANVISA), com alerta de uso neonatal. Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

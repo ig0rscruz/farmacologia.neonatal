@@ -73,6 +73,7 @@ export const ViaAdministracao = z.enum([
   'oral',
   'intramuscular',
   'subcutanea',
+  'intradermica',
   'retal',
   'intraossea',
   'endotraqueal',

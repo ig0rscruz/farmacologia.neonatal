@@ -1,0 +1,43 @@
+{
+  "id": "zinco",
+  "nome": { "pt-BR": "Zinco (sulfato de zinco)", "en-US": "Zinc (zinc sulfate)", "es": "Zinc (sulfato de zinc)" },
+  "nomeGenerico": { "pt-BR": "Sulfato de zinco", "en-US": "Zinc sulfate", "es": "Sulfato de zinc" },
+  "classeFarmacologica": { "pt-BR": "Suplemento de oligoelemento", "en-US": "Trace element supplement", "es": "Suplemento de oligoelemento" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Suplementação em prematuros com necessidade aumentada", "Deficiência de zinco documentada (ex.: acrodermatite, má absorção)"],
+    "en-US": ["Supplementation in preterm infants with increased requirements", "Documented zinc deficiency (e.g., acrodermatitis, malabsorption)"],
+    "es": ["Suplementación en prematuros con necesidad aumentada", "Deficiencia de zinc documentada (p. ej., acrodermatitis, malabsorción)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "mg/kg/dia (zinco elementar)",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 1-3 mg/kg/dia de zinco elementar, dose única diária ou dividida.",
+        "en-US": "Usual range 1-3 mg/kg/day elemental zinc, once daily or divided.",
+        "es": "Rango usual 1-3 mg/kg/día de zinc elemental, dosis única diaria o dividida."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Doses excessivas e prolongadas podem interferir na absorção de cobre — monitorar em suplementação prolongada"],
+    "en-US": ["Excessive, prolonged doses may interfere with copper absorption — monitor with prolonged supplementation"],
+    "es": ["Dosis excesivas y prolongadas pueden interferir con la absorción de cobre — monitorizar en suplementación prolongada"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

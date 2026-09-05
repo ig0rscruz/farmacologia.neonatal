@@ -1,0 +1,56 @@
+{
+  "id": "prednisolona",
+  "nome": { "pt-BR": "Prednisolona", "en-US": "Prednisolone", "es": "Prednisolona" },
+  "nomeGenerico": { "pt-BR": "Prednisolona", "en-US": "Prednisolone", "es": "Prednisolona" },
+  "classeFarmacologica": { "pt-BR": "Corticosteroide", "en-US": "Corticosteroid", "es": "Corticosteroide" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hemangioma infantil proliferativo (alternativa ao propranolol em casos selecionados)", "Insuficiência adrenal (uso oral de manutenção)"],
+    "en-US": ["Proliferating infantile hemangioma (alternative to propranolol in selected cases)", "Adrenal insufficiency (oral maintenance use)"],
+    "es": ["Hemangioma infantil proliferativo (alternativa al propranolol en casos seleccionados)", "Insuficiencia suprarrenal (uso oral de mantenimiento)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 2,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 2-3 mg/kg/dia para hemangioma, dose única diária, com desmame gradual ao final do tratamento.",
+        "en-US": "Usual range 2-3 mg/kg/day for hemangioma, once daily, with gradual tapering at the end of treatment.",
+        "es": "Rango usual 2-3 mg/kg/día para hemangioma, dosis única diaria, con destete gradual al final del tratamiento."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipertensao",
+      "descricao": { "pt-BR": "Efeito mineralocorticoide pode causar retenção hidrossalina e hipertensão", "en-US": "Mineralocorticoid effect may cause fluid/salt retention and hypertension", "es": "El efecto mineralocorticoide puede causar retención hidrosalina e hipertensión" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial", "en-US": "Monitor blood pressure", "es": "Monitorizar presión arterial" }
+    },
+    {
+      "condicao": "sepse",
+      "descricao": { "pt-BR": "Imunossupressão relativa pode mascarar/agravar infecção não controlada", "en-US": "Relative immunosuppression may mask/worsen an uncontrolled infection", "es": "La inmunosupresión relativa puede enmascarar/agravar una infección no controlada" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Assegurar cobertura antimicrobiana adequada quando indicado em contexto infeccioso", "en-US": "Ensure adequate antimicrobial coverage when indicated in an infectious context", "es": "Asegurar cobertura antimicrobiana adecuada cuando esté indicado en contexto infeccioso" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Desmame gradual obrigatório após uso prolongado — suspensão abrupta pode causar insuficiência adrenal de rebote", "Monitorar glicemia (hiperglicemia)"],
+    "en-US": ["Gradual tapering is mandatory after prolonged use — abrupt discontinuation may cause rebound adrenal insufficiency", "Monitor glycemia (hyperglycemia)"],
+    "es": ["El destete gradual es obligatorio tras el uso prolongado — la suspensión brusca puede causar insuficiencia suprarrenal de rebote", "Monitorizar glucemia (hiperglucemia)"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal/pediátrica. Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

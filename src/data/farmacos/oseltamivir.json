@@ -1,0 +1,50 @@
+{
+  "id": "oseltamivir",
+  "nome": { "pt-BR": "Oseltamivir", "en-US": "Oseltamivir", "es": "Oseltamivir" },
+  "nomeGenerico": { "pt-BR": "Fosfato de oseltamivir", "en-US": "Oseltamivir phosphate", "es": "Fosfato de oseltamivir" },
+  "classeFarmacologica": { "pt-BR": "Antiviral (inibidor da neuraminidase)", "en-US": "Antiviral (neuraminidase inhibitor)", "es": "Antiviral (inhibidor de la neuraminidasa)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Tratamento de influenza confirmada ou fortemente suspeita em neonato", "Profilaxia pós-exposição em situações selecionadas"],
+    "en-US": ["Treatment of confirmed or strongly suspected influenza in a neonate", "Post-exposure prophylaxis in selected situations"],
+    "es": ["Tratamiento de influenza confirmada o fuertemente sospechada en un neonato", "Profilaxis posexposición en situaciones seleccionadas"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 3,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 3 mg/kg/dose a cada 12h para tratamento, por 5 dias. Dose para prematuros pode diferir — consultar protocolo específico por idade pós-menstrual.",
+        "en-US": "Usual range 3 mg/kg/dose every 12h for treatment, for 5 days. Dosing for preterm infants may differ — consult a specific protocol by postmenstrual age.",
+        "es": "Rango usual 3 mg/kg/dosis cada 12h para tratamiento, durante 5 días. La dosis en prematuros puede diferir — consultar protocolo específico según edad posmenstrual."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; possível necessidade de ajuste em disfunção renal significativa", "en-US": "Renal elimination; may require adjustment in significant renal impairment", "es": "Eliminación renal; posible necesidad de ajuste en disfunción renal significativa" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Considerar ajuste de dose em disfunção renal significativa", "en-US": "Consider dose adjustment in significant renal impairment", "es": "Considerar ajuste de dosis en disfunción renal significativa" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Iniciar o mais precocemente possível após início dos sintomas para maior benefício"],
+    "en-US": ["Start as early as possible after symptom onset for greatest benefit"],
+    "es": ["Iniciar lo antes posible tras el inicio de los síntomas para mayor beneficio"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de oseltamivir, uso pediátrico/neonatal (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

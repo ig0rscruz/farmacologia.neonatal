@@ -1,0 +1,50 @@
+{
+  "id": "topiramato",
+  "nome": { "pt-BR": "Topiramato", "en-US": "Topiramate", "es": "Topiramato" },
+  "nomeGenerico": { "pt-BR": "Topiramato", "en-US": "Topiramate", "es": "Topiramato" },
+  "classeFarmacologica": { "pt-BR": "Anticonvulsivante", "en-US": "Anticonvulsant", "es": "Anticonvulsivante" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Crises convulsivas neonatais refratárias (uso de segunda/terceira linha, menos estabelecido que fenobarbital/levetiracetam)"],
+    "en-US": ["Refractory neonatal seizures (second/third-line use, less established than phenobarbital/levetiracetam)"],
+    "es": ["Crisis convulsivas neonatales refractarias (uso de segunda/tercera línea, menos establecido que fenobarbital/levetiracetam)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 3,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 3-5 mg/kg/dia, dose única diária ou dividida. Experiência neonatal é limitada.",
+        "en-US": "Usual range 3-5 mg/kg/day, once daily or divided. Neonatal experience is limited.",
+        "es": "Rango usual 3-5 mg/kg/día, dosis única diaria o dividida. La experiencia neonatal es limitada."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal", "en-US": "Predominantly renal elimination; accumulates in renal impairment", "es": "Eliminación predominantemente renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Ajustar dose conforme função renal", "en-US": "Adjust dose according to renal function", "es": "Ajustar la dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Evidência de eficácia/segurança em neonatos é limitada — reservar para crises refratárias a agentes de primeira/segunda linha"],
+    "en-US": ["Evidence of efficacy/safety in neonates is limited — reserve for seizures refractory to first-/second-line agents"],
+    "es": ["La evidencia de eficacia/seguridad en neonatos es limitada — reservar para crisis refractarias a agentes de primera/segunda línea"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre uso de topiramato em crises convulsivas neonatais refratárias. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

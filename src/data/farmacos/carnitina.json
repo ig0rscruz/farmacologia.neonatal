@@ -1,0 +1,43 @@
+{
+  "id": "carnitina",
+  "nome": { "pt-BR": "L-carnitina", "en-US": "L-carnitine", "es": "L-carnitina" },
+  "nomeGenerico": { "pt-BR": "L-carnitina", "en-US": "L-carnitine", "es": "L-carnitina" },
+  "classeFarmacologica": { "pt-BR": "Suplemento nutricional (cofator metabólico)", "en-US": "Nutritional supplement (metabolic cofactor)", "es": "Suplemento nutricional (cofactor metabólico)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Suplementação em prematuros em nutrição parenteral prolongada sem fonte de carnitina", "Deficiência documentada de carnitina"],
+    "en-US": ["Supplementation in preterm infants on prolonged parenteral nutrition without a carnitine source", "Documented carnitine deficiency"],
+    "es": ["Suplementación en prematuros con nutrición parenteral prolongada sin fuente de carnitina", "Deficiencia documentada de carnitina"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 20,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 10-20 mg/kg/dia, dose única diária ou dividida. Evidência de benefício clínico rotineiro é limitada.",
+        "en-US": "Usual range 10-20 mg/kg/day, once daily or divided. Evidence of routine clinical benefit is limited.",
+        "es": "Rango usual 10-20 mg/kg/día, dosis única diaria o dividida. La evidencia de beneficio clínico rutinario es limitada."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Uso rotineiro não é universalmente recomendado — reservar para contextos com indicação específica"],
+    "en-US": ["Routine use is not universally recommended — reserve for contexts with a specific indication"],
+    "es": ["El uso rutinario no está universalmente recomendado — reservar para contextos con indicación específica"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre suplementação de carnitina em nutrição parenteral neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "cloranfenicol",
+  "nome": { "pt-BR": "Cloranfenicol", "en-US": "Chloramphenicol", "es": "Cloranfenicol" },
+  "nomeGenerico": { "pt-BR": "Succinato de cloranfenicol", "en-US": "Chloramphenicol succinate", "es": "Succinato de cloranfenicol" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico (uso histórico/muito restrito em neonatologia)", "en-US": "Antibiotic (historical/very restricted use in neonatology)", "es": "Antibiótico (uso histórico/muy restringido en neonatología)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Infecções graves selecionadas sem alternativa terapêutica disponível — uso praticamente abandonado na neonatologia moderna pelo risco de síndrome do bebê cinzento"],
+    "en-US": ["Selected severe infections with no available therapeutic alternative — practically abandoned in modern neonatology due to gray baby syndrome risk"],
+    "es": ["Infecciones graves seleccionadas sin alternativa terapéutica disponible — prácticamente abandonado en la neonatología moderna por el riesgo de síndrome del bebé gris"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose deve ser individualizada com monitorização de nível sérico obrigatória (faixa terapêutica estreita) — não usar sem capacidade de monitorização laboratorial.",
+        "en-US": "Dose must be individualized with mandatory serum level monitoring (narrow therapeutic range) — do not use without laboratory monitoring capability.",
+        "es": "La dosis debe individualizarse con monitorización obligatoria del nivel sérico (rango terapéutico estrecho) — no usar sin capacidad de monitorización de laboratorio."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Metabolização hepática imatura no neonato é a base fisiopatológica da síndrome do bebê cinzento (acúmulo tóxico do fármaco)", "en-US": "Immature hepatic metabolism in the neonate is the pathophysiological basis of gray baby syndrome (toxic drug accumulation)", "es": "La metabolización hepática inmadura en el neonato es la base fisiopatológica del síndrome del bebé gris (acumulación tóxica del fármaco)" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Evitar sempre que houver alternativa; se uso for inevitável, monitorização de nível sérico é obrigatória", "en-US": "Avoid whenever an alternative exists; if use is unavoidable, serum level monitoring is mandatory", "es": "Evitar siempre que exista una alternativa; si el uso es inevitable, la monitorización del nivel sérico es obligatoria" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Síndrome do bebê cinzento (colapso cardiovascular, cianose, acidose) é risco grave e potencialmente fatal — praticamente contraindicado quando há alternativa terapêutica"],
+    "en-US": ["Gray baby syndrome (cardiovascular collapse, cyanosis, acidosis) is a serious, potentially fatal risk — practically contraindicated when a therapeutic alternative exists"],
+    "es": ["El síndrome del bebé gris (colapso cardiovascular, cianosis, acidosis) es un riesgo grave y potencialmente fatal — prácticamente contraindicado cuando existe una alternativa terapéutica"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "livro_texto",
+      "descricao": "EXEMPLO — referência histórica de farmacologia neonatal sobre síndrome do bebê cinzento. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

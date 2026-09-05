@@ -1,0 +1,43 @@
+{
+  "id": "ipratropio",
+  "nome": { "pt-BR": "Brometo de ipratrópio", "en-US": "Ipratropium bromide", "es": "Bromuro de ipratropio" },
+  "nomeGenerico": { "pt-BR": "Brometo de ipratrópio", "en-US": "Ipratropium bromide", "es": "Bromuro de ipratropio" },
+  "classeFarmacologica": { "pt-BR": "Broncodilatador anticolinérgico", "en-US": "Anticholinergic bronchodilator", "es": "Broncodilatador anticolinérgico" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Broncoespasmo em displasia broncopulmonar (uso adjuvante ao beta-agonista)"],
+    "en-US": ["Bronchospasm in bronchopulmonary dysplasia (adjunct to beta-agonist)"],
+    "es": ["Broncoespasmo en displasia broncopulmonar (uso adyuvante al betaagonista)"]
+  },
+  "viasAdministracao": ["inalatoria"],
+  "faixasDose": [
+    {
+      "doseValor": 25,
+      "doseUnidade": "mcg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "inalatoria",
+      "observacoes": {
+        "pt-BR": "Faixa usual 25 mcg/kg/dose (mínimo 125 mcg, máximo 250 mcg) por nebulização, a cada 6-8h conforme necessidade, frequentemente associado a salbutamol.",
+        "en-US": "Usual range 25 mcg/kg/dose (minimum 125 mcg, maximum 250 mcg) by nebulization, every 6-8h as needed, often combined with albuterol.",
+        "es": "Rango usual 25 mcg/kg/dosis (mínimo 125 mcg, máximo 250 mcg) por nebulización, cada 6-8h según necesidad, frecuentemente asociado a salbutamol."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Evitar contato com os olhos durante a nebulização (risco de midríase/visão turva transitória)"],
+    "en-US": ["Avoid eye contact during nebulization (risk of transient mydriasis/blurred vision)"],
+    "es": ["Evitar el contacto con los ojos durante la nebulización (riesgo de midriasis/visión borrosa transitoria)"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

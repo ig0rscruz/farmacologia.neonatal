@@ -1,0 +1,50 @@
+{
+  "id": "etomidato",
+  "nome": { "pt-BR": "Etomidato", "en-US": "Etomidate", "es": "Etomidato" },
+  "nomeGenerico": { "pt-BR": "Etomidato", "en-US": "Etomidate", "es": "Etomidato" },
+  "classeFarmacologica": { "pt-BR": "Anestésico geral (hipnótico não barbitúrico)", "en-US": "General anesthetic (non-barbiturate hypnotic)", "es": "Anestésico general (hipnótico no barbitúrico)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sedação para intubação, especialmente quando estabilidade hemodinâmica é prioridade (uso neonatal pouco frequente)"],
+    "en-US": ["Sedation for intubation, especially when hemodynamic stability is a priority (uncommon neonatal use)"],
+    "es": ["Sedación para intubación, especialmente cuando la estabilidad hemodinámica es prioritaria (uso neonatal poco frecuente)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.3,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.2-0.3 mg/kg/dose, dose única para indução. Experiência neonatal é muito limitada.",
+        "en-US": "Usual range 0.2-0.3 mg/kg/dose, single dose for induction. Neonatal experience is very limited.",
+        "es": "Rango usual 0.2-0.3 mg/kg/dosis, dosis única para inducción. La experiencia neonatal es muy limitada."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "sepse",
+      "descricao": { "pt-BR": "Supressão adrenal transitória (inibição da síntese de cortisol) é efeito conhecido, mesmo com dose única — preocupação particular em sepse", "en-US": "Transient adrenal suppression (cortisol synthesis inhibition) is a known effect, even with a single dose — a particular concern in sepsis", "es": "La supresión suprarrenal transitoria (inhibición de la síntesis de cortisol) es un efecto conocido, incluso con dosis única — una preocupación particular en la sepsis" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Considerar risco-benefício em sepse/choque séptico; monitorar sinais de insuficiência adrenal", "en-US": "Consider risk-benefit in sepsis/septic shock; monitor for signs of adrenal insufficiency", "es": "Considerar riesgo-beneficio en sepsis/choque séptico; monitorizar signos de insuficiencia suprarrenal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não possui efeito analgésico — associar analgesia adequada", "Dados de segurança em neonatos são escassos"],
+    "en-US": ["Has no analgesic effect — combine with adequate analgesia", "Safety data in neonates are scarce"],
+    "es": ["No tiene efecto analgésico — asociar analgesia adecuada", "Los datos de seguridad en neonatos son escasos"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre uso de etomidato para intubação em neonatologia. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

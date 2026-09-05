@@ -650,6 +650,23 @@
             "dataAcesso": "2026-09-05"
           }
         ]
+      },
+      {
+        "farmacoId": "vacina-bcg",
+        "implicacao": "monitorar",
+        "conduta": {
+          "pt-BR": "Postergar a vacina BCG até o término da quimioprofilaxia com isoniazida (3-6 meses) em filhos de mãe bacilífera não tratada; administrar ao nascer junto com isoniazida apenas se o seguimento não puder ser garantido, conforme diretriz local.",
+          "en-US": "Defer the BCG vaccine until isoniazid chemoprophylaxis (3-6 months) is completed in infants of an untreated smear-positive mother; give at birth along with isoniazid only if follow-up cannot be ensured, per local guideline.",
+          "es": "Postergar la vacuna BCG hasta el final de la quimioprofilaxis con isoniazida (3-6 meses) en hijos de madre bacilífera no tratada; administrar al nacer junto con isoniazida solo si no se puede garantizar el seguimiento, según la directriz local."
+        },
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "Hasan N, Nourse C, Schaaf HS, Bekker A, Loveday M, Alcântara Gabardo BM, Coulter C, Chabala C, Kabra S, Moore E, Maleche-Obimbo E, Salazar-Austin N, Ritz N, Starke JR, Steenhoff AP, Triasih R, Welch SB, Marais BJ. Management of the infant born to a mother with tuberculosis: a systematic review and consensus practice guideline. Lancet Child Adolesc Health. 2024;8(5):369-378.",
+            "url": "https://doi.org/10.1016/S2352-4642(23)00345-0",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
       }
     ],
     "nivelEvidencia": "B",
