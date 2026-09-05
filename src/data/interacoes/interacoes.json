@@ -1,5 +1,65 @@
 [
   {
+    "id": "amicacina_furosemida",
+    "farmacoAId": "amicacina",
+    "farmacoBId": "furosemida",
+    "gravidade": "grave",
+    "mecanismo": {
+      "pt-BR": "Furosemida potencializa a ototoxicidade e nefrotoxicidade dos aminoglicosídeos, especialmente com infusão intravenosa rápida — mesmo mecanismo descrito para gentamicina, extrapolado para amicacina por classe.",
+      "en-US": "Furosemide potentiates the ototoxicity and nephrotoxicity of aminoglycosides, especially with rapid intravenous infusion — same mechanism described for gentamicin, extrapolated to amikacin by drug class.",
+      "es": "La furosemida potencia la ototoxicidad y nefrotoxicidad de los aminoglucósidos, especialmente con infusión intravenosa rápida — mismo mecanismo descrito para gentamicina, extrapolado a amikacina por clase."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Risco aumentado de lesão renal aguda e de perda auditiva sensorioneural.",
+      "en-US": "Increased risk of acute kidney injury and sensorineural hearing loss.",
+      "es": "Riesgo aumentado de lesión renal aguda y de pérdida auditiva sensorioneural."
+    },
+    "conduta": {
+      "pt-BR": "Evitar uso concomitante quando possível. Se necessário, infundir furosemida lentamente, monitorar função renal (creatinina sérica) e considerar triagem auditiva. Reavaliar intervalo de dose da amicacina conforme função renal.",
+      "en-US": "Avoid concomitant use when possible. If necessary, infuse furosemide slowly, monitor renal function (serum creatinine), and consider hearing screening. Reassess the amikacin dosing interval according to renal function.",
+      "es": "Evitar el uso concomitante cuando sea posible. Si es necesario, infundir furosemida lentamente, monitorizar la función renal (creatinina sérica) y considerar cribado auditivo. Reevaluar el intervalo de dosis de amikacina según la función renal."
+    },
+    "nivelEvidencia": "C",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Jackson W, Taylor G, Selewski D, Smith PB, Tolleson-Rinehart S, Laughon MM. Association between furosemide in premature infants and sensorineural hearing loss and nephrocalcinosis: a systematic review. Matern Health Neonatol Perinatol. 2018;4:23. (Estudo aborda aminoglicosídeos como classe; extrapolação de gentamicina para amicacina não verificada especificamente.)",
+        "url": "https://doi.org/10.1186/s40748-018-0092-2",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "gentamicina_ibuprofeno",
+    "farmacoAId": "gentamicina",
+    "farmacoBId": "ibuprofeno",
+    "gravidade": "grave",
+    "mecanismo": {
+      "pt-BR": "Ibuprofeno reduz o fluxo sanguíneo renal por inibição de prostaglandinas; associado a aminoglicosídeo nefrotóxico, o risco de lesão renal é potencializado — mesmo mecanismo descrito para indometacina.",
+      "en-US": "Ibuprofen reduces renal blood flow via prostaglandin inhibition; combined with a nephrotoxic aminoglycoside, the risk of kidney injury is potentiated — same mechanism described for indomethacin.",
+      "es": "El ibuprofeno reduce el flujo sanguíneo renal por inhibición de prostaglandinas; asociado a un aminoglucósido nefrotóxico, el riesgo de lesión renal se potencia — mismo mecanismo descrito para la indometacina."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Risco aumentado de lesão renal aguda e de acúmulo do aminoglicosídeo por redução da depuração renal, por mecanismo análogo ao descrito para indometacina + gentamicina.",
+      "en-US": "Increased risk of acute kidney injury and aminoglycoside accumulation from reduced renal clearance, by a mechanism analogous to that described for indomethacin + gentamicin.",
+      "es": "Riesgo aumentado de lesión renal aguda y de acumulación del aminoglucósido por reducción de la depuración renal, por un mecanismo análogo al descrito para indometacina + gentamicina."
+    },
+    "conduta": {
+      "pt-BR": "Monitorar função renal e diurese rigorosamente durante o curso de ibuprofeno; considerar prolongar intervalo de dose da gentamicina ou monitorar nível sérico.",
+      "en-US": "Monitor renal function and urine output closely during the ibuprofen course; consider extending the gentamicin dosing interval or monitoring serum level.",
+      "es": "Monitorizar rigurosamente la función renal y la diuresis durante el curso de ibuprofeno; considerar prolongar el intervalo de dosis de gentamicina o monitorizar el nivel sérico."
+    },
+    "nivelEvidencia": "C",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Constance JE, Reith D, Ward RM, Balch A, Stockmann C, Korgenski EK, Thorell EA, Sherwin CMT. Risk of nonsteroidal anti-inflammatory drug-associated renal dysfunction among neonates diagnosed with patent ductus arteriosus and treated with gentamicin. J Perinatol. 2017;37(10):1093-1102. (Estudo avalia AINEs como classe, incluindo ibuprofeno e indometacina.)",
+        "url": "https://doi.org/10.1038/jp.2017.80",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
     "id": "gentamicina_furosemida",
     "farmacoAId": "gentamicina",
     "farmacoBId": "furosemida",

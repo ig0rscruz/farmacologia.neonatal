@@ -1,0 +1,43 @@
+{
+  "id": "sulfato-ferroso",
+  "nome": { "pt-BR": "Sulfato ferroso", "en-US": "Ferrous sulfate", "es": "Sulfato ferroso" },
+  "nomeGenerico": { "pt-BR": "Sulfato ferroso", "en-US": "Ferrous sulfate", "es": "Sulfato ferroso" },
+  "classeFarmacologica": { "pt-BR": "Suplemento de ferro", "en-US": "Iron supplement", "es": "Suplemento de hierro" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Prevenção de anemia da prematuridade", "Tratamento de deficiência de ferro documentada"],
+    "en-US": ["Prevention of anemia of prematurity", "Treatment of documented iron deficiency"],
+    "es": ["Prevención de la anemia de la prematuridad", "Tratamiento de deficiencia de hierro documentada"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 2,
+      "doseUnidade": "mg/kg/dia (ferro elementar)",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 2-4 mg/kg/dia de ferro elementar, iniciar por volta de 4-6 semanas de vida em prematuros. Doses maiores (até 6 mg/kg/dia) em tratamento de deficiência confirmada.",
+        "en-US": "Usual range 2-4 mg/kg/day elemental iron, start around 4-6 weeks of life in preterm infants. Higher doses (up to 6 mg/kg/day) for treatment of confirmed deficiency.",
+        "es": "Rango usual 2-4 mg/kg/día de hierro elemental, iniciar alrededor de las 4-6 semanas de vida en prematuros. Dosis mayores (hasta 6 mg/kg/día) para tratamiento de deficiencia confirmada."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Pode causar intolerância gastrointestinal (constipação, distensão)", "Evitar em RN recebendo transfusões frequentes sem avaliação de sobrecarga de ferro"],
+    "en-US": ["May cause gastrointestinal intolerance (constipation, distension)", "Avoid in infants receiving frequent transfusions without assessing iron overload"],
+    "es": ["Puede causar intolerancia gastrointestinal (estreñimiento, distensión)", "Evitar en RN que reciben transfusiones frecuentes sin evaluar sobrecarga de hierro"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

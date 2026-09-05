@@ -1,0 +1,67 @@
+{
+  "id": "fenitoina",
+  "nome": { "pt-BR": "Fenitoína", "en-US": "Phenytoin", "es": "Fenitoína" },
+  "nomeGenerico": { "pt-BR": "Fenitoína sódica", "en-US": "Phenytoin sodium", "es": "Fenitoína sódica" },
+  "classeFarmacologica": { "pt-BR": "Anticonvulsivante (hidantoína)", "en-US": "Anticonvulsant (hydantoin)", "es": "Anticonvulsivante (hidantoína)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Crises convulsivas neonatais refratárias ao fenobarbital (segunda linha)"],
+    "en-US": ["Neonatal seizures refractory to phenobarbital (second line)"],
+    "es": ["Crisis convulsivas neonatales refractarias al fenobarbital (segunda línea)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 20,
+      "doseUnidade": "mg/kg",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de ataque única, infusão lenta (≤ 0.5-1 mg/kg/min) com monitorização cardíaca contínua — infusão rápida associada a arritmia e hipotensão.",
+        "en-US": "Single loading dose, slow infusion (≤ 0.5-1 mg/kg/min) with continuous cardiac monitoring — rapid infusion is associated with arrhythmia and hypotension.",
+        "es": "Dosis de carga única, infusión lenta (≤ 0.5-1 mg/kg/min) con monitorización cardíaca continua — la infusión rápida se asocia a arritmia e hipotensión."
+      }
+    },
+    {
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção. Farmacocinética neonatal é errática — monitorização de nível sérico é fortemente recomendada (faixa terapêutica ~10-20 mcg/mL).",
+        "en-US": "Maintenance dose. Neonatal pharmacokinetics are erratic — serum level monitoring is strongly recommended (therapeutic range ~10-20 mcg/mL).",
+        "es": "Dosis de mantenimiento. La farmacocinética neonatal es errática — se recomienda encarecidamente la monitorización del nivel sérico (rango terapéutico ~10-20 mcg/mL)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "bradicardia",
+      "descricao": { "pt-BR": "Infusão rápida pode causar arritmia cardíaca e bradicardia/hipotensão", "en-US": "Rapid infusion may cause cardiac arrhythmia and bradycardia/hypotension", "es": "La infusión rápida puede causar arritmia cardíaca y bradicardia/hipotensión" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Infusão lenta com monitorização cardíaca contínua durante a dose de ataque", "en-US": "Slow infusion with continuous cardiac monitoring during the loading dose", "es": "Infusión lenta con monitorización cardíaca continua durante la dosis de carga" }
+    },
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": { "pt-BR": "Compete com bilirrubina pela ligação à albumina, podendo aumentar bilirrubina livre", "en-US": "Competes with bilirubin for albumin binding, potentially increasing free bilirubin", "es": "Compite con la bilirrubina por la unión a la albúmina, pudiendo aumentar la bilirrubina libre" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Avaliar nível de bilirrubina antes do uso em neonatos ictéricos", "en-US": "Assess bilirubin level before use in jaundiced neonates", "es": "Evaluar el nivel de bilirrubina antes de su uso en neonatos ictéricos" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Incompatível com soluções glicosadas (precipita) — administrar em solução salina", "Extravasamento pode causar necrose tecidual (\"síndrome da luva roxa\")"],
+    "en-US": ["Incompatible with dextrose solutions (precipitates) — administer in saline", "Extravasation may cause tissue necrosis (\"purple glove syndrome\")"],
+    "es": ["Incompatible con soluciones glucosadas (precipita) — administrar en solución salina", "La extravasación puede causar necrosis tisular (\"síndrome del guante púrpura\")"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

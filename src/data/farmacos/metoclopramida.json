@@ -1,0 +1,50 @@
+{
+  "id": "metoclopramida",
+  "nome": { "pt-BR": "Metoclopramida", "en-US": "Metoclopramide", "es": "Metoclopramida" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de metoclopramida", "en-US": "Metoclopramide hydrochloride", "es": "Clorhidrato de metoclopramida" },
+  "classeFarmacologica": { "pt-BR": "Procinético/antiemético (antagonista dopaminérgico)", "en-US": "Prokinetic/antiemetic (dopamine antagonist)", "es": "Procinético/antiemético (antagonista dopaminérgico)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Refluxo gastroesofágico com intolerância alimentar (uso controverso, benefício limitado)"],
+    "en-US": ["Gastroesophageal reflux with feeding intolerance (controversial use, limited benefit)"],
+    "es": ["Reflujo gastroesofágico con intolerancia alimentaria (uso controvertido, beneficio limitado)"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.1-0.2 mg/kg/dose a cada 6-8h. Evidência de eficácia em neonatos é fraca.",
+        "en-US": "Usual range 0.1-0.2 mg/kg/dose every 6-8h. Evidence of efficacy in neonates is weak.",
+        "es": "Rango usual 0.1-0.2 mg/kg/dosis cada 6-8h. La evidencia de eficacia en neonatos es débil."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "apneia",
+      "descricao": { "pt-BR": "Efeitos extrapiramidais (incluindo reações distônicas) são descritos em neonatos e podem ser confundidos com crises convulsivas", "en-US": "Extrapyramidal effects (including dystonic reactions) are described in neonates and may be mistaken for seizures", "es": "Los efectos extrapiramidales (incluidas reacciones distónicas) están descritos en neonatos y pueden confundirse con crisis convulsivas" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Observar sinais extrapiramidais; suspender se ocorrerem", "en-US": "Watch for extrapyramidal signs; discontinue if they occur", "es": "Vigilar signos extrapiramidales; suspender si ocurren" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso rotineiro não é recomendado pela maioria das diretrizes atuais de refluxo neonatal, dado o perfil risco-benefício desfavorável"],
+    "en-US": ["Routine use is not recommended by most current neonatal reflux guidelines, given the unfavorable risk-benefit profile"],
+    "es": ["El uso rutinario no se recomienda en la mayoría de las guías actuales de reflujo neonatal, dado el perfil riesgo-beneficio desfavorable"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre uso de procinéticos em refluxo neonatal, evidência de eficácia limitada. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

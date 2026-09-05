@@ -1,0 +1,58 @@
+{
+  "id": "naloxona",
+  "nome": { "pt-BR": "Naloxona", "en-US": "Naloxone", "es": "Naloxona" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de naloxona", "en-US": "Naloxone hydrochloride", "es": "Clorhidrato de naloxona" },
+  "classeFarmacologica": { "pt-BR": "Antagonista opioide", "en-US": "Opioid antagonist", "es": "Antagonista opioide" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Reversão de depressão respiratória induzida por opioide"],
+    "en-US": ["Reversal of opioid-induced respiratory depression"],
+    "es": ["Reversión de la depresión respiratoria inducida por opioides"]
+  },
+  "viasAdministracao": ["intravenosa", "intramuscular", "endotraqueal"],
+  "faixasDose": [
+    {
+      "doseValor": 0.1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Pode repetir a cada 2-3 minutos conforme necessário. Meia-vida da naloxona é mais curta que a de muitos opioides — repetição ou infusão contínua pode ser necessária.",
+        "en-US": "May repeat every 2-3 minutes as needed. Naloxone's half-life is shorter than that of many opioids — repeat dosing or continuous infusion may be needed.",
+        "es": "Puede repetirse cada 2-3 minutos según sea necesario. La vida media de la naloxona es más corta que la de muchos opioides — puede requerirse repetir dosis o infusión continua."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": {
+        "pt-BR": "Reversão abrupta pode precipitar taquicardia, hipertensão e, em teoria, síndrome de abstinência aguda se a mãe usou opioides cronicamente",
+        "en-US": "Abrupt reversal may precipitate tachycardia, hypertension, and theoretically acute withdrawal if the mother used opioids chronically",
+        "es": "La reversión abrupta puede precipitar taquicardia, hipertensión y, en teoría, síndrome de abstinencia agudo si la madre usó opioides crónicamente"
+      },
+      "gravidade": "usar_com_cautela",
+      "conduta": {
+        "pt-BR": "Evitar em neonatos de mães com uso crônico/dependência de opioides, exceto se depressão respiratória grave — risco de precipitar abstinência aguda grave, incluindo convulsões",
+        "en-US": "Avoid in neonates of mothers with chronic opioid use/dependence, unless severe respiratory depression — risk of precipitating severe acute withdrawal, including seizures",
+        "es": "Evitar en neonatos de madres con uso crónico/dependencia de opioides, salvo depresión respiratoria grave — riesgo de precipitar abstinencia aguda grave, incluidas convulsiones"
+      }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não indicada para síndrome de abstinência neonatal — trata apenas a depressão respiratória aguda por opioide exógeno", "Manter suporte ventilatório mesmo após reversão, dada a meia-vida curta do fármaco"],
+    "en-US": ["Not indicated for neonatal abstinence syndrome — treats only acute respiratory depression from exogenous opioid", "Maintain ventilatory support even after reversal, given the drug's short half-life"],
+    "es": ["No indicada para el síndrome de abstinencia neonatal — trata solo la depresión respiratoria aguda por opioide exógeno", "Mantener soporte ventilatorio incluso tras la reversión, dada la vida media corta del fármaco"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de reanimação neonatal. Substituir por versão vigente da diretriz antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

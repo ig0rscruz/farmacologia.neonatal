@@ -1,0 +1,56 @@
+{
+  "id": "milrinona",
+  "nome": { "pt-BR": "Milrinona", "en-US": "Milrinone", "es": "Milrinona" },
+  "nomeGenerico": { "pt-BR": "Lactato de milrinona", "en-US": "Milrinone lactate", "es": "Lactato de milrinona" },
+  "classeFarmacologica": { "pt-BR": "Inibidor da fosfodiesterase III (inodilatador)", "en-US": "Phosphodiesterase III inhibitor (inodilator)", "es": "Inhibidor de la fosfodiesterasa III (inodilatador)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Síndrome de baixo débito cardíaco pós-operatório (cirurgia cardíaca)", "Hipertensão pulmonar persistente do recém-nascido associada a disfunção ventricular"],
+    "en-US": ["Post-operative low cardiac output syndrome (cardiac surgery)", "Persistent pulmonary hypertension of the newborn with ventricular dysfunction"],
+    "es": ["Síndrome de bajo gasto cardíaco posoperatorio (cirugía cardíaca)", "Hipertensión pulmonar persistente del recién nacido con disfunción ventricular"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.5,
+      "doseUnidade": "mcg/kg/minuto",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 0.25-0.75 mcg/kg/min. Dose de ataque geralmente evitada em neonatos pelo risco de hipotensão — iniciar diretamente em infusão de manutenção.",
+        "en-US": "Continuous infusion. Usual range 0.25-0.75 mcg/kg/min. Loading dose is generally avoided in neonates due to hypotension risk — start directly with a maintenance infusion.",
+        "es": "Infusión continua. Rango usual 0.25-0.75 mcg/kg/min. La dosis de carga generalmente se evita en neonatos por el riesgo de hipotensión — iniciar directamente con infusión de mantenimiento."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Efeito vasodilatador pode causar hipotensão significativa, especialmente em hipovolemia", "en-US": "Vasodilator effect may cause significant hypotension, especially in hypovolemia", "es": "El efecto vasodilatador puede causar hipotensión significativa, especialmente en hipovolemia" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Corrigir volemia antes de iniciar; monitorar pressão arterial continuamente; ter vasopressor disponível", "en-US": "Correct volume status before starting; monitor blood pressure continuously; have a vasopressor available", "es": "Corregir la volemia antes de iniciar; monitorizar la presión arterial de forma continua; tener vasopresor disponible" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal", "en-US": "Predominantly renal elimination; accumulates in renal impairment", "es": "Eliminación predominantemente renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Reduzir dose em disfunção renal significativa", "en-US": "Reduce dose in significant renal impairment", "es": "Reducir la dosis en disfunción renal significativa" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Monitorar contagem de plaquetas (trombocitopenia é efeito adverso descrito)"],
+    "en-US": ["Monitor platelet count (thrombocytopenia is a described adverse effect)"],
+    "es": ["Monitorizar el recuento de plaquetas (la trombocitopenia es un efecto adverso descrito)"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

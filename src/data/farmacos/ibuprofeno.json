@@ -1,0 +1,62 @@
+{
+  "id": "ibuprofeno",
+  "nome": { "pt-BR": "Ibuprofeno", "en-US": "Ibuprofen", "es": "Ibuprofeno" },
+  "nomeGenerico": { "pt-BR": "Ibuprofeno lisina/sódico", "en-US": "Ibuprofen lysine/sodium", "es": "Ibuprofeno lisina/sódico" },
+  "classeFarmacologica": { "pt-BR": "Anti-inflamatório não esteroidal (inibidor da ciclo-oxigenase)", "en-US": "Nonsteroidal anti-inflammatory drug (cyclooxygenase inhibitor)", "es": "Antiinflamatorio no esteroideo (inhibidor de la ciclooxigenasa)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Fechamento farmacológico da persistência do canal arterial (PCA) — alternativa à indometacina, com menor efeito sobre fluxo sanguíneo renal/cerebral/mesentérico"],
+    "en-US": ["Pharmacological closure of patent ductus arteriosus (PDA) — alternative to indomethacin, with less effect on renal/cerebral/mesenteric blood flow"],
+    "es": ["Cierre farmacológico de la persistencia del conducto arterioso (PCA) — alternativa a la indometacina, con menor efecto sobre el flujo sanguíneo renal/cerebral/mesentérico"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 10,
+      "doseUnidade": "mg/kg",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de ataque única, seguida de 5 mg/kg em 24h e 5 mg/kg em 48h (curso de 3 doses). Infusão lenta (≥ 15 min).",
+        "en-US": "Single loading dose, followed by 5 mg/kg at 24h and 5 mg/kg at 48h (3-dose course). Slow infusion (≥ 15 min).",
+        "es": "Dosis de carga única, seguida de 5 mg/kg a las 24h y 5 mg/kg a las 48h (curso de 3 dosis). Infusión lenta (≥ 15 min)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Inibição da síntese de prostaglandinas reduz fluxo sanguíneo renal, podendo causar oligúria/insuficiência renal aguda", "en-US": "Inhibition of prostaglandin synthesis reduces renal blood flow, potentially causing oliguria/acute renal failure", "es": "La inhibición de la síntesis de prostaglandinas reduce el flujo sanguíneo renal, pudiendo causar oliguria/insuficiencia renal aguda" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Não administrar se oligúria significativa ou disfunção renal presente; reavaliar função renal antes de cada dose", "en-US": "Do not administer if significant oliguria or renal dysfunction is present; reassess renal function before each dose", "es": "No administrar si hay oliguria significativa o disfunción renal presente; reevaluar la función renal antes de cada dosis" }
+    },
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Inibe função plaquetária, aumentando risco de sangramento", "en-US": "Inhibits platelet function, increasing bleeding risk", "es": "Inhibe la función plaquetaria, aumentando el riesgo de sangrado" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Verificar contagem de plaquetas e sinais de sangramento antes de cada dose", "en-US": "Check platelet count and bleeding signs before each dose", "es": "Verificar el recuento de plaquetas y signos de sangrado antes de cada dosis" }
+    },
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": { "pt-BR": "Pode deslocar bilirrubina da albumina, aumentando risco de kernicterus em hiperbilirrubinemia significativa", "en-US": "May displace bilirubin from albumin, increasing kernicterus risk in significant hyperbilirubinemia", "es": "Puede desplazar la bilirrubina de la albúmina, aumentando el riesgo de kernicterus en hiperbilirrubinemia significativa" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Avaliar nível de bilirrubina antes do uso em neonatos ictéricos", "en-US": "Assess bilirubin level before use in jaundiced neonates", "es": "Evaluar el nivel de bilirrubina antes de su uso en neonatos ictéricos" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Contraindicado em enterocolite necrosante suspeita ou confirmada, e em sangramento ativo", "Descrito risco de hipertensão pulmonar com ibuprofeno em alguns estudos — monitorar oxigenação"],
+    "en-US": ["Contraindicated in suspected or confirmed necrotizing enterocolitis, and in active bleeding", "Pulmonary hypertension risk described with ibuprofen in some studies — monitor oxygenation"],
+    "es": ["Contraindicado en enterocolitis necrosante sospechada o confirmada, y en sangrado activo", "Se ha descrito riesgo de hipertensión pulmonar con ibuprofeno en algunos estudios — monitorizar la oxigenación"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo farmacológico da persistência do canal arterial. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

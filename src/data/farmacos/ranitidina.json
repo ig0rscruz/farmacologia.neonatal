@@ -1,0 +1,56 @@
+{
+  "id": "ranitidina",
+  "nome": { "pt-BR": "Ranitidina", "en-US": "Ranitidine", "es": "Ranitidina" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de ranitidina", "en-US": "Ranitidine hydrochloride", "es": "Clorhidrato de ranitidina" },
+  "classeFarmacologica": { "pt-BR": "Antagonista H2 (supressor ácido)", "en-US": "H2 antagonist (acid suppressant)", "es": "Antagonista H2 (supresor ácido)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Doença do refluxo gastroesofágico com esofagite documentada", "Profilaxia de úlcera de estresse em contexto selecionado"],
+    "en-US": ["Gastroesophageal reflux disease with documented esophagitis", "Stress ulcer prophylaxis in selected contexts"],
+    "es": ["Enfermedad por reflujo gastroesofágico con esofagitis documentada", "Profilaxis de úlcera de estrés en contexto seleccionado"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 1.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 1.5-2 mg/kg/dose a cada 8-12h conforme idade pós-natal.",
+        "en-US": "Usual range 1.5-2 mg/kg/dose every 8-12h depending on postnatal age.",
+        "es": "Rango usual 1.5-2 mg/kg/dosis cada 8-12h según edad posnatal."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal", "en-US": "Predominantly renal elimination; accumulates in renal impairment", "es": "Eliminación predominantemente renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Reduzir dose ou aumentar intervalo em disfunção renal", "en-US": "Reduce dose or extend interval in renal impairment", "es": "Reducir la dosis o aumentar el intervalo en la disfunción renal" }
+    },
+    {
+      "condicao": "sepse",
+      "descricao": { "pt-BR": "Supressão ácida associada a maior risco de sepse tardia e enterocolite necrosante em prematuros, por alteração da flora gastrointestinal", "en-US": "Acid suppression is associated with increased risk of late-onset sepsis and necrotizing enterocolitis in preterm infants, via altered gastrointestinal flora", "es": "La supresión ácida se asocia a mayor riesgo de sepsis tardía y enterocolitis necrosante en prematuros, por alteración de la flora gastrointestinal" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Reservar para indicação clara e documentada; evitar uso rotineiro/profilático amplo", "en-US": "Reserve for a clear, documented indication; avoid broad routine/prophylactic use", "es": "Reservar para indicación clara y documentada; evitar el uso rutinario/profiláctico amplio" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso rotineiro para refluxo fisiológico não complicado não é recomendado"],
+    "en-US": ["Routine use for uncomplicated physiological reflux is not recommended"],
+    "es": ["No se recomienda el uso rutinario para reflujo fisiológico no complicado"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

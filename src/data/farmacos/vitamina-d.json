@@ -1,0 +1,43 @@
+{
+  "id": "vitamina-d",
+  "nome": { "pt-BR": "Vitamina D (colecalciferol)", "en-US": "Vitamin D (cholecalciferol)", "es": "Vitamina D (colecalciferol)" },
+  "nomeGenerico": { "pt-BR": "Colecalciferol", "en-US": "Cholecalciferol", "es": "Colecalciferol" },
+  "classeFarmacologica": { "pt-BR": "Vitamina lipossolúvel", "en-US": "Fat-soluble vitamin", "es": "Vitamina liposoluble" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Suplementação de rotina para prevenção de raquitismo/osteopenia da prematuridade"],
+    "en-US": ["Routine supplementation to prevent rickets/osteopenia of prematurity"],
+    "es": ["Suplementación de rutina para prevenir raquitismo/osteopenia de la prematuridad"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 400,
+      "doseUnidade": "UI/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 400-1000 UI/dia; prematuros extremos podem necessitar doses mais altas (até 400-1000 UI/dia) conforme protocolo local.",
+        "en-US": "Usual range 400-1000 IU/day; extremely preterm infants may need higher doses (up to 400-1000 IU/day) per local protocol.",
+        "es": "Rango usual 400-1000 UI/día; los prematuros extremos pueden necesitar dosis más altas (hasta 400-1000 UI/día) según protocolo local."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Doses excessivas podem causar hipercalcemia — respeitar limites de segurança"],
+    "en-US": ["Excessive doses may cause hypercalcemia — respect safety limits"],
+    "es": ["Las dosis excesivas pueden causar hipercalcemia — respetar los límites de seguridad"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal (ex.: sociedades de pediatria/neonatologia). Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

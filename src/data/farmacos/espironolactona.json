@@ -1,0 +1,50 @@
+{
+  "id": "espironolactona",
+  "nome": { "pt-BR": "Espironolactona", "en-US": "Spironolactone", "es": "Espironolactona" },
+  "nomeGenerico": { "pt-BR": "Espironolactona", "en-US": "Spironolactone", "es": "Espironolactona" },
+  "classeFarmacologica": { "pt-BR": "Diurético poupador de potássio (antagonista da aldosterona)", "en-US": "Potassium-sparing diuretic (aldosterone antagonist)", "es": "Diurético ahorrador de potasio (antagonista de la aldosterona)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Displasia broncopulmonar (uso adjuvante com diurético de alça)", "Sobrecarga de volume crônica"],
+    "en-US": ["Bronchopulmonary dysplasia (adjunctive use with loop diuretic)", "Chronic volume overload"],
+    "es": ["Displasia broncopulmonar (uso adyuvante con diurético de asa)", "Sobrecarga de volumen crónica"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 1.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 1-1.5 mg/kg/dose a cada 12-24h, frequentemente associada a hidroclorotiazida.",
+        "en-US": "Usual range 1-1.5 mg/kg/dose every 12-24h, often combined with hydrochlorothiazide.",
+        "es": "Rango usual 1-1.5 mg/kg/dosis cada 12-24h, frecuentemente asociada a hidroclorotiazida."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Risco de hiperpotassemia, especialmente em disfunção renal", "en-US": "Risk of hyperkalemia, especially in renal impairment", "es": "Riesgo de hiperpotasemia, especialmente en la disfunción renal" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar potássio sérico e função renal periodicamente", "en-US": "Monitor serum potassium and renal function periodically", "es": "Monitorizar potasio sérico y función renal periódicamente" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Evitar associação com suplementos de potássio sem monitorização rigorosa"],
+    "en-US": ["Avoid combining with potassium supplements without close monitoring"],
+    "es": ["Evitar la asociación con suplementos de potasio sin monitorización rigurosa"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

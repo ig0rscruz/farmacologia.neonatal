@@ -1,0 +1,56 @@
+{
+  "id": "sulfato-de-magnesio",
+  "nome": { "pt-BR": "Sulfato de magnésio", "en-US": "Magnesium sulfate", "es": "Sulfato de magnesio" },
+  "nomeGenerico": { "pt-BR": "Sulfato de magnésio", "en-US": "Magnesium sulfate", "es": "Sulfato de magnesio" },
+  "classeFarmacologica": { "pt-BR": "Reposição de eletrólito (magnésio)", "en-US": "Electrolyte replacement (magnesium)", "es": "Reposición de electrolito (magnesio)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipomagnesemia sintomática ou significativa"],
+    "en-US": ["Symptomatic or significant hypomagnesemia"],
+    "es": ["Hipomagnesemia sintomática o significativa"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual 25-50 mg/kg/dose a cada 8-12h, infusão lenta com monitorização cardíaca. Filho de mãe que recebeu sulfato de magnésio anteparto pode ter magnésio sérico elevado ao nascer — verificar nível antes de repor.",
+        "en-US": "Usual range 25-50 mg/kg/dose every 8-12h, slow infusion with cardiac monitoring. An infant of a mother who received antenatal magnesium sulfate may have elevated serum magnesium at birth — check the level before supplementing.",
+        "es": "Rango usual 25-50 mg/kg/dosis cada 8-12h, infusión lenta con monitorización cardíaca. El hijo de una madre que recibió sulfato de magnesio anteparto puede tener magnesio sérico elevado al nacer — verificar el nivel antes de reponer."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "bradicardia",
+      "descricao": { "pt-BR": "Infusão rápida ou hipermagnesemia pode causar bradicardia, hipotensão e depressão respiratória", "en-US": "Rapid infusion or hypermagnesemia may cause bradycardia, hypotension, and respiratory depression", "es": "La infusión rápida o la hipermagnesemia pueden causar bradicardia, hipotensión y depresión respiratoria" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Infundir lentamente com monitorização contínua de FC e padrão respiratório", "en-US": "Infuse slowly with continuous HR and respiratory monitoring", "es": "Infundir lentamente con monitorización continua de FC y patrón respiratorio" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; risco de hipermagnesemia acumulada em disfunção renal", "en-US": "Renal elimination; risk of accumulated hypermagnesemia in renal impairment", "es": "Eliminación renal; riesgo de hipermagnesemia acumulada en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Reduzir dose e monitorar magnésio sérico em disfunção renal", "en-US": "Reduce dose and monitor serum magnesium in renal impairment", "es": "Reducir la dosis y monitorizar el magnesio sérico en la disfunción renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Ter gluconato de cálcio disponível como antídoto em caso de toxicidade por magnésio"],
+    "en-US": ["Have calcium gluconate available as an antidote in case of magnesium toxicity"],
+    "es": ["Tener gluconato de calcio disponible como antídoto en caso de toxicidad por magnesio"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

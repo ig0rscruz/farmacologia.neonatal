@@ -86,6 +86,22 @@
             "dataAcesso": "2026-09-04"
           }
         ]
+      },
+      {
+        "farmacoId": "naloxona",
+        "implicacao": "usar_com_cautela",
+        "conduta": {
+          "pt-BR": "Evitar naloxona no neonato de mãe com uso crônico/dependência de opioides, exceto em depressão respiratória grave — risco de precipitar síndrome de abstinência aguda grave, incluindo convulsões.",
+          "en-US": "Avoid naloxone in the neonate of a mother with chronic opioid use/dependence, except in severe respiratory depression — risk of precipitating severe acute withdrawal, including seizures.",
+          "es": "Evitar la naloxona en el neonato de una madre con uso crónico/dependencia de opioides, salvo en depresión respiratoria grave — riesgo de precipitar un síndrome de abstinencia agudo grave, incluidas convulsiones."
+        },
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal e reanimação neonatal. Substituir por fonte revisada.",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
       }
     ],
     "nivelEvidencia": "B",
@@ -465,6 +481,23 @@
     "implicacoesTratamento": [
       {
         "farmacoId": "indometacina",
+        "implicacao": "usar_com_cautela",
+        "conduta": {
+          "pt-BR": "A persistência do canal arterial (PCA) associada à síndrome da rubéola congênita costuma fazer parte de uma cardiopatia estrutural mais ampla (ex.: associada a estenose de artéria pulmonar) e pode ser canal-dependente ou responder mal ao fechamento farmacológico. Avaliação ecocardiográfica cuidadosa é indicada antes de indicar indometacina/ibuprofeno — o PCA da rubéola congênita não deve ser tratado como o PCA isolado da prematuridade.",
+          "en-US": "Patent ductus arteriosus (PDA) associated with congenital rubella syndrome is usually part of a broader structural heart disease (e.g., associated with pulmonary artery stenosis) and may be duct-dependent or respond poorly to pharmacological closure. Careful echocardiographic assessment is indicated before indicating indomethacin/ibuprofen — the PDA of congenital rubella should not be treated like the isolated PDA of prematurity.",
+          "es": "La persistencia del conducto arterioso (PCA) asociada al síndrome de rubéola congénita suele formar parte de una cardiopatía estructural más amplia (p. ej., asociada a estenosis de la arteria pulmonar) y puede ser conducto-dependiente o responder mal al cierre farmacológico. Se indica una evaluación ecocardiográfica cuidadosa antes de indicar indometacina/ibuprofeno — la PCA de la rubéola congénita no debe tratarse como la PCA aislada de la prematuridad."
+        },
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "De Melo LC, et al. Congenital Rubella Syndrome in the Post-Elimination Era: Why Vigilance Remains Essential. J Clin Med. 2025;14(11):3986. Descreve a tríade clássica incluindo cardiopatia congênita (PCA/estenose pulmonar) como manifestação estrutural da síndrome.",
+            "url": "https://doi.org/10.3390/jcm14113986",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      },
+      {
+        "farmacoId": "ibuprofeno",
         "implicacao": "usar_com_cautela",
         "conduta": {
           "pt-BR": "A persistência do canal arterial (PCA) associada à síndrome da rubéola congênita costuma fazer parte de uma cardiopatia estrutural mais ampla (ex.: associada a estenose de artéria pulmonar) e pode ser canal-dependente ou responder mal ao fechamento farmacológico. Avaliação ecocardiográfica cuidadosa é indicada antes de indicar indometacina/ibuprofeno — o PCA da rubéola congênita não deve ser tratado como o PCA isolado da prematuridade.",

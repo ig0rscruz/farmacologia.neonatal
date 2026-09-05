@@ -1,0 +1,64 @@
+{
+  "id": "penicilina-cristalina",
+  "nome": { "pt-BR": "Penicilina G cristalina", "en-US": "Aqueous crystalline penicillin G", "es": "Penicilina G cristalina acuosa" },
+  "nomeGenerico": { "pt-BR": "Benzilpenicilina potássica/sódica", "en-US": "Benzylpenicillin (penicillin G) potassium/sodium", "es": "Bencilpenicilina potásica/sódica" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico beta-lactâmico (penicilina natural)", "en-US": "Beta-lactam antibiotic (natural penicillin)", "es": "Antibiótico betalactámico (penicilina natural)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sífilis congênita (tratamento padrão-ouro)", "Infecção por Streptococcus agalactiae (grupo B)"],
+    "en-US": ["Congenital syphilis (gold-standard treatment)", "Group B Streptococcus (S. agalactiae) infection"],
+    "es": ["Sífilis congénita (tratamiento estándar de oro)", "Infección por Streptococcus agalactiae (grupo B)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "dolMaxDias": 7,
+      "doseValor": 50000,
+      "doseUnidade": "U/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Primeiros 7 dias de vida. Para sífilis congênita: curso total de 10 dias.",
+        "en-US": "First 7 days of life. For congenital syphilis: total course of 10 days.",
+        "es": "Primeros 7 días de vida. Para sífilis congénita: curso total de 10 días."
+      }
+    },
+    {
+      "dolMinDias": 8,
+      "doseValor": 50000,
+      "doseUnidade": "U/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "A partir do 8º dia de vida. Para sífilis congênita: curso total de 10 dias.",
+        "en-US": "From day 8 of life onward. For congenital syphilis: total course of 10 days.",
+        "es": "A partir del 8º día de vida. Para sífilis congénita: curso total de 10 días."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo em disfunção renal, risco de neurotoxicidade (mioclonia/convulsão) em doses muito altas", "en-US": "Renal elimination; accumulates in renal impairment, risk of neurotoxicity (myoclonus/seizure) at very high doses", "es": "Eliminación renal; se acumula en la disfunción renal, riesgo de neurotoxicidad (mioclonía/convulsión) en dosis muy altas" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não substituir por ampicilina/ceftriaxona rotineiramente no tratamento de sífilis congênita — penicilina é o tratamento padrão-ouro"],
+    "en-US": ["Do not routinely substitute with ampicillin/ceftriaxone for congenital syphilis treatment — penicillin is the gold-standard treatment"],
+    "es": ["No sustituir rutinariamente por ampicilina/ceftriaxona en el tratamiento de la sífilis congénita — la penicilina es el tratamiento estándar de oro"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "Walker GJA, Walker D, Molano Franco D, Grillo-Ardila CF. Antibiotic treatment for newborns with congenital syphilis. Cochrane Database Syst Rev. 2019;2019(2):CD012071.",
+      "url": "https://doi.org/10.1002/14651858.CD012071.pub2",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

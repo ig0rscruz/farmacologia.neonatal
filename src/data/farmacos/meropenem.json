@@ -1,0 +1,59 @@
+{
+  "id": "meropenem",
+  "nome": { "pt-BR": "Meropenem", "en-US": "Meropenem", "es": "Meropenem" },
+  "nomeGenerico": { "pt-BR": "Meropenem", "en-US": "Meropenem", "es": "Meropenem" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico carbapenêmico", "en-US": "Carbapenem antibiotic", "es": "Antibiótico carbapenémico" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Sepse neonatal por Gram-negativos multirresistentes (ex.: produtores de beta-lactamase de espectro estendido)", "Meningite neonatal refratária a esquema de primeira linha"],
+    "en-US": ["Neonatal sepsis due to multidrug-resistant Gram-negatives (e.g., ESBL producers)", "Neonatal meningitis refractory to first-line therapy"],
+    "es": ["Sepsis neonatal por Gram-negativos multirresistentes (p. ej., productores de betalactamasas de espectro extendido)", "Meningitis neonatal refractaria al esquema de primera línea"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 31.9,
+      "doseValor": 20,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 32 semanas. Infusão em 30 min.", "en-US": "PMA < 32 weeks. Infuse over 30 min.", "es": "EPM < 32 semanas. Infundir en 30 min." }
+    },
+    {
+      "pmaMinSemanas": 32,
+      "doseValor": 20,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA ≥ 32 semanas. Em meningite, considerar 40 mg/kg/dose. Infusão em 30 min.",
+        "en-US": "PMA ≥ 32 weeks. For meningitis, consider 40 mg/kg/dose. Infuse over 30 min.",
+        "es": "EPM ≥ 32 semanas. En meningitis, considerar 40 mg/kg/dosis. Infundir en 30 min."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo em disfunção renal", "en-US": "Renal elimination; accumulates in renal impairment", "es": "Eliminación renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Reservar para infecções multirresistentes confirmadas ou fortemente suspeitas — uso indiscriminado acelera resistência a carbapenêmicos"],
+    "en-US": ["Reserve for confirmed or strongly suspected multidrug-resistant infections — indiscriminate use accelerates carbapenem resistance"],
+    "es": ["Reservar para infecciones multirresistentes confirmadas o fuertemente sospechadas — el uso indiscriminado acelera la resistencia a carbapenémicos"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

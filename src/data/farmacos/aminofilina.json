@@ -1,0 +1,63 @@
+{
+  "id": "aminofilina",
+  "nome": { "pt-BR": "Aminofilina", "en-US": "Aminophylline", "es": "Aminofilina" },
+  "nomeGenerico": { "pt-BR": "Aminofilina", "en-US": "Aminophylline", "es": "Aminofilina" },
+  "classeFarmacologica": { "pt-BR": "Metilxantina / estimulante do SNC respiratório", "en-US": "Methylxanthine / respiratory CNS stimulant", "es": "Metilxantina / estimulante del SNC respiratorio" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Apneia da prematuridade (alternativa à cafeína, uso menos frequente atualmente)"],
+    "en-US": ["Apnea of prematurity (alternative to caffeine, less commonly used today)"],
+    "es": ["Apnea de la prematuridad (alternativa a la cafeína, uso menos frecuente actualmente)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 6,
+      "doseUnidade": "mg/kg",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "Dose de ataque única, infusão lenta.", "en-US": "Single loading dose, slow infusion.", "es": "Dosis de carga única, infusión lenta." }
+    },
+    {
+      "doseValor": 1.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção, iniciar 8-12h após dose de ataque. Faixa usual 1-2 mg/kg/dose a cada 8-12h; monitorar nível sérico quando disponível (faixa terapêutica ~6-13 mcg/mL).",
+        "en-US": "Maintenance dose, start 8-12h after the loading dose. Usual range 1-2 mg/kg/dose every 8-12h; monitor serum level when available (therapeutic range ~6-13 mcg/mL).",
+        "es": "Dosis de mantenimiento, iniciar 8-12h después de la dosis de carga. Rango usual 1-2 mg/kg/dosis cada 8-12h; monitorizar nivel sérico cuando esté disponible (rango terapéutico ~6-13 mcg/mL)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "taquicardia",
+      "descricao": { "pt-BR": "Efeito cronotrópico positivo pode agravar taquicardia/taquiarritmia", "en-US": "Positive chronotropic effect may worsen tachycardia/tachyarrhythmia", "es": "El efecto cronotrópico positivo puede agravar taquicardia/taquiarritmia" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Monitorar frequência cardíaca", "en-US": "Monitor heart rate", "es": "Monitorizar frecuencia cardíaca" }
+    },
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Metabolização hepática; risco de acúmulo em disfunção hepática", "en-US": "Hepatic metabolism; risk of accumulation in hepatic impairment", "es": "Metabolización hepática; riesgo de acumulación en disfunción hepática" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Reduzir dose e monitorar nível sérico", "en-US": "Reduce dose and monitor serum level", "es": "Reducir la dosis y monitorizar el nivel sérico" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Cafeína é preferida na maioria dos protocolos atuais por maior margem de segurança e posologia mais simples (dose única diária)"],
+    "en-US": ["Caffeine is preferred in most current protocols due to a wider safety margin and simpler dosing (once daily)"],
+    "es": ["La cafeína se prefiere en la mayoría de los protocolos actuales por su mayor margen de seguridad y posología más simple (dosis única diaria)"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "cefotaxima",
+  "nome": { "pt-BR": "Cefotaxima", "en-US": "Cefotaxime", "es": "Cefotaxima" },
+  "nomeGenerico": { "pt-BR": "Cefotaxima sódica", "en-US": "Cefotaxime sodium", "es": "Cefotaxima sódica" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico cefalosporina de 3ª geração", "en-US": "Third-generation cephalosporin antibiotic", "es": "Antibiótico cefalosporina de 3ª generación" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Meningite neonatal (associada a ampicilina)", "Sepse neonatal por Gram-negativos", "Alternativa a aminoglicosídeo em disfunção renal"],
+    "en-US": ["Neonatal meningitis (combined with ampicillin)", "Gram-negative neonatal sepsis", "Alternative to aminoglycoside in renal impairment"],
+    "es": ["Meningitis neonatal (asociada a ampicilina)", "Sepsis neonatal por Gram-negativos", "Alternativa a aminoglucósido en disfunción renal"]
+  },
+  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+    },
+    {
+      "pmaMinSemanas": 30,
+      "pmaMaxSemanas": 36.9,
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA 30-36 semanas.", "en-US": "PMA 30-36 weeks.", "es": "EPM 30-36 semanas." }
+    },
+    {
+      "pmaMinSemanas": 37,
+      "doseValor": 50,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "PMA ≥ 37 semanas. Em meningite, considerar 50 mg/kg a cada 6h independente da PMA.",
+        "en-US": "PMA ≥ 37 weeks. For meningitis, consider 50 mg/kg every 6h regardless of PMA.",
+        "es": "EPM ≥ 37 semanas. En meningitis, considerar 50 mg/kg cada 6h independientemente de la EPM."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": {
+        "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal",
+        "en-US": "Predominantly renal elimination; accumulates in renal impairment",
+        "es": "Eliminación predominantemente renal; se acumula en la disfunción renal"
+      },
+      "gravidade": "ajustar_dose",
+      "conduta": {
+        "pt-BR": "Prolongar intervalo de dose conforme função renal",
+        "en-US": "Extend the dosing interval according to renal function",
+        "es": "Prolongar el intervalo de dosis según la función renal"
+      }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso amplo de cefalosporinas de espectro estendido associado a maior seleção de resistência — reservar para indicação clara"],
+    "en-US": ["Broad use of extended-spectrum cephalosporins is associated with increased resistance selection — reserve for clear indications"],
+    "es": ["El uso amplio de cefalosporinas de espectro extendido se asocia a mayor selección de resistencia — reservar para indicación clara"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
+  }
+}

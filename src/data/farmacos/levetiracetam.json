@@ -1,0 +1,61 @@
+{
+  "id": "levetiracetam",
+  "nome": { "pt-BR": "Levetiracetam", "en-US": "Levetiracetam", "es": "Levetiracetam" },
+  "nomeGenerico": { "pt-BR": "Levetiracetam", "en-US": "Levetiracetam", "es": "Levetiracetam" },
+  "classeFarmacologica": { "pt-BR": "Anticonvulsivante", "en-US": "Anticonvulsant", "es": "Anticonvulsivante" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Crises convulsivas neonatais (uso crescente como alternativa/adjuvante ao fenobarbital, sobretudo por menor efeito sedativo)"],
+    "en-US": ["Neonatal seizures (increasing use as an alternative/adjunct to phenobarbital, mainly due to less sedative effect)"],
+    "es": ["Crisis convulsivas neonatales (uso creciente como alternativa/adyuvante al fenobarbital, sobre todo por menor efecto sedante)"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 40,
+      "doseUnidade": "mg/kg",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de ataque única, infusão em 15 min. Alguns protocolos usam até 60 mg/kg em crises refratárias.",
+        "en-US": "Single loading dose, infuse over 15 min. Some protocols use up to 60 mg/kg in refractory seizures.",
+        "es": "Dosis de carga única, infundir en 15 min. Algunos protocolos usan hasta 60 mg/kg en crisis refractarias."
+      }
+    },
+    {
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção, iniciar 12h após dose de ataque. Faixa usual 10-30 mg/kg/dia dividido a cada 12h.",
+        "en-US": "Maintenance dose, start 12h after the loading dose. Usual range 10-30 mg/kg/day divided every 12h.",
+        "es": "Dosis de mantenimiento, iniciar 12h después de la dosis de carga. Rango usual 10-30 mg/kg/día dividido cada 12h."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo em disfunção renal", "en-US": "Predominantly renal elimination; accumulates in renal impairment", "es": "Eliminación predominantemente renal; se acumula en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Perfil de efeitos adversos hemodinâmicos mais favorável que fenobarbital/fenitoína — vantagem em instabilidade cardiovascular"],
+    "en-US": ["More favorable hemodynamic adverse effect profile than phenobarbital/phenytoin — advantageous in cardiovascular instability"],
+    "es": ["Perfil de efectos adversos hemodinámicos más favorable que fenobarbital/fenitoína — ventaja en inestabilidad cardiovascular"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

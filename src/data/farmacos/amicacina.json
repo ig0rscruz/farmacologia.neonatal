@@ -1,0 +1,70 @@
+{
+  "id": "amicacina",
+  "nome": { "pt-BR": "Amicacina", "en-US": "Amikacin", "es": "Amikacina" },
+  "nomeGenerico": { "pt-BR": "Sulfato de amicacina", "en-US": "Amikacin sulfate", "es": "Sulfato de amikacina" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico aminoglicosídeo", "en-US": "Aminoglycoside antibiotic", "es": "Antibiótico aminoglucósido" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Infecções por Gram-negativos resistentes a gentamicina", "Sepse neonatal (alternativa a gentamicina em unidades com resistência local elevada)"],
+    "en-US": ["Infections due to gentamicin-resistant Gram-negatives", "Neonatal sepsis (alternative to gentamicin in units with high local resistance)"],
+    "es": ["Infecciones por Gram-negativos resistentes a gentamicina", "Sepsis neonatal (alternativa a gentamicina en unidades con alta resistencia local)"]
+  },
+  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 48,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+    },
+    {
+      "pmaMinSemanas": 30,
+      "pmaMaxSemanas": 34.9,
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 36,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA 30-34 semanas.", "en-US": "PMA 30-34 weeks.", "es": "EPM 30-34 semanas." }
+    },
+    {
+      "pmaMinSemanas": 35,
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 24,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA ≥ 35 semanas.", "en-US": "PMA ≥ 35 weeks.", "es": "EPM ≥ 35 semanas." }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação renal; acúmulo e nefrotoxicidade em disfunção renal", "en-US": "Renal elimination; accumulation and nephrotoxicity in renal impairment", "es": "Eliminación renal; acumulación y nefrotoxicidad en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo conforme função renal; monitorar nível sérico quando disponível", "en-US": "Extend the interval according to renal function; monitor serum level when available", "es": "Prolongar el intervalo según la función renal; monitorizar el nivel sérico cuando esté disponible" }
+    },
+    {
+      "condicao": "risco_ototoxicidade",
+      "descricao": { "pt-BR": "Risco de toxicidade coclear/vestibular", "en-US": "Risk of cochlear/vestibular toxicity", "es": "Riesgo de toxicidad coclear/vestibular" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Limitar duração ao necessário; considerar triagem auditiva", "en-US": "Limit duration to what is necessary; consider hearing screening", "es": "Limitar la duración a lo necesario; considerar cribado auditivo" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Considerar monitorização de níveis séricos em uso prolongado (> 48h) ou disfunção renal"],
+    "en-US": ["Consider monitoring serum levels with prolonged use (> 48h) or renal impairment"],
+    "es": ["Considerar monitorización de niveles séricos en uso prolongado (> 48h) o disfunción renal"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "oxacilina",
+  "nome": { "pt-BR": "Oxacilina", "en-US": "Oxacillin", "es": "Oxacilina" },
+  "nomeGenerico": { "pt-BR": "Oxacilina sódica", "en-US": "Oxacillin sodium", "es": "Oxacilina sódica" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico beta-lactâmico (penicilina antiestafilocócica)", "en-US": "Beta-lactam antibiotic (antistaphylococcal penicillin)", "es": "Antibiótico betalactámico (penicilina antiestafilocócica)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Infecção por Staphylococcus aureus sensível à meticilina", "Infecção de pele e partes moles neonatal"],
+    "en-US": ["Methicillin-susceptible Staphylococcus aureus infection", "Neonatal skin and soft tissue infection"],
+    "es": ["Infección por Staphylococcus aureus sensible a meticilina", "Infección de piel y partes blandas neonatal"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA < 30 semanas.", "en-US": "PMA < 30 weeks.", "es": "EPM < 30 semanas." }
+    },
+    {
+      "pmaMinSemanas": 30,
+      "pmaMaxSemanas": 36.9,
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA 30-36 semanas.", "en-US": "PMA 30-36 weeks.", "es": "EPM 30-36 semanas." }
+    },
+    {
+      "pmaMinSemanas": 37,
+      "doseValor": 25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "PMA ≥ 37 semanas.", "en-US": "PMA ≥ 37 weeks.", "es": "EPM ≥ 37 semanas." }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Eliminação parcialmente hepatobiliar; cautela em disfunção hepática significativa", "en-US": "Partly hepatobiliary elimination; caution in significant hepatic impairment", "es": "Eliminación parcialmente hepatobiliar; precaución en disfunción hepática significativa" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar enzimas hepáticas em uso prolongado", "en-US": "Monitor liver enzymes with prolonged use", "es": "Monitorizar enzimas hepáticas en uso prolongado" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Não cobre Staphylococcus aureus resistente à meticilina (MRSA) — se suspeita, associar/substituir por vancomicina"],
+    "en-US": ["Does not cover methicillin-resistant Staphylococcus aureus (MRSA) — if suspected, add/switch to vancomycin"],
+    "es": ["No cubre Staphylococcus aureus resistente a meticilina (SARM) — si se sospecha, asociar/sustituir por vancomicina"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}
