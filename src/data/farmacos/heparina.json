@@ -1,0 +1,50 @@
+{
+  "id": "heparina",
+  "nome": { "pt-BR": "Heparina não fracionada", "en-US": "Unfractionated heparin", "es": "Heparina no fraccionada" },
+  "nomeGenerico": { "pt-BR": "Heparina sódica", "en-US": "Heparin sodium", "es": "Heparina sódica" },
+  "classeFarmacologica": { "pt-BR": "Anticoagulante", "en-US": "Anticoagulant", "es": "Anticoagulante" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Manutenção da patência de cateter venoso/arterial central (baixa dose)", "Tratamento de trombose (dose terapêutica)"],
+    "en-US": ["Maintaining patency of central venous/arterial catheters (low dose)", "Treatment of thrombosis (therapeutic dose)"],
+    "es": ["Mantenimiento de la permeabilidad de catéter venoso/arterial central (dosis baja)", "Tratamiento de trombosis (dosis terapéutica)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.5,
+      "doseUnidade": "U/kg/hora (dose profilática de cateter)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua em baixa dose para manutenção de cateter. Para tratamento de trombose, dose terapêutica é muito maior (ataque 75 U/kg seguido de infusão titulada por TTPa) — consultar protocolo institucional específico.",
+        "en-US": "Continuous low-dose infusion for catheter maintenance. For thrombosis treatment, the therapeutic dose is much higher (75 U/kg load followed by an aPTT-titrated infusion) — consult specific institutional protocol.",
+        "es": "Infusión continua a dosis baja para mantenimiento del catéter. Para el tratamiento de trombosis, la dosis terapéutica es mucho mayor (carga de 75 U/kg seguida de infusión titulada por TTPa) — consultar protocolo institucional específico."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Risco de sangramento, incluindo hemorragia intraventricular em prematuros, especialmente em dose terapêutica", "en-US": "Bleeding risk, including intraventricular hemorrhage in preterm infants, especially at therapeutic dose", "es": "Riesgo de sangrado, incluida la hemorragia intraventricular en prematuros, especialmente a dosis terapéutica" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Monitorar TTPa (dose terapêutica) e sinais de sangramento; ter protamina disponível como antídoto", "en-US": "Monitor aPTT (therapeutic dose) and bleeding signs; have protamine available as an antidote", "es": "Monitorizar el TTPa (dosis terapéutica) y signos de sangrado; tener protamina disponible como antídoto" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Trombocitopenia induzida por heparina é rara mas descrita — monitorar plaquetas em uso prolongado"],
+    "en-US": ["Heparin-induced thrombocytopenia is rare but described — monitor platelets with prolonged use"],
+    "es": ["La trombocitopenia inducida por heparina es rara pero descrita — monitorizar plaquetas en uso prolongado"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

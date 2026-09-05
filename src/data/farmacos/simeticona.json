@@ -1,0 +1,43 @@
+{
+  "id": "simeticona",
+  "nome": { "pt-BR": "Simeticona", "en-US": "Simethicone", "es": "Simeticona" },
+  "nomeGenerico": { "pt-BR": "Simeticona", "en-US": "Simethicone", "es": "Simeticona" },
+  "classeFarmacologica": { "pt-BR": "Antiflatulento (agente de superfície)", "en-US": "Antiflatulent (surfactant agent)", "es": "Antiflatulento (agente de superficie)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Cólica/distensão abdominal por gases (uso sintomático, benefício limitado em evidência)"],
+    "en-US": ["Gas-related colic/abdominal distension (symptomatic use, limited evidence of benefit)"],
+    "es": ["Cólico/distensión abdominal por gases (uso sintomático, beneficio limitado en evidencia)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 20,
+      "doseUnidade": "mg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 20 mg a cada 6h conforme necessidade. Não absorvido sistemicamente — perfil de segurança favorável.",
+        "en-US": "Usual range 20 mg every 6h as needed. Not systemically absorbed — favorable safety profile.",
+        "es": "Rango usual 20 mg cada 6h según necesidad. No se absorbe sistémicamente — perfil de seguridad favorable."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Evidência de eficácia é limitada; considerado geralmente seguro pela ausência de absorção sistêmica"],
+    "en-US": ["Evidence of efficacy is limited; generally considered safe due to lack of systemic absorption"],
+    "es": ["La evidencia de eficacia es limitada; se considera generalmente segura por la ausencia de absorción sistémica"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de simeticona pediátrica (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

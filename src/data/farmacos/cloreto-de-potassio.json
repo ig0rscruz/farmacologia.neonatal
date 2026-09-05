@@ -1,0 +1,50 @@
+{
+  "id": "cloreto-de-potassio",
+  "nome": { "pt-BR": "Cloreto de potássio", "en-US": "Potassium chloride", "es": "Cloruro de potasio" },
+  "nomeGenerico": { "pt-BR": "Cloreto de potássio", "en-US": "Potassium chloride", "es": "Cloruro de potasio" },
+  "classeFarmacologica": { "pt-BR": "Reposição de eletrólito (potássio)", "en-US": "Electrolyte replacement (potassium)", "es": "Reposición de electrolito (potasio)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipopotassemia documentada", "Manutenção eletrolítica em nutrição parenteral"],
+    "en-US": ["Documented hypokalemia", "Electrolyte maintenance in parenteral nutrition"],
+    "es": ["Hipopotasemia documentada", "Mantenimiento electrolítico en nutrición parenteral"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.5,
+      "doseUnidade": "mEq/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Reposição diluída e em infusão lenta (nunca em bolus IV direto — risco de parada cardíaca). Faixa usual de reposição 0.5-1 mEq/kg, infundido em pelo menos 1 hora, com monitorização de ECG se dose mais alta ou hipopotassemia grave.",
+        "en-US": "Diluted, slow infusion (never as a direct IV bolus — cardiac arrest risk). Usual replacement range 0.5-1 mEq/kg, infused over at least 1 hour, with ECG monitoring if higher dose or severe hypokalemia.",
+        "es": "Reposición diluida y en infusión lenta (nunca en bolo IV directo — riesgo de paro cardíaco). Rango usual de reposición 0.5-1 mEq/kg, infundido en al menos 1 hora, con monitorización de ECG si la dosis es mayor o hay hipopotasemia grave."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Risco de hiperpotassemia grave em disfunção renal ou oligúria", "en-US": "Risk of severe hyperkalemia in renal impairment or oliguria", "es": "Riesgo de hiperpotasemia grave en la disfunción renal u oliguria" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Não repor potássio empiricamente sem confirmar nível sérico e diurese adequada", "en-US": "Do not empirically replace potassium without confirming serum level and adequate urine output", "es": "No reponer potasio empíricamente sin confirmar el nivel sérico y una diuresis adecuada" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["NUNCA administrar em bolus IV direto — risco de arritmia fatal/parada cardíaca", "Confirmar concentração e via antes de cada administração — erro de concentração com este fármaco é risco crítico de segurança"],
+    "en-US": ["NEVER administer as a direct IV bolus — risk of fatal arrhythmia/cardiac arrest", "Confirm concentration and route before each administration — concentration error with this drug is a critical safety risk"],
+    "es": ["NUNCA administrar en bolo IV directo — riesgo de arritmia fatal/paro cardíaco", "Confirmar la concentración y la vía antes de cada administración — el error de concentración con este fármaco es un riesgo crítico de seguridad"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

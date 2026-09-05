@@ -1,0 +1,43 @@
+{
+  "id": "palivizumabe",
+  "nome": { "pt-BR": "Palivizumabe", "en-US": "Palivizumab", "es": "Palivizumab" },
+  "nomeGenerico": { "pt-BR": "Palivizumabe (anticorpo monoclonal anti-VSR)", "en-US": "Palivizumab (anti-RSV monoclonal antibody)", "es": "Palivizumab (anticuerpo monoclonal anti-VRS)" },
+  "classeFarmacologica": { "pt-BR": "Anticorpo monoclonal (imunoprofilaxia)", "en-US": "Monoclonal antibody (immunoprophylaxis)", "es": "Anticuerpo monoclonal (inmunoprofilaxis)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Profilaxia de infecção grave pelo vírus sincicial respiratório (VSR) em prematuros de alto risco e cardiopatas/pneumopatas crônicos selecionados"],
+    "en-US": ["Prophylaxis against severe respiratory syncytial virus (RSV) infection in high-risk preterm infants and selected infants with chronic heart/lung disease"],
+    "es": ["Profilaxis de infección grave por el virus respiratorio sincitial (VRS) en prematuros de alto riesgo y cardiópatas/neumópatas crónicos seleccionados"]
+  },
+  "viasAdministracao": ["intramuscular"],
+  "faixasDose": [
+    {
+      "doseValor": 15,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intramuscular",
+      "observacoes": {
+        "pt-BR": "Dose única mensal, geralmente por 5 doses durante a estação de circulação do VSR, conforme critérios de elegibilidade (idade gestacional, idade cronológica, comorbidades).",
+        "en-US": "Single monthly dose, typically for 5 doses during the RSV season, per eligibility criteria (gestational age, chronological age, comorbidities).",
+        "es": "Dosis única mensual, generalmente durante 5 dosis en la temporada de circulación del VRS, según criterios de elegibilidad (edad gestacional, edad cronológica, comorbilidades)."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Não trata infecção estabelecida por VSR — é exclusivamente profilático", "Critérios de elegibilidade e cobertura variam por região/sistema de saúde — verificar diretriz local vigente"],
+    "en-US": ["Does not treat established RSV infection — it is exclusively prophylactic", "Eligibility and coverage criteria vary by region/health system — check current local guidance"],
+    "es": ["No trata la infección establecida por VRS — es exclusivamente profiláctico", "Los criterios de elegibilidad y cobertura varían según región/sistema de salud — verificar la directriz local vigente"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de imunoprofilaxia contra VSR em neonatologia (ex.: sociedades de pediatria). Substituir por versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

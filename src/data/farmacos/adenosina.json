@@ -1,0 +1,50 @@
+{
+  "id": "adenosina",
+  "nome": { "pt-BR": "Adenosina", "en-US": "Adenosine", "es": "Adenosina" },
+  "nomeGenerico": { "pt-BR": "Adenosina", "en-US": "Adenosine", "es": "Adenosina" },
+  "classeFarmacologica": { "pt-BR": "Antiarrítmico (nucleosídeo endógeno)", "en-US": "Antiarrhythmic (endogenous nucleoside)", "es": "Antiarrítmico (nucleósido endógeno)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Reversão aguda de taquicardia supraventricular (TSV) por reentrada nodal"],
+    "en-US": ["Acute reversal of supraventricular tachycardia (SVT) due to nodal reentry"],
+    "es": ["Reversión aguda de taquicardia supraventricular (TSV) por reentrada nodal"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Bolus IV rápido (1-2 segundos) o mais próximo possível do coração, seguido de flush salino imediato. Se ineficaz, pode dobrar a dose (até 0.3-0.4 mg/kg/dose) a cada 1-2 minutos. Meia-vida ultracurta (segundos).",
+        "en-US": "Rapid IV push (1-2 seconds) as close to the heart as possible, followed by an immediate saline flush. If ineffective, may double the dose (up to 0.3-0.4 mg/kg/dose) every 1-2 minutes. Ultra-short half-life (seconds).",
+        "es": "Bolo IV rápido (1-2 segundos) lo más cerca posible del corazón, seguido de un lavado salino inmediato. Si es ineficaz, puede duplicarse la dosis (hasta 0.3-0.4 mg/kg/dosis) cada 1-2 minutos. Vida media ultracorta (segundos)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "bradicardia",
+      "descricao": { "pt-BR": "Pode causar bloqueio atrioventricular transitório ou bradicardia/assistolia breve — efeito esperado do mecanismo de ação", "en-US": "May cause transient atrioventricular block or brief bradycardia/asystole — an expected effect of its mechanism of action", "es": "Puede causar bloqueo auriculoventricular transitorio o bradicardia/asistolia breve — efecto esperado de su mecanismo de acción" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Administrar apenas com monitorização de ECG contínua e capacidade de reanimação imediatamente disponível", "en-US": "Administer only with continuous ECG monitoring and resuscitation capability immediately available", "es": "Administrar solo con monitorización de ECG continua y capacidad de reanimación disponible de inmediato" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Diagnóstico e tratamento simultâneos — resposta característica (interrupção abrupta da TSV) ajuda a confirmar o mecanismo arrítmico", "Registrar tira de ritmo durante a administração"],
+    "en-US": ["Simultaneous diagnosis and treatment — the characteristic response (abrupt SVT termination) helps confirm the arrhythmic mechanism", "Record a rhythm strip during administration"],
+    "es": ["Diagnóstico y tratamiento simultáneos — la respuesta característica (interrupción abrupta de la TSV) ayuda a confirmar el mecanismo arrítmico", "Registrar una tira de ritmo durante la administración"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

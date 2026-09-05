@@ -1,0 +1,43 @@
+{
+  "id": "glicose-hipertonica",
+  "nome": { "pt-BR": "Glicose hipertônica (10-25%)", "en-US": "Hypertonic glucose (10-25%)", "es": "Glucosa hipertónica (10-25%)" },
+  "nomeGenerico": { "pt-BR": "Glicose (dextrose)", "en-US": "Glucose (dextrose)", "es": "Glucosa (dextrosa)" },
+  "classeFarmacologica": { "pt-BR": "Carboidrato / correção de hipoglicemia", "en-US": "Carbohydrate / hypoglycemia correction", "es": "Carbohidrato / corrección de hipoglucemia" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipoglicemia neonatal sintomática ou refratária a alimentação"],
+    "en-US": ["Symptomatic neonatal hypoglycemia or hypoglycemia refractory to feeding"],
+    "es": ["Hipoglucemia neonatal sintomática o refractaria a la alimentación"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 200,
+      "doseUnidade": "mg/kg (bolus de glicose a 10%)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Bolus de resgate: 2 mL/kg de glicose 10% (200 mg/kg), infusão lenta em 1-2 min, seguido de infusão de manutenção de glicose contínua — não interromper abruptamente após o bolus pelo risco de hipoglicemia de rebote.",
+        "en-US": "Rescue bolus: 2 mL/kg of 10% glucose (200 mg/kg), slow infusion over 1-2 min, followed by a continuous glucose maintenance infusion — do not stop abruptly after the bolus due to rebound hypoglycemia risk.",
+        "es": "Bolo de rescate: 2 mL/kg de glucosa al 10% (200 mg/kg), infusión lenta en 1-2 min, seguida de una infusión de mantenimiento de glucosa continua — no interrumpir bruscamente tras el bolo por el riesgo de hipoglucemia de rebote."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Concentrações acima de 12.5% requerem acesso venoso central pelo risco de flebite/esclerose de veia periférica", "Reconfirmar glicemia após bolus e ajustar infusão de manutenção conforme resposta"],
+    "en-US": ["Concentrations above 12.5% require central venous access due to phlebitis/peripheral vein sclerosis risk", "Recheck glucose after the bolus and adjust the maintenance infusion per response"],
+    "es": ["Las concentraciones superiores al 12.5% requieren acceso venoso central por el riesgo de flebitis/esclerosis de vena periférica", "Reconfirmar la glucemia tras el bolo y ajustar la infusión de mantenimiento según la respuesta"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo de hipoglicemia neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

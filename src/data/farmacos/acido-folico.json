@@ -1,0 +1,43 @@
+{
+  "id": "acido-folico",
+  "nome": { "pt-BR": "Ácido fólico", "en-US": "Folic acid", "es": "Ácido fólico" },
+  "nomeGenerico": { "pt-BR": "Ácido fólico", "en-US": "Folic acid", "es": "Ácido fólico" },
+  "classeFarmacologica": { "pt-BR": "Vitamina hidrossolúvel", "en-US": "Water-soluble vitamin", "es": "Vitamina hidrosoluble" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Suplementação de rotina em prematuros (suporte à eritropoiese)"],
+    "en-US": ["Routine supplementation in preterm infants (supports erythropoiesis)"],
+    "es": ["Suplementación de rutina en prematuros (soporte a la eritropoyesis)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 50,
+      "doseUnidade": "mcg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 50 mcg/kg/dia (mínimo 50 mcg/dia).",
+        "en-US": "Usual range 50 mcg/kg/day (minimum 50 mcg/day).",
+        "es": "Rango usual 50 mcg/kg/día (mínimo 50 mcg/día)."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Suplementação geralmente incluída em polivitamínico de rotina — verificar duplicidade de dose"],
+    "en-US": ["Supplementation is usually included in routine multivitamins — check for dose duplication"],
+    "es": ["La suplementación generalmente se incluye en el polivitamínico de rutina — verificar duplicidad de dosis"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de suplementação nutricional neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

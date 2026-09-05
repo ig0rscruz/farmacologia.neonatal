@@ -1,0 +1,43 @@
+{
+  "id": "insulina-regular",
+  "nome": { "pt-BR": "Insulina regular (humana)", "en-US": "Regular (human) insulin", "es": "Insulina regular (humana)" },
+  "nomeGenerico": { "pt-BR": "Insulina humana regular", "en-US": "Regular human insulin", "es": "Insulina humana regular" },
+  "classeFarmacologica": { "pt-BR": "Hormônio hipoglicemiante", "en-US": "Hypoglycemic hormone", "es": "Hormona hipoglucemiante" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hiperglicemia neonatal persistente (especialmente em prematuros extremos com nutrição parenteral)", "Hiperpotassemia grave (uso adjuvante com glicose para deslocar potássio intracelular)"],
+    "en-US": ["Persistent neonatal hyperglycemia (especially in extremely preterm infants on parenteral nutrition)", "Severe hyperkalemia (adjunctive use with glucose to shift potassium intracellularly)"],
+    "es": ["Hiperglucemia neonatal persistente (especialmente en prematuros extremos con nutrición parenteral)", "Hiperpotasemia grave (uso adyuvante con glucosa para desplazar potasio intracelular)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.01,
+      "doseUnidade": "U/kg/hora",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão contínua. Faixa usual 0.01-0.1 U/kg/hora, titular conforme glicemia capilar seriada (a cada 30-60 min no início). Risco de hipoglicemia grave — protocolo de monitorização rigorosa é essencial.",
+        "en-US": "Continuous infusion. Usual range 0.01-0.1 U/kg/hour, titrate per serial capillary glucose (every 30-60 min initially). Risk of severe hypoglycemia — a rigorous monitoring protocol is essential.",
+        "es": "Infusión continua. Rango usual 0.01-0.1 U/kg/hora, titular según glucemia capilar seriada (cada 30-60 min al inicio). Riesgo de hipoglucemia grave — un protocolo de monitorización riguroso es esencial."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Risco de hipoglicemia grave — nunca administrar sem protocolo de monitorização glicêmica seriada e acesso rápido a glicose de resgate", "Insulina se adere a tubos/equipos plásticos — considerar perda de dose ao trocar linha"],
+    "en-US": ["Risk of severe hypoglycemia — never administer without a serial glucose monitoring protocol and rapid access to rescue glucose", "Insulin adheres to plastic tubing — consider dose loss when changing the line"],
+    "es": ["Riesgo de hipoglucemia grave — nunca administrar sin un protocolo de monitorización glucémica seriada y acceso rápido a glucosa de rescate", "La insulina se adhiere a los tubos plásticos — considerar pérdida de dosis al cambiar la línea"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "budesonida-inalatoria",
+  "nome": { "pt-BR": "Budesonida inalatória", "en-US": "Inhaled budesonide", "es": "Budesonida inhalada" },
+  "nomeGenerico": { "pt-BR": "Budesonida", "en-US": "Budesonide", "es": "Budesonida" },
+  "classeFarmacologica": { "pt-BR": "Corticosteroide inalatório", "en-US": "Inhaled corticosteroid", "es": "Corticosteroide inhalado" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Prevenção/manejo de displasia broncopulmonar (via inalatória ou associada a surfactante)"],
+    "en-US": ["Prevention/management of bronchopulmonary dysplasia (inhaled, or combined with surfactant)"],
+    "es": ["Prevención/manejo de la displasia broncopulmonar (vía inhalada, o asociada a surfactante)"]
+  },
+  "viasAdministracao": ["inalatoria"],
+  "faixasDose": [
+    {
+      "doseValor": 0.25,
+      "doseUnidade": "mg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "inalatoria",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.25-0.5 mg a cada 12h por nebulização. Quando associada a surfactante intratraqueal, seguir protocolo institucional específico.",
+        "en-US": "Usual range 0.25-0.5 mg every 12h by nebulization. When combined with intratracheal surfactant, follow the specific institutional protocol.",
+        "es": "Rango usual 0.25-0.5 mg cada 12h por nebulización. Cuando se asocia a surfactante intratraqueal, seguir el protocolo institucional específico."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Efeito sistêmico é menor que corticosteroide sistêmico, mas não nulo — considerar exposição cumulativa em uso prolongado"],
+    "en-US": ["Systemic effect is lower than systemic corticosteroids, but not zero — consider cumulative exposure with prolonged use"],
+    "es": ["El efecto sistémico es menor que el de un corticosteroide sistémico, pero no nulo — considerar la exposición acumulada en uso prolongado"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

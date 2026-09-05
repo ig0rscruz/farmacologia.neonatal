@@ -1,0 +1,50 @@
+{
+  "id": "protamina",
+  "nome": { "pt-BR": "Protamina", "en-US": "Protamine", "es": "Protamina" },
+  "nomeGenerico": { "pt-BR": "Sulfato de protamina", "en-US": "Protamine sulfate", "es": "Sulfato de protamina" },
+  "classeFarmacologica": { "pt-BR": "Antídoto de heparina", "en-US": "Heparin antidote", "es": "Antídoto de la heparina" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Reversão de anticoagulação por heparina não fracionada em sangramento grave ou antes de procedimento urgente"],
+    "en-US": ["Reversal of unfractionated heparin anticoagulation in severe bleeding or before an urgent procedure"],
+    "es": ["Reversión de la anticoagulación por heparina no fraccionada en sangrado grave o antes de un procedimiento urgente"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "mg por 100 U de heparina recebida nas últimas 2-3h",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Infusão lenta (≥ 10 min) — infusão rápida associada a hipotensão e reação anafilactoide. Calcular dose conforme heparina residual estimada, não pela dose total já administrada.",
+        "en-US": "Slow infusion (≥ 10 min) — rapid infusion is associated with hypotension and anaphylactoid reaction. Calculate the dose based on estimated residual heparin, not the total dose already given.",
+        "es": "Infusión lenta (≥ 10 min) — la infusión rápida se asocia a hipotensión y reacción anafilactoide. Calcular la dosis según la heparina residual estimada, no la dosis total ya administrada."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Infusão rápida pode causar hipotensão grave e reação anafilactoide", "en-US": "Rapid infusion may cause severe hypotension and anaphylactoid reaction", "es": "La infusión rápida puede causar hipotensión grave y reacción anafilactoide" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Infundir sempre lentamente com monitorização de pressão arterial", "en-US": "Always infuse slowly with blood pressure monitoring", "es": "Infundir siempre lentamente con monitorización de la presión arterial" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Dose excessiva pode ter efeito anticoagulante paradoxal — calcular dose com cuidado"],
+    "en-US": ["Excessive dosing may have a paradoxical anticoagulant effect — calculate the dose carefully"],
+    "es": ["Una dosis excesiva puede tener un efecto anticoagulante paradójico — calcular la dosis con cuidado"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

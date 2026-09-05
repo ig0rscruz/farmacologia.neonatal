@@ -1,0 +1,50 @@
+{
+  "id": "sildenafila",
+  "nome": { "pt-BR": "Sildenafila", "en-US": "Sildenafil", "es": "Sildenafilo" },
+  "nomeGenerico": { "pt-BR": "Citrato de sildenafila", "en-US": "Sildenafil citrate", "es": "Citrato de sildenafilo" },
+  "classeFarmacologica": { "pt-BR": "Inibidor da fosfodiesterase tipo 5", "en-US": "Phosphodiesterase type 5 inhibitor", "es": "Inhibidor de la fosfodiesterasa tipo 5" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipertensão pulmonar persistente do recém-nascido, isolada ou como adjuvante/desmame do óxido nítrico inalatório"],
+    "en-US": ["Persistent pulmonary hypertension of the newborn, alone or as an adjunct/for weaning from inhaled nitric oxide"],
+    "es": ["Hipertensión pulmonar persistente del recién nacido, sola o como adyuvante/para el destete del óxido nítrico inhalado"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.5,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.5-2 mg/kg/dose a cada 6-8h, titular conforme resposta e tolerância pressórica.",
+        "en-US": "Usual range 0.5-2 mg/kg/dose every 6-8h, titrate per response and blood pressure tolerance.",
+        "es": "Rango usual 0.5-2 mg/kg/dosis cada 6-8h, titular según respuesta y tolerancia de la presión arterial."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Efeito vasodilatador sistêmico pode causar hipotensão", "en-US": "Systemic vasodilator effect may cause hypotension", "es": "El efecto vasodilatador sistémico puede causar hipotensión" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial, especialmente ao iniciar/titular dose", "en-US": "Monitor blood pressure, especially when starting/titrating the dose", "es": "Monitorizar la presión arterial, especialmente al iniciar/titular la dosis" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Retinopatia da prematuridade — dados de segurança oftalmológica em uso prolongado ainda são limitados; acompanhar rastreio oftalmológico de rotina"],
+    "en-US": ["Retinopathy of prematurity — ophthalmologic safety data with prolonged use are still limited; follow routine ophthalmologic screening"],
+    "es": ["Retinopatía del prematuro — los datos de seguridad oftalmológica con uso prolongado aún son limitados; seguir el cribado oftalmológico de rutina"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

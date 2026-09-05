@@ -1,0 +1,67 @@
+{
+  "id": "digoxina",
+  "nome": { "pt-BR": "Digoxina", "en-US": "Digoxin", "es": "Digoxina" },
+  "nomeGenerico": { "pt-BR": "Digoxina", "en-US": "Digoxin", "es": "Digoxina" },
+  "classeFarmacologica": { "pt-BR": "Glicosídeo cardíaco", "en-US": "Cardiac glycoside", "es": "Glucósido cardíaco" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Insuficiência cardíaca congestiva", "Controle de frequência em taquiarritmias supraventriculares"],
+    "en-US": ["Congestive heart failure", "Rate control in supraventricular tachyarrhythmias"],
+    "es": ["Insuficiencia cardíaca congestiva", "Control de frecuencia en taquiarritmias supraventriculares"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 20,
+      "doseUnidade": "mcg/kg (dose de digitalização total)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de digitalização dividida em 3 partes (50% + 25% + 25%, a cada 8-12h) com ECG antes de cada dose. Faixa terapêutica estreita — margem de segurança reduzida em neonatos, especialmente prematuros.",
+        "en-US": "Digitalization dose split into 3 parts (50% + 25% + 25%, every 8-12h) with ECG before each dose. Narrow therapeutic range — reduced safety margin in neonates, especially preterm infants.",
+        "es": "Dosis de digitalización dividida en 3 partes (50% + 25% + 25%, cada 8-12h) con ECG antes de cada dosis. Rango terapéutico estrecho — margen de seguridad reducido en neonatos, especialmente prematuros."
+      }
+    },
+    {
+      "doseValor": 5,
+      "doseUnidade": "mcg/kg/dose",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção, iniciar 12h após completar digitalização. Monitorar nível sérico e eletrólitos (potássio).",
+        "en-US": "Maintenance dose, start 12h after completing digitalization. Monitor serum level and electrolytes (potassium).",
+        "es": "Dosis de mantenimiento, iniciar 12h después de completar la digitalización. Monitorizar el nivel sérico y electrolitos (potasio)."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "bradicardia",
+      "descricao": { "pt-BR": "Toxicidade digitálica classicamente causa bradicardia e arritmias — margem terapêutica estreita", "en-US": "Digitalis toxicity classically causes bradycardia and arrhythmias — narrow therapeutic margin", "es": "La toxicidad digitálica clásicamente causa bradicardia y arritmias — margen terapéutico estrecho" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Verificar FC antes de cada dose — não administrar se FC abaixo do limite definido para a idade; obter ECG e nível sérico se suspeita de toxicidade", "en-US": "Check HR before each dose — do not administer if HR is below the age-defined threshold; obtain ECG and serum level if toxicity is suspected", "es": "Verificar la FC antes de cada dosis — no administrar si la FC está por debajo del umbral definido para la edad; obtener ECG y nivel sérico si se sospecha toxicidad" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação predominantemente renal; acúmulo e toxicidade em disfunção renal", "en-US": "Predominantly renal elimination; accumulation and toxicity in renal impairment", "es": "Eliminación predominantemente renal; acumulación y toxicidad en la disfunción renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Reduzir dose e monitorar nível sérico rigorosamente em disfunção renal", "en-US": "Reduce dose and monitor serum level closely in renal impairment", "es": "Reducir la dosis y monitorizar el nivel sérico rigurosamente en la disfunción renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Hipopotassemia potencializa toxicidade digitálica — corrigir distúrbios eletrolíticos antes de administrar", "Ter atenção redobrada com erros de prescrição/preparo — mcg vs mg é fonte comum de erro grave com este fármaco"],
+    "en-US": ["Hypokalemia potentiates digitalis toxicity — correct electrolyte disturbances before administering", "Extra care with prescribing/preparation errors — mcg vs mg is a common source of serious error with this drug"],
+    "es": ["La hipopotasemia potencia la toxicidad digitálica — corregir los trastornos electrolíticos antes de administrar", "Prestar especial atención a errores de prescripción/preparación — mcg vs mg es una fuente común de error grave con este fármaco"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "protocolo_institucional",
+      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

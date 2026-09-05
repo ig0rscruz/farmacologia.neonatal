@@ -1,5 +1,34 @@
 [
   {
+    "id": "amiodarona_digoxina",
+    "farmacoAId": "amiodarona",
+    "farmacoBId": "digoxina",
+    "gravidade": "grave",
+    "mecanismo": {
+      "pt-BR": "Amiodarona inibe a glicoproteína-P e reduz a depuração renal e não renal da digoxina, aumentando significativamente seu nível sérico.",
+      "en-US": "Amiodarone inhibits P-glycoprotein and reduces both renal and non-renal clearance of digoxin, significantly increasing its serum level.",
+      "es": "La amiodarona inhibe la glicoproteína P y reduce el aclaramiento renal y no renal de la digoxina, aumentando significativamente su nivel sérico."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Risco aumentado de toxicidade digitálica (arritmia, bradicardia, sintomas gastrointestinais) — nível sérico de digoxina pode dobrar ou mais após início de amiodarona.",
+      "en-US": "Increased risk of digitalis toxicity (arrhythmia, bradycardia, gastrointestinal symptoms) — digoxin serum level may double or more after starting amiodarone.",
+      "es": "Riesgo aumentado de toxicidad digitálica (arritmia, bradicardia, síntomas gastrointestinales) — el nivel sérico de digoxina puede duplicarse o más tras iniciar amiodarona."
+    },
+    "conduta": {
+      "pt-BR": "Reduzir a dose de digoxina em aproximadamente 30-50% ao iniciar amiodarona; monitorar nível sérico de digoxina e sinais de toxicidade (ECG, FC).",
+      "en-US": "Reduce the digoxin dose by approximately 30-50% when starting amiodarone; monitor digoxin serum level and signs of toxicity (ECG, HR).",
+      "es": "Reducir la dosis de digoxina en aproximadamente un 30-50% al iniciar amiodarona; monitorizar el nivel sérico de digoxina y los signos de toxicidad (ECG, FC)."
+    },
+    "nivelEvidencia": "C",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "EXEMPLO — interação amiodarona + digoxina amplamente descrita na literatura de farmacologia clínica (efeito de classe, extrapolado de população pediátrica/adulta para neonatos). Substituir por referência específica revisada.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
     "id": "amicacina_furosemida",
     "farmacoAId": "amicacina",
     "farmacoBId": "furosemida",

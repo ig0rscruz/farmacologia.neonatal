@@ -1,0 +1,43 @@
+{
+  "id": "surfactante-pulmonar",
+  "nome": { "pt-BR": "Surfactante pulmonar (beractanto/poractanto alfa)", "en-US": "Pulmonary surfactant (beractant/poractant alfa)", "es": "Surfactante pulmonar (beractant/poractant alfa)" },
+  "nomeGenerico": { "pt-BR": "Surfactante exógeno (origem animal)", "en-US": "Exogenous surfactant (animal-derived)", "es": "Surfactante exógeno (de origen animal)" },
+  "classeFarmacologica": { "pt-BR": "Surfactante pulmonar exógeno", "en-US": "Exogenous pulmonary surfactant", "es": "Surfactante pulmonar exógeno" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Tratamento da síndrome do desconforto respiratório (doença da membrana hialina)", "Profilaxia em prematuros extremos de alto risco"],
+    "en-US": ["Treatment of respiratory distress syndrome (hyaline membrane disease)", "Prophylaxis in high-risk extremely preterm infants"],
+    "es": ["Tratamiento del síndrome de dificultad respiratoria (enfermedad de membrana hialina)", "Profilaxis en prematuros extremos de alto riesgo"]
+  },
+  "viasAdministracao": ["endotraqueal"],
+  "faixasDose": [
+    {
+      "doseValor": 100,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 0,
+      "viaAdministracao": "endotraqueal",
+      "observacoes": {
+        "pt-BR": "Dose varia conforme o produto específico (beractanto ~100 mg/kg, poractanto alfa 100-200 mg/kg). Pode repetir a cada 6-12h (até 2-4 doses) conforme necessidade de oxigênio/suporte ventilatório persistente. Administração via tubo endotraqueal ou técnica minimamente invasiva (LISA/MIST).",
+        "en-US": "Dose varies by specific product (beractant ~100 mg/kg, poractant alfa 100-200 mg/kg). May repeat every 6-12h (up to 2-4 doses) per persistent oxygen/ventilatory support needs. Administered via endotracheal tube or minimally invasive technique (LISA/MIST).",
+        "es": "La dosis varía según el producto específico (beractant ~100 mg/kg, poractant alfa 100-200 mg/kg). Puede repetirse cada 6-12h (hasta 2-4 dosis) según la necesidad persistente de oxígeno/soporte ventilatorio. Administración por tubo endotraqueal o técnica mínimamente invasiva (LISA/MIST)."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Pode causar queda transitória de SatO2/bradicardia durante a administração — monitorização contínua obrigatória", "Risco de obstrução transitória de via aérea/refluxo do produto pelo tubo — equipe treinada deve estar presente", "Ajustar parâmetros ventilatórios rapidamente após administração pelo risco de hiperdistensão/hiperóxia"],
+    "en-US": ["May cause transient SpO2 drop/bradycardia during administration — continuous monitoring is mandatory", "Risk of transient airway obstruction/product reflux through the tube — a trained team must be present", "Adjust ventilator settings promptly after administration due to hyperinflation/hyperoxia risk"],
+    "es": ["Puede causar caída transitoria de SatO2/bradicardia durante la administración — la monitorización continua es obligatoria", "Riesgo de obstrucción transitoria de la vía aérea/reflujo del producto por el tubo — debe estar presente un equipo entrenado", "Ajustar rápidamente los parámetros ventilatorios tras la administración por el riesgo de hiperinsuflación/hiperoxia"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretriz de manejo da síndrome do desconforto respiratório neonatal (uso de surfactante). Substituir por versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}
