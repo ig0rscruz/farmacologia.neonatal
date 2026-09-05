@@ -1,43 +1,55 @@
 import { useMemo, useState } from 'react'
 import { BannerAviso } from './components/BannerAviso'
 import { FormularioPaciente } from './components/FormularioPaciente'
-import { FonteInfo, ResultadoVerificacaoView } from './components/ResultadoVerificacao'
+import { FonteInfo, PainelInteracoes, PainelPosologia } from './components/ResultadoVerificacao'
+import { SeletorIdioma } from './components/SeletorIdioma'
 import { FARMACOS, INTERACOES, PATOLOGIAS_PARENTAIS } from './data'
 import { verificarFarmaco, type ResultadoVerificacao } from './engine/verificarFarmaco'
-import { pacienteVazio } from './types/paciente'
+import { useLocale } from './i18n/LocaleContext'
+import { pacienteVazio, type PosologiaInformada } from './types/paciente'
+
+type Aba = 'interacoes' | 'posologia'
 
 function App() {
+  const { t } = useLocale()
   const [paciente, setPaciente] = useState(pacienteVazio())
   const [candidatoId, setCandidatoId] = useState('')
+  const [posologiaCandidato, setPosologiaCandidato] = useState<PosologiaInformada>({})
   const [resultado, setResultado] = useState<ResultadoVerificacao | null>(null)
+  const [abaAtiva, setAbaAtiva] = useState<Aba>('interacoes')
 
-  const farmacoNomesPorId = useMemo(
-    () => Object.fromEntries(FARMACOS.map((f) => [f.id, f.nome])),
-    [],
-  )
+  const farmacoNomesPorId = useMemo(() => Object.fromEntries(FARMACOS.map((f) => [f.id, f.nome])), [])
   const farmacoCandidato = FARMACOS.find((f) => f.id === candidatoId)
 
   function handleVerificar() {
     if (!candidatoId) return
+    const posologiaVazia = Object.values(posologiaCandidato).every((v) => v === undefined || v === '')
     setResultado(
-      verificarFarmaco(paciente, candidatoId, {
-        farmacos: FARMACOS,
-        interacoes: INTERACOES,
-        patologias: PATOLOGIAS_PARENTAIS,
-      }),
+      verificarFarmaco(
+        paciente,
+        candidatoId,
+        { farmacos: FARMACOS, interacoes: INTERACOES, patologias: PATOLOGIAS_PARENTAIS },
+        posologiaVazia ? undefined : posologiaCandidato,
+      ),
     )
+  }
+
+  function handleSelecionarCandidato(id: string) {
+    setCandidatoId(id)
+    setPosologiaCandidato({})
+    setResultado(null)
   }
 
   return (
     <div className="min-h-screen bg-slate-50">
       <BannerAviso />
       <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-        <header>
-          <h1 className="text-2xl font-bold text-slate-900">Farmacologia Neonatal</h1>
-          <p className="text-slate-600 text-sm">
-            Verificação de adequação de fármacos, interações medicamentosas e implicações de patologias
-            parentais para o paciente neonatal.
-          </p>
+        <header className="flex items-start justify-between gap-4">
+          <div>
+            <h1 className="text-2xl font-bold text-slate-900">NeoDose</h1>
+            <p className="text-slate-600 text-sm">{t.app.subtitulo}</p>
+          </div>
+          <SeletorIdioma />
         </header>
 
         <div className="bg-white rounded-lg border border-slate-200 p-4">
@@ -50,31 +62,104 @@ function App() {
         </div>
 
         <div className="bg-white rounded-lg border border-slate-200 p-4 space-y-3">
-          <h2 className="font-semibold text-slate-800">Fármaco a ser administrado</h2>
-          <div className="flex flex-wrap gap-2">
-            <select
-              className="input flex-1 min-w-[12rem]"
-              value={candidatoId}
-              onChange={(e) => {
-                setCandidatoId(e.target.value)
-                setResultado(null)
-              }}
-            >
-              <option value="">Selecionar fármaco…</option>
-              {FARMACOS.map((f) => (
-                <option key={f.id} value={f.id}>
-                  {f.nome}
-                </option>
-              ))}
-            </select>
-            <button type="button" className="btn-primary" disabled={!candidatoId} onClick={handleVerificar}>
-              Verificar
-            </button>
-          </div>
+          <h2 className="font-semibold text-slate-800">{t.candidato.titulo}</h2>
+          <select
+            className="input w-full sm:w-auto sm:min-w-[16rem]"
+            value={candidatoId}
+            onChange={(e) => handleSelecionarCandidato(e.target.value)}
+          >
+            <option value="">{t.form.selecionarFarmaco}</option>
+            {FARMACOS.map((f) => (
+              <option key={f.id} value={f.id}>
+                {f.nome}
+              </option>
+            ))}
+          </select>
+
+          {candidatoId && (
+            <div>
+              <p className="text-xs text-slate-500 mb-1">{t.candidato.posologiaAviso}</p>
+              <div className="flex flex-wrap gap-2">
+                <input
+                  type="number"
+                  className="input w-24"
+                  placeholder={t.form.dose}
+                  value={posologiaCandidato.doseValor ?? ''}
+                  onChange={(e) =>
+                    setPosologiaCandidato((p) => ({
+                      ...p,
+                      doseValor: e.target.value ? Number(e.target.value) : undefined,
+                    }))
+                  }
+                />
+                <input
+                  type="text"
+                  className="input w-36"
+                  placeholder={t.form.unidade}
+                  value={posologiaCandidato.doseUnidade ?? ''}
+                  onChange={(e) => setPosologiaCandidato((p) => ({ ...p, doseUnidade: e.target.value || undefined }))}
+                />
+                <input
+                  type="number"
+                  className="input w-24"
+                  placeholder={t.form.aCada}
+                  value={posologiaCandidato.intervaloHoras ?? ''}
+                  onChange={(e) =>
+                    setPosologiaCandidato((p) => ({
+                      ...p,
+                      intervaloHoras: e.target.value ? Number(e.target.value) : undefined,
+                    }))
+                  }
+                />
+                <input
+                  type="text"
+                  className="input w-32"
+                  placeholder={t.form.via}
+                  value={posologiaCandidato.viaAdministracao ?? ''}
+                  onChange={(e) =>
+                    setPosologiaCandidato((p) => ({ ...p, viaAdministracao: e.target.value || undefined }))
+                  }
+                />
+              </div>
+            </div>
+          )}
+
+          <button type="button" className="btn-primary" disabled={!candidatoId} onClick={handleVerificar}>
+            {t.candidato.verificar}
+          </button>
 
           {resultado && (
             <>
-              <ResultadoVerificacaoView resultado={resultado} farmacoNomesPorId={farmacoNomesPorId} />
+              <div className="flex border-b border-slate-200 -mb-px">
+                <button
+                  type="button"
+                  className={`px-4 py-2 text-sm font-medium border-b-2 ${
+                    abaAtiva === 'interacoes'
+                      ? 'border-sky-600 text-sky-700'
+                      : 'border-transparent text-slate-500 hover:text-slate-700'
+                  }`}
+                  onClick={() => setAbaAtiva('interacoes')}
+                >
+                  {t.abas.interacoes}
+                </button>
+                <button
+                  type="button"
+                  className={`px-4 py-2 text-sm font-medium border-b-2 ${
+                    abaAtiva === 'posologia'
+                      ? 'border-sky-600 text-sky-700'
+                      : 'border-transparent text-slate-500 hover:text-slate-700'
+                  }`}
+                  onClick={() => setAbaAtiva('posologia')}
+                >
+                  {t.abas.posologia}
+                </button>
+              </div>
+
+              {abaAtiva === 'interacoes' ? (
+                <PainelInteracoes resultado={resultado} farmacoNomesPorId={farmacoNomesPorId} />
+              ) : (
+                <PainelPosologia resultado={resultado} />
+              )}
               {farmacoCandidato && <FonteInfo farmaco={farmacoCandidato} />}
             </>
           )}

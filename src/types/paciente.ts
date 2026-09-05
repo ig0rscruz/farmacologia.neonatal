@@ -9,9 +9,22 @@ import { CondicaoClinica } from './comum'
  * sensíveis de paciente e não devem ser persistidos sem uma solução de
  * armazenamento clínico adequada (prontuário eletrônico, LGPD, etc.).
  */
+/**
+ * Posologia informada pelo profissional — a dose/intervalo/via que está sendo
+ * (ou será) efetivamente usada, para comparação com a faixa recomendada
+ * cadastrada para o fármaco (ver compararPosologia em src/engine/verificarFarmaco.ts).
+ */
+export const PosologiaInformada = z.object({
+  doseValor: z.number().positive().optional(),
+  doseUnidade: z.string().optional(),
+  intervaloHoras: z.number().nonnegative().optional(),
+  viaAdministracao: z.string().optional(),
+})
+export type PosologiaInformada = z.infer<typeof PosologiaInformada>
+
 export const MedicamentoEmUso = z.object({
   farmacoId: z.string().min(1),
-  doseAtual: z.string().optional(),
+  posologia: PosologiaInformada.optional(),
   inicioUso: z.string().optional(),
 })
 export type MedicamentoEmUso = z.infer<typeof MedicamentoEmUso>
@@ -38,6 +51,24 @@ export const SinaisVitais = z.object({
 })
 export type SinaisVitais = z.infer<typeof SinaisVitais>
 
+/**
+ * Exames de função renal/hepática, usados para contextualizar (não calcular
+ * automaticamente) a necessidade de ajuste de dose. Valores de referência
+ * neonatais dependem de idade gestacional e pós-natal (ex.: creatinina reflete
+ * a materna nos primeiros dias); por isso o app mostra os valores informados
+ * junto ao critério, mas quem confirma a condição clínica (insuficiência
+ * renal/hepática) continua sendo o profissional.
+ */
+export const ExamesFuncaoOrgao = z.object({
+  creatininaSericaMgDl: z.number().positive().optional(),
+  clearanceCreatininaEstimado: z.number().positive().optional(),
+  bilirrubinaTotalMgDl: z.number().nonnegative().optional(),
+  tgoUl: z.number().nonnegative().optional(),
+  tgpUl: z.number().nonnegative().optional(),
+  diureseMlKgHora: z.number().nonnegative().optional(),
+})
+export type ExamesFuncaoOrgao = z.infer<typeof ExamesFuncaoOrgao>
+
 export const Paciente = z.object({
   identificador: z.string().optional(), // opcional: iniciais/prontuário, nunca dado sensível completo
   idadeGestacionalSemanas: z.number().min(20).max(45),
@@ -46,6 +77,7 @@ export const Paciente = z.object({
   pesoNascimentoG: z.number().positive().optional(),
   comprimentoCm: z.number().positive().optional(),
   sinaisVitais: SinaisVitais,
+  examesFuncaoOrgao: ExamesFuncaoOrgao,
   condicoesClinicas: z.array(CondicaoClinica),
   medicamentosEmUso: z.array(MedicamentoEmUso),
   patologiasParentais: z.array(PatologiaParentalSelecionada),
@@ -61,6 +93,7 @@ export function pacienteVazio(): Paciente {
     pesoNascimentoG: undefined,
     comprimentoCm: undefined,
     sinaisVitais: {},
+    examesFuncaoOrgao: {},
     condicoesClinicas: [],
     medicamentosEmUso: [],
     patologiasParentais: [],

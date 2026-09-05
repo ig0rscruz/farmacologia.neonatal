@@ -1,9 +1,10 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import type { Farmaco } from '../types/farmaco'
 import type { PatologiaParental } from '../types/patologiaParental'
-import type { Paciente, SinaisVitais } from '../types/paciente'
-import { CONDICAO_CLINICA_CRITERIO, CONDICAO_CLINICA_LABEL, CondicaoClinica } from '../types/comum'
+import type { ExamesFuncaoOrgao, Paciente, PosologiaInformada, SinaisVitais } from '../types/paciente'
+import { CondicaoClinica } from '../types/comum'
 import { sugerirCondicoesPorSinaisVitais } from '../engine/sinaisVitais'
+import { useLocale } from '../i18n/LocaleContext'
 
 interface Props {
   paciente: Paciente
@@ -15,8 +16,9 @@ interface Props {
 const TODAS_CONDICOES = CondicaoClinica.options
 
 export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, patologiasDisponiveis }: Props) {
+  const { t } = useLocale()
   const [novoMedicamentoId, setNovoMedicamentoId] = useState('')
-  const [novoMedicamentoDose, setNovoMedicamentoDose] = useState('')
+  const [novaPosologia, setNovaPosologia] = useState<PosologiaInformada>({})
   const [novaPatologiaId, setNovaPatologiaId] = useState('')
   const [novaPatologiaParentesco, setNovaPatologiaParentesco] = useState<'mae' | 'pai'>('mae')
 
@@ -26,6 +28,10 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
 
   function atualizarSinalVital<K extends keyof SinaisVitais>(campo: K, valor: SinaisVitais[K]) {
     atualizar('sinaisVitais', { ...paciente.sinaisVitais, [campo]: valor })
+  }
+
+  function atualizarExameFuncaoOrgao<K extends keyof ExamesFuncaoOrgao>(campo: K, valor: ExamesFuncaoOrgao[K]) {
+    atualizar('examesFuncaoOrgao', { ...paciente.examesFuncaoOrgao, [campo]: valor })
   }
 
   const sugestoesVitais = useMemo(() => sugerirCondicoesPorSinaisVitais(paciente), [paciente])
@@ -42,12 +48,13 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
 
   function adicionarMedicamento() {
     if (!novoMedicamentoId) return
+    const posologiaVazia = Object.values(novaPosologia).every((v) => v === undefined || v === '')
     atualizar('medicamentosEmUso', [
       ...paciente.medicamentosEmUso,
-      { farmacoId: novoMedicamentoId, doseAtual: novoMedicamentoDose || undefined },
+      { farmacoId: novoMedicamentoId, posologia: posologiaVazia ? undefined : novaPosologia },
     ])
     setNovoMedicamentoId('')
-    setNovoMedicamentoDose('')
+    setNovaPosologia({})
   }
 
   function removerMedicamento(index: number) {
@@ -76,18 +83,18 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
   return (
     <div className="space-y-6">
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">Dados do neonato</h2>
+        <h2 className="font-semibold text-slate-800 mb-2">{t.form.dadosNeonato}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-          <Campo label="Identificador (opcional)">
+          <Campo label={t.form.identificador}>
             <input
               type="text"
               className="input"
-              placeholder="Iniciais / nº prontuário"
+              placeholder={t.form.identificadorPlaceholder}
               value={paciente.identificador ?? ''}
               onChange={(e) => atualizar('identificador', e.target.value)}
             />
           </Campo>
-          <Campo label="Idade gestacional ao nascer (semanas)">
+          <Campo label={t.form.idadeGestacional}>
             <input
               type="number"
               className="input"
@@ -98,7 +105,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               onChange={(e) => atualizar('idadeGestacionalSemanas', Number(e.target.value))}
             />
           </Campo>
-          <Campo label="Idade pós-natal (dias de vida)">
+          <Campo label={t.form.idadePosNatal}>
             <input
               type="number"
               className="input"
@@ -107,7 +114,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               onChange={(e) => atualizar('idadePosNatalDias', Number(e.target.value))}
             />
           </Campo>
-          <Campo label="Peso atual (g)">
+          <Campo label={t.form.pesoAtual}>
             <input
               type="number"
               className="input"
@@ -116,7 +123,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               onChange={(e) => atualizar('pesoAtualG', Number(e.target.value))}
             />
           </Campo>
-          <Campo label="Peso ao nascer (g, opcional)">
+          <Campo label={t.form.pesoNascimento}>
             <input
               type="number"
               className="input"
@@ -125,7 +132,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               onChange={(e) => atualizar('pesoNascimentoG', e.target.value ? Number(e.target.value) : undefined)}
             />
           </Campo>
-          <Campo label="Comprimento (cm, opcional)">
+          <Campo label={t.form.comprimento}>
             <input
               type="number"
               className="input"
@@ -138,9 +145,9 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">Sinais vitais atuais (opcional)</h2>
+        <h2 className="font-semibold text-slate-800 mb-2">{t.form.sinaisVitais}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <Campo label="FC (bpm)">
+          <Campo label={t.form.fc}>
             <input
               type="number"
               className="input"
@@ -151,7 +158,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               }
             />
           </Campo>
-          <Campo label="FR (irpm)">
+          <Campo label={t.form.fr}>
             <input
               type="number"
               className="input"
@@ -165,7 +172,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               }
             />
           </Campo>
-          <Campo label="PA sistólica (mmHg)">
+          <Campo label={t.form.paSistolica}>
             <input
               type="number"
               className="input"
@@ -179,7 +186,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               }
             />
           </Campo>
-          <Campo label="PA diastólica (mmHg)">
+          <Campo label={t.form.paDiastolica}>
             <input
               type="number"
               className="input"
@@ -193,7 +200,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               }
             />
           </Campo>
-          <Campo label="PA média (mmHg)">
+          <Campo label={t.form.paMedia}>
             <input
               type="number"
               className="input"
@@ -207,7 +214,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               }
             />
           </Campo>
-          <Campo label="SatO2 (%)">
+          <Campo label={t.form.satO2}>
             <input
               type="number"
               className="input"
@@ -222,7 +229,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               }
             />
           </Campo>
-          <Campo label="Temperatura axilar (°C)">
+          <Campo label={t.form.temperatura}>
             <input
               type="number"
               className="input"
@@ -237,21 +244,19 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
 
         {sugestoesVitais.length > 0 && (
           <div className="mt-3 bg-sky-50 border border-sky-200 rounded p-3 space-y-1.5">
-            <p className="text-sm font-medium text-sky-900">
-              Sugestões automáticas com base nos sinais vitais informados (confirme antes de aplicar):
-            </p>
+            <p className="text-sm font-medium text-sky-900">{t.form.sugestoesTitulo}</p>
             {sugestoesVitais.map((s) => {
               const jaMarcada = paciente.condicoesClinicas.includes(s.condicao)
               return (
                 <div key={s.condicao} className="flex items-center justify-between text-sm">
                   <span>
-                    <strong>{CONDICAO_CLINICA_LABEL[s.condicao]}</strong> — {s.motivo}
+                    <strong>{t.condicoes[s.condicao]}</strong> — {s.motivo}
                   </span>
                   {jaMarcada ? (
-                    <span className="text-emerald-700 text-xs">já marcada</span>
+                    <span className="text-emerald-700 text-xs">{t.form.sugestaoJaMarcada}</span>
                   ) : (
                     <button type="button" className="btn-secondary text-xs" onClick={() => alternarCondicao(s.condicao)}>
-                      Confirmar
+                      {t.form.sugestaoConfirmar}
                     </button>
                   )}
                 </div>
@@ -262,9 +267,82 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">
-          Condições clínicas identificadas (anamnese / exames)
-        </h2>
+        <h2 className="font-semibold text-slate-800 mb-2">{t.form.examesOrgao}</h2>
+        <p className="text-xs text-slate-500 mb-2">{t.form.examesOrgaoAviso}</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <Campo label={t.form.creatinina}>
+            <input
+              type="number"
+              className="input"
+              step={0.01}
+              min={0}
+              value={paciente.examesFuncaoOrgao.creatininaSericaMgDl ?? ''}
+              onChange={(e) =>
+                atualizarExameFuncaoOrgao('creatininaSericaMgDl', e.target.value ? Number(e.target.value) : undefined)
+              }
+            />
+          </Campo>
+          <Campo label={t.form.clearance}>
+            <input
+              type="number"
+              className="input"
+              min={0}
+              value={paciente.examesFuncaoOrgao.clearanceCreatininaEstimado ?? ''}
+              onChange={(e) =>
+                atualizarExameFuncaoOrgao(
+                  'clearanceCreatininaEstimado',
+                  e.target.value ? Number(e.target.value) : undefined,
+                )
+              }
+            />
+          </Campo>
+          <Campo label={t.form.diurese}>
+            <input
+              type="number"
+              className="input"
+              step={0.1}
+              min={0}
+              value={paciente.examesFuncaoOrgao.diureseMlKgHora ?? ''}
+              onChange={(e) =>
+                atualizarExameFuncaoOrgao('diureseMlKgHora', e.target.value ? Number(e.target.value) : undefined)
+              }
+            />
+          </Campo>
+          <Campo label={t.form.bilirrubina}>
+            <input
+              type="number"
+              className="input"
+              step={0.1}
+              min={0}
+              value={paciente.examesFuncaoOrgao.bilirrubinaTotalMgDl ?? ''}
+              onChange={(e) =>
+                atualizarExameFuncaoOrgao('bilirrubinaTotalMgDl', e.target.value ? Number(e.target.value) : undefined)
+              }
+            />
+          </Campo>
+          <Campo label={t.form.tgo}>
+            <input
+              type="number"
+              className="input"
+              min={0}
+              value={paciente.examesFuncaoOrgao.tgoUl ?? ''}
+              onChange={(e) => atualizarExameFuncaoOrgao('tgoUl', e.target.value ? Number(e.target.value) : undefined)}
+            />
+          </Campo>
+          <Campo label={t.form.tgp}>
+            <input
+              type="number"
+              className="input"
+              min={0}
+              value={paciente.examesFuncaoOrgao.tgpUl ?? ''}
+              onChange={(e) => atualizarExameFuncaoOrgao('tgpUl', e.target.value ? Number(e.target.value) : undefined)}
+            />
+          </Campo>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="font-semibold text-slate-800 mb-2">{t.form.condicoesClinicas}</h2>
         <div className="grid grid-cols-1 gap-1.5">
           {TODAS_CONDICOES.map((condicao) => (
             <label key={condicao} className="flex items-start gap-2 text-sm text-slate-700">
@@ -275,10 +353,8 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
                 onChange={() => alternarCondicao(condicao)}
               />
               <span>
-                {CONDICAO_CLINICA_LABEL[condicao]}
-                {CONDICAO_CLINICA_CRITERIO[condicao] && (
-                  <span className="text-slate-500"> — {CONDICAO_CLINICA_CRITERIO[condicao]}</span>
-                )}
+                {t.condicoes[condicao]}
+                {t.criterios[condicao] && <span className="text-slate-500"> — {t.criterios[condicao]}</span>}
               </span>
             </label>
           ))}
@@ -286,41 +362,86 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">Medicamentos já em uso pelo neonato</h2>
+        <h2 className="font-semibold text-slate-800 mb-2">{t.form.medicamentosEmUso}</h2>
+        <p className="text-xs text-slate-500 mb-2">{t.form.medicamentosEmUsoAviso}</p>
         <div className="flex flex-wrap gap-2 mb-2">
-          <select className="input flex-1 min-w-[10rem]" value={novoMedicamentoId} onChange={(e) => setNovoMedicamentoId(e.target.value)}>
-            <option value="">Selecionar fármaco…</option>
+          <select
+            className="input flex-1 min-w-[10rem]"
+            value={novoMedicamentoId}
+            onChange={(e) => setNovoMedicamentoId(e.target.value)}
+          >
+            <option value="">{t.form.selecionarFarmaco}</option>
             {farmacosDisponiveis.map((f) => (
               <option key={f.id} value={f.id}>
                 {f.nome}
               </option>
             ))}
           </select>
+        </div>
+        <div className="flex flex-wrap gap-2 mb-2">
+          <input
+            type="number"
+            className="input w-24"
+            placeholder={t.form.dose}
+            value={novaPosologia.doseValor ?? ''}
+            onChange={(e) =>
+              setNovaPosologia((p) => ({ ...p, doseValor: e.target.value ? Number(e.target.value) : undefined }))
+            }
+          />
           <input
             type="text"
-            className="input flex-1 min-w-[8rem]"
-            placeholder="Dose atual (opcional)"
-            value={novoMedicamentoDose}
-            onChange={(e) => setNovoMedicamentoDose(e.target.value)}
+            className="input w-32"
+            placeholder={t.form.unidade}
+            value={novaPosologia.doseUnidade ?? ''}
+            onChange={(e) => setNovaPosologia((p) => ({ ...p, doseUnidade: e.target.value || undefined }))}
+          />
+          <input
+            type="number"
+            className="input w-24"
+            placeholder={t.form.aCada}
+            value={novaPosologia.intervaloHoras ?? ''}
+            onChange={(e) =>
+              setNovaPosologia((p) => ({ ...p, intervaloHoras: e.target.value ? Number(e.target.value) : undefined }))
+            }
+          />
+          <input
+            type="text"
+            className="input w-32"
+            placeholder={t.form.via}
+            value={novaPosologia.viaAdministracao ?? ''}
+            onChange={(e) => setNovaPosologia((p) => ({ ...p, viaAdministracao: e.target.value || undefined }))}
           />
           <button type="button" className="btn-secondary" onClick={adicionarMedicamento}>
-            Adicionar
+            {t.form.adicionar}
           </button>
         </div>
         <ListaRemovivel
-          itens={paciente.medicamentosEmUso.map(
-            (m) => farmacosDisponiveis.find((f) => f.id === m.farmacoId)?.nome ?? m.farmacoId,
-          )}
+          itens={paciente.medicamentosEmUso.map((m) => {
+            const nome = farmacosDisponiveis.find((f) => f.id === m.farmacoId)?.nome ?? m.farmacoId
+            if (!m.posologia) return nome
+            const { doseValor, doseUnidade, intervaloHoras, viaAdministracao } = m.posologia
+            const partes = [
+              doseValor !== undefined && `${doseValor} ${doseUnidade ?? ''}`.trim(),
+              intervaloHoras !== undefined && `${t.form.aCada.replace(' (h)', '')} ${intervaloHoras}h`,
+              viaAdministracao,
+            ].filter(Boolean)
+            return partes.length > 0 ? `${nome} — ${partes.join(', ')}` : nome
+          })}
           onRemover={removerMedicamento}
-          vazio="Nenhum medicamento em uso adicionado."
+          vazio={t.form.nenhumMedicamento}
+          removerLabel={t.form.remover}
         />
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">Patologias parentais (pai/mãe)</h2>
+        <h2 className="font-semibold text-slate-800 mb-2">{t.form.patologiasParentais}</h2>
         <div className="flex flex-wrap gap-2 mb-2">
-          <select className="input flex-1 min-w-[10rem]" value={novaPatologiaId} onChange={(e) => setNovaPatologiaId(e.target.value)}>
-            <option value="">Selecionar patologia…</option>
+          <select
+            className="input flex-1 min-w-[10rem]"
+            value={novaPatologiaId}
+            onChange={(e) => setNovaPatologiaId(e.target.value)}
+          >
+            <option value="">{t.form.selecionarPatologia}</option>
             {patologiasDisponiveis.map((p) => (
               <option key={p.id} value={p.id}>
                 {p.nome}
@@ -332,20 +453,21 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
             value={novaPatologiaParentesco}
             onChange={(e) => setNovaPatologiaParentesco(e.target.value as 'mae' | 'pai')}
           >
-            <option value="mae">Mãe</option>
-            <option value="pai">Pai</option>
+            <option value="mae">{t.form.mae}</option>
+            <option value="pai">{t.form.pai}</option>
           </select>
           <button type="button" className="btn-secondary" onClick={adicionarPatologia}>
-            Adicionar
+            {t.form.adicionar}
           </button>
         </div>
         <ListaRemovivel
           itens={paciente.patologiasParentais.map((p) => {
             const nome = patologiasDisponiveis.find((d) => d.id === p.patologiaId)?.nome ?? p.patologiaId
-            return `${nome} (${p.parentesco === 'mae' ? 'mãe' : 'pai'})`
+            return `${nome} (${p.parentesco === 'mae' ? t.form.mae : t.form.pai})`
           })}
           onRemover={removerPatologia}
-          vazio="Nenhuma patologia parental adicionada."
+          vazio={t.form.nenhumaPatologia}
+          removerLabel={t.form.remover}
         />
       </section>
     </div>
@@ -361,7 +483,17 @@ function Campo({ label, children }: { label: string; children: ReactNode }) {
   )
 }
 
-function ListaRemovivel({ itens, onRemover, vazio }: { itens: string[]; onRemover: (i: number) => void; vazio: string }) {
+function ListaRemovivel({
+  itens,
+  onRemover,
+  vazio,
+  removerLabel,
+}: {
+  itens: string[]
+  onRemover: (i: number) => void
+  vazio: string
+  removerLabel: string
+}) {
   if (itens.length === 0) {
     return <p className="text-sm text-slate-400 italic">{vazio}</p>
   }
@@ -371,7 +503,7 @@ function ListaRemovivel({ itens, onRemover, vazio }: { itens: string[]; onRemove
         <li key={i} className="flex items-center justify-between bg-slate-100 rounded px-3 py-1.5 text-sm">
           <span>{texto}</span>
           <button type="button" className="text-red-600 hover:underline" onClick={() => onRemover(i)}>
-            remover
+            {removerLabel}
           </button>
         </li>
       ))}

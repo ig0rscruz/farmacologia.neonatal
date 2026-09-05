@@ -76,5 +76,327 @@
         "dataAcesso": "2026-09-04"
       }
     ]
+  },
+  {
+    "id": "hiv-aids-materna",
+    "nome": "HIV/AIDS materna",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão vertical pode ocorrer intraútero, no periparto ou pela amamentação. Sem qualquer profilaxia, o risco de transmissão é de aproximadamente 15-45%; com profilaxia antirretroviral materna (pré-natal/intraparto) e neonatal adequadas, o risco cai para menos de 1%.",
+    "riscosNeonato": [
+      "Infecção por HIV (se transmissão vertical não prevenida)",
+      "Necessidade de profilaxia antirretroviral neonatal (zidovudina isolada ou associada a nevirapina conforme estratificação de risco)",
+      "Exposição a efeitos adversos dos antirretrovirais profiláticos"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Antirretroviral (inibidor da transcriptase reversa análogo de nucleosídeo)",
+        "implicacao": "monitorar",
+        "conduta": "Recém-nascidos com IG ≥ 35 semanas e exposição de baixo risco: zidovudina profilática por 6 semanas (dose usual ~4 mg/kg a cada 12h, ajustada por idade gestacional). Exposição de alto risco (profilaxia materna ausente/incompleta ou carga viral materna elevada no parto): associar 3 doses de nevirapina na primeira semana de vida, conforme diretriz vigente.",
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "Panel on Treatment of HIV During Pregnancy and Prevention of Perinatal Transmission. Antiretroviral Management of Newborns With Perinatal HIV Exposure or HIV Infection. HHS/NIH Perinatal HIV Clinical Guidelines (atualização contínua). Referência histórica de eficácia: PACTG 076 (Connor EM et al., NEJM 1994) demonstrou redução de ~70% na transmissão vertical com zidovudina materna/neonatal.",
+            "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/management-infants-arv-hiv-exposure-infection",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "A",
+    "fontes": [
+      {
+        "tipo": "diretriz_sociedade",
+        "descricao": "Panel on Treatment of HIV During Pregnancy and Prevention of Perinatal Transmission. Perinatal HIV Clinical Guidelines. NIH/HHS (clinicalinfo.hiv.gov), atualização contínua.",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/management-infants-arv-hiv-exposure-infection",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "hepatite-b-materna",
+    "nome": "Hepatite B materna",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão vertical principalmente periparto. Sem profilaxia, risco de 70-90% se a mãe é HBeAg-positiva e de 10-40% se HBeAg-negativa. Imunoprofilaxia neonatal (imunoglobulina anti-hepatite B + vacina, ambas nas primeiras 12-24h de vida) reduz o risco para 5-10%; pode haver falha em até 30% dos filhos de mães HBeAg-positivas com carga viral muito elevada, daí a recomendação adicional de antiviral materno no 3º trimestre nesses casos.",
+    "riscosNeonato": [
+      "Infecção crônica por HBV (risco de cronificação é inversamente proporcional à idade na infecção — muito maior quando adquirida no período neonatal)",
+      "Falha de imunoprofilaxia em mães com alta carga viral/HBeAg positivo"
+    ],
+    "implicacoesTratamento": [],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "di Filippo Villa D, Navas MC. Vertical Transmission of Hepatitis B Virus—An Update. Microorganisms. 2023;11(5):1140.",
+        "url": "https://doi.org/10.3390/microorganisms11051140",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "hepatite-c-materna",
+    "nome": "Hepatite C materna",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão vertical ocorre em cerca de 5.8-10.8% dos filhos de mães RNA-HCV positivas (risco maior com coinfecção por HIV ou carga viral materna elevada). Não há imunoprofilaxia disponível para o neonato; via de parto e amamentação não alteram significativamente o risco de transmissão.",
+    "riscosNeonato": [
+      "Infecção crônica por HCV (necessidade de rastreamento sorológico/molecular no seguimento)"
+    ],
+    "implicacoesTratamento": [],
+    "nivelEvidencia": "A",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Benova L, Mohamoud YA, Calvert C, Abu-Raddad LJ. Vertical Transmission of Hepatitis C Virus: Systematic Review and Meta-analysis. Clin Infect Dis. 2014;59(6):765-773.",
+        "url": "https://doi.org/10.1093/cid/ciu447",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "hepatite-d-materna",
+    "nome": "Hepatite D (Delta) materna",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Requer coinfecção materna com hepatite B; transmissão vertical do vírus Delta em si é rara — provavelmente porque a carga de HBV (necessária para o HDV se replicar) tende a ser menor em coinfectados. A mesma imunoprofilaxia padrão contra hepatite B (imunoglobulina + vacina ao nascer) parece eficaz também na prevenção da transmissão de HDV.",
+    "riscosNeonato": [
+      "Risco de transmissão vertical direta do HDV é baixo",
+      "Risco indireto ligado à gravidade da doença hepática materna (coinfecção HBV/HDV progride mais rapidamente para cirrose)"
+    ],
+    "implicacoesTratamento": [],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Aliasi-Sinai L, et al. Maternal-to-Child Transmission of Hepatitis B Virus and Hepatitis Delta Virus. Clin Liver Dis. 2023;27(4):917-935.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "hepatite-a-materna",
+    "nome": "Hepatite A materna",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Ao contrário das hepatites B/C/D, a hepatite A é transmitida predominantemente por via fecal-oral, não por rota vertical clássica. Transmissão intraútero/perinatal é muito rara, mas casos pontuais foram descritos, sobretudo quando a infecção materna ocorre próximo ao parto.",
+    "riscosNeonato": [
+      "Na maioria dos casos, nenhum efeito adverso neonatal é observado",
+      "Raros relatos de complicações gastrointestinais neonatais (ex.: peritonite meconial) associados a casos de transmissão perinatal"
+    ],
+    "implicacoesTratamento": [],
+    "nivelEvidencia": "C",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Elinav E, et al. Acute hepatitis A in pregnancy — revisão de casos descrevendo raridade de transmissão vertical, sem intervenção farmacológica neonatal específica indicada na maioria dos casos.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "sifilis-materna",
+    "nome": "Sífilis materna (sífilis congênita)",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão transplacentária, podendo ocorrer em qualquer fase da gestação; risco maior com sífilis primária/secundária materna não tratada ou tratada de forma inadequada/tardia.",
+    "riscosNeonato": [
+      "Sífilis congênita (óbito fetal, prematuridade, hepatoesplenomegalia, anormalidades ósseas, neurosífilis)",
+      "Necessidade de tratamento neonatal mesmo em recém-nascidos assintomáticos, conforme adequação do tratamento materno"
+    ],
+    "implicacoesTratamento": [
+      {
+        "farmacoId": "ampicilina",
+        "implicacao": "monitorar",
+        "conduta": "Penicilina cristalina aquosa IV (50.000 U/kg/dose a cada 12h nos primeiros 7 dias, depois a cada 8h, por 10 dias) permanece o tratamento padrão-ouro para sífilis congênita — não substituir por ampicilina rotineiramente. Revisão narrativa de 2024 aponta ampicilina/ceftriaxona como possíveis alternativas parenterais em cenários de indisponibilidade de penicilina, mas a evidência ainda é limitada.",
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "Walker GJA, Walker D, Molano Franco D, Grillo-Ardila CF. Antibiotic treatment for newborns with congenital syphilis. Cochrane Database Syst Rev. 2019;2019(2):CD012071.",
+            "url": "https://doi.org/10.1002/14651858.CD012071.pub2",
+            "dataAcesso": "2026-09-05"
+          },
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "Villarreal DD, Le J, Klausner JD. Congenital Syphilis — Comprehensive Narrative Review of Alternative Antibiotic Treatment for Use in Neonates. Sex Transm Dis. 2024;51(12):775-779.",
+            "url": "https://doi.org/10.1097/OLQ.0000000000002057",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "A",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Walker GJA, Walker D, Molano Franco D, Grillo-Ardila CF. Antibiotic treatment for newborns with congenital syphilis. Cochrane Database Syst Rev. 2019;2019(2):CD012071.",
+        "url": "https://doi.org/10.1002/14651858.CD012071.pub2",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "toxoplasmose-gestacional",
+    "nome": "Toxoplasmose gestacional",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão transplacentária; o risco de transmissão fetal aumenta com a idade gestacional na infecção materna, mas a gravidade do acometimento fetal é maior quando a infecção ocorre precocemente na gestação.",
+    "riscosNeonato": [
+      "Coriorretinite",
+      "Calcificações intracranianas e hidrocefalia",
+      "Microcefalia e comprometimento neurológico"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Antifólico antiparasitário (pirimetamina)",
+        "implicacao": "monitorar",
+        "conduta": "Tratamento neonatal padrão: pirimetamina + sulfadiazina + ácido folínico por 12 meses. Pirimetamina causa mielossupressão dose-dependente — hemograma deve ser monitorado periodicamente durante todo o tratamento; ácido folínico é coadministrado justamente para mitigar esse risco.",
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "Maldonado YA, Read JS; Committee on Infectious Diseases, American Academy of Pediatrics. Diagnosis, Treatment, and Prevention of Congenital Toxoplasmosis in the United States. Pediatrics. 2017;139(2):e20163860.",
+            "url": "https://doi.org/10.1542/peds.2016-3860",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "A",
+    "fontes": [
+      {
+        "tipo": "diretriz_sociedade",
+        "descricao": "Maldonado YA, Read JS; Committee on Infectious Diseases, American Academy of Pediatrics. Diagnosis, Treatment, and Prevention of Congenital Toxoplasmosis in the United States. Pediatrics. 2017;139(2):e20163860.",
+        "url": "https://doi.org/10.1542/peds.2016-3860",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "cmv-gestacional",
+    "nome": "Citomegalovírus (CMV) — primoinfecção gestacional",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão transplacentária; risco de transmissão fetal é maior com primoinfecção materna (vs. reativação/reinfecção), mas a gravidade do acometimento é maior quando a infecção fetal ocorre no início da gestação.",
+    "riscosNeonato": [
+      "Microcefalia e calcificações periventriculares",
+      "Perda auditiva neurossensorial (pode ser tardia/progressiva)",
+      "Coriorretinite"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Antiviral (ganciclovir/valganciclovir)",
+        "implicacao": "monitorar",
+        "conduta": "Terapia antiviral (valganciclovir oral, ou ganciclovir IV seguido de valganciclovir em doença grave) é reservada para CMV congênito sintomático ao nascimento (ex.: microcefalia, calcificações, alteração liquórica, coriorretinite, perda auditiva) — não há evidência de benefício em infecção assintomática. Requer monitorização de neutropenia durante o tratamento.",
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "Revisão da literatura sobre papel do valganciclovir em CMV congênito sintomático: tratamento por 6 meses associado a melhores desfechos auditivos/neurodesenvolvimento a longo prazo comparado a 6 semanas.",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "Revisão sistemática de escopo sobre definições de gravidade e decisões de tratamento em CMV congênito ao redor do mundo — heterogeneidade significativa entre estudos, poucos ensaios clínicos randomizados disponíveis.",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "rubeola-gestacional",
+    "nome": "Rubéola congênita (infecção materna gestacional)",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão transplacentária; risco de transmissão fetal excede 80-90% quando a infecção materna ocorre no primeiro trimestre, com gravidade inversamente proporcional à idade gestacional na infecção.",
+    "riscosNeonato": [
+      "Tríade clássica: catarata congênita, cardiopatia congênita (frequentemente persistência do canal arterial ou estenose de artéria pulmonar) e surdez neurossensorial",
+      "Microcefalia e retardo de crescimento intrauterino"
+    ],
+    "implicacoesTratamento": [
+      {
+        "farmacoId": "indometacina",
+        "implicacao": "usar_com_cautela",
+        "conduta": "A persistência do canal arterial (PCA) associada à síndrome da rubéola congênita costuma fazer parte de uma cardiopatia estrutural mais ampla (ex.: associada a estenose de artéria pulmonar) e pode ser canal-dependente ou responder mal ao fechamento farmacológico. Avaliação ecocardiográfica cuidadosa é indicada antes de indicar indometacina/ibuprofeno — o PCA da rubéola congênita não deve ser tratado como o PCA isolado da prematuridade.",
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "De Melo LC, et al. Congenital Rubella Syndrome in the Post-Elimination Era: Why Vigilance Remains Essential. J Clin Med. 2025;14(11):3986. Descreve a tríade clássica incluindo cardiopatia congênita (PCA/estenose pulmonar) como manifestação estrutural da síndrome.",
+            "url": "https://doi.org/10.3390/jcm14113986",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "De Melo LC, Rugna MM, Durães TA, Pereira SS, Callado GY, Pires P, Traina E, Araujo Júnior E, Granese R. Congenital Rubella Syndrome in the Post-Elimination Era: Why Vigilance Remains Essential. J Clin Med. 2025;14(11):3986.",
+        "url": "https://doi.org/10.3390/jcm14113986",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "chagas-materna",
+    "nome": "Doença de Chagas materna (Chagas congênito)",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão transplacentária pode ocorrer em qualquer fase da gestação e em gestações subsequentes de uma mesma mãe infectada; tratamento tripanocida materno antes da gestação reduz substancialmente (idealmente elimina) o risco de transmissão congênita.",
+    "riscosNeonato": [
+      "Chagas congênito — geralmente assintomático ao nascer, mas com risco de miocardite, hepatoesplenomegalia e meningoencefalite em casos sintomáticos",
+      "Todo caso de Chagas congênito confirmado deve ser tratado"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Tripanocida (benznidazol/nifurtimox)",
+        "implicacao": "monitorar",
+        "conduta": "Tratamento neonatal com benznidazol ou nifurtimox tem taxa de cura > 90% quando iniciado no primeiro ano de vida. Nifurtimox é aprovado pela FDA desde o nascimento; benznidazol é aprovado para 2-12 anos, com uso neonatal fora de bula quando indicado.",
+        "fontes": [
+          {
+            "tipo": "artigo_cientifico",
+            "descricao": "de Moraes FCA, Souza MEC, Dal Moro L, Donadon IB, da Silva ER, de Souza DSM, Burbano RMR. Prevention of congenital chagas disease by trypanocide treatment in women of reproductive age: A meta-analysis of observational studies. PLoS Negl Trop Dis. 2024;18(9):e0012407.",
+            "url": "https://doi.org/10.1371/journal.pntd.0012407",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "artigo_cientifico",
+        "descricao": "de Moraes FCA, Souza MEC, Dal Moro L, Donadon IB, da Silva ER, de Souza DSM, Burbano RMR. Prevention of congenital chagas disease by trypanocide treatment in women of reproductive age: A meta-analysis of observational studies. PLoS Negl Trop Dis. 2024;18(9):e0012407.",
+        "url": "https://doi.org/10.1371/journal.pntd.0012407",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
+    "id": "tuberculose-materna",
+    "nome": "Tuberculose materna ativa",
+    "parentesco": "mae",
+    "descricaoTransmissao": "Transmissão ao neonato é predominantemente pós-natal, por via respiratória a partir de mãe bacilífera — transmissão congênita verdadeira (transplacentária/líquido amniótico) é rara. O risco pós-natal depende do status bacilífero e da adesão ao tratamento materno.",
+    "riscosNeonato": [
+      "Tuberculose neonatal (rara, mas potencialmente grave)",
+      "Necessidade de quimioprofilaxia com isoniazida se mãe bacilífera não tratada/tratamento recente"
+    ],
+    "implicacoesTratamento": [
+      {
+        "classeFarmacologica": "Antituberculostático (isoniazida)",
+        "implicacao": "monitorar",
+        "conduta": "Quimioprofilaxia com isoniazida por 3-6 meses é recomendada em neonatos de mães bacilíferas; vacina BCG é postergada até o término da profilaxia (ou administrada ao nascer junto com isoniazida se o seguimento não puder ser garantido, conforme diretriz local). Evidência de qualidade limitada — revisão de 2024 encontrou apenas 3 estudos elegíveis de 521 triados, sem conclusões definitivas baseadas em evidência forte.",
+        "fontes": [
+          {
+            "tipo": "diretriz_sociedade",
+            "descricao": "Hasan N, Nourse C, Schaaf HS, Bekker A, Loveday M, Alcântara Gabardo BM, Coulter C, Chabala C, Kabra S, Moore E, Maleche-Obimbo E, Salazar-Austin N, Ritz N, Starke JR, Steenhoff AP, Triasih R, Welch SB, Marais BJ. Management of the infant born to a mother with tuberculosis: a systematic review and consensus practice guideline. Lancet Child Adolesc Health. 2024;8(5):369-378.",
+            "url": "https://doi.org/10.1016/S2352-4642(23)00345-0",
+            "dataAcesso": "2026-09-05"
+          }
+        ]
+      }
+    ],
+    "nivelEvidencia": "B",
+    "fontes": [
+      {
+        "tipo": "diretriz_sociedade",
+        "descricao": "Hasan N, Nourse C, Schaaf HS, Bekker A, Loveday M, Alcântara Gabardo BM, Coulter C, Chabala C, Kabra S, Moore E, Maleche-Obimbo E, Salazar-Austin N, Ritz N, Starke JR, Steenhoff AP, Triasih R, Welch SB, Marais BJ. Management of the infant born to a mother with tuberculosis: a systematic review and consensus practice guideline. Lancet Child Adolesc Health. 2024;8(5):369-378.",
+        "url": "https://doi.org/10.1016/S2352-4642(23)00345-0",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
   }
 ]

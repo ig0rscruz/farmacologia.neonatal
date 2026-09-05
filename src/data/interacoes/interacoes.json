@@ -11,8 +11,9 @@
     "fontes": [
       {
         "tipo": "artigo_cientifico",
-        "descricao": "EXEMPLO — interação aminoglicosídeo + diurético de alça amplamente descrita na literatura de farmacologia neonatal. Substituir por referência específica revisada.",
-        "dataAcesso": "2026-09-04"
+        "descricao": "Jackson W, Taylor G, Selewski D, Smith PB, Tolleson-Rinehart S, Laughon MM. Association between furosemide in premature infants and sensorineural hearing loss and nephrocalcinosis: a systematic review. Matern Health Neonatol Perinatol. 2018;4:23. Achado: lactentes com perda auditiva receberam maiores quantidades de furosemida por períodos mais longos, com frequência em combinação com aminoglicosídeo ou vancomicina; a revisão reconhece que múltiplos agentes ototóxicos concomitantes confundem a relação isolada furosemida-audição.",
+        "url": "https://doi.org/10.1186/s40748-018-0092-2",
+        "dataAcesso": "2026-09-05"
       }
     ]
   },
@@ -20,15 +21,16 @@
     "id": "gentamicina_vancomicina",
     "farmacoAId": "gentamicina",
     "farmacoBId": "vancomicina",
-    "gravidade": "grave",
-    "mecanismo": "Ambos os fármacos têm potencial nefrotóxico e ototóxico independente; o uso concomitante é aditivo/sinérgico.",
-    "efeitoClinico": "Risco aumentado de lesão renal aguda e de perda auditiva sensorioneural.",
-    "conduta": "Quando a associação for clinicamente necessária, monitorar função renal (creatinina seriada) e níveis séricos de ambos os fármacos quando disponível; considerar triagem auditiva.",
+    "gravidade": "moderada",
+    "mecanismo": "Ambos os fármacos têm potencial nefrotóxico e ototóxico independente; associação teoricamente aditiva, embora estudo de coorte pareado por escore de propensão não tenha demonstrado aumento estatisticamente significativo de lesão renal aguda ao adicionar vancomicina ao uso de gentamicina isolada.",
+    "efeitoClinico": "Risco teórico aumentado de lesão renal aguda e de perda auditiva sensorioneural; evidência de coorte pareada (n=1066) não confirmou aumento significativo de LRA com a associação vs. gentamicina isolada (OR 1.5; IC95% 0.6-4.0).",
+    "conduta": "Associação amplamente utilizada na prática clínica para cobertura empírica de sepse tardia. Monitorar função renal (creatinina seriada) e níveis séricos de ambos os fármacos quando disponível; não é necessário evitar a associação por rotina, mas manter vigilância.",
     "nivelEvidencia": "B",
     "fontes": [
       {
         "tipo": "artigo_cientifico",
-        "descricao": "EXEMPLO — interação aminoglicosídeo + glicopeptídeo amplamente descrita na literatura de farmacologia neonatal. Substituir por referência específica revisada.",
+        "descricao": "Constance JE, Balch AH, Stockmann C, Linakis MW, Korgenski EK, Roberts JK, Ward RM, Sherwin CMT, Spigarelli MG. A propensity-matched cohort study of vancomycin-associated nephrotoxicity in neonates. Arch Dis Child Fetal Neonatal Ed. 2016;101(3):F236-43.",
+        "url": "https://doi.org/10.1136/archdischild-2015-308459",
         "dataAcesso": "2026-09-05"
       }
     ]
@@ -39,13 +41,14 @@
     "farmacoBId": "indometacina",
     "gravidade": "grave",
     "mecanismo": "Indometacina reduz o fluxo sanguíneo renal por inibição de prostaglandinas; associado a aminoglicosídeo nefrotóxico, o risco de lesão renal é potencializado.",
-    "efeitoClinico": "Risco aumentado de lesão renal aguda e de acúmulo do aminoglicosídeo por redução da depuração renal.",
+    "efeitoClinico": "Risco aumentado de lesão renal aguda: em coorte de neonatos com PCA em uso de gentamicina, a exposição a AINE (indometacina/ibuprofeno) associou-se a 14.8% de incidência de LRA vs. 9.1% sem exposição (risco atribuível de 5.7%). Também há risco de acúmulo do aminoglicosídeo por redução da depuração renal.",
     "conduta": "Monitorar função renal e diurese rigorosamente durante o curso de indometacina; considerar prolongar intervalo de dose da gentamicina ou monitorar nível sérico.",
     "nivelEvidencia": "B",
     "fontes": [
       {
         "tipo": "artigo_cientifico",
-        "descricao": "EXEMPLO — interação anti-inflamatório inibidor da COX + aminoglicosídeo. Substituir por referência específica revisada.",
+        "descricao": "Constance JE, Reith D, Ward RM, Balch A, Stockmann C, Korgenski EK, Thorell EA, Sherwin CMT. Risk of nonsteroidal anti-inflammatory drug-associated renal dysfunction among neonates diagnosed with patent ductus arteriosus and treated with gentamicin. J Perinatol. 2017;37(10):1093-1102.",
+        "url": "https://doi.org/10.1038/jp.2017.80",
         "dataAcesso": "2026-09-05"
       }
     ]
@@ -56,13 +59,14 @@
     "farmacoBId": "midazolam",
     "gravidade": "grave",
     "mecanismo": "Opioide e benzodiazepínico têm efeito depressor do SNC e respiratório sinérgico (não meramente aditivo) quando associados.",
-    "efeitoClinico": "Risco aumentado de depressão respiratória, apneia e hipotensão além do esperado por cada fármaco isoladamente.",
-    "conduta": "Se a associação for necessária, reduzir as doses individuais em relação ao uso isolado, monitorizar continuamente padrão respiratório, SatO2 e pressão arterial, e ter suporte ventilatório prontamente disponível.",
+    "efeitoClinico": "Hipotensão grave foi relatada com a coadministração de fentanila e midazolam em neonatos, incluindo casos em infusão contínua de um dos fármacos que receberam injeção rápida do outro. Risco aumentado de depressão respiratória e apneia além do esperado por cada fármaco isoladamente.",
+    "conduta": "Se a associação for necessária, usar com grande cautela — especialmente em prematuros extremos ou instabilidade pressórica —, reduzir as doses individuais e evitar bolus rápido, monitorizar continuamente padrão respiratório, SatO2 e pressão arterial, e ter suporte ventilatório prontamente disponível.",
     "nivelEvidencia": "B",
     "fontes": [
       {
-        "tipo": "artigo_cientifico",
-        "descricao": "EXEMPLO — sinergismo de depressão respiratória entre opioides e benzodiazepínicos, amplamente descrito na literatura. Substituir por referência específica revisada.",
+        "tipo": "diretriz_sociedade",
+        "descricao": "Australian and New Zealand Neonatal Medicines Formulary (ANMF) — monografia de Midazolam, v3.0 (2021), grupo de consenso NeoMED: alerta que hipotensão grave foi descrita com a coadministração de fentanila e midazolam em neonatos, e recomenda cautela especial com bolus IV em recém-nascidos muito prematuros ou hemodinamicamente instáveis.",
+        "url": "https://www.anmfonline.org/wp-content/uploads/2022/08/Midazolam_ANMFv3.0_20210916.pdf",
         "dataAcesso": "2026-09-05"
       }
     ]

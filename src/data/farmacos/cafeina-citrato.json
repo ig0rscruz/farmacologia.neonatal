@@ -23,7 +23,7 @@
       "doseUnidade": "mg/kg/dia (citrato de cafeína)",
       "intervaloHoras": 24,
       "viaAdministracao": "Intravenosa ou oral",
-      "observacoes": "Dose de manutenção, iniciar 24h após dose de ataque. Faixa usual 5-10 mg/kg/dia."
+      "observacoes": "Dose de manutenção, iniciar 24h após dose de ataque. Faixa usual 5-10 mg/kg/dia; doses mais altas (10-20 mg/kg/dia) têm eficácia superior segundo meta-análise (ver fontes), à custa de maior incidência de taquicardia — individualizar."
     }
   ],
   "contraindicacoes": [
@@ -41,13 +41,14 @@
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — Bula de citrato de cafeína injetável/oral (ANVISA). Substituir pela versão vigente antes de uso clínico.",
-      "dataAcesso": "2026-09-04"
+      "tipo": "artigo_cientifico",
+      "descricao": "Chen J, Jin L, Chen X. Efficacy and Safety of Different Maintenance Doses of Caffeine Citrate for Treatment of Apnea in Premature Infants: A Systematic Review and Meta-Analysis. BioMed Research International. 2018;2018:9061234. Conclusão: doses de manutenção mais altas (10-20 mg/kg/dia) mostraram-se mais eficazes e igualmente seguras que doses baixas (5-10 mg/kg/dia), com maior incidência de taquicardia no grupo de dose alta.",
+      "url": "https://doi.org/10.1155/2018/9061234",
+      "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
-    "data": "2026-09-04",
-    "revisadoPor": "EXEMPLO — pendente de revisão por profissional responsável"
+    "data": "2026-09-05",
+    "revisadoPor": "Revisão de literatura (PubMed/sistemática) assistida por IA — carece de validação formal por profissional responsável e checagem contra protocolo institucional e bula vigente antes de uso clínico"
   }
 }
