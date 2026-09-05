@@ -1,0 +1,43 @@
+{
+  "id": "tobramicina-oftalmica",
+  "nome": { "pt-BR": "Tobramicina oftálmica", "en-US": "Tobramycin ophthalmic", "es": "Tobramicina oftálmica" },
+  "nomeGenerico": { "pt-BR": "Tobramicina (colírio/pomada oftálmica)", "en-US": "Tobramycin (ophthalmic drops/ointment)", "es": "Tobramicina (colirio/pomada oftálmica)" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico aminoglicosídeo tópico oftálmico", "en-US": "Topical ophthalmic aminoglycoside antibiotic", "es": "Antibiótico aminoglucósido tópico oftálmico" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Conjuntivite bacteriana neonatal por organismos sensíveis (após triagem para gonococo/clamídia, que exigem tratamento sistêmico específico)"],
+    "en-US": ["Neonatal bacterial conjunctivitis due to susceptible organisms (after screening for gonococcus/chlamydia, which require specific systemic treatment)"],
+    "es": ["Conjuntivitis bacteriana neonatal por organismos sensibles (tras el cribado de gonococo/clamidia, que requieren tratamiento sistémico específico)"]
+  },
+  "viasAdministracao": ["topica"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "aplicação em cada olho afetado",
+      "intervaloHoras": 6,
+      "viaAdministracao": "topica",
+      "observacoes": {
+        "pt-BR": "Aplicar colírio ou fita fina de pomada a cada 6-8h por 5-7 dias, conforme apresentação e gravidade. Não substitui investigação/tratamento de conjuntivite gonocócica ou por clamídia, que requerem terapia sistêmica.",
+        "en-US": "Apply drops or a thin ointment strip every 6-8h for 5-7 days, depending on formulation and severity. Does not replace investigation/treatment of gonococcal or chlamydial conjunctivitis, which require systemic therapy.",
+        "es": "Aplicar colirio o una fina cinta de pomada cada 6-8h durante 5-7 días, según presentación y gravedad. No sustituye la investigación/tratamiento de la conjuntivitis gonocócica o por clamidia, que requieren terapia sistémica."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Absorção sistêmica tópica é mínima, mas não elimina necessidade de excluir causas que exigem tratamento sistêmico", "Persistência ou piora dos sintomas exige reavaliação e investigação etiológica"],
+    "en-US": ["Topical systemic absorption is minimal, but does not eliminate the need to exclude causes requiring systemic treatment", "Persistence or worsening of symptoms requires reevaluation and etiologic investigation"],
+    "es": ["La absorción sistémica tópica es mínima, pero no elimina la necesidad de excluir causas que requieren tratamiento sistémico", "La persistencia o el empeoramiento de los síntomas exige reevaluación e investigación etiológica"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "bula_anvisa",
+      "descricao": "EXEMPLO — bula de tobramicina oftálmica (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

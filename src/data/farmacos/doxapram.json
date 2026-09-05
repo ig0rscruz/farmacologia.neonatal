@@ -1,0 +1,56 @@
+{
+  "id": "doxapram",
+  "nome": { "pt-BR": "Doxapram", "en-US": "Doxapram", "es": "Doxapram" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de doxapram", "en-US": "Doxapram hydrochloride", "es": "Clorhidrato de doxapram" },
+  "classeFarmacologica": { "pt-BR": "Estimulante respiratório", "en-US": "Respiratory stimulant", "es": "Estimulante respiratorio" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Apneia da prematuridade refratária à cafeína (uso de segunda linha, restrito)"],
+    "en-US": ["Apnea of prematurity refractory to caffeine (restricted second-line use)"],
+    "es": ["Apnea de la prematuridad refractaria a la cafeína (uso de segunda línea, restringido)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 0.5,
+      "doseUnidade": "mg/kg/hora (infusão contínua)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Iniciar em infusão contínua baixa e titular conforme resposta (faixa usual 0.5-1.5 mg/kg/hora); monitorização contínua obrigatória. Uso de segunda linha, após falha de cafeína.",
+        "en-US": "Start at a low continuous infusion and titrate based on response (usual range 0.5-1.5 mg/kg/hour); continuous monitoring is mandatory. Second-line use, after caffeine failure.",
+        "es": "Iniciar con una infusión continua baja y titular según la respuesta (rango usual 0.5-1.5 mg/kg/hora); la monitorización continua es obligatoria. Uso de segunda línea, tras el fracaso de la cafeína."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipertensao",
+      "descricao": { "pt-BR": "Pode elevar pressão arterial e frequência cardíaca por estimulação simpática", "en-US": "May increase blood pressure and heart rate via sympathetic stimulation", "es": "Puede elevar la presión arterial y la frecuencia cardíaca por estimulación simpática" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial e frequência cardíaca continuamente durante a infusão", "en-US": "Monitor blood pressure and heart rate continuously during infusion", "es": "Monitorizar la presión arterial y la frecuencia cardíaca de forma continua durante la infusión" }
+    },
+    {
+      "condicao": "risco_neurotoxicidade",
+      "descricao": { "pt-BR": "Formulação contém benzoato de sódio como conservante em algumas apresentações — preocupação teórica de deslocamento de bilirrubina; irritabilidade/tremor têm sido relatados", "en-US": "The formulation contains sodium benzoate as a preservative in some presentations — theoretical concern of bilirubin displacement; irritability/tremor have been reported", "es": "La formulación contiene benzoato de sodio como conservante en algunas presentaciones — preocupación teórica de desplazamiento de bilirrubina; se han reportado irritabilidad/temblor" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Verificar formulação disponível; monitorar sinais neurológicos e bilirrubina se ictérico", "en-US": "Check the available formulation; monitor neurologic signs and bilirubin if jaundiced", "es": "Verificar la formulación disponible; monitorizar los signos neurológicos y la bilirrubina si hay ictericia" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso de segunda linha, restrito a apneia refratária à cafeína em ambiente com monitorização contínua", "Evidência de eficácia e segurança neonatal é limitada comparada à cafeína"],
+    "en-US": ["Second-line use, restricted to caffeine-refractory apnea in a continuously monitored setting", "Neonatal efficacy and safety evidence is limited compared to caffeine"],
+    "es": ["Uso de segunda línea, restringido a la apnea refractaria a la cafeína en un entorno con monitorización continua", "La evidencia de eficacia y seguridad neonatal es limitada en comparación con la cafeína"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — revisão sobre doxapram para apneia da prematuridade refratária. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

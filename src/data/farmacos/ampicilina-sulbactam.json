@@ -1,0 +1,56 @@
+{
+  "id": "ampicilina-sulbactam",
+  "nome": { "pt-BR": "Ampicilina-sulbactam", "en-US": "Ampicillin-sulbactam", "es": "Ampicilina-sulbactam" },
+  "nomeGenerico": { "pt-BR": "Ampicilina sódica + sulbactam sódico", "en-US": "Ampicillin sodium + sulbactam sodium", "es": "Ampicilina sódica + sulbactam sódico" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico betalactâmico associado a inibidor de betalactamase", "en-US": "Beta-lactam antibiotic combined with a beta-lactamase inhibitor", "es": "Antibiótico betalactámico asociado a inhibidor de betalactamasa" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Infecções por organismos produtores de betalactamase sensíveis à combinação (ex.: alguns casos de infecção intra-abdominal complicada)"],
+    "en-US": ["Infections due to beta-lactamase-producing organisms susceptible to the combination (e.g., some cases of complicated intra-abdominal infection)"],
+    "es": ["Infecciones por organismos productores de betalactamasa sensibles a la combinación (p. ej., algunos casos de infección intraabdominal complicada)"]
+  },
+  "viasAdministracao": ["intravenosa", "intramuscular"],
+  "faixasDose": [
+    {
+      "pmaMaxSemanas": 29.9,
+      "dolMaxDias": 28,
+      "doseValor": 100,
+      "doseUnidade": "mg/kg/dia (componente ampicilina)",
+      "intervaloHoras": 12,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "Dose expressa em componente ampicilina; dividir a cada 12h em prematuros extremos nas primeiras semanas.", "en-US": "Dose expressed as the ampicillin component; divide every 12h in extremely preterm infants during the first weeks.", "es": "Dosis expresada como componente ampicilina; dividir cada 12h en prematuros extremos durante las primeras semanas." }
+    },
+    {
+      "pmaMinSemanas": 30,
+      "doseValor": 150,
+      "doseUnidade": "mg/kg/dia (componente ampicilina)",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": { "pt-BR": "Dose expressa em componente ampicilina; dividir a cada 8h.", "en-US": "Dose expressed as the ampicillin component; divide every 8h.", "es": "Dosis expresada como componente ampicilina; dividir cada 8h." }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Ambos os componentes têm eliminação renal — disfunção renal exige ajuste de intervalo", "en-US": "Both components are renally eliminated — renal impairment requires interval adjustment", "es": "Ambos componentes tienen eliminación renal — la disfunción renal requiere ajuste del intervalo" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Prolongar intervalo de dose conforme função renal", "en-US": "Extend the dosing interval according to renal function", "es": "Prolongar el intervalo de dosis según la función renal" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Rash cutâneo é evento adverso relativamente comum, geralmente não relacionado a alergia verdadeira", "Não cobre Pseudomonas — associar outro agente se houver suspeita"],
+    "en-US": ["Skin rash is a relatively common adverse event, usually not related to true allergy", "Does not cover Pseudomonas — add another agent if suspected"],
+    "es": ["El exantema cutáneo es un evento adverso relativamente común, generalmente no relacionado con alergia verdadera", "No cubre Pseudomonas — asociar otro agente si se sospecha"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "livro_texto",
+      "descricao": "EXEMPLO — Neofax/Red Book, faixas de dose de ampicilina-sulbactam em neonatologia. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

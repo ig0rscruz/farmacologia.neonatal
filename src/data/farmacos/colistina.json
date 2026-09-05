@@ -1,0 +1,56 @@
+{
+  "id": "colistina",
+  "nome": { "pt-BR": "Colistina", "en-US": "Colistin", "es": "Colistina" },
+  "nomeGenerico": { "pt-BR": "Colistimetato de sódio (polimixina E)", "en-US": "Colistimethate sodium (polymyxin E)", "es": "Colistimetato de sodio (polimixina E)" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico polimixina", "en-US": "Polymyxin antibiotic", "es": "Antibiótico polimixina" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Infecções graves por bacilos Gram-negativos multirresistentes (ex.: Klebsiella, Acinetobacter, Pseudomonas) sem alternativa terapêutica disponível"],
+    "en-US": ["Severe infections due to multidrug-resistant Gram-negative bacilli (e.g., Klebsiella, Acinetobacter, Pseudomonas) with no available therapeutic alternative"],
+    "es": ["Infecciones graves por bacilos Gram-negativos multirresistentes (p. ej., Klebsiella, Acinetobacter, Pseudomonas) sin alternativa terapéutica disponible"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 50000,
+      "doseUnidade": "UI/kg/dia",
+      "intervaloHoras": 8,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose expressa em UI de colistimetato; dividir em 2-3 doses/dia. Reservar para infecções multirresistentes confirmadas ou fortemente suspeitas, com acompanhamento de infectologia/farmácia clínica.",
+        "en-US": "Dose expressed in IU of colistimethate; divide into 2-3 doses/day. Reserve for confirmed or strongly suspected multidrug-resistant infections, with infectious disease/clinical pharmacy follow-up.",
+        "es": "Dosis expresada en UI de colistimetato; dividir en 2-3 dosis/día. Reservar para infecciones multirresistentes confirmadas o fuertemente sospechadas, con seguimiento de infectología/farmacia clínica."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Nefrotoxicidade é o principal efeito adverso limitante — risco aumentado em disfunção renal preexistente", "en-US": "Nephrotoxicity is the main dose-limiting adverse effect — increased risk with preexisting renal impairment", "es": "La nefrotoxicidad es el principal efecto adverso limitante — riesgo aumentado con disfunción renal preexistente" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Ajustar dose conforme função renal; monitorar creatinina sérica e diurese diariamente", "en-US": "Adjust dose according to renal function; monitor serum creatinine and urine output daily", "es": "Ajustar la dosis según la función renal; monitorizar la creatinina sérica y la diuresis diariamente" }
+    },
+    {
+      "condicao": "risco_neurotoxicidade",
+      "descricao": { "pt-BR": "Neurotoxicidade (incluindo bloqueio neuromuscular) é um efeito adverso descrito, especialmente com acúmulo por disfunção renal", "en-US": "Neurotoxicity (including neuromuscular blockade) is a described adverse effect, especially with accumulation from renal impairment", "es": "La neurotoxicidad (incluido el bloqueo neuromuscular) es un efecto adverso descrito, especialmente con la acumulación por disfunción renal" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar tônus muscular e padrão respiratório, especialmente se houver disfunção renal concomitante", "en-US": "Monitor muscle tone and respiratory pattern, especially with concomitant renal impairment", "es": "Monitorizar el tono muscular y el patrón respiratorio, especialmente si hay disfunción renal concomitante" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Antibiótico de última linha — uso deve ser guiado por antibiograma e infectologia pediátrica/neonatal sempre que possível", "Farmacocinética neonatal ainda pouco estudada; monitorar de perto eficácia e toxicidade"],
+    "en-US": ["Last-line antibiotic — use should be guided by antibiogram and pediatric/neonatal infectious disease specialists whenever possible", "Neonatal pharmacokinetics are still poorly studied; closely monitor efficacy and toxicity"],
+    "es": ["Antibiótico de última línea — el uso debe guiarse por antibiograma e infectología pediátrica/neonatal siempre que sea posible", "La farmacocinética neonatal aún está poco estudiada; monitorizar de cerca la eficacia y la toxicidad"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — relatos de caso/série de uso de colistina em neonatologia para infecções multirresistentes. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

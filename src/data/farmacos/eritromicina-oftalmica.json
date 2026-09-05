@@ -1,0 +1,43 @@
+{
+  "id": "eritromicina-oftalmica",
+  "nome": { "pt-BR": "Eritromicina oftálmica", "en-US": "Erythromycin ophthalmic", "es": "Eritromicina oftálmica" },
+  "nomeGenerico": { "pt-BR": "Eritromicina (pomada oftálmica 0.5%)", "en-US": "Erythromycin (0.5% ophthalmic ointment)", "es": "Eritromicina (pomada oftálmica 0.5%)" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico macrolídeo tópico oftálmico", "en-US": "Topical ophthalmic macrolide antibiotic", "es": "Antibiótico macrólido tópico oftálmico" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Profilaxia da oftalmia neonatal (conjuntivite gonocócica) — aplicação de rotina ao nascimento"],
+    "en-US": ["Prophylaxis of ophthalmia neonatorum (gonococcal conjunctivitis) — routine application at birth"],
+    "es": ["Profilaxis de la oftalmía neonatal (conjuntivitis gonocócica) — aplicación de rutina al nacer"]
+  },
+  "viasAdministracao": ["topica"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "aplicação em cada olho (dose única, fita de ~1cm)",
+      "intervaloHoras": 0,
+      "viaAdministracao": "topica",
+      "observacoes": {
+        "pt-BR": "Aplicar em ambos os olhos dentro da primeira hora de vida, dose única. Não irrigar os olhos após a aplicação.",
+        "en-US": "Apply to both eyes within the first hour of life, single dose. Do not irrigate the eyes after application.",
+        "es": "Aplicar en ambos ojos dentro de la primera hora de vida, dosis única. No irrigar los ojos después de la aplicación."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Não substitui triagem/tratamento materno para gonorreia/clamídia — eficácia limitada contra Chlamydia trachomatis", "Prática de profilaxia universal recomendada mesmo com pré-natal adequado, conforme legislação/protocolo local"],
+    "en-US": ["Does not replace maternal screening/treatment for gonorrhea/chlamydia — limited efficacy against Chlamydia trachomatis", "Universal prophylaxis is recommended even with adequate prenatal care, per local law/protocol"],
+    "es": ["No sustituye el cribado/tratamiento materno de gonorrea/clamidia — eficacia limitada contra Chlamydia trachomatis", "Se recomienda la profilaxis universal incluso con atención prenatal adecuada, según la legislación/protocolo local"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — recomendação de profilaxia oftálmica neonatal (ex.: CDC/AAP, protocolos de Método Mãe Canguru/Ministério da Saúde). Substituir por referência específica revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

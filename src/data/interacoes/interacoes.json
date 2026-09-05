@@ -1,5 +1,35 @@
 [
   {
+    "id": "ceftriaxona_gluconato-de-calcio",
+    "farmacoAId": "ceftriaxona",
+    "farmacoBId": "gluconato-de-calcio",
+    "gravidade": "contraindicada",
+    "mecanismo": {
+      "pt-BR": "Ceftriaxona pode formar precipitado insolúvel de ceftriaxona-cálcio quando administrada simultaneamente ou em sequência (mesmo em vias diferentes, ou em horários distintos) com soluções contendo cálcio, incluindo nutrição parenteral.",
+      "en-US": "Ceftriaxone can form an insoluble ceftriaxone-calcium precipitate when administered simultaneously or sequentially (even via different lines, or at different times) with calcium-containing solutions, including parenteral nutrition.",
+      "es": "La ceftriaxona puede formar un precipitado insoluble de ceftriaxona-calcio cuando se administra simultáneamente o en secuencia (incluso por vías diferentes, o en horarios distintos) con soluciones que contienen calcio, incluida la nutrición parenteral."
+    },
+    "efeitoClinico": {
+      "pt-BR": "Precipitação fatal em pulmão e rim já foi relatada em neonatos, levando a óbito — a FDA emitiu alerta de segurança contraindicando o uso concomitante de ceftriaxona e produtos contendo cálcio por qualquer via em neonatos.",
+      "en-US": "Fatal lung and kidney precipitation has been reported in neonates, leading to death — the FDA issued a safety alert contraindicating concomitant use of ceftriaxone and calcium-containing products by any route in neonates.",
+      "es": "Se ha reportado precipitación fatal en pulmón y riñón en neonatos, con desenlace de muerte — la FDA emitió una alerta de seguridad contraindicando el uso concomitante de ceftriaxona y productos que contienen calcio por cualquier vía en neonatos."
+    },
+    "conduta": {
+      "pt-BR": "CONTRAINDICADO em neonatos: nunca administrar ceftriaxona e produtos contendo cálcio (incluindo nutrição parenteral) simultaneamente, em sequência pela mesma linha, ou mesmo por linhas diferentes, em nenhum momento durante a internação do neonato. Usar cefotaxima como alternativa da mesma classe quando cobertura de 3ª geração for necessária.",
+      "en-US": "CONTRAINDICATED in neonates: never administer ceftriaxone and calcium-containing products (including parenteral nutrition) simultaneously, sequentially via the same line, or even via different lines, at any point during the neonate's hospitalization. Use cefotaxime as a same-class alternative when 3rd-generation coverage is needed.",
+      "es": "CONTRAINDICADO en neonatos: nunca administrar ceftriaxona y productos que contienen calcio (incluida la nutrición parenteral) simultáneamente, en secuencia por la misma línea, o incluso por líneas diferentes, en ningún momento durante la hospitalización del neonato. Usar cefotaxima como alternativa de la misma clase cuando se necesite cobertura de 3ª generación."
+    },
+    "nivelEvidencia": "A",
+    "fontes": [
+      {
+        "tipo": "diretriz_sociedade",
+        "descricao": "U.S. FDA Drug Safety Communication: FDA warns of a rare but serious risk of fatal reaction with the antibiotic ceftriaxone (Rocephin) given with intravenous calcium in newborns (2007, alerta reafirmado em bula de ceftriaxona desde então).",
+        "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-serious-drug-interactions-can-occur-when-antibiotic-ceftriaxone",
+        "dataAcesso": "2026-09-05"
+      }
+    ]
+  },
+  {
     "id": "amiodarona_digoxina",
     "farmacoAId": "amiodarona",
     "farmacoBId": "digoxina",

@@ -1,0 +1,43 @@
+{
+  "id": "tiamina",
+  "nome": { "pt-BR": "Tiamina", "en-US": "Thiamine", "es": "Tiamina" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de tiamina (vitamina B1)", "en-US": "Thiamine hydrochloride (vitamin B1)", "es": "Clorhidrato de tiamina (vitamina B1)" },
+  "classeFarmacologica": { "pt-BR": "Vitamina hidrossolúvel (complexo B)", "en-US": "Water-soluble vitamin (B complex)", "es": "Vitamina hidrosoluble (complejo B)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Suplementação em nutrição parenteral prolongada", "Tratamento de acidose láctica/erros inatos do metabolismo tiamina-responsivos selecionados"],
+    "en-US": ["Supplementation in prolonged parenteral nutrition", "Treatment of selected thiamine-responsive lactic acidosis/inborn errors of metabolism"],
+    "es": ["Suplementación en nutrición parenteral prolongada", "Tratamiento de acidosis láctica/errores innatos del metabolismo tiamino-dependientes seleccionados"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.35,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Dose de manutenção usual em nutrição parenteral (geralmente já incluída em polivitamínico parenteral padrão). Doses de tratamento para erros inatos do metabolismo podem ser muito mais altas e devem seguir protocolo especializado de genética metabólica.",
+        "en-US": "Usual maintenance dose in parenteral nutrition (generally already included in a standard parenteral multivitamin). Treatment doses for inborn errors of metabolism may be much higher and should follow a specialized metabolic genetics protocol.",
+        "es": "Dosis de mantenimiento usual en nutrición parenteral (generalmente ya incluida en un polivitamínico parenteral estándar). Las dosis de tratamiento para errores innatos del metabolismo pueden ser mucho más altas y deben seguir un protocolo especializado de genética metabólica."
+      }
+    }
+  ],
+  "contraindicacoes": [],
+  "alertasGerais": {
+    "pt-BR": ["Deficiência de tiamina é rara em neonatos a termo saudáveis, mas relevante em nutrição parenteral prolongada sem suplementação adequada", "Reações alérgicas a administração intravenosa são raras mas descritas"],
+    "en-US": ["Thiamine deficiency is rare in healthy term neonates, but relevant in prolonged parenteral nutrition without adequate supplementation", "Allergic reactions to intravenous administration are rare but described"],
+    "es": ["La deficiencia de tiamina es rara en neonatos a término sanos, pero relevante en la nutrición parenteral prolongada sin suplementación adecuada", "Las reacciones alérgicas a la administración intravenosa son raras pero están descritas"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "livro_texto",
+      "descricao": "EXEMPLO — diretrizes de nutrição parenteral neonatal (ex.: ESPGHAN/ESPEN) sobre suplementação vitamínica. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}
