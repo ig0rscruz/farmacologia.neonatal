@@ -1,5 +1,6 @@
 import type { DivergenciaPosologia, ResultadoVerificacao as ResultadoVerificacaoType, NivelConfianca } from '../engine/verificarFarmaco'
 import type { Farmaco } from '../types/farmaco'
+import type { Fonte } from '../types/comum'
 import { useLocale } from '../i18n/LocaleContext'
 import type { Traducao } from '../i18n/traducoes'
 import { texto } from '../i18n/texto'
@@ -88,6 +89,9 @@ export function PainelInteracoes({
                 <span className="italic">
                   {t.resultado.conduta}: {texto(e.interacao.conduta, idioma)}
                 </span>
+                <div className="mt-1.5 pt-1.5 border-t border-slate-200">
+                  <FontesLista fontes={e.interacao.fontes} />
+                </div>
               </li>
             ))}
           </ul>
@@ -104,6 +108,9 @@ export function PainelInteracoes({
                   [{t.gravidade[e.implicacao.implicacao]}] {texto(e.patologia.nome, idioma)}:
                 </span>{' '}
                 {texto(e.implicacao.conduta, idioma)}
+                <div className="mt-1.5 pt-1.5 border-t border-slate-200">
+                  <FontesLista fontes={e.implicacao.fontes} />
+                </div>
               </li>
             ))}
           </ul>
@@ -171,10 +178,33 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
   )
 }
 
+/** Lista as fontes/referências de um item (fármaco, interação ou implicação de patologia parental). */
+export function FontesLista({ fontes }: { fontes: Fonte[] }) {
+  const { t } = useLocale()
+  return (
+    <ul className="space-y-1">
+      {fontes.map((f, i) => (
+        <li key={i} className="text-xs text-slate-500">
+          <span className="font-medium">{t.fonteTipo[f.tipo]}:</span> {f.descricao}
+          {f.url && (
+            <>
+              {' — '}
+              <a href={f.url} target="_blank" rel="noopener noreferrer" className="underline text-brand-blue-dark">
+                {t.resultado.verFonte}
+              </a>
+            </>
+          )}
+          {f.dataAcesso && <span> ({f.dataAcesso})</span>}
+        </li>
+      ))}
+    </ul>
+  )
+}
+
 export function FonteInfo({ farmaco }: { farmaco: Farmaco }) {
   const { t, idioma } = useLocale()
   return (
-    <div className="text-xs text-slate-500 mt-2">
+    <div className="text-xs text-slate-500 mt-2 space-y-1.5">
       <p>
         {t.resultado.nivelEvidenciaGeral}: <strong>{farmaco.nivelEvidenciaGeral}</strong> —{' '}
         {t.nivelEvidencia[farmaco.nivelEvidenciaGeral]}
@@ -182,6 +212,10 @@ export function FonteInfo({ farmaco }: { farmaco: Farmaco }) {
       <p>
         {t.resultado.ultimaRevisao}: {farmaco.ultimaRevisao.data} — {texto(farmaco.ultimaRevisao.revisadoPor, idioma)}
       </p>
+      <div>
+        <p className="font-medium">{t.resultado.fontes}:</p>
+        <FontesLista fontes={farmaco.fontes} />
+      </div>
     </div>
   )
 }

@@ -1,195 +1,76 @@
-import { useMemo, useState } from 'react'
+import { HashRouter, Navigate, NavLink, Route, Routes } from 'react-router-dom'
+import { AlternadorTema } from './components/AlternadorTema'
 import { BannerAviso } from './components/BannerAviso'
-import { FormularioPaciente } from './components/FormularioPaciente'
-import { FonteInfo, PainelInteracoes, PainelPosologia } from './components/ResultadoVerificacao'
-import { SeletorComBusca } from './components/SeletorComBusca'
 import { SeletorIdioma } from './components/SeletorIdioma'
-import { FARMACOS, INTERACOES, PATOLOGIAS_PARENTAIS } from './data'
-import { verificarFarmaco, type ResultadoVerificacao } from './engine/verificarFarmaco'
+import { PaginaCalculadora } from './pages/PaginaCalculadora'
+import { PaginaResumos } from './pages/PaginaResumos'
 import { useLocale } from './i18n/LocaleContext'
-import { texto } from './i18n/texto'
-import { ViaAdministracao } from './types/comum'
-import { pacienteVazio, type PosologiaInformada } from './types/paciente'
-
-type Aba = 'interacoes' | 'posologia'
-const TODAS_VIAS = ViaAdministracao.options
 
 function App() {
-  const { t, idioma } = useLocale()
-  const [paciente, setPaciente] = useState(pacienteVazio())
-  const [candidatoId, setCandidatoId] = useState('')
-  const [posologiaCandidato, setPosologiaCandidato] = useState<PosologiaInformada>({})
-  const [resultado, setResultado] = useState<ResultadoVerificacao | null>(null)
-  const [abaAtiva, setAbaAtiva] = useState<Aba>('interacoes')
-
-  const farmacoNomesPorId = useMemo(
-    () => Object.fromEntries(FARMACOS.map((f) => [f.id, texto(f.nome, idioma)])),
-    [idioma],
-  )
-  const farmacoCandidato = FARMACOS.find((f) => f.id === candidatoId)
-  const opcoesFarmacos = useMemo(
-    () => FARMACOS.map((f) => ({ id: f.id, rotulo: texto(f.nome, idioma) })),
-    [idioma],
-  )
-
-  function handleVerificar() {
-    if (!candidatoId) return
-    const posologiaVazia = Object.values(posologiaCandidato).every((v) => v === undefined || v === '')
-    setResultado(
-      verificarFarmaco(
-        paciente,
-        candidatoId,
-        { farmacos: FARMACOS, interacoes: INTERACOES, patologias: PATOLOGIAS_PARENTAIS },
-        posologiaVazia ? undefined : posologiaCandidato,
-      ),
-    )
-  }
-
-  function handleSelecionarCandidato(id: string) {
-    setCandidatoId(id)
-    setPosologiaCandidato({})
-    setResultado(null)
-  }
+  const { t } = useLocale()
 
   return (
-    <div className="min-h-screen">
-      <BannerAviso />
-      <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-        <header className="relative flex flex-col items-center text-center gap-2 pt-2">
-          <div className="absolute right-0 top-2">
-            <SeletorIdioma />
-          </div>
-          <img
-            src={`${import.meta.env.BASE_URL}logo-neodose.jpg`}
-            alt="NeoDose"
-            className="h-44 sm:h-52 w-auto rounded-full"
-          />
-          <p className="text-brand-teal-dark/80 text-sm max-w-md">{t.app.subtitulo}</p>
-        </header>
-
-        <div className="bg-white rounded-2xl border border-brand-teal-light shadow-sm p-4">
-          <FormularioPaciente
-            paciente={paciente}
-            onChange={setPaciente}
-            farmacosDisponiveis={FARMACOS}
-            patologiasDisponiveis={PATOLOGIAS_PARENTAIS}
-          />
-        </div>
-
-        <div className="bg-white rounded-2xl border border-brand-teal-light shadow-sm p-4 space-y-3">
-          <h2 className="font-semibold text-brand-blue-dark">{t.candidato.titulo}</h2>
-          <SeletorComBusca
-            className="w-full sm:w-auto sm:min-w-[16rem]"
-            opcoes={opcoesFarmacos}
-            valor={candidatoId}
-            onSelecionar={handleSelecionarCandidato}
-            placeholder={t.form.selecionarFarmaco}
-          />
-
-          {candidatoId && (
-            <div>
-              <p className="text-xs text-slate-500 mb-1">{t.candidato.posologiaAviso}</p>
-              <div className="flex flex-wrap gap-2">
-                <input
-                  type="number"
-                  className="input w-24"
-                  placeholder={t.form.dose}
-                  value={posologiaCandidato.doseValor ?? ''}
-                  onChange={(e) =>
-                    setPosologiaCandidato((p) => ({
-                      ...p,
-                      doseValor: e.target.value ? Number(e.target.value) : undefined,
-                    }))
-                  }
-                />
-                <input
-                  type="text"
-                  className="input w-36"
-                  placeholder={t.form.unidade}
-                  value={posologiaCandidato.doseUnidade ?? ''}
-                  onChange={(e) => setPosologiaCandidato((p) => ({ ...p, doseUnidade: e.target.value || undefined }))}
-                />
-                <input
-                  type="number"
-                  className="input w-24"
-                  placeholder={t.form.aCada}
-                  value={posologiaCandidato.intervaloHoras ?? ''}
-                  onChange={(e) =>
-                    setPosologiaCandidato((p) => ({
-                      ...p,
-                      intervaloHoras: e.target.value ? Number(e.target.value) : undefined,
-                    }))
-                  }
-                />
-                <select
-                  className="input w-36"
-                  value={posologiaCandidato.viaAdministracao ?? ''}
-                  onChange={(e) =>
-                    setPosologiaCandidato((p) => ({
-                      ...p,
-                      viaAdministracao: e.target.value ? (e.target.value as ViaAdministracao) : undefined,
-                    }))
-                  }
-                >
-                  <option value="">{t.form.via}</option>
-                  {TODAS_VIAS.map((via) => (
-                    <option key={via} value={via}>
-                      {t.vias[via]}
-                    </option>
-                  ))}
-                </select>
-              </div>
+    <HashRouter>
+      <div className="min-h-screen">
+        <BannerAviso />
+        <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
+          <header className="relative flex flex-col items-center text-center gap-2 pt-2">
+            <div className="absolute right-0 top-2 flex items-center gap-2">
+              <AlternadorTema />
+              <SeletorIdioma />
             </div>
-          )}
+            <div className="h-44 sm:h-52 aspect-square rounded-full shadow-lg overflow-hidden">
+              <img
+                src={`${import.meta.env.BASE_URL}logo-neodose.jpg`}
+                alt="NeoDose"
+                className="w-full h-full object-cover scale-[1.4]"
+              />
+            </div>
+            <p className="text-brand-teal-dark/80 dark:text-brand-teal-light/80 text-sm max-w-md">{t.app.subtitulo}</p>
+          </header>
 
-          <button type="button" className="btn-primary" disabled={!candidatoId} onClick={handleVerificar}>
-            {t.candidato.verificar}
-          </button>
+          <nav className="flex justify-center gap-2">
+            <NavLink
+              to="/calculadora"
+              className={({ isActive }) =>
+                `px-5 py-2 rounded-full text-sm font-medium transition-all duration-150 active:scale-95 ${
+                  isActive
+                    ? 'bg-brand-blue text-white shadow-md'
+                    : 'bg-brand-teal-light text-brand-blue-dark hover:bg-brand-teal-light/70 dark:bg-slate-800 dark:text-brand-teal-light dark:hover:bg-slate-700'
+                }`
+              }
+            >
+              {t.nav.calculadora}
+            </NavLink>
+            <NavLink
+              to="/resumos"
+              className={({ isActive }) =>
+                `px-5 py-2 rounded-full text-sm font-medium transition-all duration-150 active:scale-95 ${
+                  isActive
+                    ? 'bg-brand-blue text-white shadow-md'
+                    : 'bg-brand-teal-light text-brand-blue-dark hover:bg-brand-teal-light/70 dark:bg-slate-800 dark:text-brand-teal-light dark:hover:bg-slate-700'
+                }`
+              }
+            >
+              {t.nav.resumos}
+            </NavLink>
+          </nav>
 
-          {resultado && (
-            <>
-              <div className="flex border-b border-brand-teal-light -mb-px">
-                <button
-                  type="button"
-                  className={`px-4 py-2 text-sm font-medium border-b-2 ${
-                    abaAtiva === 'interacoes'
-                      ? 'border-brand-blue text-brand-blue-dark'
-                      : 'border-transparent text-slate-500 hover:text-brand-blue-dark'
-                  }`}
-                  onClick={() => setAbaAtiva('interacoes')}
-                >
-                  {t.abas.interacoes}
-                </button>
-                <button
-                  type="button"
-                  className={`px-4 py-2 text-sm font-medium border-b-2 ${
-                    abaAtiva === 'posologia'
-                      ? 'border-brand-blue text-brand-blue-dark'
-                      : 'border-transparent text-slate-500 hover:text-brand-blue-dark'
-                  }`}
-                  onClick={() => setAbaAtiva('posologia')}
-                >
-                  {t.abas.posologia}
-                </button>
-              </div>
+          <Routes>
+            <Route path="/" element={<Navigate to="/calculadora" replace />} />
+            <Route path="/calculadora" element={<PaginaCalculadora />} />
+            <Route path="/resumos" element={<PaginaResumos />} />
+            <Route path="*" element={<Navigate to="/calculadora" replace />} />
+          </Routes>
 
-              {abaAtiva === 'interacoes' ? (
-                <PainelInteracoes resultado={resultado} farmacoNomesPorId={farmacoNomesPorId} />
-              ) : (
-                <PainelPosologia resultado={resultado} />
-              )}
-              {farmacoCandidato && <FonteInfo farmaco={farmacoCandidato} />}
-            </>
-          )}
+          <footer className="text-center text-xs text-slate-400 dark:text-slate-500 pb-4 space-y-0.5">
+            <p>{t.rodape.construidoPor}</p>
+            <p>{t.rodape.telefone}</p>
+            <p>{t.rodape.email}</p>
+          </footer>
         </div>
-
-        <footer className="text-center text-xs text-slate-400 pb-4 space-y-0.5">
-          <p>{t.rodape.construidoPor}</p>
-          <p>{t.rodape.telefone}</p>
-          <p>{t.rodape.email}</p>
-        </footer>
       </div>
-    </div>
+    </HashRouter>
   )
 }
 

@@ -13,7 +13,7 @@ interface Props {
   className?: string
 }
 
-function normalizar(texto: string): string {
+export function normalizar(texto: string): string {
   return texto
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '')
@@ -64,12 +64,12 @@ export function SeletorComBusca({ opcoes, valor, onSelecionar, placeholder, clas
         }}
       />
       {aberto && opcoesFiltradas.length > 0 && (
-        <ul className="absolute z-10 mt-1 max-h-56 w-full overflow-y-auto rounded-lg border border-brand-teal-light bg-white shadow-lg">
+        <ul className="absolute z-10 mt-1 max-h-56 w-full overflow-y-auto rounded-lg border border-brand-teal-light dark:border-slate-600 bg-white dark:bg-slate-800 shadow-lg">
           {opcoesFiltradas.map((opcao) => (
             <li key={opcao.id}>
               <button
                 type="button"
-                className="block w-full px-3 py-1.5 text-left text-sm text-slate-700 hover:bg-brand-teal-light"
+                className="block w-full px-3 py-1.5 text-left text-sm text-slate-700 dark:text-slate-200 hover:bg-brand-teal-light dark:hover:bg-slate-700"
                 onMouseDown={(e) => {
                   e.preventDefault()
                   selecionar(opcao)

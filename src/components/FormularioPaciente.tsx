@@ -7,6 +7,7 @@ import { sugerirCondicoesPorSinaisVitais } from '../engine/sinaisVitais'
 import { useLocale } from '../i18n/LocaleContext'
 import { texto } from '../i18n/texto'
 import { SeletorComBusca } from './SeletorComBusca'
+import { CampoDoseUnidade } from './CampoDoseUnidade'
 
 interface Props {
   paciente: Paciente
@@ -94,7 +95,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
   return (
     <div className="space-y-6">
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">{t.form.dadosNeonato}</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100 mb-2">{t.form.dadosNeonato}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           <Campo label={t.form.identificador}>
             <input
@@ -156,7 +157,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">{t.form.sinaisVitais}</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100 mb-2">{t.form.sinaisVitais}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           <Campo label={t.form.fc}>
             <input
@@ -254,8 +255,8 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
         </div>
 
         {sugestoesVitais.length > 0 && (
-          <div className="mt-3 bg-sky-50 border border-sky-200 rounded p-3 space-y-1.5">
-            <p className="text-sm font-medium text-sky-900">{t.form.sugestoesTitulo}</p>
+          <div className="mt-3 bg-sky-50 dark:bg-sky-950/40 border border-sky-200 dark:border-sky-900 rounded p-3 space-y-1.5">
+            <p className="text-sm font-medium text-sky-900 dark:text-sky-200">{t.form.sugestoesTitulo}</p>
             {sugestoesVitais.map((s) => {
               const jaMarcada = paciente.condicoesClinicas.includes(s.condicao)
               return (
@@ -278,8 +279,8 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">{t.form.examesOrgao}</h2>
-        <p className="text-xs text-slate-500 mb-2">{t.form.examesOrgaoAviso}</p>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100 mb-2">{t.form.examesOrgao}</h2>
+        <p className="text-xs text-slate-500 dark:text-slate-400 mb-2">{t.form.examesOrgaoAviso}</p>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           <Campo label={t.form.creatinina}>
             <input
@@ -353,10 +354,10 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">{t.form.condicoesClinicas}</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100 mb-2">{t.form.condicoesClinicas}</h2>
         <div className="grid grid-cols-1 gap-1.5">
           {TODAS_CONDICOES.map((condicao) => (
-            <label key={condicao} className="flex items-start gap-2 text-sm text-slate-700">
+            <label key={condicao} className="flex items-start gap-2 text-sm text-slate-700 dark:text-slate-300">
               <input
                 type="checkbox"
                 className="mt-0.5"
@@ -365,7 +366,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
               />
               <span>
                 {t.condicoes[condicao]}
-                {t.criterios[condicao] && <span className="text-slate-500"> — {t.criterios[condicao]}</span>}
+                {t.criterios[condicao] && <span className="text-slate-500 dark:text-slate-400"> — {t.criterios[condicao]}</span>}
               </span>
             </label>
           ))}
@@ -373,8 +374,8 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">{t.form.medicamentosEmUso}</h2>
-        <p className="text-xs text-slate-500 mb-2">{t.form.medicamentosEmUsoAviso}</p>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100 mb-2">{t.form.medicamentosEmUso}</h2>
+        <p className="text-xs text-slate-500 dark:text-slate-400 mb-2">{t.form.medicamentosEmUsoAviso}</p>
         <div className="flex flex-wrap gap-2 mb-2">
           <SeletorComBusca
             className="flex-1 min-w-[10rem]"
@@ -385,21 +386,14 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
           />
         </div>
         <div className="flex flex-wrap gap-2 mb-2">
-          <input
-            type="number"
-            className="input w-24"
-            placeholder={t.form.dose}
-            value={novaPosologia.doseValor ?? ''}
-            onChange={(e) =>
-              setNovaPosologia((p) => ({ ...p, doseValor: e.target.value ? Number(e.target.value) : undefined }))
-            }
-          />
-          <input
-            type="text"
-            className="input w-32"
-            placeholder={t.form.unidade}
-            value={novaPosologia.doseUnidade ?? ''}
-            onChange={(e) => setNovaPosologia((p) => ({ ...p, doseUnidade: e.target.value || undefined }))}
+          <CampoDoseUnidade
+            className="w-48"
+            doseValor={novaPosologia.doseValor}
+            doseUnidade={novaPosologia.doseUnidade}
+            onChangeDose={(v) => setNovaPosologia((p) => ({ ...p, doseValor: v }))}
+            onChangeUnidade={(v) => setNovaPosologia((p) => ({ ...p, doseUnidade: v }))}
+            placeholderDose={t.form.dose}
+            placeholderUnidade={t.form.unidade}
           />
           <input
             type="number"
@@ -450,7 +444,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       </section>
 
       <section>
-        <h2 className="font-semibold text-slate-800 mb-2">{t.form.patologiasParentais}</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100 mb-2">{t.form.patologiasParentais}</h2>
         <div className="flex flex-wrap gap-2 mb-2">
           <SeletorComBusca
             className="flex-1 min-w-[10rem]"
@@ -488,7 +482,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
 
 function Campo({ label, children }: { label: string; children: ReactNode }) {
   return (
-    <label className="flex flex-col gap-1 text-sm text-slate-700">
+    <label className="flex flex-col gap-1 text-sm text-slate-700 dark:text-slate-300">
       {label}
       {children}
     </label>
@@ -512,9 +506,9 @@ function ListaRemovivel({
   return (
     <ul className="space-y-1">
       {itens.map((linha, i) => (
-        <li key={i} className="flex items-center justify-between bg-slate-100 rounded px-3 py-1.5 text-sm">
+        <li key={i} className="flex items-center justify-between bg-slate-100 dark:bg-slate-700 dark:text-slate-100 rounded px-3 py-1.5 text-sm">
           <span>{linha}</span>
-          <button type="button" className="text-red-600 hover:underline" onClick={() => onRemover(i)}>
+          <button type="button" className="text-red-600 dark:text-red-400 hover:underline" onClick={() => onRemover(i)}>
             {removerLabel}
           </button>
         </li>

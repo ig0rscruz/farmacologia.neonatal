@@ -12,6 +12,25 @@ export interface Traducao {
     telefone: string
     email: string
   }
+  nav: {
+    calculadora: string
+    resumos: string
+  }
+  resumos: {
+    titulo: string
+    subtitulo: string
+    buscarPlaceholder: string
+    nenhumFarmaco: string
+    selecioneFarmaco: string
+    nomeGenerico: string
+    classeFarmacologica: string
+    indicacoesNeonatais: string
+    viasAdministracao: string
+    faixasDose: string
+    intervalo: string
+    contraindicacoes: string
+    alertasGerais: string
+  }
   banner: {
     titulo: string
     texto: string
@@ -65,6 +84,7 @@ export interface Traducao {
     titulo: string
     posologiaAviso: string
     verificar: string
+    dadosDesatualizados: string
   }
   abas: {
     interacoes: string
@@ -92,6 +112,8 @@ export interface Traducao {
     ajustesFuncaoOrgao: string
     nivelEvidenciaGeral: string
     ultimaRevisao: string
+    fontes: string
+    verFonte: string
   }
   condicoes: Record<string, string>
   criterios: Partial<Record<string, string>>
@@ -99,6 +121,7 @@ export interface Traducao {
   gravidadeInteracao: Record<string, string>
   nivelEvidencia: Record<string, string>
   vias: Record<string, string>
+  fonteTipo: Record<string, string>
 }
 
 const pt: Traducao = {
@@ -110,6 +133,25 @@ const pt: Traducao = {
     construidoPor: 'Construído por: Igor Santana Cruz',
     telefone: 'Telefone para contato: +55 92 98170-3592',
     email: 'E-mail: igorscruz.am@gmail.com',
+  },
+  nav: {
+    calculadora: 'Calculadora',
+    resumos: 'Resumos',
+  },
+  resumos: {
+    titulo: 'Resumos de fármacos',
+    subtitulo: 'Consulte a ficha completa de cada fármaco da base — indicações, vias, faixas de dose, contraindicações, alertas e fontes.',
+    buscarPlaceholder: 'Buscar fármaco…',
+    nenhumFarmaco: 'Nenhum fármaco encontrado.',
+    selecioneFarmaco: 'Selecione um fármaco na lista para ver o resumo completo.',
+    nomeGenerico: 'Nome genérico',
+    classeFarmacologica: 'Classe farmacológica',
+    indicacoesNeonatais: 'Indicações neonatais',
+    viasAdministracao: 'Vias de administração',
+    faixasDose: 'Faixas de dose',
+    intervalo: 'Intervalo',
+    contraindicacoes: 'Contraindicações',
+    alertasGerais: 'Alertas gerais',
   },
   banner: {
     titulo: 'Ferramenta de apoio à decisão clínica.',
@@ -168,6 +210,7 @@ const pt: Traducao = {
     posologiaAviso:
       'Posologia planejada/prescrita para este fármaco (opcional) — será comparada com a faixa recomendada na aba "Posologia".',
     verificar: 'Verificar',
+    dadosDesatualizados: 'Os dados foram alterados desde a última verificação. Clique em "Verificar" novamente para atualizar o resultado.',
   },
   abas: {
     interacoes: 'Interações',
@@ -199,6 +242,8 @@ const pt: Traducao = {
     ajustesFuncaoOrgao: 'Ajustes recomendados por condição clínica do paciente',
     nivelEvidenciaGeral: 'Nível de evidência geral do fármaco',
     ultimaRevisao: 'Última revisão',
+    fontes: 'Fontes',
+    verFonte: 'Ver fonte',
   },
   condicoes: {
     prematuridade_extrema: 'Prematuridade extrema (IG < 28 semanas)',
@@ -259,6 +304,14 @@ const pt: Traducao = {
     topica: 'Tópica',
     outra: 'Outra',
   },
+  fonteTipo: {
+    bula_anvisa: 'Bula (ANVISA)',
+    artigo_cientifico: 'Artigo científico',
+    protocolo_institucional: 'Protocolo institucional',
+    diretriz_sociedade: 'Diretriz de sociedade',
+    livro_texto: 'Livro-texto',
+    outro: 'Outra fonte',
+  },
 }
 
 const en: Traducao = {
@@ -270,6 +323,25 @@ const en: Traducao = {
     construidoPor: 'Built by: Igor Santana Cruz',
     telefone: 'Contact phone: +55 92 98170-3592',
     email: 'Email: igorscruz.am@gmail.com',
+  },
+  nav: {
+    calculadora: 'Calculator',
+    resumos: 'Summaries',
+  },
+  resumos: {
+    titulo: 'Drug summaries',
+    subtitulo: 'Browse the full record for each drug in the database — indications, routes, dose ranges, contraindications, alerts, and sources.',
+    buscarPlaceholder: 'Search drug…',
+    nenhumFarmaco: 'No drug found.',
+    selecioneFarmaco: 'Select a drug from the list to see the full summary.',
+    nomeGenerico: 'Generic name',
+    classeFarmacologica: 'Pharmacologic class',
+    indicacoesNeonatais: 'Neonatal indications',
+    viasAdministracao: 'Routes of administration',
+    faixasDose: 'Dose ranges',
+    intervalo: 'Interval',
+    contraindicacoes: 'Contraindications',
+    alertasGerais: 'General alerts',
   },
   banner: {
     titulo: 'Clinical decision support tool.',
@@ -328,6 +400,7 @@ const en: Traducao = {
     posologiaAviso:
       'Planned/prescribed dosing regimen for this drug (optional) — will be compared with the recommended range in the "Dosing" tab.',
     verificar: 'Check',
+    dadosDesatualizados: 'Data has changed since the last check. Click "Check" again to update the result.',
   },
   abas: {
     interacoes: 'Interactions',
@@ -359,6 +432,8 @@ const en: Traducao = {
     ajustesFuncaoOrgao: 'Adjustments recommended for the patient’s clinical condition',
     nivelEvidenciaGeral: 'Overall evidence level for this drug',
     ultimaRevisao: 'Last reviewed',
+    fontes: 'Sources',
+    verFonte: 'View source',
   },
   condicoes: {
     prematuridade_extrema: 'Extreme prematurity (GA < 28 weeks)',
@@ -419,6 +494,14 @@ const en: Traducao = {
     topica: 'Topical',
     outra: 'Other',
   },
+  fonteTipo: {
+    bula_anvisa: 'Package insert (ANVISA)',
+    artigo_cientifico: 'Scientific article',
+    protocolo_institucional: 'Institutional protocol',
+    diretriz_sociedade: 'Society guideline',
+    livro_texto: 'Textbook',
+    outro: 'Other source',
+  },
 }
 
 const es: Traducao = {
@@ -430,6 +513,25 @@ const es: Traducao = {
     construidoPor: 'Construido por: Igor Santana Cruz',
     telefone: 'Teléfono de contacto: +55 92 98170-3592',
     email: 'Correo electrónico: igorscruz.am@gmail.com',
+  },
+  nav: {
+    calculadora: 'Calculadora',
+    resumos: 'Resúmenes',
+  },
+  resumos: {
+    titulo: 'Resúmenes de fármacos',
+    subtitulo: 'Consulte la ficha completa de cada fármaco de la base — indicaciones, vías, rangos de dosis, contraindicaciones, alertas y fuentes.',
+    buscarPlaceholder: 'Buscar fármaco…',
+    nenhumFarmaco: 'Ningún fármaco encontrado.',
+    selecioneFarmaco: 'Seleccione un fármaco de la lista para ver el resumen completo.',
+    nomeGenerico: 'Nombre genérico',
+    classeFarmacologica: 'Clase farmacológica',
+    indicacoesNeonatais: 'Indicaciones neonatales',
+    viasAdministracao: 'Vías de administración',
+    faixasDose: 'Rangos de dosis',
+    intervalo: 'Intervalo',
+    contraindicacoes: 'Contraindicaciones',
+    alertasGerais: 'Alertas generales',
   },
   banner: {
     titulo: 'Herramienta de apoyo a la decisión clínica.',
@@ -488,6 +590,7 @@ const es: Traducao = {
     posologiaAviso:
       'Posología planificada/prescrita para este fármaco (opcional) — se comparará con el rango recomendado en la pestaña "Posología".',
     verificar: 'Verificar',
+    dadosDesatualizados: 'Los datos cambiaron desde la última verificación. Haga clic en "Verificar" de nuevo para actualizar el resultado.',
   },
   abas: {
     interacoes: 'Interacciones',
@@ -519,6 +622,8 @@ const es: Traducao = {
     ajustesFuncaoOrgao: 'Ajustes recomendados según la condición clínica del paciente',
     nivelEvidenciaGeral: 'Nivel de evidencia general del fármaco',
     ultimaRevisao: 'Última revisión',
+    fontes: 'Fuentes',
+    verFonte: 'Ver fuente',
   },
   condicoes: {
     prematuridade_extrema: 'Prematuridad extrema (EG < 28 semanas)',
@@ -578,6 +683,14 @@ const es: Traducao = {
     inalatoria: 'Inhalatoria',
     topica: 'Tópica',
     outra: 'Otra',
+  },
+  fonteTipo: {
+    bula_anvisa: 'Prospecto (ANVISA)',
+    artigo_cientifico: 'Artículo científico',
+    protocolo_institucional: 'Protocolo institucional',
+    diretriz_sociedade: 'Directriz de sociedad',
+    livro_texto: 'Libro de texto',
+    outro: 'Otra fuente',
   },
 }
 

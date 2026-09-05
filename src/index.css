@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Ativa a variante `dark:` por classe (.dark no <html>), em vez de só prefers-color-scheme. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-brand-teal: #4fb8ac;
   --color-brand-teal-light: #e3f6f3;
@@ -14,16 +17,43 @@
 body {
   background: linear-gradient(180deg, var(--color-brand-teal-light) 0%, #fbfdfd 22%);
   min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.dark body {
+  background: linear-gradient(180deg, #0f2027 0%, #10151c 22%);
 }
 
 @layer components {
   .input {
-    @apply border border-brand-teal-light rounded-lg px-2 py-1.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-teal;
+    @apply border border-brand-teal-light rounded-lg px-2 py-1.5 text-sm bg-white text-slate-800 transition-shadow focus:outline-none focus:ring-2 focus:ring-brand-teal
+      dark:bg-slate-800 dark:border-slate-600 dark:text-slate-100 dark:placeholder:text-slate-500;
   }
   .btn-primary {
-    @apply bg-brand-blue text-white rounded-full px-4 py-1.5 text-sm font-medium hover:bg-brand-blue-dark disabled:opacity-40 disabled:cursor-not-allowed;
+    @apply bg-brand-blue text-white rounded-full px-4 py-1.5 text-sm font-medium shadow-sm transition-all duration-150
+      hover:bg-brand-blue-dark hover:shadow-md active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed disabled:active:scale-100;
   }
   .btn-secondary {
-    @apply bg-brand-teal-light text-brand-teal-dark rounded-full px-3 py-1.5 text-sm font-medium hover:bg-brand-teal/20;
+    @apply bg-brand-teal-light text-brand-teal-dark rounded-full px-3 py-1.5 text-sm font-medium transition-all duration-150
+      hover:bg-brand-teal/20 active:scale-95 dark:bg-slate-700 dark:text-brand-teal-light dark:hover:bg-slate-600;
   }
+  .card-surface {
+    @apply bg-white rounded-2xl border border-brand-teal-light shadow-sm transition-colors duration-300
+      dark:bg-slate-800/60 dark:border-slate-700;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.35s ease-out;
 }
