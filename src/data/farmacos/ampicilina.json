@@ -109,6 +109,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital / Farmacopeia Brasileira 6a edicao: monografia farmacopeica oficial \"Ampicilina\" (substancia ativa), referencia regulatoria brasileira sobre o farmaco.",
+      "url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/765/1/AMPICILINA%20COMPRIMIDOS%20-%20EF020-00_6ed_2019.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Ampicillin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2023/05/Ampicillin_ANMFv3.0_20211014.pdf",

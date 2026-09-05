@@ -91,6 +91,12 @@
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital: monografia farmacopeica \"Fosfato de clindamicina solucao injetavel\" (EF140-00), referencia oficial brasileira sobre a formulacao injetavel.",
+      "url": "https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/1218",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Clindamycin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2022/06/Clindamycin_ANMFv1.0_20240208-1.pdf",

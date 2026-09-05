@@ -120,6 +120,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - documento de registro/bula de Midazolam 5 mg/mL solucao injetavel, disponibilizado no portal da Agencia Nacional de Vigilancia Sanitaria.",
+      "url": "http://antigo.anvisa.gov.br/documents/33868/6263864/Midazolam+5+mgmL++(ampola+10+mL)+DEMO+S.A.+Pharmaceutical+Industry+(Gr%C3%A9cia)/927715aa-7ea0-4c32-a0cd-7c7310f92112",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Midazolam\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2024/09/Midazolam_ANMFv4.0_20240916-1.pdf",

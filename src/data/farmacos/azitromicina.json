@@ -76,6 +76,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "protocolo_institucional",
+      "descricao": "Ministerio da Saude do Brasil (CONJUR/AGU) - Nota Tecnica sobre azitromicina: informacoes de registro na ANVISA, indicacoes aprovadas e apresentacoes comerciais no Brasil.",
+      "url": "https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/a/azitromicina.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Azithromycin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/Azithromycin_ANMFv2.0_20230726.pdf",
