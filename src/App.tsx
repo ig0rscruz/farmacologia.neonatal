@@ -3,6 +3,7 @@ import { BannerAviso } from './components/BannerAviso'
 import { FormularioPaciente } from './components/FormularioPaciente'
 import { FonteInfo, PainelInteracoes, PainelPosologia } from './components/ResultadoVerificacao'
 import { SeletorIdioma } from './components/SeletorIdioma'
+import { LogoIcon } from './components/Logo'
 import { FARMACOS, INTERACOES, PATOLOGIAS_PARENTAIS } from './data'
 import { verificarFarmaco, type ResultadoVerificacao } from './engine/verificarFarmaco'
 import { useLocale } from './i18n/LocaleContext'
@@ -47,18 +48,21 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen">
       <BannerAviso />
       <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
-        <header className="flex items-start justify-between gap-4">
-          <div>
-            <h1 className="text-2xl font-bold text-slate-900">NeoDose</h1>
-            <p className="text-slate-600 text-sm">{t.app.subtitulo}</p>
+        <header className="relative flex flex-col items-center text-center gap-1 pt-2">
+          <div className="absolute right-0 top-2">
+            <SeletorIdioma />
           </div>
-          <SeletorIdioma />
+          <LogoIcon size={56} />
+          <h1 className="text-3xl font-bold text-brand-blue-dark tracking-tight">
+            Neo<span className="text-brand-blue">Dose</span>
+          </h1>
+          <p className="text-brand-teal-dark/80 text-sm max-w-md">{t.app.subtitulo}</p>
         </header>
 
-        <div className="bg-white rounded-lg border border-slate-200 p-4">
+        <div className="bg-white rounded-2xl border border-brand-teal-light shadow-sm p-4">
           <FormularioPaciente
             paciente={paciente}
             onChange={setPaciente}
@@ -67,8 +71,8 @@ function App() {
           />
         </div>
 
-        <div className="bg-white rounded-lg border border-slate-200 p-4 space-y-3">
-          <h2 className="font-semibold text-slate-800">{t.candidato.titulo}</h2>
+        <div className="bg-white rounded-2xl border border-brand-teal-light shadow-sm p-4 space-y-3">
+          <h2 className="font-semibold text-brand-blue-dark">{t.candidato.titulo}</h2>
           <select
             className="input w-full sm:w-auto sm:min-w-[16rem]"
             value={candidatoId}
@@ -144,13 +148,13 @@ function App() {
 
           {resultado && (
             <>
-              <div className="flex border-b border-slate-200 -mb-px">
+              <div className="flex border-b border-brand-teal-light -mb-px">
                 <button
                   type="button"
                   className={`px-4 py-2 text-sm font-medium border-b-2 ${
                     abaAtiva === 'interacoes'
-                      ? 'border-sky-600 text-sky-700'
-                      : 'border-transparent text-slate-500 hover:text-slate-700'
+                      ? 'border-brand-blue text-brand-blue-dark'
+                      : 'border-transparent text-slate-500 hover:text-brand-blue-dark'
                   }`}
                   onClick={() => setAbaAtiva('interacoes')}
                 >
@@ -160,8 +164,8 @@ function App() {
                   type="button"
                   className={`px-4 py-2 text-sm font-medium border-b-2 ${
                     abaAtiva === 'posologia'
-                      ? 'border-sky-600 text-sky-700'
-                      : 'border-transparent text-slate-500 hover:text-slate-700'
+                      ? 'border-brand-blue text-brand-blue-dark'
+                      : 'border-transparent text-slate-500 hover:text-brand-blue-dark'
                   }`}
                   onClick={() => setAbaAtiva('posologia')}
                 >
