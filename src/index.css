@@ -14,6 +14,12 @@
   --color-brand-blue-dark: #274b73;
 }
 
+html {
+  /* Aumenta a fonte base do site inteiro — todas as utilidades text-* do Tailwind usam rem,
+     entao esse ajuste escala tudo proporcionalmente sem precisar tocar cada componente. */
+  font-size: 118%;
+}
+
 body {
   background: linear-gradient(180deg, var(--color-brand-teal-light) 0%, #fbfdfd 22%);
   min-height: 100vh;

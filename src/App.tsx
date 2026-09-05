@@ -15,7 +15,7 @@ function App() {
         <BannerAviso />
         <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
           <header className="relative flex flex-col items-center text-center gap-2 pt-2">
-            <div className="absolute right-0 top-2 flex items-center gap-2">
+            <div className="flex items-center justify-center gap-2 sm:absolute sm:right-0 sm:top-2 sm:justify-end">
               <AlternadorTema />
               <SeletorIdioma />
             </div>
