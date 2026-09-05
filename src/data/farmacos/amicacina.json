@@ -116,6 +116,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "protocolo_institucional",
+      "descricao": "Ministerio da Saude do Brasil (CONJUR/AGU) - Nota Tecnica sobre amicacina: informacoes de registro na ANVISA, indicacoes, apresentacoes comerciais e padronizacao pelo Componente Especializado/Estrategico da Assistencia Farmaceutica no SUS.",
+      "url": "https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/notas-tecnicas/a/amicacina-atualizada-em-04-12-2015.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Amikacin\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2024/04/Amikacin_ANMFv3.0_20260219.pdf",

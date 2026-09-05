@@ -86,6 +86,12 @@
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
+      "tipo": "protocolo_institucional",
+      "descricao": "Ministerio da Saude do Brasil (CONJUR/AGU) - Nota Tecnica sobre teicoplanina: informacoes de registro na ANVISA, indicacoes e apresentacoes comerciais no Brasil.",
+      "url": "https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/t/teicoplanina-atualizada-em-02-12-2015.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "artigo_cientifico",
       "descricao": "A review of teicoplanin in the treatment of serious neonatal infections (review); dose usual de ataque IV 16 mg/kg seguida de manutencao 8 mg/kg/dia, com taxas de erradicacao bacteriana de aproximadamente 89% em sepse neonatal por estafilococo coagulase-negativo.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/9208233/",

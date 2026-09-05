@@ -86,6 +86,12 @@
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
+      "tipo": "protocolo_institucional",
+      "descricao": "Ministerio da Saude do Brasil (CONJUR/AGU) - Nota Tecnica sobre linezolida: informacoes de registro na ANVISA, indicacoes e apresentacoes comerciais no Brasil.",
+      "url": "https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/l/linezolida-9-12-2015tcgf.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Linezolid\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/Linezolid_ANMFv1.1_20230726.pdf",
