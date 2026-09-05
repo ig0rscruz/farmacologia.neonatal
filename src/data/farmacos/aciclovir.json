@@ -86,6 +86,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital / Farmacopeia Brasileira 6a edicao: monografia farmacopeica oficial \"Aciclovir\" (IF009-00), referencia regulatoria brasileira sobre o farmaco.",
+      "url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/716/1/Aciclovir,%20IF009-00_6ed_2019.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Aciclovir (Acyclovir)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2024/12/Aciclovir_ANMFv4.0_20250213-1.pdf",

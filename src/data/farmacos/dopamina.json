@@ -92,6 +92,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital / Farmacopeia Brasileira: monografia farmacopeica oficial \"Cloridrato de dopamina\" (IF123-00), referencia regulatoria brasileira sobre o farmaco.",
+      "url": "https://bibliotecadigital.anvisa.ibict.br/jspui/handle/anvisa/1064",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Dopamine\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2023/07/DOPamine_ANMFv3.0_20230726.pdf",

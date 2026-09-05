@@ -146,6 +146,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital / Farmacopeia Brasileira: monografia farmacopeica oficial \"Paracetamol\" (IF282-01), referencia regulatoria brasileira sobre o farmaco.",
+      "url": "https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/1376",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Paracetamol\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2022/02/Paracetamol_-ANMFv4.0_20220203.pdf",

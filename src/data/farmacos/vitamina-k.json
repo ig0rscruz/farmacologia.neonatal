@@ -77,6 +77,12 @@
   "nivelEvidenciaGeral": "A",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital / Farmacopeia Brasileira: monografia farmacopeica oficial \"Fitomenadiona\" (Vitamina K1, IF182-01), referencia regulatoria brasileira sobre o farmaco.",
+      "url": "https://bibliotecadigital.anvisa.gov.br/jspui/handle/anvisa/1199",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Vitamin K1 (Phytomenadione)\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2023/08/Vitamin-K_ANMFv3.0_20230810-1.pdf",

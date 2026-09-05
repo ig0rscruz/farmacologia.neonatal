@@ -101,6 +101,12 @@
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
+      "tipo": "bula_anvisa",
+      "descricao": "ANVISA - Biblioteca Digital / Farmacopeia Brasileira 6a edicao: monografia farmacopeica oficial \"Fluconazol\" (IF183-01), referencia regulatoria brasileira sobre o farmaco.",
+      "url": "https://bibliotecadigital.anvisa.gov.br/jspui/bitstream/anvisa/1200/1/Fluconazol_IF183-01_6ed_2019.pdf",
+      "dataAcesso": "2026-09-05"
+    },
+    {
       "tipo": "diretriz_sociedade",
       "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Fluconazole\", versão vigente. Formulário neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed), com faixas de dose e alertas de segurança especificos para a populacao neonatal.",
       "url": "https://www.anmfonline.org/wp-content/uploads/2022/06/Fluconazole_ANMFv3.0_20210916.pdf",
