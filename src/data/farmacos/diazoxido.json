@@ -1,0 +1,56 @@
+{
+  "id": "diazoxido",
+  "nome": { "pt-BR": "Diazóxido", "en-US": "Diazoxide", "es": "Diazóxido" },
+  "nomeGenerico": { "pt-BR": "Diazóxido oral", "en-US": "Oral diazoxide", "es": "Diazóxido oral" },
+  "classeFarmacologica": { "pt-BR": "Inibidor de secreção de insulina", "en-US": "Insulin secretion inhibitor", "es": "Inhibidor de la secreción de insulina" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hiperinsulinismo congênito — primeira linha farmacológica na maioria dos protocolos"],
+    "en-US": ["Congenital hyperinsulinism — first-line pharmacologic agent in most protocols"],
+    "es": ["Hiperinsulinismo congénito — agente farmacológico de primera línea en la mayoría de los protocolos"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 5,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 8,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 5-15 mg/kg/dia dividida a cada 8h; titular conforme resposta glicêmica sob supervisão de endocrinologia pediátrica.",
+        "en-US": "Usual range 5-15 mg/kg/day divided every 8h; titrate based on glycemic response under pediatric endocrinology supervision.",
+        "es": "Rango usual 5-15 mg/kg/día dividido cada 8h; titular según la respuesta glucémica bajo supervisión de endocrinología pediátrica."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "outra",
+      "descricao": { "pt-BR": "Causa retenção hidrossalina significativa — pode precipitar ou agravar insuficiência cardíaca, especialmente em associação com hidratação vigorosa", "en-US": "Causes significant fluid/sodium retention — may precipitate or worsen heart failure, especially combined with vigorous hydration", "es": "Causa una retención hidrosalina significativa — puede precipitar o agravar la insuficiencia cardíaca, especialmente en asociación con hidratación vigorosa" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Associar diurético (ex.: clorotiazida) conforme protocolo; monitorar sinais de sobrecarga hídrica e função cardíaca", "en-US": "Combine with a diuretic (e.g., chlorothiazide) per protocol; monitor for fluid overload signs and cardiac function", "es": "Asociar un diurético (p. ej., clorotiazida) según el protocolo; monitorizar los signos de sobrecarga hídrica y la función cardíaca" }
+    },
+    {
+      "condicao": "risco_neurotoxicidade",
+      "descricao": { "pt-BR": "Hipertricose é efeito adverso comum e benigno; hipotensão e hiperuricemia também podem ocorrer", "en-US": "Hypertrichosis is a common, benign adverse effect; hypotension and hyperuricemia may also occur", "es": "La hipertricosis es un efecto adverso común y benigno; también pueden ocurrir hipotensión e hiperuricemia" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial e ácido úrico periodicamente", "en-US": "Monitor blood pressure and uric acid periodically", "es": "Monitorizar la presión arterial y el ácido úrico periódicamente" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Retenção hídrica é efeito adverso relevante — associação com diurético tiazídico é prática padrão", "Resposta inadequada sugere forma de hiperinsulinismo não responsiva a diazóxido, exigindo escalonamento terapêutico (ex.: octreotide)"],
+    "en-US": ["Fluid retention is a relevant adverse effect — combination with a thiazide diuretic is standard practice", "Inadequate response suggests a diazoxide-unresponsive hyperinsulinism form, requiring therapy escalation (e.g., octreotide)"],
+    "es": ["La retención hídrica es un efecto adverso relevante — la asociación con un diurético tiazídico es una práctica estándar", "Una respuesta inadecuada sugiere una forma de hiperinsulinismo no respondedora al diazóxido, que requiere escalada terapéutica (p. ej., octreótido)"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretrizes de endocrinologia pediátrica (ex.: Pediatric Endocrine Society) sobre manejo de hiperinsulinismo congênito. Substituir por referência específica revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

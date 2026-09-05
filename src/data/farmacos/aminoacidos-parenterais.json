@@ -1,0 +1,56 @@
+{
+  "id": "aminoacidos-parenterais",
+  "nome": { "pt-BR": "Solução de aminoácidos parenterais", "en-US": "Parenteral amino acid solution", "es": "Solución de aminoácidos parenterales" },
+  "nomeGenerico": { "pt-BR": "Solução de aminoácidos pediátrica para nutrição parenteral", "en-US": "Pediatric amino acid solution for parenteral nutrition", "es": "Solución de aminoácidos pediátrica para nutrición parenteral" },
+  "classeFarmacologica": { "pt-BR": "Componente de nutrição parenteral", "en-US": "Parenteral nutrition component", "es": "Componente de nutrición parenteral" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Nutrição parenteral em neonatos incapazes de receber nutrição enteral plena (ex.: prematuridade extrema, pós-operatório de cirurgia digestiva)"],
+    "en-US": ["Parenteral nutrition in neonates unable to receive full enteral nutrition (e.g., extreme prematurity, postoperative digestive surgery)"],
+    "es": ["Nutrición parenteral en neonatos incapaces de recibir nutrición enteral completa (p. ej., prematuridad extrema, posoperatorio de cirugía digestiva)"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 1.5,
+      "doseUnidade": "g/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Iniciar com 1.5-3 g/kg/dia já no primeiro dia de vida em prematuros (nutrição parenteral precoce), progredindo conforme tolerância até 3.5-4 g/kg/dia; formulação pediátrica específica com perfil de aminoácidos adaptado é preferida.",
+        "en-US": "Start with 1.5-3 g/kg/day as early as day 1 of life in preterm infants (early parenteral nutrition), advancing as tolerated up to 3.5-4 g/kg/day; a pediatric-specific formulation with an adapted amino acid profile is preferred.",
+        "es": "Iniciar con 1.5-3 g/kg/día ya en el primer día de vida en prematuros (nutrición parenteral precoz), progresando según tolerancia hasta 3.5-4 g/kg/día; se prefiere una formulación pediátrica específica con perfil de aminoácidos adaptado."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Excesso de oferta proteica pode agravar acúmulo de ureia/nitrogênio em disfunção renal significativa", "en-US": "Excess protein intake may worsen urea/nitrogen accumulation in significant renal impairment", "es": "El exceso de aporte proteico puede agravar la acumulación de urea/nitrógeno en la disfunción renal significativa" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Ajustar oferta proteica conforme função renal e ureia sérica, sem suspender totalmente sem avaliação especializada", "en-US": "Adjust protein intake according to renal function and serum urea, without fully discontinuing without specialized evaluation", "es": "Ajustar el aporte proteico según la función renal y la urea sérica, sin suspenderlo totalmente sin evaluación especializada" }
+    },
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Nutrição parenteral prolongada está associada a doença hepática associada à NP (colestase) — a oferta de aminoácidos é um dos fatores contribuintes discutidos", "en-US": "Prolonged parenteral nutrition is associated with parenteral nutrition-associated liver disease (cholestasis) — amino acid intake is one of the contributing factors discussed", "es": "La nutrición parenteral prolongada se asocia a enfermedad hepática asociada a la NP (colestasis) — el aporte de aminoácidos es uno de los factores contribuyentes discutidos" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar função hepática regularmente; avançar nutrição enteral assim que possível para reduzir tempo de NP", "en-US": "Monitor hepatic function regularly; advance enteral nutrition as soon as possible to reduce PN duration", "es": "Monitorizar la función hepática regularmente; avanzar la nutrición enteral tan pronto como sea posible para reducir el tiempo de NP" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Nutrição parenteral precoce com aminoácidos desde o primeiro dia de vida é prática recomendada em prematuros para minimizar catabolismo proteico", "Monitorar ureia, eletrólitos e função hepática periodicamente durante NP"],
+    "en-US": ["Early parenteral nutrition with amino acids from day 1 of life is recommended practice in preterm infants to minimize protein catabolism", "Monitor urea, electrolytes, and hepatic function periodically during PN"],
+    "es": ["La nutrición parenteral precoz con aminoácidos desde el primer día de vida es una práctica recomendada en prematuros para minimizar el catabolismo proteico", "Monitorizar la urea, los electrolitos y la función hepática periódicamente durante la NP"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretrizes ESPGHAN/ESPEN/ASPEN de nutrição parenteral pediátrica sobre oferta de aminoácidos em prematuros. Substituir por referência específica revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

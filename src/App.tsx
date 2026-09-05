@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { BannerAviso } from './components/BannerAviso'
 import { FormularioPaciente } from './components/FormularioPaciente'
 import { FonteInfo, PainelInteracoes, PainelPosologia } from './components/ResultadoVerificacao'
+import { SeletorComBusca } from './components/SeletorComBusca'
 import { SeletorIdioma } from './components/SeletorIdioma'
 import { FARMACOS, INTERACOES, PATOLOGIAS_PARENTAIS } from './data'
 import { verificarFarmaco, type ResultadoVerificacao } from './engine/verificarFarmaco'
@@ -26,6 +27,10 @@ function App() {
     [idioma],
   )
   const farmacoCandidato = FARMACOS.find((f) => f.id === candidatoId)
+  const opcoesFarmacos = useMemo(
+    () => FARMACOS.map((f) => ({ id: f.id, rotulo: texto(f.nome, idioma) })),
+    [idioma],
+  )
 
   function handleVerificar() {
     if (!candidatoId) return
@@ -73,18 +78,13 @@ function App() {
 
         <div className="bg-white rounded-2xl border border-brand-teal-light shadow-sm p-4 space-y-3">
           <h2 className="font-semibold text-brand-blue-dark">{t.candidato.titulo}</h2>
-          <select
-            className="input w-full sm:w-auto sm:min-w-[16rem]"
-            value={candidatoId}
-            onChange={(e) => handleSelecionarCandidato(e.target.value)}
-          >
-            <option value="">{t.form.selecionarFarmaco}</option>
-            {FARMACOS.map((f) => (
-              <option key={f.id} value={f.id}>
-                {texto(f.nome, idioma)}
-              </option>
-            ))}
-          </select>
+          <SeletorComBusca
+            className="w-full sm:w-auto sm:min-w-[16rem]"
+            opcoes={opcoesFarmacos}
+            valor={candidatoId}
+            onSelecionar={handleSelecionarCandidato}
+            placeholder={t.form.selecionarFarmaco}
+          />
 
           {candidatoId && (
             <div>

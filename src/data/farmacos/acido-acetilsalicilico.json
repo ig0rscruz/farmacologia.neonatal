@@ -1,0 +1,56 @@
+{
+  "id": "acido-acetilsalicilico",
+  "nome": { "pt-BR": "Ácido acetilsalicílico", "en-US": "Acetylsalicylic acid (aspirin)", "es": "Ácido acetilsalicílico" },
+  "nomeGenerico": { "pt-BR": "Aspirina em baixa dose", "en-US": "Low-dose aspirin", "es": "Aspirina en dosis baja" },
+  "classeFarmacologica": { "pt-BR": "Antiagregante plaquetário / anti-inflamatório não esteroide", "en-US": "Antiplatelet agent / nonsteroidal anti-inflammatory drug", "es": "Antiagregante plaquetario / antiinflamatorio no esteroideo" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Profilaxia de trombose de shunt/conduto em cardiopatia congênita pós-cirúrgica (uso especializado em cardiologia pediátrica)"],
+    "en-US": ["Thrombosis prophylaxis of a shunt/conduit in postoperative congenital heart disease (specialized pediatric cardiology use)"],
+    "es": ["Profilaxis de trombosis de shunt/conducto en cardiopatía congénita posquirúrgica (uso especializado en cardiología pediátrica)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 3,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Dose antiagregante baixa (faixa usual 1-5 mg/kg/dia), muito diferente de dose anti-inflamatória/antipirética — uso restrito a indicação cardiológica específica sob supervisão especializada.",
+        "en-US": "Low antiplatelet dose (usual range 1-5 mg/kg/day), very different from an anti-inflammatory/antipyretic dose — restricted to a specific cardiology indication under specialized supervision.",
+        "es": "Dosis antiagregante baja (rango usual 1-5 mg/kg/día), muy diferente de una dosis antiinflamatoria/antipirética — restringida a una indicación cardiológica específica bajo supervisión especializada."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "distúrbio_coagulacao",
+      "descricao": { "pt-BR": "Efeito antiagregante plaquetário aumenta risco de sangramento, especialmente relevante em distúrbios de coagulação preexistentes", "en-US": "Antiplatelet effect increases bleeding risk, especially relevant with preexisting coagulation disorders", "es": "El efecto antiagregante plaquetario aumenta el riesgo de sangrado, especialmente relevante con trastornos de la coagulación preexistentes" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Avaliar risco-benefício com cardiologia pediátrica; monitorar sinais de sangramento", "en-US": "Assess risk-benefit with pediatric cardiology; monitor for bleeding signs", "es": "Evaluar el riesgo-beneficio con cardiología pediátrica; monitorizar los signos de sangrado" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Salicilatos podem reduzir fluxo sanguíneo renal e são eliminados por via renal", "en-US": "Salicylates may reduce renal blood flow and are renally eliminated", "es": "Los salicilatos pueden reducir el flujo sanguíneo renal y se eliminan por vía renal" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Monitorar função renal durante uso prolongado", "en-US": "Monitor renal function during prolonged use", "es": "Monitorizar la función renal durante el uso prolongado" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Síndrome de Reye é uma preocupação clássica com salicilatos em crianças com infecção viral — relevância no período neonatal é discutida mas cautela geral se mantém", "Uso deve ser guiado por cardiologia pediátrica na indicação de profilaxia de shunt"],
+    "en-US": ["Reye syndrome is a classic concern with salicylates in children with viral infection — relevance in the neonatal period is debated but general caution is maintained", "Use should be guided by pediatric cardiology for shunt prophylaxis indication"],
+    "es": ["El síndrome de Reye es una preocupación clásica con los salicilatos en niños con infección viral — la relevancia en el período neonatal se debate, pero se mantiene la precaución general", "El uso debe ser guiado por cardiología pediátrica en la indicación de profilaxis de shunt"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretrizes de cardiologia pediátrica sobre antiagregação plaquetária pós-cirúrgica em cardiopatia congênita. Substituir por referência específica revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

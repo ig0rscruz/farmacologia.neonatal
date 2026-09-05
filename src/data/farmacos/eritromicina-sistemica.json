@@ -1,0 +1,56 @@
+{
+  "id": "eritromicina-sistemica",
+  "nome": { "pt-BR": "Eritromicina sistêmica", "en-US": "Systemic erythromycin", "es": "Eritromicina sistémica" },
+  "nomeGenerico": { "pt-BR": "Estolato/etilsuccinato de eritromicina", "en-US": "Erythromycin estolate/ethylsuccinate", "es": "Estolato/etilsuccinato de eritromicina" },
+  "classeFarmacologica": { "pt-BR": "Antibiótico macrolídeo", "en-US": "Macrolide antibiotic", "es": "Antibiótico macrólido" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Conjuntivite ou pneumonia por Chlamydia trachomatis", "Uso como agente pró-cinético para intolerância alimentar/dismotilidade (uso off-label, controverso)"],
+    "en-US": ["Chlamydia trachomatis conjunctivitis or pneumonia", "Use as a prokinetic agent for feeding intolerance/dysmotility (off-label, controversial use)"],
+    "es": ["Conjuntivitis o neumonía por Chlamydia trachomatis", "Uso como agente procinético para la intolerancia alimentaria/dismotilidad (uso fuera de ficha técnica, controvertido)"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 40,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 6,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Dose para tratamento de infecção por clamídia: 40-50 mg/kg/dia dividida a cada 6h por 14 dias. Dose pró-cinética é substancialmente menor (ex.: 3-12.5 mg/kg/dose) — não confundir as duas indicações.",
+        "en-US": "Dose for chlamydial infection treatment: 40-50 mg/kg/day divided every 6h for 14 days. Prokinetic dose is substantially lower (e.g., 3-12.5 mg/kg/dose) — do not confuse the two indications.",
+        "es": "Dosis para el tratamiento de la infección por clamidia: 40-50 mg/kg/día dividida cada 6h durante 14 días. La dosis procinética es sustancialmente menor (p. ej., 3-12.5 mg/kg/dosis) — no confundir ambas indicaciones."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "outra",
+      "descricao": { "pt-BR": "Associada a risco aumentado de estenose hipertrófica de piloro quando usada nas primeiras 2 semanas de vida, especialmente por via oral", "en-US": "Associated with increased risk of hypertrophic pyloric stenosis when used in the first 2 weeks of life, especially orally", "es": "Asociada a un riesgo aumentado de estenosis hipertrófica de píloro cuando se usa en las primeras 2 semanas de vida, especialmente por vía oral" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Orientar pais/equipe sobre sinais de estenose pilórica (vômitos em jato, piora progressiva); usar apenas quando claramente indicado", "en-US": "Advise parents/staff on signs of pyloric stenosis (projectile vomiting, progressive worsening); use only when clearly indicated", "es": "Orientar a los padres/equipo sobre los signos de estenosis pilórica (vómitos en proyectil, empeoramiento progresivo); usar solo cuando esté claramente indicado" }
+    },
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Metabolização hepática — disfunção hepática pode aumentar níveis séricos e risco de arritmia (prolongamento de QT)", "en-US": "Hepatic metabolism — hepatic impairment may increase serum levels and arrhythmia risk (QT prolongation)", "es": "Metabolización hepática — la disfunción hepática puede aumentar los niveles séricos y el riesgo de arritmia (prolongación del QT)" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Monitorar ECG (QTc) se uso prolongado ou disfunção hepática", "en-US": "Monitor ECG (QTc) with prolonged use or hepatic impairment", "es": "Monitorizar el ECG (QTc) si el uso es prolongado o hay disfunción hepática" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Risco de estenose hipertrófica de piloro é dose/idade-dependente e mais relevante nas primeiras 2 semanas de vida — discutir risco-benefício antes de uso pró-cinético", "Pode prolongar intervalo QT"],
+    "en-US": ["Hypertrophic pyloric stenosis risk is dose/age-dependent and most relevant in the first 2 weeks of life — discuss risk-benefit before prokinetic use", "May prolong the QT interval"],
+    "es": ["El riesgo de estenosis hipertrófica de píloro es dependiente de la dosis/edad y más relevante en las primeras 2 semanas de vida — discutir el riesgo-beneficio antes del uso procinético", "Puede prolongar el intervalo QT"]
+  },
+  "nivelEvidenciaGeral": "B",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — literatura sobre eritromicina neonatal e risco de estenose hipertrófica de piloro (estudos de coorte amplamente citados). Substituir por referência específica revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

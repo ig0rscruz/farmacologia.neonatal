@@ -1,0 +1,56 @@
+{
+  "id": "hidralazina",
+  "nome": { "pt-BR": "Hidralazina", "en-US": "Hydralazine", "es": "Hidralazina" },
+  "nomeGenerico": { "pt-BR": "Cloridrato de hidralazina", "en-US": "Hydralazine hydrochloride", "es": "Clorhidrato de hidralazina" },
+  "classeFarmacologica": { "pt-BR": "Vasodilatador arterial direto", "en-US": "Direct arterial vasodilator", "es": "Vasodilatador arterial directo" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipertensão arterial neonatal aguda ou de manejo intermediário"],
+    "en-US": ["Acute or intermediate-management neonatal arterial hypertension"],
+    "es": ["Hipertensión arterial neonatal aguda o de manejo intermedio"]
+  },
+  "viasAdministracao": ["intravenosa", "oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.1,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 6,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Faixa usual IV 0.1-0.5 mg/kg/dose a cada 6-8h; iniciar com dose baixa e titular. Via oral: 0.25-1 mg/kg/dose a cada 6-8h.",
+        "en-US": "Usual IV range 0.1-0.5 mg/kg/dose every 6-8h; start with a low dose and titrate. Oral route: 0.25-1 mg/kg/dose every 6-8h.",
+        "es": "Rango usual IV 0.1-0.5 mg/kg/dosis cada 6-8h; iniciar con dosis baja y titular. Vía oral: 0.25-1 mg/kg/dosis cada 6-8h."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Vasodilatação pode causar hipotensão significativa, especialmente com infusão rápida ou dose inicial alta", "en-US": "Vasodilation may cause significant hypotension, especially with rapid infusion or a high starting dose", "es": "La vasodilatación puede causar hipotensión significativa, especialmente con infusión rápida o dosis inicial alta" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial continuamente após cada dose; iniciar com dose baixa", "en-US": "Monitor blood pressure continuously after each dose; start with a low dose", "es": "Monitorizar la presión arterial de forma continua tras cada dosis; iniciar con dosis baja" }
+    },
+    {
+      "condicao": "taquicardia",
+      "descricao": { "pt-BR": "Vasodilatação reflexa pode causar taquicardia compensatória", "en-US": "Reflex vasodilation may cause compensatory tachycardia", "es": "La vasodilatación refleja puede causar taquicardia compensatoria" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar frequência cardíaca", "en-US": "Monitor heart rate", "es": "Monitorizar la frecuencia cardíaca" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Resposta pressórica pode ser imprevisível — monitorização próxima é essencial, especialmente na primeira dose"],
+    "en-US": ["Blood pressure response may be unpredictable — close monitoring is essential, especially with the first dose"],
+    "es": ["La respuesta presora puede ser impredecible — la monitorización estrecha es esencial, especialmente con la primera dosis"]
+  },
+  "nivelEvidenciaGeral": "C",
+  "fontes": [
+    {
+      "tipo": "livro_texto",
+      "descricao": "EXEMPLO — Neofax/literatura de nefrologia neonatal sobre manejo de hipertensão arterial aguda. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

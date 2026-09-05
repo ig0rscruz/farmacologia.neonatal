@@ -1,0 +1,50 @@
+{
+  "id": "nifedipina",
+  "nome": { "pt-BR": "Nifedipina", "en-US": "Nifedipine", "es": "Nifedipino" },
+  "nomeGenerico": { "pt-BR": "Nifedipina", "en-US": "Nifedipine", "es": "Nifedipino" },
+  "classeFarmacologica": { "pt-BR": "Bloqueador de canal de cálcio", "en-US": "Calcium channel blocker", "es": "Bloqueador de los canales de calcio" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipertensão arterial neonatal refratária a outros agentes (uso menos comum, off-label)"],
+    "en-US": ["Neonatal arterial hypertension refractory to other agents (less common, off-label use)"],
+    "es": ["Hipertensión arterial neonatal refractaria a otros agentes (uso menos común, fuera de ficha técnica)"]
+  },
+  "viasAdministracao": ["oral"],
+  "faixasDose": [
+    {
+      "doseValor": 0.25,
+      "doseUnidade": "mg/kg/dose",
+      "intervaloHoras": 8,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 0.25-0.5 mg/kg/dose a cada 6-8h; usar formulação de liberação imediata. Monitorização hemodinâmica próxima ao iniciar.",
+        "en-US": "Usual range 0.25-0.5 mg/kg/dose every 6-8h; use immediate-release formulation. Close hemodynamic monitoring when starting.",
+        "es": "Rango usual 0.25-0.5 mg/kg/dosis cada 6-8h; usar formulación de liberación inmediata. Monitorización hemodinámica estrecha al iniciar."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Efeito vasodilatador pode causar hipotensão significativa, especialmente em associação com outros anti-hipertensivos", "en-US": "Vasodilator effect may cause significant hypotension, especially combined with other antihypertensives", "es": "El efecto vasodilatador puede causar hipotensión significativa, especialmente en asociación con otros antihipertensivos" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial continuamente após cada dose", "en-US": "Monitor blood pressure continuously after each dose", "es": "Monitorizar la presión arterial de forma continua tras cada dosis" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso neonatal é off-label e a experiência publicada é limitada — reservar para hipertensão refratária"],
+    "en-US": ["Neonatal use is off-label and published experience is limited — reserve for refractory hypertension"],
+    "es": ["El uso neonatal es fuera de ficha técnica y la experiencia publicada es limitada — reservar para hipertensión refractaria"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "artigo_cientifico",
+      "descricao": "EXEMPLO — relatos de caso/série sobre uso de nifedipina em hipertensão neonatal refratária. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

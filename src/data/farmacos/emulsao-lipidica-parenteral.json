@@ -1,0 +1,56 @@
+{
+  "id": "emulsao-lipidica-parenteral",
+  "nome": { "pt-BR": "Emulsão lipídica parenteral", "en-US": "Parenteral lipid emulsion", "es": "Emulsión lipídica parenteral" },
+  "nomeGenerico": { "pt-BR": "Emulsão lipídica intravenosa (ex.: à base de óleo de soja, ou mista/multi-óleo)", "en-US": "Intravenous lipid emulsion (e.g., soybean oil-based, or mixed/multi-oil)", "es": "Emulsión lipídica intravenosa (p. ej., a base de aceite de soja, o mixta/multi-aceite)" },
+  "classeFarmacologica": { "pt-BR": "Componente de nutrição parenteral", "en-US": "Parenteral nutrition component", "es": "Componente de nutrición parenteral" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Fonte calórica e de ácidos graxos essenciais em nutrição parenteral"],
+    "en-US": ["Caloric and essential fatty acid source in parenteral nutrition"],
+    "es": ["Fuente calórica y de ácidos grasos esenciales en nutrición parenteral"]
+  },
+  "viasAdministracao": ["intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "g/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "intravenosa",
+      "observacoes": {
+        "pt-BR": "Iniciar com 1-2 g/kg/dia já nas primeiras 24-48h de vida em prematuros, progredindo até 3-4 g/kg/dia conforme tolerância e triglicerídeos séricos.",
+        "en-US": "Start with 1-2 g/kg/day within the first 24-48h of life in preterm infants, advancing up to 3-4 g/kg/day based on tolerance and serum triglycerides.",
+        "es": "Iniciar con 1-2 g/kg/día dentro de las primeras 24-48h de vida en prematuros, progresando hasta 3-4 g/kg/día según la tolerancia y los triglicéridos séricos."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "hiperbilirrubinemia",
+      "descricao": { "pt-BR": "Ácidos graxos livres podem competir com bilirrubina pela ligação à albumina — cautela em hiperbilirrubinemia significativa, especialmente próximo ao limiar de exsanguineotransfusão", "en-US": "Free fatty acids may compete with bilirubin for albumin binding — caution in significant hyperbilirubinemia, especially near the exchange transfusion threshold", "es": "Los ácidos grasos libres pueden competir con la bilirrubina por la unión a la albúmina — precaución en hiperbilirrubinemia significativa, especialmente cerca del umbral de exanguinotransfusión" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Considerar redução temporária da infusão lipídica em hiperbilirrubinemia grave, sob orientação especializada", "en-US": "Consider temporarily reducing the lipid infusion in severe hyperbilirubinemia, under specialized guidance", "es": "Considerar la reducción temporal de la infusión lipídica en la hiperbilirrubinemia grave, bajo orientación especializada" }
+    },
+    {
+      "condicao": "sepse",
+      "descricao": { "pt-BR": "Hipertrigliceridemia associada à infusão lipídica pode ser exacerbada durante sepse; monitorar triglicerídeos", "en-US": "Lipid infusion-associated hypertriglyceridemia may be exacerbated during sepsis; monitor triglycerides", "es": "La hipertrigliceridemia asociada a la infusión lipídica puede exacerbarse durante la sepsis; monitorizar los triglicéridos" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar triglicerídeos séricos periodicamente, especialmente durante quadro infeccioso agudo", "en-US": "Monitor serum triglycerides periodically, especially during an acute infectious episode", "es": "Monitorizar los triglicéridos séricos periódicamente, especialmente durante un cuadro infeccioso agudo" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Monitorar triglicerídeos séricos periodicamente durante uso", "Emulsões com menor proporção de óleo de soja (multi-óleo) podem estar associadas a menor risco de colestase em uso prolongado, conforme literatura recente"],
+    "en-US": ["Monitor serum triglycerides periodically during use", "Emulsions with a lower soybean oil proportion (multi-oil) may be associated with lower cholestasis risk with prolonged use, per recent literature"],
+    "es": ["Monitorizar los triglicéridos séricos periódicamente durante el uso", "Las emulsiones con menor proporción de aceite de soja (multi-aceite) pueden asociarse a menor riesgo de colestasis con el uso prolongado, según la literatura reciente"]
+  },
+  "nivelEvidenciaGeral": "A",
+  "fontes": [
+    {
+      "tipo": "diretriz_sociedade",
+      "descricao": "EXEMPLO — diretrizes ESPGHAN/ESPEN de nutrição parenteral pediátrica sobre emulsões lipídicas. Substituir por referência específica revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

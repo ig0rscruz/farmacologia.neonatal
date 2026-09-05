@@ -1,0 +1,56 @@
+{
+  "id": "metildopa",
+  "nome": { "pt-BR": "Metildopa", "en-US": "Methyldopa", "es": "Metildopa" },
+  "nomeGenerico": { "pt-BR": "Alfametildopa", "en-US": "Alpha-methyldopa", "es": "Alfametildopa" },
+  "classeFarmacologica": { "pt-BR": "Anti-hipertensivo de ação central", "en-US": "Centrally-acting antihypertensive", "es": "Antihipertensivo de acción central" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Hipertensão arterial neonatal (uso menos comum que outros agentes na neonatologia moderna)"],
+    "en-US": ["Neonatal arterial hypertension (less commonly used than other agents in modern neonatology)"],
+    "es": ["Hipertensión arterial neonatal (uso menos común que otros agentes en la neonatología moderna)"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 10,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 8,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Faixa usual 10-40 mg/kg/dia dividida a cada 6-8h; titular conforme resposta pressórica.",
+        "en-US": "Usual range 10-40 mg/kg/day divided every 6-8h; titrate based on blood pressure response.",
+        "es": "Rango usual 10-40 mg/kg/día dividido cada 6-8h; titular según la respuesta presora."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Hepatotoxicidade é efeito adverso raro mas descrito — evitar em disfunção hepática preexistente", "en-US": "Hepatotoxicity is a rare but described adverse effect — avoid in preexisting hepatic impairment", "es": "La hepatotoxicidad es un efecto adverso raro pero descrito — evitar en disfunción hepática preexistente" },
+      "gravidade": "usar_com_cautela",
+      "conduta": { "pt-BR": "Monitorar função hepática se uso prolongado", "en-US": "Monitor hepatic function with prolonged use", "es": "Monitorizar la función hepática si el uso es prolongado" }
+    },
+    {
+      "condicao": "hipotensao",
+      "descricao": { "pt-BR": "Efeito anti-hipertensivo pode causar hipotensão excessiva, especialmente associado a outros anti-hipertensivos", "en-US": "Antihypertensive effect may cause excessive hypotension, especially combined with other antihypertensives", "es": "El efecto antihipertensivo puede causar hipotensión excesiva, especialmente asociado a otros antihipertensivos" },
+      "gravidade": "monitorar",
+      "conduta": { "pt-BR": "Monitorar pressão arterial regularmente ao iniciar/ajustar dose", "en-US": "Monitor blood pressure regularly when starting/adjusting dose", "es": "Monitorizar la presión arterial regularmente al iniciar/ajustar la dosis" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso neonatal é menos frequente atualmente — outros agentes (ex.: propranolol, captopril) são mais comumente usados conforme etiologia da hipertensão"],
+    "en-US": ["Neonatal use is less frequent currently — other agents (e.g., propranolol, captopril) are more commonly used depending on hypertension etiology"],
+    "es": ["El uso neonatal es actualmente menos frecuente — otros agentes (p. ej., propranolol, captopril) se usan más comúnmente según la etiología de la hipertensión"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "livro_texto",
+      "descricao": "EXEMPLO — literatura de nefrologia/cardiologia neonatal sobre manejo de hipertensão arterial no período neonatal. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

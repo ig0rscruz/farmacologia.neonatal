@@ -1,0 +1,62 @@
+{
+  "id": "azatioprina",
+  "nome": { "pt-BR": "Azatioprina", "en-US": "Azathioprine", "es": "Azatioprina" },
+  "nomeGenerico": { "pt-BR": "Azatioprina", "en-US": "Azathioprine", "es": "Azatioprina" },
+  "classeFarmacologica": { "pt-BR": "Imunossupressor (análogo de purina)", "en-US": "Immunosuppressant (purine analog)", "es": "Inmunosupresor (análogo de purina)" },
+  "indicacoesNeonatais": {
+    "pt-BR": ["Uso extremamente raro e off-label em neonatologia (ex.: contexto pós-transplante neonatal muito seletivo)"],
+    "en-US": ["Extremely rare, off-label use in neonatology (e.g., very select post-transplant neonatal context)"],
+    "es": ["Uso extremadamente raro y fuera de ficha técnica en neonatología (p. ej., contexto postrasplante neonatal muy selectivo)"]
+  },
+  "viasAdministracao": ["oral", "intravenosa"],
+  "faixasDose": [
+    {
+      "doseValor": 1,
+      "doseUnidade": "mg/kg/dia",
+      "intervaloHoras": 24,
+      "viaAdministracao": "oral",
+      "observacoes": {
+        "pt-BR": "Uso restrito a contexto especializado (transplante/imunologia pediátrica); dose deve ser individualizada com monitorização hematológica rigorosa e, quando disponível, genotipagem de TPMT.",
+        "en-US": "Restricted use to a specialized context (transplant/pediatric immunology); dose must be individualized with rigorous hematologic monitoring and, when available, TPMT genotyping.",
+        "es": "Uso restringido a un contexto especializado (trasplante/inmunología pediátrica); la dosis debe individualizarse con monitorización hematológica rigurosa y, cuando esté disponible, genotipificación de TPMT."
+      }
+    }
+  ],
+  "contraindicacoes": [
+    {
+      "condicao": "insuficiencia_hepatica",
+      "descricao": { "pt-BR": "Hepatotoxicidade é efeito adverso conhecido — disfunção hepática exige ajuste e monitorização mais rigorosa", "en-US": "Hepatotoxicity is a known adverse effect — hepatic impairment requires more rigorous adjustment and monitoring", "es": "La hepatotoxicidad es un efecto adverso conocido — la disfunción hepática requiere un ajuste y monitorización más rigurosos" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Reduzir dose e monitorar função hepática frequentemente", "en-US": "Reduce dose and monitor hepatic function frequently", "es": "Reducir la dosis y monitorizar la función hepática con frecuencia" }
+    },
+    {
+      "condicao": "insuficiencia_renal",
+      "descricao": { "pt-BR": "Eliminação de metabólitos ativos é parcialmente renal", "en-US": "Elimination of active metabolites is partially renal", "es": "La eliminación de metabolitos activos es parcialmente renal" },
+      "gravidade": "ajustar_dose",
+      "conduta": { "pt-BR": "Considerar redução de dose em disfunção renal", "en-US": "Consider dose reduction in renal impairment", "es": "Considerar la reducción de dosis en la disfunción renal" }
+    },
+    {
+      "condicao": "sepse",
+      "descricao": { "pt-BR": "Imunossupressão aumenta risco e gravidade de infecções — extremamente relevante no período neonatal", "en-US": "Immunosuppression increases infection risk and severity — extremely relevant in the neonatal period", "es": "La inmunosupresión aumenta el riesgo y la gravedad de las infecciones — extremadamente relevante en el período neonatal" },
+      "gravidade": "contraindicado",
+      "conduta": { "pt-BR": "Suspender ou reduzir imunossupressão durante infecção ativa, conforme orientação da equipe especializada", "en-US": "Discontinue or reduce immunosuppression during active infection, per specialized team guidance", "es": "Suspender o reducir la inmunosupresión durante la infección activa, según la orientación del equipo especializado" }
+    }
+  ],
+  "alertasGerais": {
+    "pt-BR": ["Uso extremamente restrito, sempre sob supervisão de equipe especializada em transplante/imunologia pediátrica", "Monitorização hematológica (hemograma) obrigatória pelo risco de mielossupressão"],
+    "en-US": ["Extremely restricted use, always under supervision of a specialized pediatric transplant/immunology team", "Hematologic monitoring (blood count) is mandatory due to myelosuppression risk"],
+    "es": ["Uso extremadamente restringido, siempre bajo supervisión de un equipo especializado en trasplante/inmunología pediátrica", "La monitorización hematológica (hemograma) es obligatoria por el riesgo de mielosupresión"]
+  },
+  "nivelEvidenciaGeral": "D",
+  "fontes": [
+    {
+      "tipo": "livro_texto",
+      "descricao": "EXEMPLO — literatura de transplante/imunologia pediátrica sobre uso excepcional de azatioprina em neonatos. Substituir por fonte revisada.",
+      "dataAcesso": "2026-09-05"
+    }
+  ],
+  "ultimaRevisao": {
+    "data": "2026-09-05",
+    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+  }
+}

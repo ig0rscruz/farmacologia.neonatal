@@ -6,6 +6,7 @@ import { CondicaoClinica, ViaAdministracao } from '../types/comum'
 import { sugerirCondicoesPorSinaisVitais } from '../engine/sinaisVitais'
 import { useLocale } from '../i18n/LocaleContext'
 import { texto } from '../i18n/texto'
+import { SeletorComBusca } from './SeletorComBusca'
 
 interface Props {
   paciente: Paciente
@@ -37,6 +38,14 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
   }
 
   const sugestoesVitais = useMemo(() => sugerirCondicoesPorSinaisVitais(paciente), [paciente])
+  const opcoesFarmacos = useMemo(
+    () => farmacosDisponiveis.map((f) => ({ id: f.id, rotulo: texto(f.nome, idioma) })),
+    [farmacosDisponiveis, idioma],
+  )
+  const opcoesPatologias = useMemo(
+    () => patologiasDisponiveis.map((p) => ({ id: p.id, rotulo: texto(p.nome, idioma) })),
+    [patologiasDisponiveis, idioma],
+  )
 
   function alternarCondicao(condicao: CondicaoClinica) {
     const jaMarcada = paciente.condicoesClinicas.includes(condicao)
@@ -367,18 +376,13 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
         <h2 className="font-semibold text-slate-800 mb-2">{t.form.medicamentosEmUso}</h2>
         <p className="text-xs text-slate-500 mb-2">{t.form.medicamentosEmUsoAviso}</p>
         <div className="flex flex-wrap gap-2 mb-2">
-          <select
-            className="input flex-1 min-w-[10rem]"
-            value={novoMedicamentoId}
-            onChange={(e) => setNovoMedicamentoId(e.target.value)}
-          >
-            <option value="">{t.form.selecionarFarmaco}</option>
-            {farmacosDisponiveis.map((f) => (
-              <option key={f.id} value={f.id}>
-                {texto(f.nome, idioma)}
-              </option>
-            ))}
-          </select>
+          <SeletorComBusca
+            className="flex-1 min-w-[10rem]"
+            opcoes={opcoesFarmacos}
+            valor={novoMedicamentoId}
+            onSelecionar={setNovoMedicamentoId}
+            placeholder={t.form.selecionarFarmaco}
+          />
         </div>
         <div className="flex flex-wrap gap-2 mb-2">
           <input
@@ -448,18 +452,13 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
       <section>
         <h2 className="font-semibold text-slate-800 mb-2">{t.form.patologiasParentais}</h2>
         <div className="flex flex-wrap gap-2 mb-2">
-          <select
-            className="input flex-1 min-w-[10rem]"
-            value={novaPatologiaId}
-            onChange={(e) => setNovaPatologiaId(e.target.value)}
-          >
-            <option value="">{t.form.selecionarPatologia}</option>
-            {patologiasDisponiveis.map((p) => (
-              <option key={p.id} value={p.id}>
-                {texto(p.nome, idioma)}
-              </option>
-            ))}
-          </select>
+          <SeletorComBusca
+            className="flex-1 min-w-[10rem]"
+            opcoes={opcoesPatologias}
+            valor={novaPatologiaId}
+            onSelecionar={setNovaPatologiaId}
+            placeholder={t.form.selecionarPatologia}
+          />
           <select
             className="input"
             value={novaPatologiaParentesco}
