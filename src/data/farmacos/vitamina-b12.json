@@ -1,14 +1,35 @@
 {
   "id": "vitamina-b12",
-  "nome": { "pt-BR": "Vitamina B12", "en-US": "Vitamin B12", "es": "Vitamina B12" },
-  "nomeGenerico": { "pt-BR": "Cianocobalamina / hidroxocobalamina", "en-US": "Cyanocobalamin / hydroxocobalamin", "es": "Cianocobalamina / hidroxocobalamina" },
-  "classeFarmacologica": { "pt-BR": "Vitamina hidrossolúvel (complexo B)", "en-US": "Water-soluble vitamin (B complex)", "es": "Vitamina hidrosoluble (complejo B)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Deficiência de vitamina B12 (ex.: filho de mãe vegana/vegetariana estrita sem suplementação, ou erros inatos do metabolismo de cobalamina)"],
-    "en-US": ["Vitamin B12 deficiency (e.g., infant of a strictly vegan/vegetarian mother without supplementation, or inborn errors of cobalamin metabolism)"],
-    "es": ["Deficiencia de vitamina B12 (p. ej., hijo de madre vegana/vegetariana estricta sin suplementación, o errores innatos del metabolismo de la cobalamina)"]
+  "nome": {
+    "pt-BR": "Vitamina B12",
+    "en-US": "Vitamin B12",
+    "es": "Vitamina B12"
   },
-  "viasAdministracao": ["intramuscular", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Cianocobalamina / hidroxocobalamina",
+    "en-US": "Cyanocobalamin / hydroxocobalamin",
+    "es": "Cianocobalamina / hidroxocobalamina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Vitamina hidrossolúvel (complexo B)",
+    "en-US": "Water-soluble vitamin (B complex)",
+    "es": "Vitamina hidrosoluble (complejo B)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Deficiência de vitamina B12 (ex.: filho de mãe vegana/vegetariana estrita sem suplementação, ou erros inatos do metabolismo de cobalamina)"
+    ],
+    "en-US": [
+      "Vitamin B12 deficiency (e.g., infant of a strictly vegan/vegetarian mother without supplementation, or inborn errors of cobalamin metabolism)"
+    ],
+    "es": [
+      "Deficiencia de vitamina B12 (p. ej., hijo de madre vegana/vegetariana estricta sin suplementación, o errores innatos del metabolismo de la cobalamina)"
+    ]
+  },
+  "viasAdministracao": [
+    "intramuscular",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 1000,
@@ -24,20 +45,34 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Investigar etiologia da deficiência antes de tratar — pode sinalizar erro inato do metabolismo que requer manejo especializado", "Resposta clínica e laboratorial deve ser monitorada"],
-    "en-US": ["Investigate the etiology of the deficiency before treating — it may signal an inborn error of metabolism requiring specialized management", "Clinical and laboratory response should be monitored"],
-    "es": ["Investigar la etiología de la deficiencia antes de tratar — puede señalar un error innato del metabolismo que requiere manejo especializado", "Se debe monitorizar la respuesta clínica y de laboratorio"]
+    "pt-BR": [
+      "Investigar etiologia da deficiência antes de tratar — pode sinalizar erro inato do metabolismo que requer manejo especializado",
+      "Resposta clínica e laboratorial deve ser monitorada"
+    ],
+    "en-US": [
+      "Investigate the etiology of the deficiency before treating — it may signal an inborn error of metabolism requiring specialized management",
+      "Clinical and laboratory response should be monitored"
+    ],
+    "es": [
+      "Investigar la etiología de la deficiencia antes de tratar — puede señalar un error innato del metabolismo que requiere manejo especializado",
+      "Se debe monitorizar la respuesta clínica y de laboratorio"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "livro_texto",
-      "descricao": "EXEMPLO — literatura de metabologia neonatal/pediátrica sobre deficiência de vitamina B12 e erros inatos do metabolismo de cobalamina. Substituir por fonte revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Severe vitamin B12 deficiency in an exclusively breastfed 5-month-old infant born to a mother receiving multivitamin supplementation during pregnancy (relato de caso); literatura adverte que doses de B12 >=300-500 mcg em lactentes com deficiencia por dieta materna vegana podem causar tremores/mioclonias, sugerindo que doses tao altas nao sao necessarias nesses casos — resposta favoravel geralmente ocorre em poucos dias de tratamento.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407531/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

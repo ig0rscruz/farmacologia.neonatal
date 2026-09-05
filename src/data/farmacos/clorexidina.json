@@ -1,14 +1,37 @@
 {
   "id": "clorexidina",
-  "nome": { "pt-BR": "Clorexidina", "en-US": "Chlorhexidine", "es": "Clorhexidina" },
-  "nomeGenerico": { "pt-BR": "Gluconato de clorexidina (antisséptico tópico)", "en-US": "Chlorhexidine gluconate (topical antiseptic)", "es": "Gluconato de clorhexidina (antiséptico tópico)" },
-  "classeFarmacologica": { "pt-BR": "Antisséptico tópico", "en-US": "Topical antiseptic", "es": "Antiséptico tópico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Antissepsia de pele antes de procedimentos invasivos (ex.: inserção de cateter)", "Cuidado do coto umbilical em contextos selecionados de alto risco de infecção"],
-    "en-US": ["Skin antisepsis before invasive procedures (e.g., catheter insertion)", "Umbilical cord care in selected high infection-risk settings"],
-    "es": ["Antisepsia de la piel antes de procedimientos invasivos (p. ej., inserción de catéter)", "Cuidado del cordón umbilical en contextos seleccionados de alto riesgo de infección"]
+  "nome": {
+    "pt-BR": "Clorexidina",
+    "en-US": "Chlorhexidine",
+    "es": "Clorhexidina"
   },
-  "viasAdministracao": ["topica"],
+  "nomeGenerico": {
+    "pt-BR": "Gluconato de clorexidina (antisséptico tópico)",
+    "en-US": "Chlorhexidine gluconate (topical antiseptic)",
+    "es": "Gluconato de clorhexidina (antiséptico tópico)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antisséptico tópico",
+    "en-US": "Topical antiseptic",
+    "es": "Antiséptico tópico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Antissepsia de pele antes de procedimentos invasivos (ex.: inserção de cateter)",
+      "Cuidado do coto umbilical em contextos selecionados de alto risco de infecção"
+    ],
+    "en-US": [
+      "Skin antisepsis before invasive procedures (e.g., catheter insertion)",
+      "Umbilical cord care in selected high infection-risk settings"
+    ],
+    "es": [
+      "Antisepsia de la piel antes de procedimientos invasivos (p. ej., inserción de catéter)",
+      "Cuidado del cordón umbilical en contextos seleccionados de alto riesgo de infección"
+    ]
+  },
+  "viasAdministracao": [
+    "topica"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -25,26 +48,48 @@
   "contraindicacoes": [
     {
       "condicao": "prematuridade_extrema",
-      "descricao": { "pt-BR": "Risco de irritação cutânea/queimadura química é maior em pele imatura de prematuros extremos, especialmente com concentrações mais altas ou uso sob oclusão", "en-US": "Skin irritation/chemical burn risk is higher in the immature skin of extremely preterm infants, especially with higher concentrations or use under occlusion", "es": "El riesgo de irritación cutánea/quemadura química es mayor en la piel inmadura de prematuros extremos, especialmente con concentraciones más altas o uso bajo oclusión" },
+      "descricao": {
+        "pt-BR": "Risco de irritação cutânea/queimadura química é maior em pele imatura de prematuros extremos, especialmente com concentrações mais altas ou uso sob oclusão",
+        "en-US": "Skin irritation/chemical burn risk is higher in the immature skin of extremely preterm infants, especially with higher concentrations or use under occlusion",
+        "es": "El riesgo de irritación cutánea/quemadura química es mayor en la piel inmadura de prematuros extremos, especialmente con concentraciones más altas o uso bajo oclusión"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Preferir concentrações menores; evitar uso sob oclusão; remover excesso após secagem quando possível", "en-US": "Prefer lower concentrations; avoid use under occlusion; remove excess after drying when possible", "es": "Preferir concentraciones menores; evitar el uso bajo oclusión; retirar el exceso tras el secado cuando sea posible" }
+      "conduta": {
+        "pt-BR": "Preferir concentrações menores; evitar uso sob oclusão; remover excesso após secagem quando possível",
+        "en-US": "Prefer lower concentrations; avoid use under occlusion; remove excess after drying when possible",
+        "es": "Preferir concentraciones menores; evitar el uso bajo oclusión; retirar el exceso tras el secado cuando sea posible"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Evitar contato prolongado/uso sob oclusão em pele de prematuro extremo", "Não usar próximo aos olhos ou ouvidos"],
-    "en-US": ["Avoid prolonged contact/use under occlusion on extremely preterm infant skin", "Do not use near the eyes or ears"],
-    "es": ["Evitar el contacto prolongado/uso bajo oclusión en la piel de prematuros extremos", "No usar cerca de los ojos ni los oídos"]
+    "pt-BR": [
+      "Evitar contato prolongado/uso sob oclusão em pele de prematuro extremo",
+      "Não usar próximo aos olhos ou ouvidos"
+    ],
+    "en-US": [
+      "Avoid prolonged contact/use under occlusion on extremely preterm infant skin",
+      "Do not use near the eyes or ears"
+    ],
+    "es": [
+      "Evitar el contacto prolongado/uso bajo oclusión en la piel de prematuros extremos",
+      "No usar cerca de los ojos ni los oídos"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — protocolo de antissepsia neonatal/prevenção de infecção associada a cateter. Substituir por fonte institucional revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Harris K et al. Chlorhexidine gluconate for antisepsis in preterm neonates: A review of safety and efficacy. Pediatric Dermatology, 2024; e alerta de seguranca (rotulagem) sobre risco de queimaduras quimicas graves em prematuros extremos, especialmente com acumulo de solucao sob o corpo/pregas cutaneas — reforca uso cauteloso e remocao do excesso.",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/pde.15709",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

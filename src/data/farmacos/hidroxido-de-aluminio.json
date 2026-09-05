@@ -1,14 +1,34 @@
 {
   "id": "hidroxido-de-aluminio",
-  "nome": { "pt-BR": "Hidróxido de alumínio", "en-US": "Aluminum hydroxide", "es": "Hidróxido de aluminio" },
-  "nomeGenerico": { "pt-BR": "Hidróxido de alumínio (antiácido/quelante de fósforo)", "en-US": "Aluminum hydroxide (antacid/phosphate binder)", "es": "Hidróxido de aluminio (antiácido/quelante de fósforo)" },
-  "classeFarmacologica": { "pt-BR": "Antiácido / quelante de fósforo", "en-US": "Antacid / phosphate binder", "es": "Antiácido / quelante de fósforo" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Hiperfosfatemia em disfunção renal (uso muito restrito e por curto prazo em neonatologia, pelo risco de acúmulo de alumínio)"],
-    "en-US": ["Hyperphosphatemia in renal impairment (very restricted, short-term use in neonatology, due to aluminum accumulation risk)"],
-    "es": ["Hiperfosfatemia en la disfunción renal (uso muy restringido y a corto plazo en neonatología, por el riesgo de acumulación de aluminio)"]
+  "nome": {
+    "pt-BR": "Hidróxido de alumínio",
+    "en-US": "Aluminum hydroxide",
+    "es": "Hidróxido de aluminio"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Hidróxido de alumínio (antiácido/quelante de fósforo)",
+    "en-US": "Aluminum hydroxide (antacid/phosphate binder)",
+    "es": "Hidróxido de aluminio (antiácido/quelante de fósforo)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiácido / quelante de fósforo",
+    "en-US": "Antacid / phosphate binder",
+    "es": "Antiácido / quelante de fósforo"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Hiperfosfatemia em disfunção renal (uso muito restrito e por curto prazo em neonatologia, pelo risco de acúmulo de alumínio)"
+    ],
+    "en-US": [
+      "Hyperphosphatemia in renal impairment (very restricted, short-term use in neonatology, due to aluminum accumulation risk)"
+    ],
+    "es": [
+      "Hiperfosfatemia en la disfunción renal (uso muy restringido y a corto plazo en neonatología, por el riesgo de acumulación de aluminio)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 50,
@@ -25,26 +45,45 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Acúmulo de alumínio é significativamente maior em disfunção renal, com risco de osteomalácia e encefalopatia por alumínio, especialmente em uso prolongado", "en-US": "Aluminum accumulation is significantly higher in renal impairment, with risk of aluminum-related osteomalacia and encephalopathy, especially with prolonged use", "es": "La acumulación de aluminio es significativamente mayor en la disfunción renal, con riesgo de osteomalacia y encefalopatía por aluminio, especialmente con uso prolongado" },
+      "descricao": {
+        "pt-BR": "Acúmulo de alumínio é significativamente maior em disfunção renal, com risco de osteomalácia e encefalopatia por alumínio, especialmente em uso prolongado",
+        "en-US": "Aluminum accumulation is significantly higher in renal impairment, with risk of aluminum-related osteomalacia and encephalopathy, especially with prolonged use",
+        "es": "La acumulación de aluminio es significativamente mayor en la disfunción renal, con riesgo de osteomalacia y encefalopatía por aluminio, especialmente con uso prolongado"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Limitar duração de uso ao mínimo necessário; considerar alternativas (ex.: carbonato de cálcio) quando possível", "en-US": "Limit duration of use to the minimum necessary; consider alternatives (e.g., calcium carbonate) when possible", "es": "Limitar la duración del uso al mínimo necesario; considerar alternativas (p. ej., carbonato de calcio) cuando sea posible" }
+      "conduta": {
+        "pt-BR": "Limitar duração de uso ao mínimo necessário; considerar alternativas (ex.: carbonato de cálcio) quando possível",
+        "en-US": "Limit duration of use to the minimum necessary; consider alternatives (e.g., calcium carbonate) when possible",
+        "es": "Limitar la duración del uso al mínimo necesario; considerar alternativas (p. ej., carbonato de calcio) cuando sea posible"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Toxicidade por alumínio é preocupação bem documentada em neonatos, especialmente prematuros e com disfunção renal — uso deve ser criteriosamente limitado no tempo"],
-    "en-US": ["Aluminum toxicity is a well-documented concern in neonates, especially preterm infants and those with renal impairment — use should be judiciously time-limited"],
-    "es": ["La toxicidad por aluminio es una preocupación bien documentada en neonatos, especialmente prematuros y con disfunción renal — el uso debe limitarse juiciosamente en el tiempo"]
+    "pt-BR": [
+      "Toxicidade por alumínio é preocupação bem documentada em neonatos, especialmente prematuros e com disfunção renal — uso deve ser criteriosamente limitado no tempo"
+    ],
+    "en-US": [
+      "Aluminum toxicity is a well-documented concern in neonates, especially preterm infants and those with renal impairment — use should be judiciously time-limited"
+    ],
+    "es": [
+      "La toxicidad por aluminio es una preocupación bien documentada en neonatos, especialmente prematuros y con disfunción renal — el uso debe limitarse juiciosamente en el tiempo"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
       "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre toxicidade de alumínio em neonatologia (ex.: alertas históricos da FDA sobre produtos contendo alumínio em prematuros). Substituir por fonte revisada.",
+      "descricao": "FDA Final Rule sobre rotulagem de aluminio em produtos de nutricao parenteral (2004): neonatos prematuros com funcao renal imatura que recebem >4-5 mcg/kg/dia de aluminio podem sofrer toxicidade de SNC e ossea; risco documentado tambem para antiacidos orais contendo aluminio em uso prolongado nessa populacao.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509507/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

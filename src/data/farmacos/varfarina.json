@@ -1,14 +1,34 @@
 {
   "id": "varfarina",
-  "nome": { "pt-BR": "Varfarina", "en-US": "Warfarin", "es": "Warfarina" },
-  "nomeGenerico": { "pt-BR": "Varfarina sódica", "en-US": "Warfarin sodium", "es": "Warfarina sódica" },
-  "classeFarmacologica": { "pt-BR": "Anticoagulante antagonista de vitamina K", "en-US": "Vitamin K antagonist anticoagulant", "es": "Anticoagulante antagonista de la vitamina K" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Anticoagulação de longo prazo em cardiopatia congênita complexa selecionada (uso raro e especializado em neonatologia — heparina/enoxaparina geralmente preferidas nesta faixa etária)"],
-    "en-US": ["Long-term anticoagulation in selected complex congenital heart disease (rare, specialized use in neonatology — heparin/enoxaparin generally preferred in this age group)"],
-    "es": ["Anticoagulación a largo plazo en cardiopatía congénita compleja seleccionada (uso raro y especializado en neonatología — se prefiere generalmente heparina/enoxaparina en este grupo de edad)"]
+  "nome": {
+    "pt-BR": "Varfarina",
+    "en-US": "Warfarin",
+    "es": "Warfarina"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Varfarina sódica",
+    "en-US": "Warfarin sodium",
+    "es": "Warfarina sódica"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Anticoagulante antagonista de vitamina K",
+    "en-US": "Vitamin K antagonist anticoagulant",
+    "es": "Anticoagulante antagonista de la vitamina K"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Anticoagulação de longo prazo em cardiopatia congênita complexa selecionada (uso raro e especializado em neonatologia — heparina/enoxaparina geralmente preferidas nesta faixa etária)"
+    ],
+    "en-US": [
+      "Long-term anticoagulation in selected complex congenital heart disease (rare, specialized use in neonatology — heparin/enoxaparin generally preferred in this age group)"
+    ],
+    "es": [
+      "Anticoagulación a largo plazo en cardiopatía congénita compleja seleccionada (uso raro y especializado en neonatología — se prefiere generalmente heparina/enoxaparina en este grupo de edad)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.1,
@@ -25,32 +45,62 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": { "pt-BR": "Metabolização hepática e síntese hepática de fatores de coagulação dependentes de vitamina K — disfunção hepática altera significativamente a resposta e o risco de sangramento", "en-US": "Hepatic metabolism and hepatic synthesis of vitamin K-dependent clotting factors — hepatic impairment significantly alters response and bleeding risk", "es": "Metabolización hepática y síntesis hepática de factores de coagulación dependientes de la vitamina K — la disfunción hepática altera significativamente la respuesta y el riesgo de sangrado" },
+      "descricao": {
+        "pt-BR": "Metabolização hepática e síntese hepática de fatores de coagulação dependentes de vitamina K — disfunção hepática altera significativamente a resposta e o risco de sangramento",
+        "en-US": "Hepatic metabolism and hepatic synthesis of vitamin K-dependent clotting factors — hepatic impairment significantly alters response and bleeding risk",
+        "es": "Metabolización hepática y síntesis hepática de factores de coagulación dependientes de la vitamina K — la disfunción hepática altera significativamente la respuesta y el riesgo de sangrado"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Evitar ou usar com extrema cautela e monitorização intensiva de INR em disfunção hepática", "en-US": "Avoid or use with extreme caution and intensive INR monitoring in hepatic impairment", "es": "Evitar o usar con extrema precaución y monitorización intensiva del INR en la disfunción hepática" }
+      "conduta": {
+        "pt-BR": "Evitar ou usar com extrema cautela e monitorização intensiva de INR em disfunção hepática",
+        "en-US": "Avoid or use with extreme caution and intensive INR monitoring in hepatic impairment",
+        "es": "Evitar o usar con extrema precaución y monitorización intensiva del INR en la disfunción hepática"
+      }
     },
     {
       "condicao": "distúrbio_coagulacao",
-      "descricao": { "pt-BR": "Risco de sangramento significativamente aumentado com anticoagulação em vigência de outro distúrbio de coagulação", "en-US": "Significantly increased bleeding risk with anticoagulation in the presence of another coagulation disorder", "es": "Riesgo de sangrado significativamente aumentado con anticoagulación en presencia de otro trastorno de la coagulación" },
+      "descricao": {
+        "pt-BR": "Risco de sangramento significativamente aumentado com anticoagulação em vigência de outro distúrbio de coagulação",
+        "en-US": "Significantly increased bleeding risk with anticoagulation in the presence of another coagulation disorder",
+        "es": "Riesgo de sangrado significativamente aumentado con anticoagulación en presencia de otro trastorno de la coagulación"
+      },
       "gravidade": "contraindicado",
-      "conduta": { "pt-BR": "Reavaliar indicação com equipe especializada; considerar alternativa (heparina/enoxaparina)", "en-US": "Reassess indication with a specialized team; consider an alternative (heparin/enoxaparin)", "es": "Reevaluar la indicación con un equipo especializado; considerar una alternativa (heparina/enoxaparina)" }
+      "conduta": {
+        "pt-BR": "Reavaliar indicação com equipe especializada; considerar alternativa (heparina/enoxaparina)",
+        "en-US": "Reassess indication with a specialized team; consider an alternative (heparin/enoxaparin)",
+        "es": "Reevaluar la indicación con un equipo especializado; considerar una alternativa (heparina/enoxaparina)"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso neonatal é raro e requer monitorização de INR muito frequente pela farmacocinética instável nessa faixa etária", "Múltiplas interações medicamentosas e com dieta (vitamina K) tornam o manejo complexo — sempre sob supervisão especializada"],
-    "en-US": ["Neonatal use is rare and requires very frequent INR monitoring due to unstable pharmacokinetics in this age group", "Multiple drug and dietary (vitamin K) interactions make management complex — always under specialized supervision"],
-    "es": ["El uso neonatal es raro y requiere una monitorización del INR muy frecuente por la farmacocinética inestable en este grupo de edad", "Múltiples interacciones farmacológicas y con la dieta (vitamina K) hacen que el manejo sea complejo — siempre bajo supervisión especializada"]
+    "pt-BR": [
+      "Uso neonatal é raro e requer monitorização de INR muito frequente pela farmacocinética instável nessa faixa etária",
+      "Múltiplas interações medicamentosas e com dieta (vitamina K) tornam o manejo complexo — sempre sob supervisão especializada"
+    ],
+    "en-US": [
+      "Neonatal use is rare and requires very frequent INR monitoring due to unstable pharmacokinetics in this age group",
+      "Multiple drug and dietary (vitamin K) interactions make management complex — always under specialized supervision"
+    ],
+    "es": [
+      "El uso neonatal es raro y requiere una monitorización del INR muy frecuente por la farmacocinética inestable en este grupo de edad",
+      "Múltiples interacciones farmacológicas y con la dieta (vitamina K) hacen que el manejo sea complejo — siempre bajo supervisión especializada"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
-      "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretrizes de anticoagulação pediátrica (ex.: American College of Chest Physicians) sobre uso excepcional de varfarina em neonatos. Substituir por referência específica revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Monagle P et al. Prevention and Treatment of Thrombosis in Pediatric and Congenital Heart Disease (AHA Scientific Statement). Circulation. Dose inicial usual 0.1-0.2 mg/kg/dia (maximo 10 mg), com INR alvo geralmente 1.5-3 (mais alto em valvas protéticas); reforca que varfarina em lactentes <1 ano é reservada a casos que exigem anticoagulacao de valva mecanica, pela farmacocinetica instavel nessa faixa etaria.",
+      "url": "https://www.ahajournals.org/doi/10.1161/01.cir.0000436140.77832.7a",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,37 @@
 {
   "id": "mupirocina",
-  "nome": { "pt-BR": "Mupirocina", "en-US": "Mupirocin", "es": "Mupirocina" },
-  "nomeGenerico": { "pt-BR": "Mupirocina (pomada tópica)", "en-US": "Mupirocin (topical ointment)", "es": "Mupirocina (pomada tópica)" },
-  "classeFarmacologica": { "pt-BR": "Antibiótico tópico", "en-US": "Topical antibiotic", "es": "Antibiótico tópico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Infecção cutânea localizada por Staphylococcus/Streptococcus sensíveis (ex.: impetigo, onfalite localizada leve)", "Descolonização nasal de Staphylococcus aureus em contexto de surto (uso seletivo)"],
-    "en-US": ["Localized skin infection due to susceptible Staphylococcus/Streptococcus (e.g., impetigo, mild localized omphalitis)", "Nasal Staphylococcus aureus decolonization in an outbreak context (selective use)"],
-    "es": ["Infección cutánea localizada por Staphylococcus/Streptococcus sensibles (p. ej., impétigo, onfalitis localizada leve)", "Descolonización nasal de Staphylococcus aureus en contexto de brote (uso selectivo)"]
+  "nome": {
+    "pt-BR": "Mupirocina",
+    "en-US": "Mupirocin",
+    "es": "Mupirocina"
   },
-  "viasAdministracao": ["topica"],
+  "nomeGenerico": {
+    "pt-BR": "Mupirocina (pomada tópica)",
+    "en-US": "Mupirocin (topical ointment)",
+    "es": "Mupirocina (pomada tópica)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antibiótico tópico",
+    "en-US": "Topical antibiotic",
+    "es": "Antibiótico tópico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Infecção cutânea localizada por Staphylococcus/Streptococcus sensíveis (ex.: impetigo, onfalite localizada leve)",
+      "Descolonização nasal de Staphylococcus aureus em contexto de surto (uso seletivo)"
+    ],
+    "en-US": [
+      "Localized skin infection due to susceptible Staphylococcus/Streptococcus (e.g., impetigo, mild localized omphalitis)",
+      "Nasal Staphylococcus aureus decolonization in an outbreak context (selective use)"
+    ],
+    "es": [
+      "Infección cutánea localizada por Staphylococcus/Streptococcus sensibles (p. ej., impétigo, onfalitis localizada leve)",
+      "Descolonización nasal de Staphylococcus aureus en contexto de brote (uso selectivo)"
+    ]
+  },
+  "viasAdministracao": [
+    "topica"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -24,20 +47,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Não indicada para infecção cutânea extensa ou sinais de infecção sistêmica — nesses casos, tratamento sistêmico é necessário"],
-    "en-US": ["Not indicated for extensive skin infection or signs of systemic infection — systemic treatment is necessary in those cases"],
-    "es": ["No indicada para infección cutánea extensa o signos de infección sistémica — en esos casos se requiere tratamiento sistémico"]
+    "pt-BR": [
+      "Não indicada para infecção cutânea extensa ou sinais de infecção sistêmica — nesses casos, tratamento sistêmico é necessário"
+    ],
+    "en-US": [
+      "Not indicated for extensive skin infection or signs of systemic infection — systemic treatment is necessary in those cases"
+    ],
+    "es": [
+      "No indicada para infección cutánea extensa o signos de infección sistémica — en esos casos se requiere tratamiento sistémico"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de mupirocina tópica (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "IDSA (Infectious Diseases Society of America) guidance on treatment of skin/soft tissue infections: para infeccao umbilical leve e localizada, sem sinais sistemicos, tratamento topico com mupirocina pode ser adequado em neonatos a termo (recomendacao Grau A-III); onfalite com celulite extensa, sinais sistemicos ou prematuridade/muito baixo peso exige antibioticoterapia IV empirica.",
+      "url": "https://www.droracle.ai/articles/870934/in-a-neonate-28-days-with-a-mild-localized",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

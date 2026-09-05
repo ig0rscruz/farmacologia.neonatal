@@ -1,14 +1,38 @@
 {
   "id": "tiamina",
-  "nome": { "pt-BR": "Tiamina", "en-US": "Thiamine", "es": "Tiamina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de tiamina (vitamina B1)", "en-US": "Thiamine hydrochloride (vitamin B1)", "es": "Clorhidrato de tiamina (vitamina B1)" },
-  "classeFarmacologica": { "pt-BR": "Vitamina hidrossolúvel (complexo B)", "en-US": "Water-soluble vitamin (B complex)", "es": "Vitamina hidrosoluble (complejo B)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Suplementação em nutrição parenteral prolongada", "Tratamento de acidose láctica/erros inatos do metabolismo tiamina-responsivos selecionados"],
-    "en-US": ["Supplementation in prolonged parenteral nutrition", "Treatment of selected thiamine-responsive lactic acidosis/inborn errors of metabolism"],
-    "es": ["Suplementación en nutrición parenteral prolongada", "Tratamiento de acidosis láctica/errores innatos del metabolismo tiamino-dependientes seleccionados"]
+  "nome": {
+    "pt-BR": "Tiamina",
+    "en-US": "Thiamine",
+    "es": "Tiamina"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de tiamina (vitamina B1)",
+    "en-US": "Thiamine hydrochloride (vitamin B1)",
+    "es": "Clorhidrato de tiamina (vitamina B1)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Vitamina hidrossolúvel (complexo B)",
+    "en-US": "Water-soluble vitamin (B complex)",
+    "es": "Vitamina hidrosoluble (complejo B)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Suplementação em nutrição parenteral prolongada",
+      "Tratamento de acidose láctica/erros inatos do metabolismo tiamina-responsivos selecionados"
+    ],
+    "en-US": [
+      "Supplementation in prolonged parenteral nutrition",
+      "Treatment of selected thiamine-responsive lactic acidosis/inborn errors of metabolism"
+    ],
+    "es": [
+      "Suplementación en nutrición parenteral prolongada",
+      "Tratamiento de acidosis láctica/errores innatos del metabolismo tiamino-dependientes seleccionados"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.35,
@@ -24,20 +48,34 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Deficiência de tiamina é rara em neonatos a termo saudáveis, mas relevante em nutrição parenteral prolongada sem suplementação adequada", "Reações alérgicas a administração intravenosa são raras mas descritas"],
-    "en-US": ["Thiamine deficiency is rare in healthy term neonates, but relevant in prolonged parenteral nutrition without adequate supplementation", "Allergic reactions to intravenous administration are rare but described"],
-    "es": ["La deficiencia de tiamina es rara en neonatos a término sanos, pero relevante en la nutrición parenteral prolongada sin suplementación adecuada", "Las reacciones alérgicas a la administración intravenosa son raras pero están descritas"]
+    "pt-BR": [
+      "Deficiência de tiamina é rara em neonatos a termo saudáveis, mas relevante em nutrição parenteral prolongada sem suplementação adequada",
+      "Reações alérgicas a administração intravenosa são raras mas descritas"
+    ],
+    "en-US": [
+      "Thiamine deficiency is rare in healthy term neonates, but relevant in prolonged parenteral nutrition without adequate supplementation",
+      "Allergic reactions to intravenous administration are rare but described"
+    ],
+    "es": [
+      "La deficiencia de tiamina es rara en neonatos a término sanos, pero relevante en la nutrición parenteral prolongada sin suplementación adecuada",
+      "Las reacciones alérgicas a la administración intravenosa son raras pero están descritas"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "livro_texto",
-      "descricao": "EXEMPLO — diretrizes de nutrição parenteral neonatal (ex.: ESPGHAN/ESPEN) sobre suplementação vitamínica. Substituir por fonte revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Lactic Acidosis Due to Thiamine Deficiency in a Preterm Infant Associated with Inadequate Parenteral Nutrition. Am J Case Rep. Dose preventiva usual de 0.35-0.5 mg/kg/dia em nutricao parenteral; para deficiencia estabelecida, esquemas de tratamento (ex.: OMS) preveem 25-50 mg IV lento seguido de manutencao intramuscular/oral, ou doses altas (2 mg/kg IV) em sindrome de realimentacao refrataria.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10106096/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

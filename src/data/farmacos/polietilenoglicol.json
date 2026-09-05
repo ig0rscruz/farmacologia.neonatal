@@ -1,14 +1,34 @@
 {
   "id": "polietilenoglicol",
-  "nome": { "pt-BR": "Polietilenoglicol", "en-US": "Polyethylene glycol", "es": "Polietilenglicol" },
-  "nomeGenerico": { "pt-BR": "Polietilenoglicol 3350", "en-US": "Polyethylene glycol 3350", "es": "Polietilenglicol 3350" },
-  "classeFarmacologica": { "pt-BR": "Laxante osmótico", "en-US": "Osmotic laxative", "es": "Laxante osmótico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Constipação (uso menos estabelecido em neonatos que em lactentes maiores/crianças)"],
-    "en-US": ["Constipation (less established use in neonates than in older infants/children)"],
-    "es": ["Estreñimiento (uso menos establecido en neonatos que en lactantes mayores/niños)"]
+  "nome": {
+    "pt-BR": "Polietilenoglicol",
+    "en-US": "Polyethylene glycol",
+    "es": "Polietilenglicol"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Polietilenoglicol 3350",
+    "en-US": "Polyethylene glycol 3350",
+    "es": "Polietilenglicol 3350"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Laxante osmótico",
+    "en-US": "Osmotic laxative",
+    "es": "Laxante osmótico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Constipação (uso menos estabelecido em neonatos que em lactentes maiores/crianças)"
+    ],
+    "en-US": [
+      "Constipation (less established use in neonates than in older infants/children)"
+    ],
+    "es": [
+      "Estreñimiento (uso menos establecido en neonatos que en lactantes mayores/niños)"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -24,20 +44,31 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Uso neonatal é off-label — considerar lactulose como alternativa com mais dados em recém-nascidos"],
-    "en-US": ["Neonatal use is off-label — consider lactulose as an alternative with more data in newborns"],
-    "es": ["El uso neonatal es fuera de ficha técnica — considerar la lactulosa como alternativa con más datos en recién nacidos"]
+    "pt-BR": [
+      "Uso neonatal é off-label — considerar lactulose como alternativa com mais dados em recém-nascidos"
+    ],
+    "en-US": [
+      "Neonatal use is off-label — consider lactulose as an alternative with more data in newborns"
+    ],
+    "es": [
+      "El uso neonatal es fuera de ficha técnica — considerar la lactulosa como alternativa con más datos en recién nacidos"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
       "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre uso de laxantes osmóticos em neonatologia. Substituir por fonte revisada.",
+      "descricao": "Safety and Efficacy of Polyethylene Glycol in Children less than 18 Months (AAP Grand Rounds), revisando serie de 28 pacientes (incluindo lactentes de 0-5 meses) tratados com PEG 3350 por constipacao, com dose efetiva media de manutencao de 0.78-0.91 g/kg/dia e boa tolerabilidade; diarreia foi o unico efeito adverso relatado com frequencia relevante.",
+      "url": "https://publications.aap.org/aapgrandrounds/article/12/5/57/87552/Safety-and-Efficacy-of-Polyethylene-Glycol-in",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

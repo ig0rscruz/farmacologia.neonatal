@@ -1,7 +1,11 @@
 [
   {
     "id": "diabetes-gestacional",
-    "nome": { "pt-BR": "Diabetes mellitus gestacional", "en-US": "Gestational diabetes mellitus", "es": "Diabetes mellitus gestacional" },
+    "nome": {
+      "pt-BR": "Diabetes mellitus gestacional",
+      "en-US": "Gestational diabetes mellitus",
+      "es": "Diabetes mellitus gestacional"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Hiperglicemia materna leva a hiperinsulinismo fetal, predispondo a hipoglicemia neonatal nas primeiras horas/dias de vida.",
@@ -9,13 +13,29 @@
       "es": "La hiperglucemia materna conduce a hiperinsulinismo fetal, predisponiendo a hipoglucemia neonatal en las primeras horas/días de vida."
     },
     "riscosNeonato": {
-      "pt-BR": ["Hipoglicemia neonatal", "Macrossomia", "Desconforto respiratório"],
-      "en-US": ["Neonatal hypoglycemia", "Macrosomia", "Respiratory distress"],
-      "es": ["Hipoglucemia neonatal", "Macrosomía", "Dificultad respiratoria"]
+      "pt-BR": [
+        "Hipoglicemia neonatal",
+        "Macrossomia",
+        "Desconforto respiratório"
+      ],
+      "en-US": [
+        "Neonatal hypoglycemia",
+        "Macrosomia",
+        "Respiratory distress"
+      ],
+      "es": [
+        "Hipoglucemia neonatal",
+        "Macrosomía",
+        "Dificultad respiratoria"
+      ]
     },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": { "pt-BR": "Betabloqueador", "en-US": "Beta-blocker", "es": "Betabloqueador" },
+        "classeFarmacologica": {
+          "pt-BR": "Betabloqueador",
+          "en-US": "Beta-blocker",
+          "es": "Betabloqueador"
+        },
         "implicacao": "monitorar",
         "conduta": {
           "pt-BR": "Betabloqueadores podem mascarar sinais adrenérgicos de hipoglicemia; monitorar glicemia capilar com maior frequência quando essa classe for utilizada no neonato.",
@@ -24,9 +44,10 @@
         },
         "fontes": [
           {
-            "tipo": "livro_texto",
-            "descricao": "EXEMPLO — referência de farmacologia neonatal sobre mascaramento de hipoglicemia por betabloqueadores. Substituir por fonte revisada.",
-            "dataAcesso": "2026-09-04"
+            "tipo": "artigo_cientifico",
+            "descricao": "The Risk for Neonatal Hypoglycemia and Bradycardia after Beta-Blocker Use during Pregnancy or Lactation: A Systematic Review and Meta-Analysis. Risco de hipoglicemia neonatal foi de 4.3% em neonatos expostos a betabloqueador vs. 1.2% em nao expostos; recomenda-se monitorizacao de glicemia por ate 24h de vida em neonatos expostos, com risco somado quando ha diabetes materna concomitante.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9368631/",
+            "dataAcesso": "2026-09-05"
           }
         ]
       }
@@ -34,15 +55,20 @@
     "nivelEvidencia": "B",
     "fontes": [
       {
-        "tipo": "diretriz_sociedade",
-        "descricao": "EXEMPLO — diretriz sobre filho de mãe diabética. Substituir por fonte institucional/sociedade revisada.",
-        "dataAcesso": "2026-09-04"
+        "tipo": "artigo_cientifico",
+        "descricao": "Hiperinsulinismo e a causa mais comum de hipoglicemia nos primeiros 3 meses de vida e e bem reconhecido em filhos de maes diabeticas (revisao Medscape/emedicine Neonatal Hypoglycemia); risco de hipoglicemia neonatal aumenta ainda mais se a mae tambem usou betabloqueador na gestacao, por efeito estimulatorio sobre celulas beta pancreaticas fetais.",
+        "url": "https://emedicine.medscape.com/article/802334-overview",
+        "dataAcesso": "2026-09-05"
       }
     ]
   },
   {
     "id": "uso-opioides-gestacao",
-    "nome": { "pt-BR": "Uso de opioides durante a gestação", "en-US": "Opioid use during pregnancy", "es": "Uso de opioides durante el embarazo" },
+    "nome": {
+      "pt-BR": "Uso de opioides durante a gestação",
+      "en-US": "Opioid use during pregnancy",
+      "es": "Uso de opioides durante el embarazo"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Exposição intraútero a opioides pode causar dependência fisiológica no feto, com risco de síndrome de abstinência neonatal (SAN) após o nascimento.",
@@ -50,13 +76,29 @@
       "es": "La exposición intraútero a opioides puede causar dependencia fisiológica en el feto, con riesgo de síndrome de abstinencia neonatal (SAN) tras el nacimiento."
     },
     "riscosNeonato": {
-      "pt-BR": ["Síndrome de abstinência neonatal", "Irritabilidade e instabilidade autonômica", "Dificuldade de alimentação"],
-      "en-US": ["Neonatal abstinence syndrome", "Irritability and autonomic instability", "Feeding difficulty"],
-      "es": ["Síndrome de abstinencia neonatal", "Irritabilidad e inestabilidad autonómica", "Dificultad para alimentarse"]
+      "pt-BR": [
+        "Síndrome de abstinência neonatal",
+        "Irritabilidade e instabilidade autonômica",
+        "Dificuldade de alimentação"
+      ],
+      "en-US": [
+        "Neonatal abstinence syndrome",
+        "Irritability and autonomic instability",
+        "Feeding difficulty"
+      ],
+      "es": [
+        "Síndrome de abstinencia neonatal",
+        "Irritabilidad e inestabilidad autonómica",
+        "Dificultad para alimentarse"
+      ]
     },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
+        "classeFarmacologica": {
+          "pt-BR": "Opioide",
+          "en-US": "Opioid",
+          "es": "Opioide"
+        },
         "implicacao": "ajustar_dose",
         "conduta": {
           "pt-BR": "Avaliar necessidade real antes de administrar novos opioides ao neonato; se indicado, considerar que o limiar de resposta pode estar alterado. Monitorar com escala validada de abstinência (ex.: Finnegan).",
@@ -65,14 +107,19 @@
         },
         "fontes": [
           {
-            "tipo": "diretriz_sociedade",
-            "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal. Substituir por fonte revisada.",
-            "dataAcesso": "2026-09-04"
+            "tipo": "artigo_cientifico",
+            "descricao": "Exposicao antenatal combinada a opioide e benzodiazepinico esta associada a maior gravidade da sindrome de abstinencia neonatal (NAS); tratamento farmacologico de opioide com morfina, fenobarbital ou clorpromazina foi comparado em ensaio randomizado duplo-cego, com morfina isolada controlando sintomas na quase totalidade dos casos.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6942588/",
+            "dataAcesso": "2026-09-05"
           }
         ]
       },
       {
-        "classeFarmacologica": { "pt-BR": "Benzodiazepínico", "en-US": "Benzodiazepine", "es": "Benzodiacepina" },
+        "classeFarmacologica": {
+          "pt-BR": "Benzodiazepínico",
+          "en-US": "Benzodiazepine",
+          "es": "Benzodiacepina"
+        },
         "implicacao": "monitorar",
         "conduta": {
           "pt-BR": "Uso concomitante com quadro de abstinência pode confundir avaliação clínica e potencializar depressão respiratória; monitorar estreitamente.",
@@ -81,9 +128,10 @@
         },
         "fontes": [
           {
-            "tipo": "diretriz_sociedade",
-            "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal. Substituir por fonte revisada.",
-            "dataAcesso": "2026-09-04"
+            "tipo": "artigo_cientifico",
+            "descricao": "Exposicao antenatal combinada a opioide e benzodiazepinico esta associada a maior gravidade da sindrome de abstinencia neonatal (NAS); tratamento farmacologico de opioide com morfina, fenobarbital ou clorpromazina foi comparado em ensaio randomizado duplo-cego, com morfina isolada controlando sintomas na quase totalidade dos casos.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6942588/",
+            "dataAcesso": "2026-09-05"
           }
         ]
       },
@@ -97,8 +145,9 @@
         },
         "fontes": [
           {
-            "tipo": "diretriz_sociedade",
-            "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal e reanimação neonatal. Substituir por fonte revisada.",
+            "tipo": "artigo_cientifico",
+            "descricao": "Exposicao antenatal combinada a opioide e benzodiazepinico esta associada a maior gravidade da sindrome de abstinencia neonatal (NAS); tratamento farmacologico de opioide com morfina, fenobarbital ou clorpromazina foi comparado em ensaio randomizado duplo-cego, com morfina isolada controlando sintomas na quase totalidade dos casos.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6942588/",
             "dataAcesso": "2026-09-05"
           }
         ]
@@ -108,14 +157,19 @@
     "fontes": [
       {
         "tipo": "diretriz_sociedade",
-        "descricao": "EXEMPLO — diretriz sobre síndrome de abstinência neonatal. Substituir por fonte institucional/sociedade revisada.",
-        "dataAcesso": "2026-09-04"
+        "descricao": "Neonatal Opioid Withdrawal Syndrome (AAP Clinical Report, Pediatrics 2020); Neonatal Abstinence Syndrome - StatPearls (NCBI Bookshelf). Estima-se que 60-80% dos neonatos expostos a opioides intrautero necessitem de intervencao farmacologica para controle da sindrome de abstinencia neonatal.",
+        "url": "https://publications.aap.org/pediatrics/article/146/5/e2020029074/75310/Neonatal-Opioid-Withdrawal-Syndrome",
+        "dataAcesso": "2026-09-05"
       }
     ]
   },
   {
     "id": "hiv-aids-materna",
-    "nome": { "pt-BR": "HIV/AIDS materna", "en-US": "Maternal HIV/AIDS", "es": "VIH/SIDA materno" },
+    "nome": {
+      "pt-BR": "HIV/AIDS materna",
+      "en-US": "Maternal HIV/AIDS",
+      "es": "VIH/SIDA materno"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão vertical pode ocorrer intraútero, no periparto ou pela amamentação. Sem qualquer profilaxia, o risco de transmissão é de aproximadamente 15-45%; com profilaxia antirretroviral materna (pré-natal/intraparto) e neonatal adequadas, o risco cai para menos de 1%.",
@@ -174,7 +228,11 @@
   },
   {
     "id": "hepatite-b-materna",
-    "nome": { "pt-BR": "Hepatite B materna", "en-US": "Maternal hepatitis B", "es": "Hepatitis B materna" },
+    "nome": {
+      "pt-BR": "Hepatite B materna",
+      "en-US": "Maternal hepatitis B",
+      "es": "Hepatitis B materna"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão vertical principalmente periparto. Sem profilaxia, risco de 70-90% se a mãe é HBeAg-positiva e de 10-40% se HBeAg-negativa. Imunoprofilaxia neonatal (imunoglobulina anti-hepatite B + vacina, ambas nas primeiras 12-24h de vida) reduz o risco para 5-10%; pode haver falha em até 30% dos filhos de mães HBeAg-positivas com carga viral muito elevada, daí a recomendação adicional de antiviral materno no 3º trimestre nesses casos.",
@@ -226,7 +284,11 @@
   },
   {
     "id": "hepatite-c-materna",
-    "nome": { "pt-BR": "Hepatite C materna", "en-US": "Maternal hepatitis C", "es": "Hepatitis C materna" },
+    "nome": {
+      "pt-BR": "Hepatite C materna",
+      "en-US": "Maternal hepatitis C",
+      "es": "Hepatitis C materna"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão vertical ocorre em cerca de 5.8-10.8% dos filhos de mães RNA-HCV positivas (risco maior com coinfecção por HIV ou carga viral materna elevada). Não há imunoprofilaxia disponível para o neonato; via de parto e amamentação não alteram significativamente o risco de transmissão.",
@@ -234,9 +296,15 @@
       "es": "La transmisión vertical ocurre en cerca del 5.8-10.8% de los hijos de madres ARN-VHC positivas (mayor riesgo con coinfección por VIH o carga viral materna elevada). No hay inmunoprofilaxis disponible para el neonato; la vía del parto y la lactancia no alteran significativamente el riesgo de transmisión."
     },
     "riscosNeonato": {
-      "pt-BR": ["Infecção crônica por HCV (necessidade de rastreamento sorológico/molecular no seguimento)"],
-      "en-US": ["Chronic HCV infection (need for serologic/molecular screening during follow-up)"],
-      "es": ["Infección crónica por VHC (necesidad de tamizaje serológico/molecular en el seguimiento)"]
+      "pt-BR": [
+        "Infecção crônica por HCV (necessidade de rastreamento sorológico/molecular no seguimento)"
+      ],
+      "en-US": [
+        "Chronic HCV infection (need for serologic/molecular screening during follow-up)"
+      ],
+      "es": [
+        "Infección crónica por VHC (necesidad de tamizaje serológico/molecular en el seguimiento)"
+      ]
     },
     "implicacoesTratamento": [],
     "nivelEvidencia": "A",
@@ -251,7 +319,11 @@
   },
   {
     "id": "hepatite-d-materna",
-    "nome": { "pt-BR": "Hepatite D (Delta) materna", "en-US": "Maternal hepatitis D (Delta)", "es": "Hepatitis D (Delta) materna" },
+    "nome": {
+      "pt-BR": "Hepatite D (Delta) materna",
+      "en-US": "Maternal hepatitis D (Delta)",
+      "es": "Hepatitis D (Delta) materna"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Requer coinfecção materna com hepatite B; transmissão vertical do vírus Delta em si é rara — provavelmente porque a carga de HBV (necessária para o HDV se replicar) tende a ser menor em coinfectados. A mesma imunoprofilaxia padrão contra hepatite B (imunoglobulina + vacina ao nascer) parece eficaz também na prevenção da transmissão de HDV.",
@@ -284,7 +356,11 @@
   },
   {
     "id": "hepatite-a-materna",
-    "nome": { "pt-BR": "Hepatite A materna", "en-US": "Maternal hepatitis A", "es": "Hepatitis A materna" },
+    "nome": {
+      "pt-BR": "Hepatite A materna",
+      "en-US": "Maternal hepatitis A",
+      "es": "Hepatitis A materna"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Ao contrário das hepatites B/C/D, a hepatite A é transmitida predominantemente por via fecal-oral, não por rota vertical clássica. Transmissão intraútero/perinatal é muito rara, mas casos pontuais foram descritos, sobretudo quando a infecção materna ocorre próximo ao parto.",
@@ -317,7 +393,11 @@
   },
   {
     "id": "sifilis-materna",
-    "nome": { "pt-BR": "Sífilis materna (sífilis congênita)", "en-US": "Maternal syphilis (congenital syphilis)", "es": "Sífilis materna (sífilis congénita)" },
+    "nome": {
+      "pt-BR": "Sífilis materna (sífilis congênita)",
+      "en-US": "Maternal syphilis (congenital syphilis)",
+      "es": "Sífilis materna (sífilis congénita)"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão transplacentária, podendo ocorrer em qualquer fase da gestação; risco maior com sífilis primária/secundária materna não tratada ou tratada de forma inadequada/tardia.",
@@ -375,7 +455,11 @@
   },
   {
     "id": "toxoplasmose-gestacional",
-    "nome": { "pt-BR": "Toxoplasmose gestacional", "en-US": "Gestational toxoplasmosis", "es": "Toxoplasmosis gestacional" },
+    "nome": {
+      "pt-BR": "Toxoplasmose gestacional",
+      "en-US": "Gestational toxoplasmosis",
+      "es": "Toxoplasmosis gestacional"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão transplacentária; o risco de transmissão fetal aumenta com a idade gestacional na infecção materna, mas a gravidade do acometimento fetal é maior quando a infecção ocorre precocemente na gestação.",
@@ -383,9 +467,21 @@
       "es": "Transmisión transplacentaria; el riesgo de transmisión fetal aumenta con la edad gestacional en la infección materna, pero la gravedad del compromiso fetal es mayor cuando la infección ocurre precozmente en el embarazo."
     },
     "riscosNeonato": {
-      "pt-BR": ["Coriorretinite", "Calcificações intracranianas e hidrocefalia", "Microcefalia e comprometimento neurológico"],
-      "en-US": ["Chorioretinitis", "Intracranial calcifications and hydrocephalus", "Microcephaly and neurological impairment"],
-      "es": ["Coriorretinitis", "Calcificaciones intracraneales e hidrocefalia", "Microcefalia y compromiso neurológico"]
+      "pt-BR": [
+        "Coriorretinite",
+        "Calcificações intracranianas e hidrocefalia",
+        "Microcefalia e comprometimento neurológico"
+      ],
+      "en-US": [
+        "Chorioretinitis",
+        "Intracranial calcifications and hydrocephalus",
+        "Microcephaly and neurological impairment"
+      ],
+      "es": [
+        "Coriorretinitis",
+        "Calcificaciones intracraneales e hidrocefalia",
+        "Microcefalia y compromiso neurológico"
+      ]
     },
     "implicacoesTratamento": [
       {
@@ -447,9 +543,21 @@
       "es": "Transmisión transplacentaria; el riesgo de transmisión fetal es mayor con primoinfección materna (vs. reactivación/reinfección), pero la gravedad del compromiso es mayor cuando la infección fetal ocurre al inicio del embarazo."
     },
     "riscosNeonato": {
-      "pt-BR": ["Microcefalia e calcificações periventriculares", "Perda auditiva neurossensorial (pode ser tardia/progressiva)", "Coriorretinite"],
-      "en-US": ["Microcephaly and periventricular calcifications", "Sensorineural hearing loss (may be late-onset/progressive)", "Chorioretinitis"],
-      "es": ["Microcefalia y calcificaciones periventriculares", "Pérdida auditiva sensorioneural (puede ser tardía/progresiva)", "Coriorretinitis"]
+      "pt-BR": [
+        "Microcefalia e calcificações periventriculares",
+        "Perda auditiva neurossensorial (pode ser tardia/progressiva)",
+        "Coriorretinite"
+      ],
+      "en-US": [
+        "Microcephaly and periventricular calcifications",
+        "Sensorineural hearing loss (may be late-onset/progressive)",
+        "Chorioretinitis"
+      ],
+      "es": [
+        "Microcefalia y calcificaciones periventriculares",
+        "Pérdida auditiva sensorioneural (puede ser tardía/progresiva)",
+        "Coriorretinitis"
+      ]
     },
     "implicacoesTratamento": [
       {
@@ -569,7 +677,11 @@
   },
   {
     "id": "chagas-materna",
-    "nome": { "pt-BR": "Doença de Chagas materna (Chagas congênito)", "en-US": "Maternal Chagas disease (congenital Chagas)", "es": "Enfermedad de Chagas materna (Chagas congénito)" },
+    "nome": {
+      "pt-BR": "Doença de Chagas materna (Chagas congênito)",
+      "en-US": "Maternal Chagas disease (congenital Chagas)",
+      "es": "Enfermedad de Chagas materna (Chagas congénito)"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão transplacentária pode ocorrer em qualquer fase da gestação e em gestações subsequentes de uma mesma mãe infectada; tratamento tripanocida materno antes da gestação reduz substancialmente (idealmente elimina) o risco de transmissão congênita.",
@@ -621,7 +733,11 @@
   },
   {
     "id": "tuberculose-materna",
-    "nome": { "pt-BR": "Tuberculose materna ativa", "en-US": "Active maternal tuberculosis", "es": "Tuberculosis materna activa" },
+    "nome": {
+      "pt-BR": "Tuberculose materna ativa",
+      "en-US": "Active maternal tuberculosis",
+      "es": "Tuberculosis materna activa"
+    },
     "parentesco": "mae",
     "descricaoTransmissao": {
       "pt-BR": "Transmissão ao neonato é predominantemente pós-natal, por via respiratória a partir de mãe bacilífera — transmissão congênita verdadeira (transplacentária/líquido amniótico) é rara. O risco pós-natal depende do status bacilífero e da adesão ao tratamento materno.",
@@ -629,13 +745,26 @@
       "es": "La transmisión al neonato es predominantemente posnatal, por vía respiratoria a partir de una madre bacilífera — la transmisión congénita verdadera (transplacentaria/líquido amniótico) es rara. El riesgo posnatal depende del estado bacilífero y la adherencia al tratamiento materno."
     },
     "riscosNeonato": {
-      "pt-BR": ["Tuberculose neonatal (rara, mas potencialmente grave)", "Necessidade de quimioprofilaxia com isoniazida se mãe bacilífera não tratada/tratamento recente"],
-      "en-US": ["Neonatal tuberculosis (rare, but potentially severe)", "Need for isoniazid chemoprophylaxis if the mother is smear-positive/untreated or recently treated"],
-      "es": ["Tuberculosis neonatal (rara, pero potencialmente grave)", "Necesidad de quimioprofilaxis con isoniazida si la madre es bacilífera no tratada/con tratamiento reciente"]
+      "pt-BR": [
+        "Tuberculose neonatal (rara, mas potencialmente grave)",
+        "Necessidade de quimioprofilaxia com isoniazida se mãe bacilífera não tratada/tratamento recente"
+      ],
+      "en-US": [
+        "Neonatal tuberculosis (rare, but potentially severe)",
+        "Need for isoniazid chemoprophylaxis if the mother is smear-positive/untreated or recently treated"
+      ],
+      "es": [
+        "Tuberculosis neonatal (rara, pero potencialmente grave)",
+        "Necesidad de quimioprofilaxis con isoniazida si la madre es bacilífera no tratada/con tratamiento reciente"
+      ]
     },
     "implicacoesTratamento": [
       {
-        "classeFarmacologica": { "pt-BR": "Antituberculostático (isoniazida)", "en-US": "Antituberculosis drug (isoniazid)", "es": "Antituberculoso (isoniazida)" },
+        "classeFarmacologica": {
+          "pt-BR": "Antituberculostático (isoniazida)",
+          "en-US": "Antituberculosis drug (isoniazid)",
+          "es": "Antituberculoso (isoniazida)"
+        },
         "implicacao": "monitorar",
         "conduta": {
           "pt-BR": "Quimioprofilaxia com isoniazida por 3-6 meses é recomendada em neonatos de mães bacilíferas; vacina BCG é postergada até o término da profilaxia (ou administrada ao nascer junto com isoniazida se o seguimento não puder ser garantido, conforme diretriz local). Evidência de qualidade limitada — revisão de 2024 encontrou apenas 3 estudos elegíveis de 521 triados, sem conclusões definitivas baseadas em evidência forte.",

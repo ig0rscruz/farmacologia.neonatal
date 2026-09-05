@@ -1,14 +1,34 @@
 {
   "id": "flumazenil",
-  "nome": { "pt-BR": "Flumazenil", "en-US": "Flumazenil", "es": "Flumazenilo" },
-  "nomeGenerico": { "pt-BR": "Flumazenil", "en-US": "Flumazenil", "es": "Flumazenilo" },
-  "classeFarmacologica": { "pt-BR": "Antagonista de benzodiazepínico", "en-US": "Benzodiazepine antagonist", "es": "Antagonista de benzodiacepinas" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Reversão de sedação/depressão respiratória por benzodiazepínico (uso muito restrito e off-label em neonatologia — experiência limitada)"],
-    "en-US": ["Reversal of benzodiazepine-induced sedation/respiratory depression (very restricted, off-label use in neonatology — limited experience)"],
-    "es": ["Reversión de la sedación/depresión respiratoria por benzodiacepinas (uso muy restringido y fuera de ficha técnica en neonatología — experiencia limitada)"]
+  "nome": {
+    "pt-BR": "Flumazenil",
+    "en-US": "Flumazenil",
+    "es": "Flumazenilo"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Flumazenil",
+    "en-US": "Flumazenil",
+    "es": "Flumazenilo"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antagonista de benzodiazepínico",
+    "en-US": "Benzodiazepine antagonist",
+    "es": "Antagonista de benzodiacepinas"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Reversão de sedação/depressão respiratória por benzodiazepínico (uso muito restrito e off-label em neonatologia — experiência limitada)"
+    ],
+    "en-US": [
+      "Reversal of benzodiazepine-induced sedation/respiratory depression (very restricted, off-label use in neonatology — limited experience)"
+    ],
+    "es": [
+      "Reversión de la sedación/depresión respiratoria por benzodiacepinas (uso muy restringido y fuera de ficha técnica en neonatología — experiencia limitada)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.01,
@@ -25,26 +45,48 @@
   "contraindicacoes": [
     {
       "condicao": "risco_neurotoxicidade",
-      "descricao": { "pt-BR": "Risco de precipitar convulsões em pacientes com dependência de benzodiazepínico ou uso concomitante de fármacos pró-convulsivantes", "en-US": "Risk of precipitating seizures in patients with benzodiazepine dependence or concomitant use of pro-convulsant drugs", "es": "Riesgo de precipitar convulsiones en pacientes con dependencia de benzodiacepinas o uso concomitante de fármacos proconvulsivantes" },
+      "descricao": {
+        "pt-BR": "Risco de precipitar convulsões em pacientes com dependência de benzodiazepínico ou uso concomitante de fármacos pró-convulsivantes",
+        "en-US": "Risk of precipitating seizures in patients with benzodiazepine dependence or concomitant use of pro-convulsant drugs",
+        "es": "Riesgo de precipitar convulsiones en pacientes con dependencia de benzodiacepinas o uso concomitante de fármacos proconvulsivantes"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorização contínua para sinais de convulsão; ter anticonvulsivante disponível", "en-US": "Continuous monitoring for seizure signs; have an anticonvulsant available", "es": "Monitorización continua para detectar signos de convulsión; tener un anticonvulsivante disponible" }
+      "conduta": {
+        "pt-BR": "Monitorização contínua para sinais de convulsão; ter anticonvulsivante disponível",
+        "en-US": "Continuous monitoring for seizure signs; have an anticonvulsant available",
+        "es": "Monitorización continua para detectar signos de convulsión; tener un anticonvulsivante disponible"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Duração de ação mais curta que a maioria dos benzodiazepínicos — risco de re-sedação após efeito do flumazenil passar, exigindo observação prolongada", "Não reverte depressão respiratória por opioides"],
-    "en-US": ["Shorter duration of action than most benzodiazepines — risk of re-sedation after flumazenil effect wears off, requiring prolonged observation", "Does not reverse opioid-induced respiratory depression"],
-    "es": ["Duración de acción más corta que la mayoría de las benzodiacepinas — riesgo de re-sedación tras pasar el efecto del flumazenilo, lo que exige observación prolongada", "No revierte la depresión respiratoria por opioides"]
+    "pt-BR": [
+      "Duração de ação mais curta que a maioria dos benzodiazepínicos — risco de re-sedação após efeito do flumazenil passar, exigindo observação prolongada",
+      "Não reverte depressão respiratória por opioides"
+    ],
+    "en-US": [
+      "Shorter duration of action than most benzodiazepines — risk of re-sedation after flumazenil effect wears off, requiring prolonged observation",
+      "Does not reverse opioid-induced respiratory depression"
+    ],
+    "es": [
+      "Duración de acción más corta que la mayoría de las benzodiacepinas — riesgo de re-sedación tras pasar el efecto del flumazenilo, lo que exige observación prolongada",
+      "No revierte la depresión respiratoria por opioides"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
-      "tipo": "livro_texto",
-      "descricao": "EXEMPLO — literatura de farmacologia neonatal sobre antagonistas de benzodiazepínico, uso off-label e experiência limitada em neonatos. Substituir por fonte revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Flumazenil - Pediatric (Atlantic Canada Poison Centre); dose pediatrica inicial 0.01 mg/kg IV (maximo 0.2 mg), podendo repetir a cada minuto; bula traz alerta de tarja preta (black box warning) para risco de convulsoes, especialmente em uso cronico previo de benzodiazepinico. Relato de caso neonatal descreve bolus de 10 mcg/kg seguido de infusao continua decrescente.",
+      "url": "https://atlanticcanadapoisoncentre.ca/flumazenil-pediatric.html",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

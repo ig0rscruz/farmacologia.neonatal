@@ -1,14 +1,37 @@
 {
   "id": "oxido-de-zinco",
-  "nome": { "pt-BR": "Óxido de zinco", "en-US": "Zinc oxide", "es": "Óxido de zinc" },
-  "nomeGenerico": { "pt-BR": "Óxido de zinco (pomada tópica)", "en-US": "Zinc oxide (topical ointment)", "es": "Óxido de zinc (pomada tópica)" },
-  "classeFarmacologica": { "pt-BR": "Protetor cutâneo tópico", "en-US": "Topical skin protectant", "es": "Protector cutáneo tópico" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Prevenção e tratamento de dermatite de fralda", "Proteção cutânea perilesional (ex.: ao redor de estomas, drenos)"],
-    "en-US": ["Prevention and treatment of diaper dermatitis", "Peri-lesional skin protection (e.g., around stomas, drains)"],
-    "es": ["Prevención y tratamiento de la dermatitis del pañal", "Protección cutánea perilesional (p. ej., alrededor de estomas, drenajes)"]
+  "nome": {
+    "pt-BR": "Óxido de zinco",
+    "en-US": "Zinc oxide",
+    "es": "Óxido de zinc"
   },
-  "viasAdministracao": ["topica"],
+  "nomeGenerico": {
+    "pt-BR": "Óxido de zinco (pomada tópica)",
+    "en-US": "Zinc oxide (topical ointment)",
+    "es": "Óxido de zinc (pomada tópica)"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Protetor cutâneo tópico",
+    "en-US": "Topical skin protectant",
+    "es": "Protector cutáneo tópico"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Prevenção e tratamento de dermatite de fralda",
+      "Proteção cutânea perilesional (ex.: ao redor de estomas, drenos)"
+    ],
+    "en-US": [
+      "Prevention and treatment of diaper dermatitis",
+      "Peri-lesional skin protection (e.g., around stomas, drains)"
+    ],
+    "es": [
+      "Prevención y tratamiento de la dermatitis del pañal",
+      "Protección cutánea perilesional (p. ej., alrededor de estomas, drenajes)"
+    ]
+  },
+  "viasAdministracao": [
+    "topica"
+  ],
   "faixasDose": [
     {
       "doseValor": 1,
@@ -24,20 +47,34 @@
   ],
   "contraindicacoes": [],
   "alertasGerais": {
-    "pt-BR": ["Uso tópico considerado seguro em neonatos — absorção sistêmica mínima quando usado conforme indicado", "Evitar uso sob curativo oclusivo prolongado em pele muito imatura sem orientação específica"],
-    "en-US": ["Topical use is considered safe in neonates — minimal systemic absorption when used as directed", "Avoid prolonged occlusive dressing use on very immature skin without specific guidance"],
-    "es": ["El uso tópico se considera seguro en neonatos — absorción sistémica mínima cuando se usa según lo indicado", "Evitar el uso bajo apósito oclusivo prolongado en piel muy inmadura sin orientación específica"]
+    "pt-BR": [
+      "Uso tópico considerado seguro em neonatos — absorção sistêmica mínima quando usado conforme indicado",
+      "Evitar uso sob curativo oclusivo prolongado em pele muito imatura sem orientação específica"
+    ],
+    "en-US": [
+      "Topical use is considered safe in neonates — minimal systemic absorption when used as directed",
+      "Avoid prolonged occlusive dressing use on very immature skin without specific guidance"
+    ],
+    "es": [
+      "El uso tópico se considera seguro en neonatos — absorción sistémica mínima cuando se usa según lo indicado",
+      "Evitar el uso bajo apósito oclusivo prolongado en piel muy inmadura sin orientación específica"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — protocolo de cuidados de pele neonatal/prevenção de dermatite de fralda. Substituir por fonte institucional revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Revisao sobre eficacia e seguranca de oxido de zinco topico para dermatite de fralda: American Academy of Pediatrics recomenda seu uso pelo baixo risco de reacoes adversas; concentracoes usuais em cremes de 10-40%. Caso raro de hiperzincemia por uso topico extenso foi descrito na literatura, reforcando uso conforme indicado.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34747103/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

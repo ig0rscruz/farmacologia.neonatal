@@ -53,7 +53,8 @@
     "fontes": [
       {
         "tipo": "artigo_cientifico",
-        "descricao": "EXEMPLO — interação amiodarona + digoxina amplamente descrita na literatura de farmacologia clínica (efeito de classe, extrapolado de população pediátrica/adulta para neonatos). Substituir por referência específica revisada.",
+        "descricao": "Amiodarone-digoxin interaction: clinical significance, time course of development, potential pharmacokinetic mechanisms and therapeutic implications. Clin Pharmacokinet. Amiodarona inibe o efluxo de digoxina mediado por glicoproteina-P (intestino, rim, canaliculo biliar), podendo elevar o nivel serico de digoxina em 70-100% em 1-2 semanas apos inicio, com efeito dependente da concentracao de amiodarona.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6736437/",
         "dataAcesso": "2026-09-05"
       }
     ]

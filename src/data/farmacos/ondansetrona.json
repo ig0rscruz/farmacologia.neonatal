@@ -1,14 +1,34 @@
 {
   "id": "ondansetrona",
-  "nome": { "pt-BR": "Ondansetrona", "en-US": "Ondansetron", "es": "Ondansetrón" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de ondansetrona", "en-US": "Ondansetron hydrochloride", "es": "Clorhidrato de ondansetrón" },
-  "classeFarmacologica": { "pt-BR": "Antiemético (antagonista 5-HT3)", "en-US": "Antiemetic (5-HT3 antagonist)", "es": "Antiemético (antagonista 5-HT3)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Náuseas/vômitos em contexto selecionado (uso neonatal é off-label e pouco frequente)"],
-    "en-US": ["Nausea/vomiting in selected contexts (neonatal use is off-label and uncommon)"],
-    "es": ["Náuseas/vómitos en contexto seleccionado (el uso neonatal es fuera de ficha técnica y poco frecuente)"]
+  "nome": {
+    "pt-BR": "Ondansetrona",
+    "en-US": "Ondansetron",
+    "es": "Ondansetrón"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de ondansetrona",
+    "en-US": "Ondansetron hydrochloride",
+    "es": "Clorhidrato de ondansetrón"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiemético (antagonista 5-HT3)",
+    "en-US": "Antiemetic (5-HT3 antagonist)",
+    "es": "Antiemético (antagonista 5-HT3)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Náuseas/vômitos em contexto selecionado (uso neonatal é off-label e pouco frequente)"
+    ],
+    "en-US": [
+      "Nausea/vomiting in selected contexts (neonatal use is off-label and uncommon)"
+    ],
+    "es": [
+      "Náuseas/vómitos en contexto seleccionado (el uso neonatal es fuera de ficha técnica y poco frecuente)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.1,
@@ -25,26 +45,45 @@
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": { "pt-BR": "Pode prolongar o intervalo QT de forma dose-dependente", "en-US": "May prolong the QT interval in a dose-dependent manner", "es": "Puede prolongar el intervalo QT de forma dosis-dependiente" },
+      "descricao": {
+        "pt-BR": "Pode prolongar o intervalo QT de forma dose-dependente",
+        "en-US": "May prolong the QT interval in a dose-dependent manner",
+        "es": "Puede prolongar el intervalo QT de forma dosis-dependiente"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Considerar ECG basal e evitar associação com outros prolongadores de QT; corrigir distúrbios eletrolíticos (potássio, magnésio) antes de administrar", "en-US": "Consider baseline ECG and avoid combination with other QT-prolonging drugs; correct electrolyte disturbances (potassium, magnesium) before administering", "es": "Considerar ECG basal y evitar la asociación con otros prolongadores del QT; corregir los trastornos electrolíticos (potasio, magnesio) antes de administrar" }
+      "conduta": {
+        "pt-BR": "Considerar ECG basal e evitar associação com outros prolongadores de QT; corrigir distúrbios eletrolíticos (potássio, magnésio) antes de administrar",
+        "en-US": "Consider baseline ECG and avoid combination with other QT-prolonging drugs; correct electrolyte disturbances (potassium, magnesium) before administering",
+        "es": "Considerar ECG basal y evitar la asociación con otros prolongadores del QT; corregir los trastornos electrolíticos (potasio, magnesio) antes de administrar"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso neonatal é off-label — reservar para situações com indicação clara e sem alternativa mais estabelecida"],
-    "en-US": ["Neonatal use is off-label — reserve for situations with a clear indication and no better-established alternative"],
-    "es": ["El uso neonatal es fuera de ficha técnica — reservar para situaciones con indicación clara y sin alternativa mejor establecida"]
+    "pt-BR": [
+      "Uso neonatal é off-label — reservar para situações com indicação clara e sem alternativa mais estabelecida"
+    ],
+    "en-US": [
+      "Neonatal use is off-label — reserve for situations with a clear indication and no better-established alternative"
+    ],
+    "es": [
+      "El uso neonatal es fuera de ficha técnica — reservar para situaciones con indicación clara y sin alternativa mejor establecida"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
       "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de ondansetrona injetável (ANVISA), uso pediátrico. Substituir pela versão vigente antes de uso clínico.",
+      "descricao": "FDA Drug Safety Communication: New information regarding QT prolongation with ondansetron (dose-dependente, mais evidente >=32 mg dose unica IV); dose IV usual citada na literatura pediatrica de 0.15 mg/kg a cada 4h (maximo 16 mg/dose). Corrigir hipopotassemia/hipomagnesemia antes da infusao.",
+      "url": "https://downloads.regulations.gov/FDA-2016-N-2462-0014/content.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

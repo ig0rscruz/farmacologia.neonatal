@@ -1,21 +1,45 @@
 {
   "id": "aminofilina",
-  "nome": { "pt-BR": "Aminofilina", "en-US": "Aminophylline", "es": "Aminofilina" },
-  "nomeGenerico": { "pt-BR": "Aminofilina", "en-US": "Aminophylline", "es": "Aminofilina" },
-  "classeFarmacologica": { "pt-BR": "Metilxantina / estimulante do SNC respiratório", "en-US": "Methylxanthine / respiratory CNS stimulant", "es": "Metilxantina / estimulante del SNC respiratorio" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Apneia da prematuridade (alternativa à cafeína, uso menos frequente atualmente)"],
-    "en-US": ["Apnea of prematurity (alternative to caffeine, less commonly used today)"],
-    "es": ["Apnea de la prematuridad (alternativa a la cafeína, uso menos frecuente actualmente)"]
+  "nome": {
+    "pt-BR": "Aminofilina",
+    "en-US": "Aminophylline",
+    "es": "Aminofilina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Aminofilina",
+    "en-US": "Aminophylline",
+    "es": "Aminofilina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Metilxantina / estimulante do SNC respiratório",
+    "en-US": "Methylxanthine / respiratory CNS stimulant",
+    "es": "Metilxantina / estimulante del SNC respiratorio"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Apneia da prematuridade (alternativa à cafeína, uso menos frequente atualmente)"
+    ],
+    "en-US": [
+      "Apnea of prematurity (alternative to caffeine, less commonly used today)"
+    ],
+    "es": [
+      "Apnea de la prematuridad (alternativa a la cafeína, uso menos frecuente actualmente)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 6,
       "doseUnidade": "mg/kg",
       "intervaloHoras": 0,
       "viaAdministracao": "intravenosa",
-      "observacoes": { "pt-BR": "Dose de ataque única, infusão lenta.", "en-US": "Single loading dose, slow infusion.", "es": "Dosis de carga única, infusión lenta." }
+      "observacoes": {
+        "pt-BR": "Dose de ataque única, infusão lenta.",
+        "en-US": "Single loading dose, slow infusion.",
+        "es": "Dosis de carga única, infusión lenta."
+      }
     },
     {
       "doseValor": 1.5,
@@ -32,32 +56,59 @@
   "contraindicacoes": [
     {
       "condicao": "taquicardia",
-      "descricao": { "pt-BR": "Efeito cronotrópico positivo pode agravar taquicardia/taquiarritmia", "en-US": "Positive chronotropic effect may worsen tachycardia/tachyarrhythmia", "es": "El efecto cronotrópico positivo puede agravar taquicardia/taquiarritmia" },
+      "descricao": {
+        "pt-BR": "Efeito cronotrópico positivo pode agravar taquicardia/taquiarritmia",
+        "en-US": "Positive chronotropic effect may worsen tachycardia/tachyarrhythmia",
+        "es": "El efecto cronotrópico positivo puede agravar taquicardia/taquiarritmia"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorar frequência cardíaca", "en-US": "Monitor heart rate", "es": "Monitorizar frecuencia cardíaca" }
+      "conduta": {
+        "pt-BR": "Monitorar frequência cardíaca",
+        "en-US": "Monitor heart rate",
+        "es": "Monitorizar frecuencia cardíaca"
+      }
     },
     {
       "condicao": "insuficiencia_hepatica",
-      "descricao": { "pt-BR": "Metabolização hepática; risco de acúmulo em disfunção hepática", "en-US": "Hepatic metabolism; risk of accumulation in hepatic impairment", "es": "Metabolización hepática; riesgo de acumulación en disfunción hepática" },
+      "descricao": {
+        "pt-BR": "Metabolização hepática; risco de acúmulo em disfunção hepática",
+        "en-US": "Hepatic metabolism; risk of accumulation in hepatic impairment",
+        "es": "Metabolización hepática; riesgo de acumulación en disfunción hepática"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Reduzir dose e monitorar nível sérico", "en-US": "Reduce dose and monitor serum level", "es": "Reducir la dosis y monitorizar el nivel sérico" }
+      "conduta": {
+        "pt-BR": "Reduzir dose e monitorar nível sérico",
+        "en-US": "Reduce dose and monitor serum level",
+        "es": "Reducir la dosis y monitorizar el nivel sérico"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Cafeína é preferida na maioria dos protocolos atuais por maior margem de segurança e posologia mais simples (dose única diária)"],
-    "en-US": ["Caffeine is preferred in most current protocols due to a wider safety margin and simpler dosing (once daily)"],
-    "es": ["La cafeína se prefiere en la mayoría de los protocolos actuales por su mayor margen de seguridad y posología más simple (dosis única diaria)"]
+    "pt-BR": [
+      "Cafeína é preferida na maioria dos protocolos atuais por maior margem de segurança e posologia mais simples (dose única diária)"
+    ],
+    "en-US": [
+      "Caffeine is preferred in most current protocols due to a wider safety margin and simpler dosing (once daily)"
+    ],
+    "es": [
+      "La cafeína se prefiere en la mayoría de los protocolos actuales por su mayor margen de seguridad y posología más simple (dosis única diaria)"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Kua KP, Lee SW. Systematic review and meta-analysis of clinical outcomes of early caffeine therapy in preterm neonates; e revisoes sobre aminofilina profilatica em apneia da prematuridade (Bairam A et al., Prophylactic Aminophylline for Prevention of Apnea at Higher-Risk Preterm Neonates, Am J Perinatol 2015): dose de ataque usual 5-6 mg/kg seguida de manutencao 1.5-2 mg/kg a cada 8h, com nivel serico alvo de 5-16 mg/L.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4221998/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

@@ -1,14 +1,38 @@
 {
   "id": "metadona",
-  "nome": { "pt-BR": "Metadona", "en-US": "Methadone", "es": "Metadona" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de metadona", "en-US": "Methadone hydrochloride", "es": "Clorhidrato de metadona" },
-  "classeFarmacologica": { "pt-BR": "Opioide", "en-US": "Opioid", "es": "Opioide" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Síndrome de abstinência neonatal (SAN) por opioides — tratamento e desmame prolongado", "Desmame de opioide após uso prolongado em UTI neonatal"],
-    "en-US": ["Neonatal abstinence syndrome (NAS) due to opioids — treatment and prolonged weaning", "Opioid weaning after prolonged NICU use"],
-    "es": ["Síndrome de abstinencia neonatal (SAN) por opioides — tratamiento y destete prolongado", "Destete de opioide tras uso prolongado en UCIN"]
+  "nome": {
+    "pt-BR": "Metadona",
+    "en-US": "Methadone",
+    "es": "Metadona"
   },
-  "viasAdministracao": ["oral", "intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de metadona",
+    "en-US": "Methadone hydrochloride",
+    "es": "Clorhidrato de metadona"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Opioide",
+    "en-US": "Opioid",
+    "es": "Opioide"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Síndrome de abstinência neonatal (SAN) por opioides — tratamento e desmame prolongado",
+      "Desmame de opioide após uso prolongado em UTI neonatal"
+    ],
+    "en-US": [
+      "Neonatal abstinence syndrome (NAS) due to opioids — treatment and prolonged weaning",
+      "Opioid weaning after prolonged NICU use"
+    ],
+    "es": [
+      "Síndrome de abstinencia neonatal (SAN) por opioides — tratamiento y destete prolongado",
+      "Destete de opioide tras uso prolongado en UCIN"
+    ]
+  },
+  "viasAdministracao": [
+    "oral",
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.05,
@@ -25,32 +49,59 @@
   "contraindicacoes": [
     {
       "condicao": "apneia",
-      "descricao": { "pt-BR": "Depressão respiratória dose-dependente, como outros opioides", "en-US": "Dose-dependent respiratory depression, like other opioids", "es": "Depresión respiratoria dosis-dependiente, como otros opioides" },
+      "descricao": {
+        "pt-BR": "Depressão respiratória dose-dependente, como outros opioides",
+        "en-US": "Dose-dependent respiratory depression, like other opioids",
+        "es": "Depresión respiratoria dosis-dependiente, como otros opioides"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização respiratória, especialmente durante titulação de dose", "en-US": "Respiratory monitoring, especially during dose titration", "es": "Monitorización respiratoria, especialmente durante la titulación de dosis" }
+      "conduta": {
+        "pt-BR": "Monitorização respiratória, especialmente durante titulação de dose",
+        "en-US": "Respiratory monitoring, especially during dose titration",
+        "es": "Monitorización respiratoria, especialmente durante la titulación de dosis"
+      }
     },
     {
       "condicao": "taquicardia",
-      "descricao": { "pt-BR": "Pode prolongar o intervalo QT, especialmente em doses altas ou uso concomitante com outros prolongadores de QT", "en-US": "May prolong the QT interval, especially at high doses or with concomitant use of other QT-prolonging drugs", "es": "Puede prolongar el intervalo QT, especialmente en dosis altas o uso concomitante con otros prolongadores del QT" },
+      "descricao": {
+        "pt-BR": "Pode prolongar o intervalo QT, especialmente em doses altas ou uso concomitante com outros prolongadores de QT",
+        "en-US": "May prolong the QT interval, especially at high doses or with concomitant use of other QT-prolonging drugs",
+        "es": "Puede prolongar el intervalo QT, especialmente en dosis altas o uso concomitante con otros prolongadores del QT"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Considerar ECG basal em uso prolongado ou doses mais altas", "en-US": "Consider baseline ECG with prolonged use or higher doses", "es": "Considerar ECG basal en uso prolongado o dosis más altas" }
+      "conduta": {
+        "pt-BR": "Considerar ECG basal em uso prolongado ou doses mais altas",
+        "en-US": "Consider baseline ECG with prolonged use or higher doses",
+        "es": "Considerar ECG basal en uso prolongado o dosis más altas"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Desmame deve ser lento e guiado por escala de abstinência validada — desmame abrupto pode precipitar abstinência grave"],
-    "en-US": ["Weaning should be slow and guided by a validated withdrawal scale — abrupt weaning may precipitate severe withdrawal"],
-    "es": ["El destete debe ser lento y guiado por una escala de abstinencia validada — el destete brusco puede precipitar abstinencia grave"]
+    "pt-BR": [
+      "Desmame deve ser lento e guiado por escala de abstinência validada — desmame abrupto pode precipitar abstinência grave"
+    ],
+    "en-US": [
+      "Weaning should be slow and guided by a validated withdrawal scale — abrupt weaning may precipitate severe withdrawal"
+    ],
+    "es": [
+      "El destete debe ser lento y guiado por una escala de abstinencia validada — el destete brusco puede precipitar abstinencia grave"
+    ]
   },
   "nivelEvidenciaGeral": "B",
   "fontes": [
     {
-      "tipo": "diretriz_sociedade",
-      "descricao": "EXEMPLO — diretriz de manejo da síndrome de abstinência neonatal. Substituir por fonte revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Pharmacokinetics of Oral Methadone in the Treatment of Neonatal Abstinence Syndrome: A Pilot Study. Descreve farmacocinetica (meia-vida ate 24h em neonatos) e esquema de dose inicial usual (0.05-0.1 mg/kg a cada 6-12h, com desmame gradual) no tratamento da sindrome de abstinencia neonatal a opioides.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26364984/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

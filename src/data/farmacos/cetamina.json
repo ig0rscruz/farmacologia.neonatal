@@ -1,14 +1,34 @@
 {
   "id": "cetamina",
-  "nome": { "pt-BR": "Cetamina", "en-US": "Ketamine", "es": "Ketamina" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de cetamina", "en-US": "Ketamine hydrochloride", "es": "Clorhidrato de ketamina" },
-  "classeFarmacologica": { "pt-BR": "Anestésico dissociativo", "en-US": "Dissociative anesthetic", "es": "Anestésico disociativo" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sedoanalgesia para procedimentos dolorosos, especialmente quando estabilidade hemodinâmica é prioridade"],
-    "en-US": ["Sedation-analgesia for painful procedures, especially when hemodynamic stability is a priority"],
-    "es": ["Sedoanalgesia para procedimientos dolorosos, especialmente cuando la estabilidad hemodinámica es prioritaria"]
+  "nome": {
+    "pt-BR": "Cetamina",
+    "en-US": "Ketamine",
+    "es": "Ketamina"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de cetamina",
+    "en-US": "Ketamine hydrochloride",
+    "es": "Clorhidrato de ketamina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Anestésico dissociativo",
+    "en-US": "Dissociative anesthetic",
+    "es": "Anestésico disociativo"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sedoanalgesia para procedimentos dolorosos, especialmente quando estabilidade hemodinâmica é prioridade"
+    ],
+    "en-US": [
+      "Sedation-analgesia for painful procedures, especially when hemodynamic stability is a priority"
+    ],
+    "es": [
+      "Sedoanalgesia para procedimientos dolorosos, especialmente cuando la estabilidad hemodinámica es prioritaria"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -25,26 +45,48 @@
   "contraindicacoes": [
     {
       "condicao": "hipertensao",
-      "descricao": { "pt-BR": "Efeito simpaticomimético pode causar hipertensão e taquicardia", "en-US": "Sympathomimetic effect may cause hypertension and tachycardia", "es": "El efecto simpaticomimético puede causar hipertensión y taquicardia" },
+      "descricao": {
+        "pt-BR": "Efeito simpaticomimético pode causar hipertensão e taquicardia",
+        "en-US": "Sympathomimetic effect may cause hypertension and tachycardia",
+        "es": "El efecto simpaticomimético puede causar hipertensión y taquicardia"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Monitorar pressão arterial e FC; cautela em cardiopatia com hipertensão pulmonar", "en-US": "Monitor blood pressure and HR; caution in heart disease with pulmonary hypertension", "es": "Monitorizar presión arterial y FC; precaución en cardiopatía con hipertensión pulmonar" }
+      "conduta": {
+        "pt-BR": "Monitorar pressão arterial e FC; cautela em cardiopatia com hipertensão pulmonar",
+        "en-US": "Monitor blood pressure and HR; caution in heart disease with pulmonary hypertension",
+        "es": "Monitorizar presión arterial y FC; precaución en cardiopatía con hipertensión pulmonar"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Pode aumentar secreções de via aérea — considerar antissialogogo (ex.: atropina) conforme protocolo", "Experiência de segurança em neonatos, especialmente prematuros, é mais limitada que em crianças maiores"],
-    "en-US": ["May increase airway secretions — consider an antisialagogue (e.g., atropine) per protocol", "Safety experience in neonates, especially preterm infants, is more limited than in older children"],
-    "es": ["Puede aumentar las secreciones de la vía aérea — considerar un antisialagogo (p. ej., atropina) según protocolo", "La experiencia de seguridad en neonatos, especialmente prematuros, es más limitada que en niños mayores"]
+    "pt-BR": [
+      "Pode aumentar secreções de via aérea — considerar antissialogogo (ex.: atropina) conforme protocolo",
+      "Experiência de segurança em neonatos, especialmente prematuros, é mais limitada que em crianças maiores"
+    ],
+    "en-US": [
+      "May increase airway secretions — consider an antisialagogue (e.g., atropine) per protocol",
+      "Safety experience in neonates, especially preterm infants, is more limited than in older children"
+    ],
+    "es": [
+      "Puede aumentar las secreciones de la vía aérea — considerar un antisialagogo (p. ej., atropina) según protocolo",
+      "La experiencia de seguridad en neonatos, especialmente prematuros, es más limitada que en niños mayores"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "protocolo_institucional",
-      "descricao": "EXEMPLO — dosagem baseada em referência padrão de farmacologia neonatal (estilo NeoFax/Lexicomp Pediatric & Neonatal Dosage Handbook). Substituir por fonte institucional/citação específica revisada antes de uso clínico.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Golianu B, Krane EJ, Galloway KS, Yaster M. Ketamine: A Controversial Drug for Neonates. Seminars in Perinatology. Revisao sobre uso, farmacocinetica e seguranca da cetamina em neonatos, incluindo preocupacoes sobre neurotoxicidade em desenvolvimento.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0146000507000729",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

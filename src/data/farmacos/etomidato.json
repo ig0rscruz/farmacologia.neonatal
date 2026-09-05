@@ -1,14 +1,34 @@
 {
   "id": "etomidato",
-  "nome": { "pt-BR": "Etomidato", "en-US": "Etomidate", "es": "Etomidato" },
-  "nomeGenerico": { "pt-BR": "Etomidato", "en-US": "Etomidate", "es": "Etomidato" },
-  "classeFarmacologica": { "pt-BR": "Anestésico geral (hipnótico não barbitúrico)", "en-US": "General anesthetic (non-barbiturate hypnotic)", "es": "Anestésico general (hipnótico no barbitúrico)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sedação para intubação, especialmente quando estabilidade hemodinâmica é prioridade (uso neonatal pouco frequente)"],
-    "en-US": ["Sedation for intubation, especially when hemodynamic stability is a priority (uncommon neonatal use)"],
-    "es": ["Sedación para intubación, especialmente cuando la estabilidad hemodinámica es prioritaria (uso neonatal poco frecuente)"]
+  "nome": {
+    "pt-BR": "Etomidato",
+    "en-US": "Etomidate",
+    "es": "Etomidato"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Etomidato",
+    "en-US": "Etomidate",
+    "es": "Etomidato"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Anestésico geral (hipnótico não barbitúrico)",
+    "en-US": "General anesthetic (non-barbiturate hypnotic)",
+    "es": "Anestésico general (hipnótico no barbitúrico)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sedação para intubação, especialmente quando estabilidade hemodinâmica é prioridade (uso neonatal pouco frequente)"
+    ],
+    "en-US": [
+      "Sedation for intubation, especially when hemodynamic stability is a priority (uncommon neonatal use)"
+    ],
+    "es": [
+      "Sedación para intubación, especialmente cuando la estabilidad hemodinámica es prioritaria (uso neonatal poco frecuente)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.3,
@@ -25,26 +45,48 @@
   "contraindicacoes": [
     {
       "condicao": "sepse",
-      "descricao": { "pt-BR": "Supressão adrenal transitória (inibição da síntese de cortisol) é efeito conhecido, mesmo com dose única — preocupação particular em sepse", "en-US": "Transient adrenal suppression (cortisol synthesis inhibition) is a known effect, even with a single dose — a particular concern in sepsis", "es": "La supresión suprarrenal transitoria (inhibición de la síntesis de cortisol) es un efecto conocido, incluso con dosis única — una preocupación particular en la sepsis" },
+      "descricao": {
+        "pt-BR": "Supressão adrenal transitória (inibição da síntese de cortisol) é efeito conhecido, mesmo com dose única — preocupação particular em sepse",
+        "en-US": "Transient adrenal suppression (cortisol synthesis inhibition) is a known effect, even with a single dose — a particular concern in sepsis",
+        "es": "La supresión suprarrenal transitoria (inhibición de la síntesis de cortisol) es un efecto conocido, incluso con dosis única — una preocupación particular en la sepsis"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Considerar risco-benefício em sepse/choque séptico; monitorar sinais de insuficiência adrenal", "en-US": "Consider risk-benefit in sepsis/septic shock; monitor for signs of adrenal insufficiency", "es": "Considerar riesgo-beneficio en sepsis/choque séptico; monitorizar signos de insuficiencia suprarrenal" }
+      "conduta": {
+        "pt-BR": "Considerar risco-benefício em sepse/choque séptico; monitorar sinais de insuficiência adrenal",
+        "en-US": "Consider risk-benefit in sepsis/septic shock; monitor for signs of adrenal insufficiency",
+        "es": "Considerar riesgo-beneficio en sepsis/choque séptico; monitorizar signos de insuficiencia suprarrenal"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Não possui efeito analgésico — associar analgesia adequada", "Dados de segurança em neonatos são escassos"],
-    "en-US": ["Has no analgesic effect — combine with adequate analgesia", "Safety data in neonates are scarce"],
-    "es": ["No tiene efecto analgésico — asociar analgesia adecuada", "Los datos de seguridad en neonatos son escasos"]
+    "pt-BR": [
+      "Não possui efeito analgésico — associar analgesia adequada",
+      "Dados de segurança em neonatos são escassos"
+    ],
+    "en-US": [
+      "Has no analgesic effect — combine with adequate analgesia",
+      "Safety data in neonates are scarce"
+    ],
+    "es": [
+      "No tiene efecto analgésico — asociar analgesia adecuada",
+      "Los datos de seguridad en neonatos son escasos"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
       "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre uso de etomidato para intubação em neonatologia. Substituir por fonte revisada.",
+      "descricao": "Etomidate - StatPearls (NCBI Bookshelf); revisao sobre inibicao da 11-beta-hidroxilase e supressao adrenal transitoria apos dose unica de inducao (0.2-0.4 mg/kg IV), com evidencia pediatrica conflitante quanto a relevancia clinica em uso de dose unica para intubacao.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535364/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

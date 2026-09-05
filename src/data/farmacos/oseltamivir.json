@@ -1,14 +1,37 @@
 {
   "id": "oseltamivir",
-  "nome": { "pt-BR": "Oseltamivir", "en-US": "Oseltamivir", "es": "Oseltamivir" },
-  "nomeGenerico": { "pt-BR": "Fosfato de oseltamivir", "en-US": "Oseltamivir phosphate", "es": "Fosfato de oseltamivir" },
-  "classeFarmacologica": { "pt-BR": "Antiviral (inibidor da neuraminidase)", "en-US": "Antiviral (neuraminidase inhibitor)", "es": "Antiviral (inhibidor de la neuraminidasa)" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Tratamento de influenza confirmada ou fortemente suspeita em neonato", "Profilaxia pós-exposição em situações selecionadas"],
-    "en-US": ["Treatment of confirmed or strongly suspected influenza in a neonate", "Post-exposure prophylaxis in selected situations"],
-    "es": ["Tratamiento de influenza confirmada o fuertemente sospechada en un neonato", "Profilaxis posexposición en situaciones seleccionadas"]
+  "nome": {
+    "pt-BR": "Oseltamivir",
+    "en-US": "Oseltamivir",
+    "es": "Oseltamivir"
   },
-  "viasAdministracao": ["oral"],
+  "nomeGenerico": {
+    "pt-BR": "Fosfato de oseltamivir",
+    "en-US": "Oseltamivir phosphate",
+    "es": "Fosfato de oseltamivir"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antiviral (inibidor da neuraminidase)",
+    "en-US": "Antiviral (neuraminidase inhibitor)",
+    "es": "Antiviral (inhibidor de la neuraminidasa)"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Tratamento de influenza confirmada ou fortemente suspeita em neonato",
+      "Profilaxia pós-exposição em situações selecionadas"
+    ],
+    "en-US": [
+      "Treatment of confirmed or strongly suspected influenza in a neonate",
+      "Post-exposure prophylaxis in selected situations"
+    ],
+    "es": [
+      "Tratamiento de influenza confirmada o fuertemente sospechada en un neonato",
+      "Profilaxis posexposición en situaciones seleccionadas"
+    ]
+  },
+  "viasAdministracao": [
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 3,
@@ -25,26 +48,45 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Eliminação renal; possível necessidade de ajuste em disfunção renal significativa", "en-US": "Renal elimination; may require adjustment in significant renal impairment", "es": "Eliminación renal; posible necesidad de ajuste en disfunción renal significativa" },
+      "descricao": {
+        "pt-BR": "Eliminação renal; possível necessidade de ajuste em disfunção renal significativa",
+        "en-US": "Renal elimination; may require adjustment in significant renal impairment",
+        "es": "Eliminación renal; posible necesidad de ajuste en disfunción renal significativa"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Considerar ajuste de dose em disfunção renal significativa", "en-US": "Consider dose adjustment in significant renal impairment", "es": "Considerar ajuste de dosis en disfunción renal significativa" }
+      "conduta": {
+        "pt-BR": "Considerar ajuste de dose em disfunção renal significativa",
+        "en-US": "Consider dose adjustment in significant renal impairment",
+        "es": "Considerar ajuste de dosis en disfunción renal significativa"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Iniciar o mais precocemente possível após início dos sintomas para maior benefício"],
-    "en-US": ["Start as early as possible after symptom onset for greatest benefit"],
-    "es": ["Iniciar lo antes posible tras el inicio de los síntomas para mayor beneficio"]
+    "pt-BR": [
+      "Iniciar o mais precocemente possível após início dos sintomas para maior benefício"
+    ],
+    "en-US": [
+      "Start as early as possible after symptom onset for greatest benefit"
+    ],
+    "es": [
+      "Iniciar lo antes posible tras el inicio de los síntomas para mayor beneficio"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de oseltamivir, uso pediátrico/neonatal (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Acosta EP et al. Oseltamivir dosing for influenza infection in premature neonates. J Infect Dis. Estudo de farmacocinetica mostrando que 1.0 mg/kg/dose 2x/dia em prematuros produz exposicao a oseltamivir carboxilato semelhante a 3.0 mg/kg/dose 2x/dia em criancas maiores; FDA aprovou uso a partir de 2 semanas de vida, com decisao individualizada abaixo disso.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20594104/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

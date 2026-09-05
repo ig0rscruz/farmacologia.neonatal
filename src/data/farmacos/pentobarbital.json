@@ -1,14 +1,37 @@
 {
   "id": "pentobarbital",
-  "nome": { "pt-BR": "Pentobarbital", "en-US": "Pentobarbital", "es": "Pentobarbital" },
-  "nomeGenerico": { "pt-BR": "Pentobarbital sódico", "en-US": "Pentobarbital sodium", "es": "Pentobarbital sódico" },
-  "classeFarmacologica": { "pt-BR": "Barbitúrico sedativo", "en-US": "Sedative barbiturate", "es": "Barbitúrico sedante" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Sedação para procedimentos diagnósticos (ex.: exames de imagem)", "Status epilepticus refratário a outros anticonvulsivantes (uso de exceção, em UTI)"],
-    "en-US": ["Sedation for diagnostic procedures (e.g., imaging studies)", "Status epilepticus refractory to other anticonvulsants (exceptional use, in the ICU)"],
-    "es": ["Sedación para procedimientos diagnósticos (p. ej., estudios de imagen)", "Estado epiléptico refractario a otros anticonvulsivantes (uso excepcional, en UCI)"]
+  "nome": {
+    "pt-BR": "Pentobarbital",
+    "en-US": "Pentobarbital",
+    "es": "Pentobarbital"
   },
-  "viasAdministracao": ["intravenosa"],
+  "nomeGenerico": {
+    "pt-BR": "Pentobarbital sódico",
+    "en-US": "Pentobarbital sodium",
+    "es": "Pentobarbital sódico"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Barbitúrico sedativo",
+    "en-US": "Sedative barbiturate",
+    "es": "Barbitúrico sedante"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Sedação para procedimentos diagnósticos (ex.: exames de imagem)",
+      "Status epilepticus refratário a outros anticonvulsivantes (uso de exceção, em UTI)"
+    ],
+    "en-US": [
+      "Sedation for diagnostic procedures (e.g., imaging studies)",
+      "Status epilepticus refractory to other anticonvulsants (exceptional use, in the ICU)"
+    ],
+    "es": [
+      "Sedación para procedimientos diagnósticos (p. ej., estudios de imagen)",
+      "Estado epiléptico refractario a otros anticonvulsivantes (uso excepcional, en UCI)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa"
+  ],
   "faixasDose": [
     {
       "doseValor": 2,
@@ -25,32 +48,62 @@
   "contraindicacoes": [
     {
       "condicao": "hipotensao",
-      "descricao": { "pt-BR": "Efeito depressor cardiovascular direto — pode causar ou agravar hipotensão, especialmente em infusão rápida", "en-US": "Direct cardiovascular depressant effect — may cause or worsen hypotension, especially with rapid infusion", "es": "Efecto depresor cardiovascular directo — puede causar o agravar la hipotensión, especialmente con infusión rápida" },
+      "descricao": {
+        "pt-BR": "Efeito depressor cardiovascular direto — pode causar ou agravar hipotensão, especialmente em infusão rápida",
+        "en-US": "Direct cardiovascular depressant effect — may cause or worsen hypotension, especially with rapid infusion",
+        "es": "Efecto depresor cardiovascular directo — puede causar o agravar la hipotensión, especialmente con infusión rápida"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Infundir lentamente; monitorar pressão arterial continuamente; ter suporte hemodinâmico disponível", "en-US": "Infuse slowly; monitor blood pressure continuously; have hemodynamic support available", "es": "Infundir lentamente; monitorizar la presión arterial de forma continua; tener soporte hemodinámico disponible" }
+      "conduta": {
+        "pt-BR": "Infundir lentamente; monitorar pressão arterial continuamente; ter suporte hemodinâmico disponível",
+        "en-US": "Infuse slowly; monitor blood pressure continuously; have hemodynamic support available",
+        "es": "Infundir lentamente; monitorizar la presión arterial de forma continua; tener soporte hemodinámico disponible"
+      }
     },
     {
       "condicao": "apneia",
-      "descricao": { "pt-BR": "Depressor respiratório central — risco de apneia, especialmente associado a outros depressores do SNC", "en-US": "Central respiratory depressant — apnea risk, especially combined with other CNS depressants", "es": "Depresor respiratorio central — riesgo de apnea, especialmente asociado a otros depresores del SNC" },
+      "descricao": {
+        "pt-BR": "Depressor respiratório central — risco de apneia, especialmente associado a outros depressores do SNC",
+        "en-US": "Central respiratory depressant — apnea risk, especially combined with other CNS depressants",
+        "es": "Depresor respiratorio central — riesgo de apnea, especialmente asociado a otros depresores del SNC"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização respiratória contínua; suporte ventilatório prontamente disponível", "en-US": "Continuous respiratory monitoring; ventilatory support readily available", "es": "Monitorización respiratoria continua; soporte ventilatorio disponible de inmediato" }
+      "conduta": {
+        "pt-BR": "Monitorização respiratória contínua; suporte ventilatório prontamente disponível",
+        "en-US": "Continuous respiratory monitoring; ventilatory support readily available",
+        "es": "Monitorización respiratoria continua; soporte ventilatorio disponible de inmediato"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso restrito a ambiente de terapia intensiva com monitorização hemodinâmica e respiratória contínua", "Suspensão abrupta após uso prolongado pode causar síndrome de abstinência"],
-    "en-US": ["Use restricted to an intensive care setting with continuous hemodynamic and respiratory monitoring", "Abrupt discontinuation after prolonged use may cause withdrawal syndrome"],
-    "es": ["Uso restringido a un entorno de cuidados intensivos con monitorización hemodinámica y respiratoria continua", "La suspensión abrupta tras uso prolongado puede causar síndrome de abstinencia"]
+    "pt-BR": [
+      "Uso restrito a ambiente de terapia intensiva com monitorização hemodinâmica e respiratória contínua",
+      "Suspensão abrupta após uso prolongado pode causar síndrome de abstinência"
+    ],
+    "en-US": [
+      "Use restricted to an intensive care setting with continuous hemodynamic and respiratory monitoring",
+      "Abrupt discontinuation after prolonged use may cause withdrawal syndrome"
+    ],
+    "es": [
+      "Uso restringido a un entorno de cuidados intensivos con monitorización hemodinámica y respiratoria continua",
+      "La suspensión abrupta tras uso prolongado puede causar síndrome de abstinencia"
+    ]
   },
   "nivelEvidenciaGeral": "D",
   "fontes": [
     {
-      "tipo": "livro_texto",
-      "descricao": "EXEMPLO — literatura de terapia intensiva neonatal sobre barbitúricos para status epilepticus refratário. Substituir por fonte revisada.",
+      "tipo": "artigo_cientifico",
+      "descricao": "Neurocritical Care Society guidelines para status epilepticus refratario: dose de ataque de pentobarbital 5-15 mg/kg (infusao <=50 mg/min) seguida de infusao continua de 0.5-5 mg/kg/h, titulada por EEG continuo ate padrao surto-supressao; literatura pediatrica destaca pentobarbital como agente de segunda linha apos falha de midazolam, com necessidade de monitorizacao rigorosa por risco de hipotensao e depressao respiratoria.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545288/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

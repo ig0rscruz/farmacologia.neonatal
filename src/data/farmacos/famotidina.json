@@ -1,14 +1,38 @@
 {
   "id": "famotidina",
-  "nome": { "pt-BR": "Famotidina", "en-US": "Famotidine", "es": "Famotidina" },
-  "nomeGenerico": { "pt-BR": "Famotidina", "en-US": "Famotidine", "es": "Famotidina" },
-  "classeFarmacologica": { "pt-BR": "Antagonista de receptor H2", "en-US": "H2-receptor antagonist", "es": "Antagonista del receptor H2" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Doença do refluxo gastroesofágico sintomático", "Profilaxia de úlcera de estresse em neonatos criticamente doentes selecionados"],
-    "en-US": ["Symptomatic gastroesophageal reflux disease", "Stress ulcer prophylaxis in selected critically ill neonates"],
-    "es": ["Enfermedad por reflujo gastroesofágico sintomática", "Profilaxis de úlcera de estrés en neonatos críticamente enfermos seleccionados"]
+  "nome": {
+    "pt-BR": "Famotidina",
+    "en-US": "Famotidine",
+    "es": "Famotidina"
   },
-  "viasAdministracao": ["intravenosa", "oral"],
+  "nomeGenerico": {
+    "pt-BR": "Famotidina",
+    "en-US": "Famotidine",
+    "es": "Famotidina"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Antagonista de receptor H2",
+    "en-US": "H2-receptor antagonist",
+    "es": "Antagonista del receptor H2"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Doença do refluxo gastroesofágico sintomático",
+      "Profilaxia de úlcera de estresse em neonatos criticamente doentes selecionados"
+    ],
+    "en-US": [
+      "Symptomatic gastroesophageal reflux disease",
+      "Stress ulcer prophylaxis in selected critically ill neonates"
+    ],
+    "es": [
+      "Enfermedad por reflujo gastroesofágico sintomática",
+      "Profilaxis de úlcera de estrés en neonatos críticamente enfermos seleccionados"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "oral"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -25,32 +49,59 @@
   "contraindicacoes": [
     {
       "condicao": "insuficiencia_renal",
-      "descricao": { "pt-BR": "Eliminação predominantemente renal — disfunção renal prolonga a meia-vida", "en-US": "Predominantly renal elimination — renal impairment prolongs half-life", "es": "Eliminación predominantemente renal — la disfunción renal prolonga la vida media" },
+      "descricao": {
+        "pt-BR": "Eliminação predominantemente renal — disfunção renal prolonga a meia-vida",
+        "en-US": "Predominantly renal elimination — renal impairment prolongs half-life",
+        "es": "Eliminación predominantemente renal — la disfunción renal prolonga la vida media"
+      },
       "gravidade": "ajustar_dose",
-      "conduta": { "pt-BR": "Aumentar intervalo de dose em disfunção renal", "en-US": "Extend the dosing interval in renal impairment", "es": "Aumentar el intervalo de dosis en la disfunción renal" }
+      "conduta": {
+        "pt-BR": "Aumentar intervalo de dose em disfunção renal",
+        "en-US": "Extend the dosing interval in renal impairment",
+        "es": "Aumentar el intervalo de dosis en la disfunción renal"
+      }
     },
     {
       "condicao": "sepse",
-      "descricao": { "pt-BR": "Supressão da acidez gástrica com antagonistas H2/IBP tem sido associada a maior risco de infecção nosocomial e enterocolite necrosante em alguns estudos observacionais neonatais", "en-US": "Gastric acid suppression with H2-antagonists/PPIs has been associated with increased risk of nosocomial infection and necrotizing enterocolitis in some neonatal observational studies", "es": "La supresión de la acidez gástrica con antagonistas H2/IBP se ha asociado con un mayor riesgo de infección nosocomial y enterocolitis necrosante en algunos estudios observacionales neonatales" },
+      "descricao": {
+        "pt-BR": "Supressão da acidez gástrica com antagonistas H2/IBP tem sido associada a maior risco de infecção nosocomial e enterocolite necrosante em alguns estudos observacionais neonatais",
+        "en-US": "Gastric acid suppression with H2-antagonists/PPIs has been associated with increased risk of nosocomial infection and necrotizing enterocolitis in some neonatal observational studies",
+        "es": "La supresión de la acidez gástrica con antagonistas H2/IBP se ha asociado con un mayor riesgo de infección nosocomial y enterocolitis necrosante en algunos estudios observacionales neonatales"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Reservar para indicação clínica clara; evitar uso rotineiro/profilático sem indicação definida", "en-US": "Reserve for clear clinical indication; avoid routine/prophylactic use without a defined indication", "es": "Reservar para indicación clínica clara; evitar el uso rutinario/profiláctico sin una indicación definida" }
+      "conduta": {
+        "pt-BR": "Reservar para indicação clínica clara; evitar uso rotineiro/profilático sem indicação definida",
+        "en-US": "Reserve for clear clinical indication; avoid routine/prophylactic use without a defined indication",
+        "es": "Reservar para indicación clínica clara; evitar el uso rutinario/profiláctico sin una indicación definida"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Uso rotineiro para refluxo fisiológico não é recomendado — reservar para refluxo sintomático/complicado documentado"],
-    "en-US": ["Routine use for physiologic reflux is not recommended — reserve for documented symptomatic/complicated reflux"],
-    "es": ["No se recomienda el uso rutinario para el reflujo fisiológico — reservar para el reflujo sintomático/complicado documentado"]
+    "pt-BR": [
+      "Uso rotineiro para refluxo fisiológico não é recomendado — reservar para refluxo sintomático/complicado documentado"
+    ],
+    "en-US": [
+      "Routine use for physiologic reflux is not recommended — reserve for documented symptomatic/complicated reflux"
+    ],
+    "es": [
+      "No se recomienda el uso rutinario para el reflujo fisiológico — reservar para el reflujo sintomático/complicado documentado"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
       "tipo": "artigo_cientifico",
-      "descricao": "EXEMPLO — literatura sobre supressores de acidez gástrica e risco infeccioso/NEC em neonatologia. Substituir por fonte revisada.",
+      "descricao": "Orenstein SR et al. Famotidine for infant gastro-oesophageal reflux: a multi-centre, randomized, placebo-controlled, withdrawal trial. Aliment Pharmacol Ther, 2003. Dose de 0.5 mg/kg mostrou melhora na frequencia de regurgitacao; 1.0 mg/kg mostrou melhora tambem em choro e volume. Aprovado pela FDA para uso ate 1 ano de idade, por ate 4 semanas.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12752346/",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }

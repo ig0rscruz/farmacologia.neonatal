@@ -1,14 +1,42 @@
 {
   "id": "lidocaina",
-  "nome": { "pt-BR": "Lidocaína", "en-US": "Lidocaine", "es": "Lidocaína" },
-  "nomeGenerico": { "pt-BR": "Cloridrato de lidocaína", "en-US": "Lidocaine hydrochloride", "es": "Clorhidrato de lidocaína" },
-  "classeFarmacologica": { "pt-BR": "Anestésico local (amida) / antiarrítmico classe IB", "en-US": "Local anesthetic (amide) / class IB antiarrhythmic", "es": "Anestésico local (amida) / antiarrítmico de clase IB" },
-  "indicacoesNeonatais": {
-    "pt-BR": ["Anestesia local para procedimentos (ex.: inserção de cateter, punção lombar)", "Crises convulsivas neonatais refratárias (uso de segunda/terceira linha, menos comum)", "Arritmia ventricular (uso pouco frequente em neonatos)"],
-    "en-US": ["Local anesthesia for procedures (e.g., catheter insertion, lumbar puncture)", "Refractory neonatal seizures (second/third-line use, less common)", "Ventricular arrhythmia (uncommon use in neonates)"],
-    "es": ["Anestesia local para procedimientos (p. ej., inserción de catéter, punción lumbar)", "Crisis convulsivas neonatales refractarias (uso de segunda/tercera línea, menos común)", "Arritmia ventricular (uso poco frecuente en neonatos)"]
+  "nome": {
+    "pt-BR": "Lidocaína",
+    "en-US": "Lidocaine",
+    "es": "Lidocaína"
   },
-  "viasAdministracao": ["intravenosa", "subcutanea", "topica"],
+  "nomeGenerico": {
+    "pt-BR": "Cloridrato de lidocaína",
+    "en-US": "Lidocaine hydrochloride",
+    "es": "Clorhidrato de lidocaína"
+  },
+  "classeFarmacologica": {
+    "pt-BR": "Anestésico local (amida) / antiarrítmico classe IB",
+    "en-US": "Local anesthetic (amide) / class IB antiarrhythmic",
+    "es": "Anestésico local (amida) / antiarrítmico de clase IB"
+  },
+  "indicacoesNeonatais": {
+    "pt-BR": [
+      "Anestesia local para procedimentos (ex.: inserção de cateter, punção lombar)",
+      "Crises convulsivas neonatais refratárias (uso de segunda/terceira linha, menos comum)",
+      "Arritmia ventricular (uso pouco frequente em neonatos)"
+    ],
+    "en-US": [
+      "Local anesthesia for procedures (e.g., catheter insertion, lumbar puncture)",
+      "Refractory neonatal seizures (second/third-line use, less common)",
+      "Ventricular arrhythmia (uncommon use in neonates)"
+    ],
+    "es": [
+      "Anestesia local para procedimientos (p. ej., inserción de catéter, punción lumbar)",
+      "Crisis convulsivas neonatales refractarias (uso de segunda/tercera línea, menos común)",
+      "Arritmia ventricular (uso poco frecuente en neonatos)"
+    ]
+  },
+  "viasAdministracao": [
+    "intravenosa",
+    "subcutanea",
+    "topica"
+  ],
   "faixasDose": [
     {
       "doseValor": 0.5,
@@ -25,32 +53,59 @@
   "contraindicacoes": [
     {
       "condicao": "apneia",
-      "descricao": { "pt-BR": "Toxicidade sistêmica por absorção excessiva ou injeção intravascular acidental pode causar depressão do SNC/respiratória e convulsões", "en-US": "Systemic toxicity from excessive absorption or accidental intravascular injection may cause CNS/respiratory depression and seizures", "es": "La toxicidad sistémica por absorción excesiva o inyección intravascular accidental puede causar depresión del SNC/respiratoria y convulsiones" },
+      "descricao": {
+        "pt-BR": "Toxicidade sistêmica por absorção excessiva ou injeção intravascular acidental pode causar depressão do SNC/respiratória e convulsões",
+        "en-US": "Systemic toxicity from excessive absorption or accidental intravascular injection may cause CNS/respiratory depression and seizures",
+        "es": "La toxicidad sistémica por absorción excesiva o inyección intravascular accidental puede causar depresión del SNC/respiratoria y convulsiones"
+      },
       "gravidade": "usar_com_cautela",
-      "conduta": { "pt-BR": "Respeitar dose máxima; aspirar antes de injetar para evitar injeção intravascular; monitorar sinais de toxicidade", "en-US": "Respect the maximum dose; aspirate before injecting to avoid intravascular injection; monitor for toxicity signs", "es": "Respetar la dosis máxima; aspirar antes de inyectar para evitar la inyección intravascular; monitorizar signos de toxicidad" }
+      "conduta": {
+        "pt-BR": "Respeitar dose máxima; aspirar antes de injetar para evitar injeção intravascular; monitorar sinais de toxicidade",
+        "en-US": "Respect the maximum dose; aspirate before injecting to avoid intravascular injection; monitor for toxicity signs",
+        "es": "Respetar la dosis máxima; aspirar antes de inyectar para evitar la inyección intravascular; monitorizar signos de toxicidad"
+      }
     },
     {
       "condicao": "bradicardia",
-      "descricao": { "pt-BR": "Toxicidade sistêmica também pode causar bradicardia e arritmia", "en-US": "Systemic toxicity may also cause bradycardia and arrhythmia", "es": "La toxicidad sistémica también puede causar bradicardia y arritmia" },
+      "descricao": {
+        "pt-BR": "Toxicidade sistêmica também pode causar bradicardia e arritmia",
+        "en-US": "Systemic toxicity may also cause bradycardia and arrhythmia",
+        "es": "La toxicidad sistémica también puede causar bradicardia y arritmia"
+      },
       "gravidade": "monitorar",
-      "conduta": { "pt-BR": "Monitorização cardíaca se dose sistêmica significativa for utilizada", "en-US": "Cardiac monitoring if a significant systemic dose is used", "es": "Monitorización cardíaca si se utiliza una dosis sistémica significativa" }
+      "conduta": {
+        "pt-BR": "Monitorização cardíaca se dose sistêmica significativa for utilizada",
+        "en-US": "Cardiac monitoring if a significant systemic dose is used",
+        "es": "Monitorización cardíaca si se utiliza una dosis sistémica significativa"
+      }
     }
   ],
   "alertasGerais": {
-    "pt-BR": ["Metabolismo hepático imaturo no neonato prolonga meia-vida — risco de acúmulo com doses repetidas"],
-    "en-US": ["Immature hepatic metabolism in the neonate prolongs half-life — risk of accumulation with repeated doses"],
-    "es": ["El metabolismo hepático inmaduro en el neonato prolonga la vida media — riesgo de acumulación con dosis repetidas"]
+    "pt-BR": [
+      "Metabolismo hepático imaturo no neonato prolonga meia-vida — risco de acúmulo com doses repetidas"
+    ],
+    "en-US": [
+      "Immature hepatic metabolism in the neonate prolongs half-life — risk of accumulation with repeated doses"
+    ],
+    "es": [
+      "El metabolismo hepático inmaduro en el neonato prolonga la vida media — riesgo de acumulación con dosis repetidas"
+    ]
   },
   "nivelEvidenciaGeral": "C",
   "fontes": [
     {
-      "tipo": "bula_anvisa",
-      "descricao": "EXEMPLO — bula de lidocaína injetável (ANVISA). Substituir pela versão vigente antes de uso clínico.",
+      "tipo": "diretriz_sociedade",
+      "descricao": "Australasian Neonatal Medicines Formulary (ANMF) — monografia \"Lidocaine (Lignocaine) for local anaesthesia\", versao vigente. Formulario neonatal de acesso aberto revisado por especialistas (New South Wales Newborn Care/Grupo NeoMed).",
+      "url": "https://www.anmfonline.org/wp-content/uploads/2023/02/Lidocaine-lignocaine-Local_ANMFv1.0_20230209-2.pdf",
       "dataAcesso": "2026-09-05"
     }
   ],
   "ultimaRevisao": {
     "data": "2026-09-05",
-    "revisadoPor": { "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável", "en-US": "EXAMPLE — pending review by a responsible clinician", "es": "EJEMPLO — pendiente de revisión por un profesional responsable" }
+    "revisadoPor": {
+      "pt-BR": "EXEMPLO — pendente de revisão por profissional responsável",
+      "en-US": "EXAMPLE — pending review by a responsible clinician",
+      "es": "EJEMPLO — pendiente de revisión por un profesional responsable"
+    }
   }
 }
