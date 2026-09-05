@@ -8,13 +8,25 @@ import { texto } from '../i18n/texto'
 function estiloNivel(nivel: NivelConfianca, t: Traducao): { titulo: string; classes: string } {
   switch (nivel) {
     case 'adequado':
-      return { titulo: t.resultado.nivelAdequado, classes: 'bg-emerald-50 border-emerald-400 text-emerald-900' }
+      return {
+        titulo: t.resultado.nivelAdequado,
+        classes: 'bg-emerald-50 border-emerald-400 text-emerald-900 dark:bg-emerald-950/40 dark:border-emerald-700 dark:text-emerald-100',
+      }
     case 'usar_com_cautela':
-      return { titulo: t.resultado.nivelCautela, classes: 'bg-amber-50 border-amber-400 text-amber-900' }
+      return {
+        titulo: t.resultado.nivelCautela,
+        classes: 'bg-amber-50 border-amber-400 text-amber-900 dark:bg-amber-950/40 dark:border-amber-700 dark:text-amber-100',
+      }
     case 'contraindicado':
-      return { titulo: t.resultado.nivelContraindicado, classes: 'bg-red-50 border-red-500 text-red-900' }
+      return {
+        titulo: t.resultado.nivelContraindicado,
+        classes: 'bg-red-50 border-red-500 text-red-900 dark:bg-red-950/40 dark:border-red-700 dark:text-red-100',
+      }
     case 'sem_dados_suficientes':
-      return { titulo: t.resultado.nivelSemDados, classes: 'bg-slate-100 border-slate-400 text-slate-700' }
+      return {
+        titulo: t.resultado.nivelSemDados,
+        classes: 'bg-slate-100 border-slate-400 text-slate-700 dark:bg-slate-800 dark:border-slate-600 dark:text-slate-100',
+      }
   }
 }
 
@@ -59,7 +71,7 @@ export function PainelInteracoes({
           <h4 className="font-semibold mb-1">{t.resultado.alertasCondicoes}</h4>
           <ul className="space-y-2">
             {resultado.contraindicacoesEncontradas.map((c, i) => (
-              <li key={i} className="text-sm bg-white/60 rounded p-2">
+              <li key={i} className="text-sm bg-white/60 dark:bg-black/25 rounded p-2">
                 <span className="font-medium">
                   [{t.gravidade[c.gravidade]}] {t.condicoes[c.condicao]}
                   {t.criterios[c.condicao] && ` (${t.criterios[c.condicao]})`}:
@@ -80,7 +92,7 @@ export function PainelInteracoes({
           <h4 className="font-semibold mb-1">{t.resultado.interacoesComEmUso}</h4>
           <ul className="space-y-2">
             {resultado.interacoesEncontradas.map((e, i) => (
-              <li key={i} className="text-sm bg-white/60 rounded p-2">
+              <li key={i} className="text-sm bg-white/60 dark:bg-black/25 rounded p-2">
                 <span className="font-medium">
                   [{t.gravidadeInteracao[e.interacao.gravidade]}] {farmacoNomesPorId[e.outroFarmacoId] ?? e.outroFarmacoId}:
                 </span>{' '}
@@ -89,7 +101,7 @@ export function PainelInteracoes({
                 <span className="italic">
                   {t.resultado.conduta}: {texto(e.interacao.conduta, idioma)}
                 </span>
-                <div className="mt-1.5 pt-1.5 border-t border-slate-200">
+                <div className="mt-1.5 pt-1.5 border-t border-slate-200 dark:border-white/10">
                   <FontesLista fontes={e.interacao.fontes} />
                 </div>
               </li>
@@ -103,12 +115,12 @@ export function PainelInteracoes({
           <h4 className="font-semibold mb-1">{t.resultado.alertasPatologiasParentais}</h4>
           <ul className="space-y-2">
             {resultado.patologiasParentaisEncontradas.map((e, i) => (
-              <li key={i} className="text-sm bg-white/60 rounded p-2">
+              <li key={i} className="text-sm bg-white/60 dark:bg-black/25 rounded p-2">
                 <span className="font-medium">
                   [{t.gravidade[e.implicacao.implicacao]}] {texto(e.patologia.nome, idioma)}:
                 </span>{' '}
                 {texto(e.implicacao.conduta, idioma)}
-                <div className="mt-1.5 pt-1.5 border-t border-slate-200">
+                <div className="mt-1.5 pt-1.5 border-t border-slate-200 dark:border-white/10">
                   <FontesLista fontes={e.implicacao.fontes} />
                 </div>
               </li>
@@ -152,7 +164,7 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
           <h4 className="font-semibold mb-1">{t.resultado.divergenciasPosologia}</h4>
           <ul className="space-y-2">
             {resultado.divergenciasPosologia.map((d, i) => (
-              <li key={i} className="text-sm bg-white/60 rounded p-2">
+              <li key={i} className="text-sm bg-white/60 dark:bg-black/25 rounded p-2">
                 {formatarDivergencia(d, t)}
               </li>
             ))}
@@ -167,7 +179,7 @@ export function PainelPosologia({ resultado }: { resultado: ResultadoVerificacao
             {resultado.contraindicacoesEncontradas
               .filter((c) => c.gravidade === 'ajustar_dose')
               .map((c, i) => (
-                <li key={i} className="text-sm bg-white/60 rounded p-2">
+                <li key={i} className="text-sm bg-white/60 dark:bg-black/25 rounded p-2">
                   <span className="font-medium">{t.condicoes[c.condicao]}:</span> {texto(c.conduta, idioma)}
                 </li>
               ))}
@@ -184,12 +196,12 @@ export function FontesLista({ fontes }: { fontes: Fonte[] }) {
   return (
     <ul className="space-y-1">
       {fontes.map((f, i) => (
-        <li key={i} className="text-xs text-slate-500">
+        <li key={i} className="text-xs text-slate-500 dark:text-slate-400">
           <span className="font-medium">{t.fonteTipo[f.tipo]}:</span> {f.descricao}
           {f.url && (
             <>
               {' — '}
-              <a href={f.url} target="_blank" rel="noopener noreferrer" className="underline text-brand-blue-dark">
+              <a href={f.url} target="_blank" rel="noopener noreferrer" className="underline text-brand-blue-dark dark:text-brand-teal-light">
                 {t.resultado.verFonte}
               </a>
             </>
@@ -204,7 +216,7 @@ export function FontesLista({ fontes }: { fontes: Fonte[] }) {
 export function FonteInfo({ farmaco }: { farmaco: Farmaco }) {
   const { t, idioma } = useLocale()
   return (
-    <div className="text-xs text-slate-500 mt-2 space-y-1.5">
+    <div className="text-xs text-slate-500 dark:text-slate-400 mt-2 space-y-1.5">
       <p>
         {t.resultado.nivelEvidenciaGeral}: <strong>{farmaco.nivelEvidenciaGeral}</strong> —{' '}
         {t.nivelEvidencia[farmaco.nivelEvidenciaGeral]}

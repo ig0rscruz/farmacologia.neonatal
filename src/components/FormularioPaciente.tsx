@@ -265,7 +265,7 @@ export function FormularioPaciente({ paciente, onChange, farmacosDisponiveis, pa
                     <strong>{t.condicoes[s.condicao]}</strong> — {s.motivo}
                   </span>
                   {jaMarcada ? (
-                    <span className="text-emerald-700 text-xs">{t.form.sugestaoJaMarcada}</span>
+                    <span className="text-emerald-700 dark:text-emerald-400 text-xs">{t.form.sugestaoJaMarcada}</span>
                   ) : (
                     <button type="button" className="btn-secondary text-xs" onClick={() => alternarCondicao(s.condicao)}>
                       {t.form.sugestaoConfirmar}
@@ -501,7 +501,7 @@ function ListaRemovivel({
   removerLabel: string
 }) {
   if (itens.length === 0) {
-    return <p className="text-sm text-slate-400 italic">{vazio}</p>
+    return <p className="text-sm text-slate-400 dark:text-slate-500 italic">{vazio}</p>
   }
   return (
     <ul className="space-y-1">
